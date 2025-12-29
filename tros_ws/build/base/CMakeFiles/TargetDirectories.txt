@@ -1,9 +1,0 @@
-/cc_ws/tros_ws/build/base/CMakeFiles/uninstall.dir
-/cc_ws/tros_ws/build/base/CMakeFiles/base_uninstall.dir
-/cc_ws/tros_ws/build/base/CMakeFiles/test.dir
-/cc_ws/tros_ws/build/base/CMakeFiles/edit_cache.dir
-/cc_ws/tros_ws/build/base/CMakeFiles/rebuild_cache.dir
-/cc_ws/tros_ws/build/base/CMakeFiles/list_install_components.dir
-/cc_ws/tros_ws/build/base/CMakeFiles/install.dir
-/cc_ws/tros_ws/build/base/CMakeFiles/install/local.dir
-/cc_ws/tros_ws/build/base/CMakeFiles/install/strip.dir

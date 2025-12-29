@@ -1,4 +1,0 @@
-source;share/tros_perception_fusion_msgs/local_setup.bash
-source;share/tros_perception_fusion_msgs/local_setup.dsv
-source;share/tros_perception_fusion_msgs/local_setup.sh
-source;share/tros_perception_fusion_msgs/local_setup.zsh

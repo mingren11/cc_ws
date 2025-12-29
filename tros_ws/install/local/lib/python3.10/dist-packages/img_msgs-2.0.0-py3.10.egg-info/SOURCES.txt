@@ -1,8 +1,0 @@
-setup.py
-img_msgs/__init__.py
-img_msgs.egg-info/PKG-INFO
-img_msgs.egg-info/SOURCES.txt
-img_msgs.egg-info/dependency_links.txt
-img_msgs.egg-info/top_level.txt
-img_msgs/msg/__init__.py
-img_msgs/msg/_h26_x_frame.py

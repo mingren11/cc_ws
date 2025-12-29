@@ -1,4 +1,0 @@
-source;share/mipi_cam/local_setup.bash
-source;share/mipi_cam/local_setup.dsv
-source;share/mipi_cam/local_setup.sh
-source;share/mipi_cam/local_setup.zsh

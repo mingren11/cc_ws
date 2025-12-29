@@ -1,3 +1,0 @@
-repository='https://github.com/r-lyeh-archived/sole.git'
-module=''
-tag='origin'

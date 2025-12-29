@@ -1,3 +1,0 @@
-[console_scripts]
-clip_encode_text_node = clip_encode_text.clip_encode_text_node:main
-

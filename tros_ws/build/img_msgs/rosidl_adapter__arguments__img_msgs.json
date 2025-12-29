@@ -1,6 +1,0 @@
-{
-  "package_name": "img_msgs",
-  "non_idl_tuples": [
-    "/cc_ws/tros_ws/src/box/hobot_msgs/img_msgs:msg/H26XFrame.msg"
-  ]
-}

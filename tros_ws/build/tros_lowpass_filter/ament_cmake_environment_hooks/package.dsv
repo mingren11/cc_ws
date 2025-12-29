@@ -1,4 +1,0 @@
-source;share/tros_lowpass_filter/local_setup.bash
-source;share/tros_lowpass_filter/local_setup.dsv
-source;share/tros_lowpass_filter/local_setup.sh
-source;share/tros_lowpass_filter/local_setup.zsh

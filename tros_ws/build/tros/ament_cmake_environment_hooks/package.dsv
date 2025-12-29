@@ -1,4 +1,0 @@
-source;share/tros/local_setup.bash
-source;share/tros/local_setup.dsv
-source;share/tros/local_setup.sh
-source;share/tros/local_setup.zsh

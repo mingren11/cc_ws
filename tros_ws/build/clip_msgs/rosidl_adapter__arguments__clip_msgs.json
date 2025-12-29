@@ -1,7 +1,0 @@
-{
-  "package_name": "clip_msgs",
-  "non_idl_tuples": [
-    "/cc_ws/tros_ws/src/box/hobot_clip/clip_msgs:msg/ClipItem.msg",
-    "/cc_ws/tros_ws/src/box/hobot_clip/clip_msgs:action/GetFeatures.action"
-  ]
-}

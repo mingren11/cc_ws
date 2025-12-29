@@ -1,8 +1,0 @@
-setup.py
-tros_perception_fusion_msgs/__init__.py
-tros_perception_fusion_msgs.egg-info/PKG-INFO
-tros_perception_fusion_msgs.egg-info/SOURCES.txt
-tros_perception_fusion_msgs.egg-info/dependency_links.txt
-tros_perception_fusion_msgs.egg-info/top_level.txt
-tros_perception_fusion_msgs/srv/__init__.py
-tros_perception_fusion_msgs/srv/_topic_manage.py

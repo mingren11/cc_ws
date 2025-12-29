@@ -1,0 +1,75 @@
+[0.338s] Invoking command in '/cc_ws/tros_ws/build/hobot_dosod': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/hobot_dosod -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.396s] Not searching for unused variables given on the command line.
+[0.433s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.644s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[1.645s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[1.645s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[1.645s]   set the policy and suppress this warning.
+[1.646s] 
+[1.646s]   For compatibility with older versions of CMake, option is clearing the
+[1.647s]   normal variable 'BUILD_TESTING'.
+[1.647s] Call Stack (most recent call first):
+[1.647s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[1.648s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.648s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.648s]   CMakeLists.txt:35 (find_package)
+[1.649s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.649s] [0m
+[1.653s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.965s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.983s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.022s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.124s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.315s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.942s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.967s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.824s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.524s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.429s] -- Found ai_msgs: 2.0.1 (/cc_ws/tros_ws/robot_dev_config/../install/share/ai_msgs/cmake)
+[7.441s] -- Found dnn_node: 2.5.4 (/cc_ws/tros_ws/robot_dev_config/../install/share/dnn_node/cmake)
+[7.449s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[7.552s] -- Found hobot_cv: 2.3.2 (/cc_ws/tros_ws/robot_dev_config/../install/share/hobot_cv/cmake)
+[7.578s] [0musing shared mem[0m
+[7.579s] -- Found hbm_img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/hbm_img_msgs/cmake)
+[7.793s] [0mbuild platform X5[0m
+[7.816s] [0mPREFIX_PATH is x5[0m
+[7.816s] [0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[8.371s] -- Configuring done
+[8.510s] -- Generating done
+[8.540s] -- Build files have been written to: /cc_ws/tros_ws/build/hobot_dosod
+[8.579s] Invoked command in '/cc_ws/tros_ws/build/hobot_dosod' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/hobot_dosod -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[8.585s] Invoking command in '/cc_ws/tros_ws/build/hobot_dosod': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_dosod -- -j12 -l12
+[8.769s] [35m[1mConsolidate compiler generated dependencies of target hobot_dosod[0m
+[8.854s] [100%] Built target hobot_dosod
+[8.933s] Invoked command in '/cc_ws/tros_ws/build/hobot_dosod' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_dosod -- -j12 -l12
+[9.111s] Invoking command in '/cc_ws/tros_ws/build/hobot_dosod': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_dosod
+[9.139s] -- Install configuration: "RelWithDebInfo"
+[9.139s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_dosod/hobot_dosod
+[9.139s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_dosod/launch
+[9.140s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_dosod/launch/dosod_advance.launch.py
+[9.140s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_dosod/launch/dosod.launch.py
+[9.140s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_dosod/launch/dosod_debug.launch.py
+[9.140s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_dosod/launch/dosod_feedback.launch.py
+[9.140s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_dosod/launch/dosod_feedback_align.launch.py
+[9.141s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_dosod/launch/dosod_grpc.launch.py
+[9.141s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_dosod/config/
+[9.141s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_dosod/config//dosod_mlp3x_l_rep-int8.bin
+[9.141s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_dosod/config/offline_vocabulary.json
+[9.142s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_dosod/config/homography.json
+[9.142s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_dosod/config/000000160864.jpg
+[9.142s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_dosod
+[9.142s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_dosod
+[9.142s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_dosod/environment/ament_prefix_path.sh
+[9.142s] -- Installing: /cc_ws/tros_ws/install/share/hobot_dosod/environment/ament_prefix_path.dsv
+[9.143s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_dosod/environment/path.sh
+[9.143s] -- Installing: /cc_ws/tros_ws/install/share/hobot_dosod/environment/path.dsv
+[9.143s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_dosod/local_setup.bash
+[9.143s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_dosod/local_setup.sh
+[9.151s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_dosod/local_setup.zsh
+[9.152s] -- Installing: /cc_ws/tros_ws/install/share/hobot_dosod/local_setup.dsv
+[9.152s] -- Installing: /cc_ws/tros_ws/install/share/hobot_dosod/package.dsv
+[9.152s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_dosod
+[9.152s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_dosod/cmake/hobot_dosodConfig.cmake
+[9.153s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_dosod/cmake/hobot_dosodConfig-version.cmake
+[9.153s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_dosod/package.xml
+[9.190s] Invoked command in '/cc_ws/tros_ws/build/hobot_dosod' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_dosod

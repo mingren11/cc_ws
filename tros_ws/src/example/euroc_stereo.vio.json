@@ -1,0 +1,91 @@
+{
+    "frontend_config": {
+        "target_num_of_features": 150,
+        "fast_threshold": 15,
+        "minimum_distance": 30,
+        "window_size": 21,
+        "pyramid_levels": 3,
+        "do_equalization": true,
+        "do_reverse_check": true,
+        "max_reverse_check_distance": 1.0,
+        "frame_interval": 1,
+        "num_cameras": 2,
+        "id_pairs": [
+            {
+                "master": 0,
+                "slave": 1
+            }
+        ],
+        "max_master_slave_tracking_distance": 1.0,
+        "stereo_matching_type": "STEREO_KLT",
+        "epipolar_threshold": 1.0,
+        "slave_tracking_interval_from_last": 1,
+        "slave_tracking_interval_from_master": 1,
+        "detect_ratio_threshold": 1.0
+    },
+    "backend_config": {
+        "initial_window_size": 1,
+        "sliding_window_size": 11,
+        "gravity": 9.81007,
+        "projection_noise": {
+            "x": 1,
+            "y": 1
+        },
+        "accel_noise_density": 6.0e-3,
+        "gyro_noise_density": 1.6968e-4,
+        "accel_random_walk": 3.0e-4,
+        "gyro_random_walk": 1.9393e-5,
+        "max_features_in_update": 40,
+        "max_slam_features": 70,
+        "max_slam_features_in_update": 35,
+        "sigma_pix_sq": 1.0,
+        "chi2_multiplier": 1.0,
+        "slam_delayed_time": 2.0,
+        "slam_representation": "ANCHORED_MSCKF_INVERSE_DEPTH",
+        "msckf_representation": "ANCHORED_MSCKF_INVERSE_DEPTH",
+        "use_oc": true,
+        "use_dynamic_initial_slam_features": false,
+        "use_zupt": true,
+        "zupt_parallax_count_threshold": 20,
+        "zupt_parallax_threshold": 1.0,
+        "zupt_acc_var_threshold": 0.03,
+        "zupt_slam_points_threshold": 5,
+        "calib_camera_intrinsics": false,
+        "calib_camera_extrinsics": false,
+        "calib_camera_time_delay": false,
+        "camera_time_delay": 0.0,
+        "camera_line_delay": 0.0,
+        "calib_rolling_shutter": false,
+        "image_interval_max": 10.0,
+        "pose_predict_period_threshold": 0.150,
+        "enable_local_mapping": false,
+        "lba_voc_path": "/data/local/tmp/euroc/config/brief_k10L6_voc3.bin",
+        "enable_loop_closure": false,
+        "enable_scene_mesh": false,
+        "tracking_lost_config": {
+            "non_continuous_visual_constraint_threshold": 30,
+            "tracking_lost_velocity_threshold": 0.5
+        },
+        "initializer_config": {
+            "enable_dynamic_init": true,
+            "enable_static_init": false,
+            "static_min_feat_num": 30,
+            "static_max_parallax": 3.0
+        },
+        "relocalizer_config": {
+            "velocity_rejection_threshold": 3.0,
+            "max_retrieval_pnp_candidate": 5,
+            "max_retrieval_refinement_candidate": 5,
+            "max_retrieval_score": 0.05,
+            "min_pnp_matches": 20,
+            "min_pnp_eigen_ratio": 0.05,
+            "relocalization_min_interval_ms": 145,
+            "relocalization_max_interval_ms": 500
+        }
+    },
+    "cv_num_of_threads": 2,
+    "debug_verbose_level": 0,
+    "write_session_bin": false,
+    "session_path": "/data/local/tmp/euroc/dump/",
+    "enable_data_monitor": false
+}

@@ -1,0 +1,34 @@
+[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_TESTING'.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:27 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+fatal: detected dubious ownership in repository at '/cc_ws/tros_ws/src/tools/benchmark'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /cc_ws/tros_ws/src/tools/benchmark
+fatal: detected dubious ownership in repository at '/cc_ws/tros_ws/src/tools/benchmark'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /cc_ws/tros_ws/src/tools/benchmark
+printf: usage: printf [-v var] format [arguments]
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:340 (rosidl_target_interfaces)
+
+[0m
+gmake[2]: *** Deleting file 'perf_test'
+gmake[2]: *** [CMakeFiles/perf_test.dir/build.make:376: perf_test] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:743: CMakeFiles/perf_test.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

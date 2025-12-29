@@ -1,0 +1,180 @@
+[0.143s] Invoking command in '/cc_ws/tros_ws/build/websocket': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_websocket -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.401s] Not searching for unused variables given on the command line.
+[0.401s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.641s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[0.641s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.641s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.642s]   set the policy and suppress this warning.
+[0.642s] 
+[0.642s]   For compatibility with older versions of CMake, option is clearing the
+[0.643s]   normal variable 'BUILD_TESTING'.
+[0.643s] Call Stack (most recent call first):
+[0.643s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.644s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.644s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.644s]   CMakeLists.txt:33 (find_package)
+[0.645s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.645s] [0m
+[0.649s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.755s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.764s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.787s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.837s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.902s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.228s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.234s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.930s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.583s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.088s] -- Found ai_msgs: 2.0.1 (/cc_ws/tros_ws/robot_dev_config/../install/share/ai_msgs/cmake)
+[3.487s] -- Found hbm_img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/hbm_img_msgs/cmake)
+[3.966s] -- Configuring done
+[4.040s] -- Generating done
+[4.046s] -- Build files have been written to: /cc_ws/tros_ws/build/websocket
+[4.084s] Invoked command in '/cc_ws/tros_ws/build/websocket' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_websocket -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[4.146s] Invoking command in '/cc_ws/tros_ws/build/websocket': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/websocket -- -j12 -l12
+[4.393s] [35m[1mConsolidate compiler generated dependencies of target websocket[0m
+[4.393s] [100%] Built target websocket
+[4.394s] Invoked command in '/cc_ws/tros_ws/build/websocket' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/websocket -- -j12 -l12
+[4.524s] Invoking command in '/cc_ws/tros_ws/build/websocket': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/websocket
+[4.554s] -- Install configuration: ""
+[4.559s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/websocket
+[4.559s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/conf
+[4.559s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/conf/nginx.conf.default
+[4.560s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/conf/fastcgi.conf
+[4.560s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/conf/fastcgi_params.default
+[4.560s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/conf/uwsgi_params.default
+[4.560s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/conf/mime.types
+[4.561s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/conf/scgi_params
+[4.561s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/conf/koi-utf
+[4.561s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/conf/uwsgi_params
+[4.561s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/conf/scgi_params.default
+[4.561s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/conf/fastcgi.conf.default
+[4.562s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/conf/fastcgi_params
+[4.562s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/conf/koi-win
+[4.562s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/conf/win-utf
+[4.562s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/conf/mime.types.default
+[4.562s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/conf/nginx.conf
+[4.563s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html
+[4.563s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/assets
+[4.563s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/assets/data
+[4.563s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/assets/data/data.js
+[4.563s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/assets/images
+[4.564s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/assets/images/menu.png
+[4.565s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/assets/images/close.png
+[4.566s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/assets/images/danger.png
+[4.566s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/assets/images/noselect.png
+[4.566s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/assets/images/disabled.png
+[4.566s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/assets/images/logo.png
+[4.567s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/assets/images/checked.png
+[4.567s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/TogetheROS
+[4.568s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/TogetheROS/main.js
+[4.568s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/TogetheROS/main.css
+[4.568s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/TogetheROS/index.html
+[4.569s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/TogetheROS/render.js
+[4.569s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/protos
+[4.569s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/protos/x3.proto
+[4.569s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/styles
+[4.570s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/styles/normalize.css
+[4.570s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils
+[4.570s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/h-canvas-bk.js
+[4.570s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/three.js
+[4.571s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/config.js
+[4.571s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/keyevent.js
+[4.571s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/reconnecting-websocket.js
+[4.571s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs
+[4.572s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs/OrbitControls.js
+[4.572s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs/MTLLoader.js
+[4.572s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs/PCDLoade-bk.js
+[4.572s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs/TransformControls.js
+[4.572s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs/addGeometry-bk.js
+[4.573s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs/PCDLoader.js
+[4.573s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs/OBJLoader.js
+[4.573s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs/dat.gui.min.js
+[4.573s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs/shader
+[4.574s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs/shader/index.js
+[4.574s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs/shader/basic.js
+[4.574s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs/addGeometry.js
+[4.575s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs/three.min.js
+[4.575s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs/inflate.min.js
+[4.576s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs/head.fbx
+[4.576s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/threejs/FBXLoader.js
+[4.576s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/videoskeleton.js
+[4.576s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/jquery-1.9.0.js
+[4.577s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/yuvcanvas.min.js
+[4.577s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/.DS_Store
+[4.577s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/h-canvas.js
+[4.577s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/yuv-canvas.js
+[4.578s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/data_box.js
+[4.578s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/util.js
+[4.578s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/require.js
+[4.578s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/canvas.js
+[4.578s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/ajaxTransport.js
+[4.579s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/protobuf.js
+[4.579s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/helper.js
+[4.579s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/utils/demo-bundled.js
+[4.579s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/html/index.html
+[4.580s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3
+[4.580s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/protos
+[4.581s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/protos/x3.proto
+[4.581s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils
+[4.581s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/h-canvas-bk.js
+[4.581s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/three.js
+[4.582s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/config.js
+[4.582s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/main.js
+[4.582s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/keyevent.js
+[4.582s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/reconnecting-websocket.js
+[4.582s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs
+[4.583s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs/OrbitControls.js
+[4.583s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs/MTLLoader.js
+[4.583s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs/PCDLoade-bk.js
+[4.583s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs/TransformControls.js
+[4.584s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs/addGeometry-bk.js
+[4.584s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs/PCDLoader.js
+[4.585s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs/OBJLoader.js
+[4.587s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs/dat.gui.min.js
+[4.588s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs/shader
+[4.588s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs/shader/index.js
+[4.588s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs/shader/basic.js
+[4.588s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs/addGeometry.js
+[4.589s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs/three.min.js
+[4.589s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs/inflate.min.js
+[4.589s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs/head.fbx
+[4.589s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/threejs/FBXLoader.js
+[4.589s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/videoskeleton.js
+[4.590s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/jquery-1.9.0.js
+[4.590s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/yuvcanvas.min.js
+[4.590s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/opencv.js
+[4.590s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/h-canvas.js
+[4.591s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/yuv-canvas.js
+[4.591s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/data_box.js
+[4.591s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/util.js
+[4.601s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/require.js
+[4.602s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/canvas.js
+[4.602s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/ajaxTransport.js
+[4.602s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/protobuf.js
+[4.602s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/helper.js
+[4.603s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/x3/utils/demo-bundled.js
+[4.603s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/logs
+[4.603s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/logs/README.md
+[4.603s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/logs/README_cn.md
+[4.603s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libuWS.so
+[4.604s] -- Up-to-date: /cc_ws/tros_ws/install/lib/websocket/webservice/sbin/nginx
+[4.604s] -- Up-to-date: /cc_ws/tros_ws/install/share/websocket//launch
+[4.604s] -- Up-to-date: /cc_ws/tros_ws/install/share/websocket//launch/websocket_service.launch.py
+[4.604s] -- Up-to-date: /cc_ws/tros_ws/install/share/websocket//launch/websocket.launch.py
+[4.605s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/websocket
+[4.605s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/websocket
+[4.605s] -- Up-to-date: /cc_ws/tros_ws/install/share/websocket/environment/ament_prefix_path.sh
+[4.605s] -- Installing: /cc_ws/tros_ws/install/share/websocket/environment/ament_prefix_path.dsv
+[4.605s] -- Up-to-date: /cc_ws/tros_ws/install/share/websocket/environment/path.sh
+[4.606s] -- Installing: /cc_ws/tros_ws/install/share/websocket/environment/path.dsv
+[4.606s] -- Up-to-date: /cc_ws/tros_ws/install/share/websocket/local_setup.bash
+[4.606s] -- Up-to-date: /cc_ws/tros_ws/install/share/websocket/local_setup.sh
+[4.606s] -- Up-to-date: /cc_ws/tros_ws/install/share/websocket/local_setup.zsh
+[4.606s] -- Installing: /cc_ws/tros_ws/install/share/websocket/local_setup.dsv
+[4.616s] -- Installing: /cc_ws/tros_ws/install/share/websocket/package.dsv
+[4.616s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/websocket
+[4.617s] -- Up-to-date: /cc_ws/tros_ws/install/share/websocket/cmake/websocketConfig.cmake
+[4.617s] -- Up-to-date: /cc_ws/tros_ws/install/share/websocket/cmake/websocketConfig-version.cmake
+[4.617s] -- Up-to-date: /cc_ws/tros_ws/install/share/websocket/package.xml
+[4.641s] Invoked command in '/cc_ws/tros_ws/build/websocket' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/websocket

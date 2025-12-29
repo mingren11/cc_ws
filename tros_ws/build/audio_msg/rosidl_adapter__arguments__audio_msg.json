@@ -1,0 +1,10 @@
+{
+  "package_name": "audio_msg",
+  "non_idl_tuples": [
+    "/cc_ws/tros_ws/src/box/hobot_msgs/audio_msg:msg/AudioFrameType.msg",
+    "/cc_ws/tros_ws/src/box/hobot_msgs/audio_msg:msg/SmartAudioData.msg",
+    "/cc_ws/tros_ws/src/box/hobot_msgs/audio_msg:msg/AudioEventType.msg",
+    "/cc_ws/tros_ws/src/box/hobot_msgs/audio_msg:msg/SmartAudioFrameType.msg",
+    "/cc_ws/tros_ws/src/box/hobot_msgs/audio_msg:msg/AudioFrame.msg"
+  ]
+}

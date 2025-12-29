@@ -1,0 +1,80 @@
+[0.489s] Invoking command in '/cc_ws/tros_ws/build/hobot_yolo_world': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[1.916s] Not searching for unused variables given on the command line.
+[1.917s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.917s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.917s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.917s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.917s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.917s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.917s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.918s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[1.918s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[1.918s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[1.918s]   set the policy and suppress this warning.
+[1.919s] 
+[1.919s]   For compatibility with older versions of CMake, option is clearing the
+[1.920s]   normal variable 'BUILD_TESTING'.
+[1.920s] Call Stack (most recent call first):
+[1.920s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[1.920s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.920s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.920s]   CMakeLists.txt:35 (find_package)
+[1.920s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.921s] [0m
+[1.921s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.923s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.655s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.117s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.389s] -- Found ai_msgs: 2.0.1 (/cc_ws/tros_ws/robot_dev_config/../install/share/ai_msgs/cmake)
+[6.142s] -- Found dnn_node: 2.5.4 (/cc_ws/tros_ws/robot_dev_config/../install/share/dnn_node/cmake)
+[6.160s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[6.276s] [0musing shared mem[0m
+[6.277s] -- Found hbm_img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/hbm_img_msgs/cmake)
+[6.512s] [0mbuild platform X5[0m
+[6.513s] [0mPREFIX_PATH is x5[0m
+[6.513s] [0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[7.094s] -- Configuring done
+[7.248s] -- Generating done
+[7.252s] -- Build files have been written to: /cc_ws/tros_ws/build/hobot_yolo_world
+[7.273s] Invoked command in '/cc_ws/tros_ws/build/hobot_yolo_world' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[7.274s] Invoking command in '/cc_ws/tros_ws/build/hobot_yolo_world': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_yolo_world -- -j12 -l12
+[7.577s] [35m[1mConsolidate compiler generated dependencies of target hobot_yolo_world[0m
+[7.643s] [100%] Built target hobot_yolo_world
+[7.686s] Invoked command in '/cc_ws/tros_ws/build/hobot_yolo_world' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_yolo_world -- -j12 -l12
+[8.156s] Invoking command in '/cc_ws/tros_ws/build/hobot_yolo_world': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_yolo_world
+[8.184s] -- Install configuration: "RelWithDebInfo"
+[8.192s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/hobot_yolo_world
+[8.193s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_yolo_world/launch
+[8.193s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_yolo_world/launch/yolo_world.launch.py
+[8.194s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/config/
+[8.194s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/config//yolo_world.bin
+[8.194s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/tool/
+[8.195s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/tool//README.md
+[8.195s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/tool//clip
+[8.195s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/tool//clip/bpe_simple_vocab_16e6.txt.gz
+[8.196s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/tool//clip/simple_tokenizer.py
+[8.196s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/tool//clip/__init__.py
+[8.196s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/tool//clip/clip.py
+[8.196s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/tool//README_cn.md
+[8.197s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/tool//class.list
+[8.197s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/tool//__init__.py
+[8.197s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/tool//requirements.txt
+[8.197s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/tool//main.py
+[8.198s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/config/offline_vocabulary_embeddings.json
+[8.198s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_yolo_world/config/yolo_world_test.jpg
+[8.198s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_yolo_world
+[8.199s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_yolo_world
+[8.199s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_yolo_world/environment/ament_prefix_path.sh
+[8.200s] -- Installing: /cc_ws/tros_ws/install/share/hobot_yolo_world/environment/ament_prefix_path.dsv
+[8.200s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_yolo_world/environment/path.sh
+[8.201s] -- Installing: /cc_ws/tros_ws/install/share/hobot_yolo_world/environment/path.dsv
+[8.201s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_yolo_world/local_setup.bash
+[8.201s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_yolo_world/local_setup.sh
+[8.202s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_yolo_world/local_setup.zsh
+[8.202s] -- Installing: /cc_ws/tros_ws/install/share/hobot_yolo_world/local_setup.dsv
+[8.202s] -- Installing: /cc_ws/tros_ws/install/share/hobot_yolo_world/package.dsv
+[8.203s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_yolo_world
+[8.203s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_yolo_world/cmake/hobot_yolo_worldConfig.cmake
+[8.203s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_yolo_world/cmake/hobot_yolo_worldConfig-version.cmake
+[8.203s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_yolo_world/package.xml
+[8.209s] Invoked command in '/cc_ws/tros_ws/build/hobot_yolo_world' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_yolo_world

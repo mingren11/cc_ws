@@ -1,0 +1,54 @@
+ground_robot_controller:
+  ros__parameters:
+    # 栅格地图参数
+    grid_map:
+      resolution: 0.1         # 增大分辨率(m/cell)，原来是0.1
+      map_size_x: 40.0        # 减小地图尺寸(m)，原来是20.0
+      map_size_y: 40.0        # 减小地图尺寸(m)，原来是20.0
+      map_size_z: 2.0         # 减小高度(m)，原来是3.0
+      min_obstacle_height: 0.3 # 障碍物最小高度(m)
+      inflation_radius: 0.05   # 障碍物膨胀半径(m)
+      camera_height: 0.0    # 相机高度(m)
+      depth_sampling_step: 20  # 深度图采样步长
+      vis_update_rate: 1 # 可视化更新频率
+      clear_map_flag: true # 控制是否每次都消除掉角度
+      max_depth: 3.0  # 最大前瞻距离(m)
+      min_depth: 0.0  # 最小前瞻距离(m)
+
+    # 话题参数
+    topic:
+      image_topic: "/depth/image_rect_raw"
+      pose_topic: "/utlidar/robot_odom"
+
+    # 相机参数
+    camera:
+      fx: 426.8505554199219  # 焦距x (像素)
+      fy: 426.8505554199219  # 焦距y (像素)
+      cx: 428.82977294921875  # 主点x (像素)
+      cy: 235.17550659179688
+      image_width: 848
+      image_height: 480
+
+    # 在原有配置的基础上添加：
+    astar:
+      max_planning_distance: 10.0   # 最大规划距离(m)
+      max_lookahead_distance: 5.0  # 最大前瞻距离(m)
+      control_point_spacing: 1  # 控制点间距(m)
+
+    # 路径跟踪器参数
+    path_follower:
+      lookahead_distance: 0.5        # 前视距离(m)
+      target_reached_threshold: 0.2  # 认为到达目标的阈值(m)
+      max_linear_velocity: 0.5       # 最大线速度(m/s)
+      max_angular_velocity: 1.0      # 最大角速度(rad/s)
+      max_replan_distance: 0.5       # 最大重规划距离(m)
+      slowdown_distance: 1.0         # 开始减速的距离(m)
+      min_linear_velocity: 0.1       # 最小线速度(m/s)
+      emergency_stop_distance: 0.2   # 紧急停止检测距离(m)
+      emergency_stop_threshold: 70   # 障碍物占用阈值 (0-100)
+
+    # 状态机
+    controller:
+      control_rate: 1.0            # 控制频率(Hz)
+      replan_check_interval: 0.5    # 重规划检查间隔(s)
+      obstacle_check_interval: 0.5  # 障碍物检查间隔(s)

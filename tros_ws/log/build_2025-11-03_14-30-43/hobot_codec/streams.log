@@ -1,0 +1,82 @@
+[0.052s] Invoking command in '/cc_ws/tros_ws/build/hobot_codec': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_codec -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.516s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[0.517s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.517s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.517s]   set the policy and suppress this warning.
+[0.518s] 
+[0.518s]   For compatibility with older versions of CMake, option is clearing the
+[0.518s]   normal variable 'BUILD_TESTING'.
+[0.518s] Call Stack (most recent call first):
+[0.518s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.518s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.518s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.518s]   /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.518s]   /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[0.518s]   /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.519s]   /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[0.519s]   /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.519s]   /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[0.519s]   /cc_ws/tros_ws/install/share/hbm_img_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.519s]   /cc_ws/tros_ws/install/share/hbm_img_msgs/cmake/hbm_img_msgsConfig.cmake:41 (include)
+[0.519s]   CMakeLists.txt:34 (find_package)
+[0.519s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.519s] [0m
+[0.520s] Not searching for unused variables given on the command line.
+[0.520s] -- Found hbm_img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/hbm_img_msgs/cmake)
+[0.520s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.520s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.520s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.520s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.520s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.521s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.611s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.613s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.802s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.124s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.395s] -- Found img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/img_msgs/cmake)
+[1.447s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.554s] [0mbuild platform X5[0m
+[1.554s] [0mPREFIX_PATH: x5[0m
+[1.713s] -- Configuring done
+[1.763s] -- Generating done
+[1.776s] -- Build files have been written to: /cc_ws/tros_ws/build/hobot_codec
+[2.155s] Invoked command in '/cc_ws/tros_ws/build/hobot_codec' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_codec -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[2.156s] Invoking command in '/cc_ws/tros_ws/build/hobot_codec': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_codec -- -j12 -l12
+[2.245s] [35m[1mConsolidate compiler generated dependencies of target hobot_codec_component[0m
+[2.245s] [35m[1mConsolidate compiler generated dependencies of target hobot_codec_republish[0m
+[2.276s] [ 25%] Built target hobot_codec_republish
+[2.292s] [100%] Built target hobot_codec_component
+[2.332s] Invoked command in '/cc_ws/tros_ws/build/hobot_codec' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_codec -- -j12 -l12
+[2.455s] Invoking command in '/cc_ws/tros_ws/build/hobot_codec': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_codec
+[2.554s] -- Install configuration: "RelWithDebInfo"
+[2.554s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_codec/hobot_codec_republish
+[2.554s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_codec/hobot_codec_republish
+[2.554s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libhobot_codec_component.so
+[2.554s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_codec
+[2.554s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/launch
+[2.554s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/launch/hobot_codec.launch.py
+[2.554s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/launch/hobot_codec_encode.launch.py
+[2.554s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/launch/hobot_codec_decode.launch.py
+[2.554s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/launch/hobot_codec_benchmark.launch.py
+[2.554s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_codec/config/
+[2.555s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_codec/config//1920x1080.nv12
+[2.555s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_codec/config//1920x1080.h265
+[2.555s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_codec/config//1920x1080.jpeg
+[2.555s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_codec/config//1920x1080.h264
+[2.555s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_codec
+[2.555s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_codec
+[2.555s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/environment/ament_prefix_path.sh
+[2.555s] -- Installing: /cc_ws/tros_ws/install/share/hobot_codec/environment/ament_prefix_path.dsv
+[2.555s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/environment/path.sh
+[2.555s] -- Installing: /cc_ws/tros_ws/install/share/hobot_codec/environment/path.dsv
+[2.556s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/local_setup.bash
+[2.556s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/local_setup.sh
+[2.556s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/local_setup.zsh
+[2.556s] -- Installing: /cc_ws/tros_ws/install/share/hobot_codec/local_setup.dsv
+[2.556s] -- Installing: /cc_ws/tros_ws/install/share/hobot_codec/package.dsv
+[2.557s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_codec
+[2.557s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/rclcpp_components/hobot_codec
+[2.557s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/cmake/hobot_codecConfig.cmake
+[2.557s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/cmake/hobot_codecConfig-version.cmake
+[2.557s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/package.xml
+[2.615s] Invoked command in '/cc_ws/tros_ws/build/hobot_codec' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_codec

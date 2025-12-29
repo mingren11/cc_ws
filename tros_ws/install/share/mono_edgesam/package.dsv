@@ -1,0 +1,14 @@
+source;share/mono_edgesam/hook/cmake_prefix_path.ps1
+source;share/mono_edgesam/hook/cmake_prefix_path.dsv
+source;share/mono_edgesam/hook/cmake_prefix_path.sh
+source;share/mono_edgesam/hook/ld_library_path_lib.ps1
+source;share/mono_edgesam/hook/ld_library_path_lib.dsv
+source;share/mono_edgesam/hook/ld_library_path_lib.sh
+source;share/mono_edgesam/hook/pythonpath.ps1
+source;share/mono_edgesam/hook/pythonpath.dsv
+source;share/mono_edgesam/hook/pythonpath.sh
+source;share/mono_edgesam/local_setup.bash
+source;share/mono_edgesam/local_setup.dsv
+source;share/mono_edgesam/local_setup.ps1
+source;share/mono_edgesam/local_setup.sh
+source;share/mono_edgesam/local_setup.zsh

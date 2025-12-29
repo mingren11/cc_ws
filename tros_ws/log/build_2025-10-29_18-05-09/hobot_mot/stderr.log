@@ -1,0 +1,27 @@
+[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_TESTING'.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:33 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0mCMAKE_SYSROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mot/include/MOT/IOU2.h:27[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mot/src/MOTMethod.cpp:31[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mot/./deps/iou_based_mot/include/include/iou_based_mot/tracker.h:[m[K In static member function ‘[01m[Kstatic void hobot::iou_mot::Tracker::CheckInput(const std::vector<std::shared_ptr<hobot::iou_mot::BBox_s> >&, const time_t&, int, int)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mot/./deps/iou_based_mot/include/include/iou_based_mot/tracker.h:68:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbody_bbox_list[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   68 |   static void CheckInput([01;35m[Kconst std::vector<sp_BBox> &body_bbox_list[m[K,
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mot/include/MOT/IOU2.h:27[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mot/src/MOT/IOU2.cpp:15[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mot/./deps/iou_based_mot/include/include/iou_based_mot/tracker.h:[m[K In static member function ‘[01m[Kstatic void hobot::iou_mot::Tracker::CheckInput(const std::vector<std::shared_ptr<hobot::iou_mot::BBox_s> >&, const time_t&, int, int)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mot/./deps/iou_based_mot/include/include/iou_based_mot/tracker.h:68:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbody_bbox_list[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   68 |   static void CheckInput([01;35m[Kconst std::vector<sp_BBox> &body_bbox_list[m[K,
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K

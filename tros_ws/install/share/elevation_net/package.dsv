@@ -1,0 +1,14 @@
+source;share/elevation_net/hook/cmake_prefix_path.ps1
+source;share/elevation_net/hook/cmake_prefix_path.dsv
+source;share/elevation_net/hook/cmake_prefix_path.sh
+source;share/elevation_net/hook/ld_library_path_lib.ps1
+source;share/elevation_net/hook/ld_library_path_lib.dsv
+source;share/elevation_net/hook/ld_library_path_lib.sh
+source;share/elevation_net/hook/pythonpath.ps1
+source;share/elevation_net/hook/pythonpath.dsv
+source;share/elevation_net/hook/pythonpath.sh
+source;share/elevation_net/local_setup.bash
+source;share/elevation_net/local_setup.dsv
+source;share/elevation_net/local_setup.ps1
+source;share/elevation_net/local_setup.sh
+source;share/elevation_net/local_setup.zsh

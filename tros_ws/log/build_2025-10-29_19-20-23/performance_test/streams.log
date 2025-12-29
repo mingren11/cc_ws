@@ -1,0 +1,547 @@
+[0.040s] Invoking command in '/cc_ws/tros_ws/build/performance_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/tools/benchmark/performance_test -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.082s] Not searching for unused variables given on the command line.
+[0.082s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.295s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[0.296s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.296s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.296s]   set the policy and suppress this warning.
+[0.296s] 
+[0.296s]   For compatibility with older versions of CMake, option is clearing the
+[0.296s]   normal variable 'BUILD_TESTING'.
+[0.296s] Call Stack (most recent call first):
+[0.296s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.297s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.297s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.297s]   CMakeLists.txt:27 (find_package)
+[0.297s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.297s] [0m
+[0.314s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.373s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.378s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.393s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.412s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.449s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.584s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.587s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.770s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.149s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.469s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.409s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.441s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.442s] -- Using PYTHON_INCLUDE_DIRS: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include/python3.10
+[2.443s] -- Using PYTHON_LIBRARIES: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libpython3.10.so
+[2.790s] -- Using numpy include directory: /usr/local/lib/python3.10/dist-packages/numpy/core/include
+[2.925s] fatal: detected dubious ownership in repository at '/cc_ws/tros_ws/src/tools/benchmark'
+[2.925s] To add an exception for this directory, call:
+[2.925s] 
+[2.925s] 	git config --global --add safe.directory /cc_ws/tros_ws/src/tools/benchmark
+[2.930s] fatal: detected dubious ownership in repository at '/cc_ws/tros_ws/src/tools/benchmark'
+[2.930s] To add an exception for this directory, call:
+[2.931s] 
+[2.931s] 	git config --global --add safe.directory /cc_ws/tros_ws/src/tools/benchmark
+[2.932s] printf: usage: printf [-v var] format [arguments]
+[2.933s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[2.933s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[2.933s]   rosidl_target_interfaces()
+[2.933s] Call Stack (most recent call first):
+[2.933s]   CMakeLists.txt:340 (rosidl_target_interfaces)
+[2.933s] 
+[2.933s] [0m
+[2.950s] -- Configuring done
+[3.118s] -- Generating done
+[3.127s] -- Build files have been written to: /cc_ws/tros_ws/build/performance_test
+[3.169s] Invoked command in '/cc_ws/tros_ws/build/performance_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/tools/benchmark/performance_test -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[3.170s] Invoking command in '/cc_ws/tros_ws/build/performance_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/performance_test -- -j12 -l12
+[3.386s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.407s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.449s] [  6%] Built target tclap
+[3.455s] [  6%] Built target ament_cmake_python_copy_performance_test
+[3.458s] [ 11%] Built target rapidjson
+[3.486s] [ 16%] Built target sole
+[3.486s] [ 21%] Built target tabulate
+[3.978s] running egg_info
+[3.980s] writing performance_test.egg-info/PKG-INFO
+[3.983s] writing dependency_links to performance_test.egg-info/dependency_links.txt
+[3.983s] writing top-level names to performance_test.egg-info/top_level.txt
+[3.986s] reading manifest file 'performance_test.egg-info/SOURCES.txt'
+[3.988s] writing manifest file 'performance_test.egg-info/SOURCES.txt'
+[4.119s] [ 21%] Built target ament_cmake_python_build_performance_test_egg
+[5.717s] [ 21%] Built target performance_test__cpp
+[5.756s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.785s] [ 22%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.795s] [ 23%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.848s] [35m[1mConsolidate compiler generated dependencies of target performance_test__rosidl_generator_c[0m
+[5.879s] [ 23%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_c.dir/rosidl_generator_c/performance_test/msg/detail/array16k__functions.c.o[0m
+[5.902s] [ 24%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_c.dir/rosidl_generator_c/performance_test/msg/detail/array4k__functions.c.o[0m
+[5.926s] [ 25%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_c.dir/rosidl_generator_c/performance_test/msg/detail/array1k__functions.c.o[0m
+[5.932s] [ 26%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_c.dir/rosidl_generator_c/performance_test/msg/detail/array32k__functions.c.o[0m
+[5.948s] [ 27%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_c.dir/rosidl_generator_c/performance_test/msg/detail/array60k__functions.c.o[0m
+[5.992s] [ 27%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_c.dir/rosidl_generator_c/performance_test/msg/detail/array64k__functions.c.o[0m
+[6.024s] [ 28%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_c.dir/rosidl_generator_c/performance_test/msg/detail/array2m__functions.c.o[0m
+[6.029s] [ 29%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_c.dir/rosidl_generator_c/performance_test/msg/detail/array256k__functions.c.o[0m
+[6.029s] [ 29%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_c.dir/rosidl_generator_c/performance_test/msg/detail/array1m__functions.c.o[0m
+[6.109s] [ 30%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_c.dir/rosidl_generator_c/performance_test/msg/detail/array4m__functions.c.o[0m
+[6.139s] [ 30%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_c.dir/rosidl_generator_c/performance_test/msg/detail/array8m__functions.c.o[0m
+[6.298s] [ 31%] [32m[1mLinking C shared library libperformance_test__rosidl_generator_c.so[0m
+[6.412s] [ 31%] Built target performance_test__rosidl_generator_c
+[6.471s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.480s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.484s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.429s] [35m[1mConsolidate compiler generated dependencies of target performance_test__rosidl_typesupport_cpp[0m
+[7.506s] [ 32%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/performance_test/msg/array1k__type_support.cpp.o[0m
+[7.532s] [ 33%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/performance_test/msg/array32k__type_support.cpp.o[0m
+[7.546s] [ 33%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/performance_test/msg/array16k__type_support.cpp.o[0m
+[7.547s] [ 35%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/performance_test/msg/array4k__type_support.cpp.o[0m
+[7.550s] [ 35%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/performance_test/msg/array60k__type_support.cpp.o[0m
+[7.591s] [ 35%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/performance_test/msg/array64k__type_support.cpp.o[0m
+[7.592s] [ 36%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/performance_test/msg/array256k__type_support.cpp.o[0m
+[8.127s] [35m[1mConsolidate compiler generated dependencies of target performance_test__rosidl_typesupport_c[0m
+[8.203s] [ 37%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/performance_test/msg/array1k__type_support.cpp.o[0m
+[8.458s] [ 37%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/performance_test/msg/array4k__type_support.cpp.o[0m
+[8.650s] [35m[1mConsolidate compiler generated dependencies of target performance_test__rosidl_typesupport_introspection_cpp[0m
+[8.697s] [ 38%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/performance_test/msg/array16k__type_support.cpp.o[0m
+[8.753s] [ 39%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/performance_test/msg/array1m__type_support.cpp.o[0m
+[8.755s] [ 39%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/performance_test/msg/detail/array1k__type_support.cpp.o[0m
+[8.933s] [ 40%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/performance_test/msg/array32k__type_support.cpp.o[0m
+[8.986s] [ 40%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/performance_test/msg/array2m__type_support.cpp.o[0m
+[9.015s] [ 41%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/performance_test/msg/array4m__type_support.cpp.o[0m
+[9.017s] [35m[1mConsolidate compiler generated dependencies of target performance_test__rosidl_typesupport_fastrtps_cpp[0m
+[9.031s] [ 42%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/performance_test/msg/array8m__type_support.cpp.o[0m
+[9.132s] [ 43%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/performance_test/msg/detail/dds_fastrtps/array1k__type_support.cpp.o[0m
+[9.199s] [ 43%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/performance_test/msg/array60k__type_support.cpp.o[0m
+[9.234s] [ 44%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/performance_test/msg/array64k__type_support.cpp.o[0m
+[9.420s] [ 44%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/performance_test/msg/detail/dds_fastrtps/array4k__type_support.cpp.o[0m
+[9.471s] [ 45%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/performance_test/msg/array256k__type_support.cpp.o[0m
+[9.480s] [ 46%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/performance_test/msg/detail/dds_fastrtps/array16k__type_support.cpp.o[0m
+[9.532s] [35m[1mConsolidate compiler generated dependencies of target performance_test__rosidl_typesupport_introspection_c[0m
+[9.564s] [ 47%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/performance_test/msg/detail/array4k__type_support.cpp.o[0m
+[9.674s] [ 48%] [32mBuilding C object CMakeFiles/performance_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/performance_test/msg/detail/array1k__type_support.c.o[0m
+[9.724s] [ 48%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/performance_test/msg/array1m__type_support.cpp.o[0m
+[10.047s] [ 49%] [32mBuilding C object CMakeFiles/performance_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/performance_test/msg/detail/array4k__type_support.c.o[0m
+[10.060s] [ 50%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/performance_test/msg/array2m__type_support.cpp.o[0m
+[10.089s] [35m[1mConsolidate compiler generated dependencies of target performance_test__rosidl_typesupport_fastrtps_c[0m
+[10.264s] [ 50%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/performance_test/msg/detail/array1k__type_support_c.cpp.o[0m
+[10.312s] [ 50%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/performance_test/msg/array4m__type_support.cpp.o[0m
+[10.373s] [ 50%] [32mBuilding C object CMakeFiles/performance_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/performance_test/msg/detail/array16k__type_support.c.o[0m
+[10.654s] [ 51%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/performance_test/msg/array8m__type_support.cpp.o[0m
+[10.719s] [ 52%] [32mBuilding C object CMakeFiles/performance_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/performance_test/msg/detail/array32k__type_support.c.o[0m
+[10.815s] [ 53%] [32m[1mLinking CXX shared library libperformance_test__rosidl_typesupport_c.so[0m
+[10.942s] [ 54%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/performance_test/msg/detail/dds_fastrtps/array32k__type_support.cpp.o[0m
+[11.113s] [ 54%] Built target performance_test__rosidl_typesupport_c
+[11.197s] [ 54%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/performance_test/msg/detail/dds_fastrtps/array60k__type_support.cpp.o[0m
+[11.366s] [ 55%] [32mBuilding C object CMakeFiles/performance_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/performance_test/msg/detail/array60k__type_support.c.o[0m
+[11.587s] [ 56%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/performance_test/msg/detail/dds_fastrtps/array64k__type_support.cpp.o[0m
+[11.617s] [ 56%] [32mBuilding C object CMakeFiles/performance_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/performance_test/msg/detail/array64k__type_support.c.o[0m
+[11.694s] [ 57%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/performance_test/msg/detail/array4k__type_support_c.cpp.o[0m
+[11.965s] [ 58%] [32mBuilding C object CMakeFiles/performance_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/performance_test/msg/detail/array256k__type_support.c.o[0m
+[12.228s] [ 58%] [32m[1mLinking CXX shared library libperformance_test__rosidl_typesupport_cpp.so[0m
+[12.351s] [ 58%] [32mBuilding C object CMakeFiles/performance_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/performance_test/msg/detail/array1m__type_support.c.o[0m
+[12.608s] [ 59%] [32mBuilding C object CMakeFiles/performance_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/performance_test/msg/detail/array2m__type_support.c.o[0m
+[12.661s] [ 59%] Built target performance_test__rosidl_typesupport_cpp
+[12.717s] [ 59%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/performance_test/msg/detail/array32k__type_support_c.cpp.o[0m
+[12.718s] [ 60%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/performance_test/msg/detail/array16k__type_support_c.cpp.o[0m
+[12.830s] [ 61%] [32mBuilding C object CMakeFiles/performance_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/performance_test/msg/detail/array4m__type_support.c.o[0m
+[12.833s] [ 62%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/performance_test/msg/detail/array16k__type_support.cpp.o[0m
+[13.228s] [ 62%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/performance_test/msg/detail/array32k__type_support.cpp.o[0m
+[13.259s] [ 62%] [32mBuilding C object CMakeFiles/performance_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/performance_test/msg/detail/array8m__type_support.c.o[0m
+[13.703s] [ 63%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/performance_test/msg/detail/dds_fastrtps/array256k__type_support.cpp.o[0m
+[13.727s] [ 64%] [32m[1mLinking C shared library libperformance_test__rosidl_typesupport_introspection_c.so[0m
+[14.001s] [ 64%] Built target performance_test__rosidl_typesupport_introspection_c
+[14.078s] [ 64%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/performance_test/msg/detail/dds_fastrtps/array1m__type_support.cpp.o[0m
+[14.357s] [ 65%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/performance_test/msg/detail/array60k__type_support_c.cpp.o[0m
+[14.367s] [ 66%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/performance_test/msg/detail/array64k__type_support_c.cpp.o[0m
+[14.841s] [ 67%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/performance_test/msg/detail/dds_fastrtps/array2m__type_support.cpp.o[0m
+[14.919s] [ 68%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/performance_test/msg/detail/dds_fastrtps/array4m__type_support.cpp.o[0m
+[14.969s] [ 68%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/performance_test/msg/detail/array256k__type_support_c.cpp.o[0m
+[15.041s] [ 68%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/performance_test/msg/detail/dds_fastrtps/array8m__type_support.cpp.o[0m
+[15.721s] [ 69%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/performance_test/msg/detail/array1m__type_support_c.cpp.o[0m
+[16.709s] [ 70%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/performance_test/msg/detail/array60k__type_support.cpp.o[0m
+[17.257s] [ 71%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/performance_test/msg/detail/array64k__type_support.cpp.o[0m
+[17.323s] [ 71%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/performance_test/msg/detail/array256k__type_support.cpp.o[0m
+[17.481s] [ 72%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/performance_test/msg/detail/array1m__type_support.cpp.o[0m
+[17.515s] [ 72%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/performance_test/msg/detail/array2m__type_support_c.cpp.o[0m
+[17.555s] [ 73%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/performance_test/msg/detail/array4m__type_support_c.cpp.o[0m
+[17.763s] [ 74%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/performance_test/msg/detail/array8m__type_support_c.cpp.o[0m
+[17.867s] [ 74%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/performance_test/msg/detail/array2m__type_support.cpp.o[0m
+[18.423s] [ 75%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/performance_test/msg/detail/array4m__type_support.cpp.o[0m
+[18.423s] [ 76%] [32mBuilding CXX object CMakeFiles/performance_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/performance_test/msg/detail/array8m__type_support.cpp.o[0m
+[19.766s] [ 77%] [32m[1mLinking CXX shared library libperformance_test__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.070s] [ 77%] Built target performance_test__rosidl_typesupport_fastrtps_cpp
+[20.952s] [ 77%] [32m[1mLinking CXX shared library libperformance_test__rosidl_typesupport_fastrtps_c.so[0m
+[21.517s] [ 77%] Built target performance_test__rosidl_typesupport_fastrtps_c
+[21.913s] [ 77%] [32m[1mLinking CXX shared library libperformance_test__rosidl_typesupport_introspection_cpp.so[0m
+[22.239s] [ 77%] Built target performance_test__rosidl_typesupport_introspection_cpp
+[22.317s] [ 77%] Built target performance_test
+[22.395s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[28.191s] [ 78%] Built target performance_test__py
+[28.247s] [35m[1mConsolidate compiler generated dependencies of target perf_test[0m
+[28.365s] [ 78%] [32mBuilding CXX object CMakeFiles/perf_test.dir/src/experiment_execution/analyze_runner.cpp.o[0m
+[31.623s] [ 78%] [32mBuilding CXX object CMakeFiles/perf_test.dir/src/experiment_configuration/qos_abstraction.cpp.o[0m
+[32.305s] [ 79%] [32mBuilding CXX object CMakeFiles/perf_test.dir/src/experiment_configuration/experiment_configuration.cpp.o[0m
+[32.305s] [ 80%] [32mBuilding CXX object CMakeFiles/perf_test.dir/src/experiment_configuration/communication_mean.cpp.o[0m
+[33.097s] [ 80%] [32mBuilding CXX object CMakeFiles/perf_test.dir/src/experiment_execution/analysis_result.cpp.o[0m
+[33.100s] [ 81%] [32mBuilding CXX object CMakeFiles/perf_test.dir/src/experiment_configuration/external_info_storage.cpp.o[0m
+[34.114s] [ 81%] [32mBuilding CXX object CMakeFiles/perf_test.dir/src/data_running/factories/rclcpp_ste_data_runner_factory.cpp.o[0m
+[34.120s] [ 82%] [32mBuilding CXX object CMakeFiles/perf_test.dir/src/data_running/data_runner_factory.cpp.o[0m
+[34.401s] [ 83%] [32mBuilding CXX object CMakeFiles/perf_test.dir/src/outputs/json_output.cpp.o[0m
+[34.632s] [ 83%] [32mBuilding CXX object CMakeFiles/perf_test.dir/src/outputs/csv_output.cpp.o[0m
+[34.636s] [ 84%] [32mBuilding CXX object CMakeFiles/perf_test.dir/src/data_running/factories/rclcpp_waitset_data_runner_factory.cpp.o[0m
+[36.393s] [ 85%] [32mBuilding CXX object CMakeFiles/perf_test.dir/src/communication_abstractions/resource_manager.cpp.o[0m
+[36.394s] [ 86%] [32mBuilding CXX object CMakeFiles/perf_test.dir/src/outputs/stdout_output.cpp.o[0m
+[37.189s] [ 86%] [32mBuilding CXX object CMakeFiles/perf_test.dir/src/communication_abstractions/communicator.cpp.o[0m
+[37.193s] [ 87%] [32mBuilding CXX object CMakeFiles/perf_test.dir/src/main.cpp.o[0m
+[98.135s] [ 88%] [32m[1mLinking CXX executable perf_test[0m
+[102.723s] [ 88%] Built target perf_test
+[102.735s] [35m[1mConsolidate compiler generated dependencies of target performance_test__rosidl_generator_py[0m
+[102.755s] [ 88%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_py.dir/rosidl_generator_py/performance_test/msg/_array4k_s.c.o[0m
+[102.756s] [ 89%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_py.dir/rosidl_generator_py/performance_test/msg/_array16k_s.c.o[0m
+[102.756s] [ 90%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_py.dir/rosidl_generator_py/performance_test/msg/_array1k_s.c.o[0m
+[102.756s] [ 91%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_py.dir/rosidl_generator_py/performance_test/msg/_array32k_s.c.o[0m
+[102.756s] [ 91%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_py.dir/rosidl_generator_py/performance_test/msg/_array60k_s.c.o[0m
+[102.756s] [ 91%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_py.dir/rosidl_generator_py/performance_test/msg/_array4m_s.c.o[0m
+[102.757s] [ 93%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_py.dir/rosidl_generator_py/performance_test/msg/_array256k_s.c.o[0m
+[102.757s] [ 93%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_py.dir/rosidl_generator_py/performance_test/msg/_array1m_s.c.o[0m
+[102.757s] [ 92%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_py.dir/rosidl_generator_py/performance_test/msg/_array64k_s.c.o[0m
+[102.758s] [ 95%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_py.dir/rosidl_generator_py/performance_test/msg/_array8m_s.c.o[0m
+[102.758s] [ 95%] [32mBuilding C object CMakeFiles/performance_test__rosidl_generator_py.dir/rosidl_generator_py/performance_test/msg/_array2m_s.c.o[0m
+[102.961s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/performance_test/libperformance_test__rosidl_generator_py.so[0m
+[102.993s] [ 96%] Built target performance_test__rosidl_generator_py
+[103.001s] [35m[1mConsolidate compiler generated dependencies of target performance_test__rosidl_typesupport_c__pyext[0m
+[103.001s] [35m[1mConsolidate compiler generated dependencies of target performance_test__rosidl_typesupport_introspection_c__pyext[0m
+[103.001s] [35m[1mConsolidate compiler generated dependencies of target performance_test__rosidl_typesupport_fastrtps_c__pyext[0m
+[103.012s] [ 98%] [32mBuilding C object CMakeFiles/performance_test__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/performance_test/_performance_test_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[103.012s] [ 98%] [32mBuilding C object CMakeFiles/performance_test__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/performance_test/_performance_test_s.ep.rosidl_typesupport_c.c.o[0m
+[103.012s] [ 98%] [32mBuilding C object CMakeFiles/performance_test__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/performance_test/_performance_test_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[103.151s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/performance_test/performance_test_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[103.152s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/performance_test/performance_test_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[103.153s] [100%] [32m[1mLinking C shared library rosidl_generator_py/performance_test/performance_test_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[103.181s] [100%] Built target performance_test__rosidl_typesupport_introspection_c__pyext
+[103.181s] [100%] Built target performance_test__rosidl_typesupport_c__pyext
+[103.182s] [100%] Built target performance_test__rosidl_typesupport_fastrtps_c__pyext
+[103.193s] Invoked command in '/cc_ws/tros_ws/build/performance_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/performance_test -- -j12 -l12
+[103.388s] Invoking command in '/cc_ws/tros_ws/build/performance_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/performance_test
+[103.396s] -- Install configuration: ""
+[103.396s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/rosidl_interfaces/performance_test
+[103.396s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test
+[103.396s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg
+[103.396s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array64k.h
+[103.396s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array4m.h
+[103.396s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/rosidl_generator_c__visibility_control.h
+[103.396s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array1m.h
+[103.396s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array32k.h
+[103.397s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array256k.h
+[103.397s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array60k.h
+[103.397s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array4k.h
+[103.397s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array16k.h
+[103.397s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array8m.h
+[103.397s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail
+[103.397s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array60k__type_support.h
+[103.397s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4m__functions.c
+[103.397s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array64k__functions.c
+[103.397s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array60k__functions.h
+[103.397s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array2m__functions.h
+[103.397s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4k__functions.c
+[103.398s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array8m__type_support.h
+[103.398s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array8m__functions.h
+[103.398s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4k__functions.h
+[103.398s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4k__type_support.h
+[103.398s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1m__struct.h
+[103.398s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array2m__struct.h
+[103.398s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array256k__functions.h
+[103.398s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array32k__functions.h
+[103.398s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1k__type_support.h
+[103.398s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array8m__functions.c
+[103.398s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array60k__struct.h
+[103.399s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array60k__functions.c
+[103.399s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array8m__struct.h
+[103.399s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array16k__struct.h
+[103.399s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array32k__type_support.h
+[103.399s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array64k__struct.h
+[103.399s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array256k__functions.c
+[103.399s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1m__type_support.h
+[103.399s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1k__struct.h
+[103.399s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array32k__struct.h
+[103.399s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array16k__functions.c
+[103.399s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4m__struct.h
+[103.399s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4m__type_support.h
+[103.399s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array2m__functions.c
+[103.400s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array64k__type_support.h
+[103.400s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array2m__type_support.h
+[103.400s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array256k__type_support.h
+[103.400s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1k__functions.c
+[103.400s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array256k__struct.h
+[103.400s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1k__functions.h
+[103.400s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4k__struct.h
+[103.400s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array32k__functions.c
+[103.400s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array16k__type_support.h
+[103.400s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4m__functions.h
+[103.401s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array16k__functions.h
+[103.401s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array64k__functions.h
+[103.401s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1m__functions.h
+[103.401s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1m__functions.c
+[103.401s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array2m.h
+[103.401s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array1k.h
+[103.401s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/environment/library_path.sh
+[103.401s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/environment/library_path.dsv
+[103.401s] -- Installing: /cc_ws/tros_ws/install/lib/libperformance_test__rosidl_generator_c.so
+[103.402s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libperformance_test__rosidl_generator_c.so" to ""
+[103.402s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test
+[103.403s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg
+[103.403s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[103.404s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail
+[103.404s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array60k__rosidl_typesupport_fastrtps_c.h
+[103.404s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array256k__rosidl_typesupport_fastrtps_c.h
+[103.404s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4m__rosidl_typesupport_fastrtps_c.h
+[103.404s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array64k__rosidl_typesupport_fastrtps_c.h
+[103.404s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1k__rosidl_typesupport_fastrtps_c.h
+[103.404s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4k__rosidl_typesupport_fastrtps_c.h
+[103.404s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array2m__rosidl_typesupport_fastrtps_c.h
+[103.404s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array32k__rosidl_typesupport_fastrtps_c.h
+[103.404s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array8m__rosidl_typesupport_fastrtps_c.h
+[103.404s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1m__rosidl_typesupport_fastrtps_c.h
+[103.404s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array16k__rosidl_typesupport_fastrtps_c.h
+[103.405s] -- Installing: /cc_ws/tros_ws/install/lib/libperformance_test__rosidl_typesupport_fastrtps_c.so
+[103.405s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libperformance_test__rosidl_typesupport_fastrtps_c.so" to ""
+[103.405s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test
+[103.405s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg
+[103.405s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array16k.hpp
+[103.405s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array8m.hpp
+[103.405s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array32k.hpp
+[103.405s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array64k.hpp
+[103.405s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array256k.hpp
+[103.405s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array4m.hpp
+[103.405s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array4k.hpp
+[103.406s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array60k.hpp
+[103.406s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array1k.hpp
+[103.406s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array1m.hpp
+[103.406s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/array2m.hpp
+[103.406s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail
+[103.406s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array32k__struct.hpp
+[103.406s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array60k__builder.hpp
+[103.406s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4k__builder.hpp
+[103.406s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4m__builder.hpp
+[103.406s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array8m__struct.hpp
+[103.406s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array64k__struct.hpp
+[103.407s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array64k__builder.hpp
+[103.407s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4k__traits.hpp
+[103.407s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4m__struct.hpp
+[103.407s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array60k__traits.hpp
+[103.407s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array256k__struct.hpp
+[103.407s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array2m__builder.hpp
+[103.407s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1m__struct.hpp
+[103.407s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array16k__struct.hpp
+[103.407s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array256k__builder.hpp
+[103.407s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array2m__struct.hpp
+[103.407s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array2m__traits.hpp
+[103.407s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array32k__traits.hpp
+[103.408s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1k__builder.hpp
+[103.408s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1m__builder.hpp
+[103.408s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4m__traits.hpp
+[103.408s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1m__traits.hpp
+[103.408s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1k__struct.hpp
+[103.408s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array16k__builder.hpp
+[103.408s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array60k__struct.hpp
+[103.408s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array256k__traits.hpp
+[103.408s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array64k__traits.hpp
+[103.408s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array8m__builder.hpp
+[103.408s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4k__struct.hpp
+[103.408s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array32k__builder.hpp
+[103.408s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array16k__traits.hpp
+[103.409s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1k__traits.hpp
+[103.409s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array8m__traits.hpp
+[103.409s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test
+[103.409s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg
+[103.409s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail
+[103.409s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1k__rosidl_typesupport_fastrtps_cpp.hpp
+[103.409s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array256k__rosidl_typesupport_fastrtps_cpp.hpp
+[103.409s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4k__rosidl_typesupport_fastrtps_cpp.hpp
+[103.409s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1m__rosidl_typesupport_fastrtps_cpp.hpp
+[103.409s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array16k__rosidl_typesupport_fastrtps_cpp.hpp
+[103.409s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array64k__rosidl_typesupport_fastrtps_cpp.hpp
+[103.409s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4m__rosidl_typesupport_fastrtps_cpp.hpp
+[103.410s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array8m__rosidl_typesupport_fastrtps_cpp.hpp
+[103.410s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array60k__rosidl_typesupport_fastrtps_cpp.hpp
+[103.410s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array2m__rosidl_typesupport_fastrtps_cpp.hpp
+[103.410s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array32k__rosidl_typesupport_fastrtps_cpp.hpp
+[103.410s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/dds_fastrtps
+[103.410s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[103.410s] -- Installing: /cc_ws/tros_ws/install/lib/libperformance_test__rosidl_typesupport_fastrtps_cpp.so
+[103.410s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libperformance_test__rosidl_typesupport_fastrtps_cpp.so" to ""
+[103.410s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test
+[103.410s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg
+[103.410s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[103.410s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail
+[103.411s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array64k__rosidl_typesupport_introspection_c.h
+[103.411s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array8m__rosidl_typesupport_introspection_c.h
+[103.411s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array32k__rosidl_typesupport_introspection_c.h
+[103.411s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4k__rosidl_typesupport_introspection_c.h
+[103.411s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array16k__rosidl_typesupport_introspection_c.h
+[103.411s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array64k__type_support.c
+[103.411s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array60k__rosidl_typesupport_introspection_c.h
+[103.411s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array8m__type_support.c
+[103.412s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4m__type_support.c
+[103.412s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4k__type_support.c
+[103.412s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1m__rosidl_typesupport_introspection_c.h
+[103.412s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array32k__type_support.c
+[103.412s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1k__type_support.c
+[103.412s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1m__type_support.c
+[103.412s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array16k__type_support.c
+[103.412s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array256k__type_support.c
+[103.412s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array2m__type_support.c
+[103.412s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array60k__type_support.c
+[103.412s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1k__rosidl_typesupport_introspection_c.h
+[103.412s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4m__rosidl_typesupport_introspection_c.h
+[103.413s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array2m__rosidl_typesupport_introspection_c.h
+[103.413s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array256k__rosidl_typesupport_introspection_c.h
+[103.413s] -- Installing: /cc_ws/tros_ws/install/lib/libperformance_test__rosidl_typesupport_introspection_c.so
+[103.413s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libperformance_test__rosidl_typesupport_introspection_c.so" to ""
+[103.413s] -- Installing: /cc_ws/tros_ws/install/lib/libperformance_test__rosidl_typesupport_c.so
+[103.413s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libperformance_test__rosidl_typesupport_c.so" to ""
+[103.413s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test
+[103.413s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg
+[103.413s] -- Up-to-date: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail
+[103.413s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1m__type_support.cpp
+[103.413s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1k__rosidl_typesupport_introspection_cpp.hpp
+[103.414s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array2m__type_support.cpp
+[103.414s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array64k__type_support.cpp
+[103.414s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4k__type_support.cpp
+[103.414s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array60k__rosidl_typesupport_introspection_cpp.hpp
+[103.414s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array256k__type_support.cpp
+[103.414s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array16k__type_support.cpp
+[103.414s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array60k__type_support.cpp
+[103.414s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array8m__type_support.cpp
+[103.414s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array2m__rosidl_typesupport_introspection_cpp.hpp
+[103.414s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array256k__rosidl_typesupport_introspection_cpp.hpp
+[103.414s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array8m__rosidl_typesupport_introspection_cpp.hpp
+[103.414s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array16k__rosidl_typesupport_introspection_cpp.hpp
+[103.414s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1k__type_support.cpp
+[103.415s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array1m__rosidl_typesupport_introspection_cpp.hpp
+[103.415s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4m__rosidl_typesupport_introspection_cpp.hpp
+[103.415s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array32k__type_support.cpp
+[103.415s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array64k__rosidl_typesupport_introspection_cpp.hpp
+[103.415s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array32k__rosidl_typesupport_introspection_cpp.hpp
+[103.415s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4m__type_support.cpp
+[103.415s] -- Installing: /cc_ws/tros_ws/install/include/performance_test/performance_test/msg/detail/array4k__rosidl_typesupport_introspection_cpp.hpp
+[103.415s] -- Installing: /cc_ws/tros_ws/install/lib/libperformance_test__rosidl_typesupport_introspection_cpp.so
+[103.415s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libperformance_test__rosidl_typesupport_introspection_cpp.so" to ""
+[103.415s] -- Installing: /cc_ws/tros_ws/install/lib/libperformance_test__rosidl_typesupport_cpp.so
+[103.416s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libperformance_test__rosidl_typesupport_cpp.so" to ""
+[103.416s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/environment/pythonpath.sh
+[103.416s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/environment/pythonpath.dsv
+[103.416s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test-2.1.0-py3.10.egg-info
+[103.416s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test-2.1.0-py3.10.egg-info/SOURCES.txt
+[103.416s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test-2.1.0-py3.10.egg-info/PKG-INFO
+[103.416s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test-2.1.0-py3.10.egg-info/dependency_links.txt
+[103.416s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test-2.1.0-py3.10.egg-info/top_level.txt
+[103.416s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test
+[103.416s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/performance_test_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[103.416s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/performance_test_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[103.416s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg
+[103.417s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array64k_s.c
+[103.417s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array60k.py
+[103.417s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array16k_s.c
+[103.417s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array1k_s.c
+[103.417s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array64k.py
+[103.417s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array4k_s.c
+[103.417s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array8m_s.c
+[103.417s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array1k.py
+[103.417s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array4m_s.c
+[103.417s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array32k_s.c
+[103.417s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/__init__.py
+[103.418s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array60k_s.c
+[103.418s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array2m_s.c
+[103.418s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array256k_s.c
+[103.418s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array1m_s.c
+[103.418s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array8m.py
+[103.418s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array2m.py
+[103.418s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array16k.py
+[103.418s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array1m.py
+[103.418s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array256k.py
+[103.418s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array4m.py
+[103.419s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array4k.py
+[103.419s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array32k.py
+[103.419s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/_performance_test_s.ep.rosidl_typesupport_fastrtps_c.c
+[103.419s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/libperformance_test__rosidl_generator_py.so
+[103.419s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/__init__.py
+[103.419s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/_performance_test_s.ep.rosidl_typesupport_introspection_c.c
+[103.419s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/_performance_test_s.ep.rosidl_typesupport_c.c
+[103.419s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/performance_test_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[103.464s] Listing '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test'...
+[103.464s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/__init__.py'...
+[103.464s] Listing '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg'...
+[103.464s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/__init__.py'...
+[103.464s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array16k.py'...
+[103.464s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array1k.py'...
+[103.465s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array1m.py'...
+[103.465s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array256k.py'...
+[103.465s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array2m.py'...
+[103.465s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array32k.py'...
+[103.465s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array4k.py'...
+[103.465s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array4m.py'...
+[103.465s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array60k.py'...
+[103.465s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array64k.py'...
+[103.465s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/msg/_array8m.py'...
+[103.469s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/performance_test_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[103.469s] -- Set runtime path of "/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/performance_test_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[103.469s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/performance_test_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[103.469s] -- Set runtime path of "/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/performance_test_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[103.469s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/performance_test_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[103.470s] -- Set runtime path of "/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/performance_test/performance_test_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[103.470s] -- Installing: /cc_ws/tros_ws/install/lib/libperformance_test__rosidl_generator_py.so
+[103.470s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libperformance_test__rosidl_generator_py.so" to ""
+[103.470s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/msg/Array1k.idl
+[103.471s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/msg/Array4k.idl
+[103.471s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/msg/Array16k.idl
+[103.471s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/msg/Array32k.idl
+[103.471s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/msg/Array60k.idl
+[103.471s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/msg/Array64k.idl
+[103.471s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/msg/Array256k.idl
+[103.471s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/msg/Array1m.idl
+[103.471s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/msg/Array2m.idl
+[103.471s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/msg/Array4m.idl
+[103.472s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/msg/Array8m.idl
+[103.472s] -- Installing: /cc_ws/tros_ws/install/lib/performance_test/perf_test
+[103.499s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/performance_test/perf_test" to ""
+[103.500s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/mapping_rules.yaml
+[103.500s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/performance_test
+[103.500s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/performance_test
+[103.500s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/environment/ament_prefix_path.sh
+[103.500s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/environment/ament_prefix_path.dsv
+[103.500s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/environment/path.sh
+[103.500s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/environment/path.dsv
+[103.501s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/local_setup.bash
+[103.501s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/local_setup.sh
+[103.501s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/local_setup.zsh
+[103.501s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/local_setup.dsv
+[103.501s] -- Installing: /cc_ws/tros_ws/install/share/performance_test/package.dsv
+[103.501s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/performance_test
+[103.501s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/export_performance_test__rosidl_generator_cExport.cmake
+[103.501s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/export_performance_test__rosidl_generator_cExport-noconfig.cmake
+[103.502s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/export_performance_test__rosidl_typesupport_fastrtps_cExport.cmake
+[103.502s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/export_performance_test__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[103.502s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/export_performance_test__rosidl_generator_cppExport.cmake
+[103.502s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/export_performance_test__rosidl_typesupport_fastrtps_cppExport.cmake
+[103.502s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/export_performance_test__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[103.502s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/performance_test__rosidl_typesupport_introspection_cExport.cmake
+[103.502s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/performance_test__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[103.502s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/performance_test__rosidl_typesupport_cExport.cmake
+[103.502s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/performance_test__rosidl_typesupport_cExport-noconfig.cmake
+[103.503s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/performance_test__rosidl_typesupport_introspection_cppExport.cmake
+[103.503s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/performance_test__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[103.503s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/performance_test__rosidl_typesupport_cppExport.cmake
+[103.503s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/performance_test__rosidl_typesupport_cppExport-noconfig.cmake
+[103.503s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/export_performance_test__rosidl_generator_pyExport.cmake
+[103.503s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/export_performance_test__rosidl_generator_pyExport-noconfig.cmake
+[103.503s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/ament_cmake_export_include_directories-extras.cmake
+[103.503s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/ament_cmake_export_dependencies-extras.cmake
+[103.503s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/rosidl_cmake-extras.cmake
+[103.503s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/ament_cmake_export_libraries-extras.cmake
+[103.503s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/ament_cmake_export_targets-extras.cmake
+[103.503s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[103.503s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[103.503s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/performance_testConfig.cmake
+[103.504s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/cmake/performance_testConfig-version.cmake
+[103.504s] -- Up-to-date: /cc_ws/tros_ws/install/share/performance_test/package.xml
+[103.505s] Invoked command in '/cc_ws/tros_ws/build/performance_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/performance_test

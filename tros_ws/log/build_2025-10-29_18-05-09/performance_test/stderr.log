@@ -1,0 +1,40 @@
+[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_TESTING'.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:27 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+fatal: detected dubious ownership in repository at '/cc_ws/tros_ws/src/tools/benchmark'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /cc_ws/tros_ws/src/tools/benchmark
+fatal: detected dubious ownership in repository at '/cc_ws/tros_ws/src/tools/benchmark'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /cc_ws/tros_ws/src/tools/benchmark
+printf: usage: printf [-v var] format [arguments]
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:340 (rosidl_target_interfaces)
+
+[0m
+Cloning into 'sole'...
+HEAD is now at e467842 Update sole.hpp
+Cloning into 'tabulate'...
+HEAD is now at 57b1032 Bumped tabulate universal version to 1.4
+Cloning into 'rapidjson'...
+HEAD is now at f54b0e4 Merge pull request #714 from miloyip/version1.1.0
+Submodule 'thirdparty/gtest' (https://github.com/google/googletest.git) registered for path 'thirdparty/gtest'
+Cloning into '/cc_ws/tros_ws/build/performance_test/external/rapidjson/thirdparty/gtest'...
+Cloning into 'tclap'...
+HEAD is now at 799a8b1 Script to copy files for release.

@@ -1,0 +1,126 @@
+[0.122s] Invoking command in '/cc_ws/tros_ws/build/hobot_image_publisher': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/tools/hobot_image_publisher -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[4.776s] Not searching for unused variables given on the command line.
+[4.776s] -- The C compiler identification is GNU 11.4.0
+[4.776s] -- The CXX compiler identification is GNU 11.4.0
+[4.776s] -- Detecting C compiler ABI info
+[4.777s] -- Detecting C compiler ABI info - done
+[4.777s] -- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc - skipped
+[4.777s] -- Detecting C compile features
+[4.780s] -- Detecting C compile features - done
+[4.781s] -- Detecting CXX compiler ABI info
+[4.781s] -- Detecting CXX compiler ABI info - done
+[4.781s] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+[4.782s] -- Detecting CXX compile features
+[4.782s] -- Detecting CXX compile features - done
+[4.782s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.783s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.783s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[4.783s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.783s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.784s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.784s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.784s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.784s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.785s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.785s] -- Found OpenSSL: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.785s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.785s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.786s] -- Looking for pthread.h
+[4.786s] -- Looking for pthread.h - found
+[4.786s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.786s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.787s] -- Found Threads: TRUE  
+[4.787s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.787s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[4.787s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[4.788s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[4.788s]   set the policy and suppress this warning.
+[4.788s] 
+[4.788s]   For compatibility with older versions of CMake, option is clearing the
+[4.788s]   normal variable 'BUILD_TESTING'.
+[4.789s] Call Stack (most recent call first):
+[4.789s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[4.789s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.789s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[4.790s]   CMakeLists.txt:19 (find_package)
+[4.790s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.790s] [0m
+[5.217s] -- Found hbm_img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/hbm_img_msgs/cmake)
+[5.342s] -- Found img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/img_msgs/cmake)
+[5.496s] -- Found OpenCV: /cc_ws/sysroot_docker/usr_x5 (found suitable version "4.5.4", minimum required is "4") 
+[5.496s] [0mbuild platform X5[0m
+[5.496s] [0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[5.836s] -- Configuring done
+[5.914s] -- Generating done
+[5.919s] -- Build files have been written to: /cc_ws/tros_ws/build/hobot_image_publisher
+[5.968s] Invoked command in '/cc_ws/tros_ws/build/hobot_image_publisher' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/tools/hobot_image_publisher -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[5.969s] Invoking command in '/cc_ws/tros_ws/build/hobot_image_publisher': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_image_publisher -- -j12 -l12
+[27.639s] [ 33%] [32mBuilding CXX object CMakeFiles/hobot_image_pub.dir/src/main.cpp.o[0m
+[27.639s] [ 66%] [32mBuilding CXX object CMakeFiles/hobot_image_pub.dir/src/image_pub_node.cpp.o[0m
+[37.334s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[37.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[37.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[37.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[37.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[37.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[37.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[37.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[37.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[37.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[37.337s]                  from [01m[K/cc_ws/tros_ws/src/tools/hobot_image_publisher/include/image_pub_node.h:25[m[K,
+[37.337s]                  from [01m[K/cc_ws/tros_ws/src/tools/hobot_image_publisher/src/image_pub_node.cpp:15[m[K:
+[37.337s] [01m[K/cc_ws/tros_ws/src/tools/hobot_image_publisher/src/image_pub_node.cpp:[m[K In constructor ‘[01m[KPubNode::PubNode(const string&, const rclcpp::NodeOptions&)[m[K’:
+[37.337s] [01m[K/cc_ws/tros_ws/src/tools/hobot_image_publisher/src/image_pub_node.cpp:484:8:[m[K [01;35m[Kwarning: [m[Kunknown escape sequence: '\p'
+[37.338s]   484 |     << [01;35m[K"\pub_name_mode: "[m[K << pub_name_mode_
+[37.338s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[37.506s] [01m[K/cc_ws/tros_ws/src/tools/hobot_image_publisher/src/image_pub_node.cpp:[m[K In member function ‘[01m[Kvoid PubNode::pub_h26x()[m[K’:
+[37.506s] [01m[K/cc_ws/tros_ws/src/tools/hobot_image_publisher/src/image_pub_node.cpp:771:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid av_init_packet(AVPacket*)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[37.506s]   771 |     [01;35m[Kav_init_packet(&packet)[m[K;
+[37.506s]       |     [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[37.507s] In file included from [01m[K/cc_ws/sysroot_docker/usr_x5/include/aarch64-linux-gnu/libavcodec/bsf.h:30[m[K,
+[37.507s]                  from [01m[K/cc_ws/sysroot_docker/usr_x5/include/aarch64-linux-gnu/libavcodec/avcodec.h:44[m[K,
+[37.507s]                  from [01m[K/cc_ws/tros_ws/src/tools/hobot_image_publisher/include/image_pub_node.h:32[m[K,
+[37.508s]                  from [01m[K/cc_ws/tros_ws/src/tools/hobot_image_publisher/src/image_pub_node.cpp:15[m[K:
+[37.508s] [01m[K/cc_ws/sysroot_docker/usr_x5/include/aarch64-linux-gnu/libavcodec/packet.h:488:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[37.508s]   488 | void [01;36m[Kav_init_packet[m[K(AVPacket *pkt);
+[37.508s]       |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[51.850s] [100%] [32m[1mLinking CXX executable hobot_image_pub[0m
+[54.421s] [100%] Built target hobot_image_pub
+[54.456s] Invoked command in '/cc_ws/tros_ws/build/hobot_image_publisher' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_image_publisher -- -j12 -l12
+[54.527s] Invoking command in '/cc_ws/tros_ws/build/hobot_image_publisher': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_image_publisher
+[90.157s] -- Install configuration: ""
+[90.157s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_image_publisher/hobot_image_pub
+[90.158s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_image_publisher/hobot_image_pub" to ""
+[90.158s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_image_publisher/config/
+[90.158s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_image_publisher/config//test1.nv12
+[90.158s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_image_publisher/config//house.mp4
+[90.158s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_image_publisher/config//img.list
+[90.159s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_image_publisher/config//video.list
+[90.159s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_image_publisher/config//show.png
+[90.160s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_image_publisher/config//mp4show.jpg
+[90.160s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_image_publisher/config//sky.h265
+[90.160s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_image_publisher/config//test1.h264
+[90.160s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_image_publisher/config//test2.jpg
+[90.160s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_image_publisher/config//sky.mp4
+[90.160s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_image_publisher/config//test1.jpg
+[90.161s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/launch
+[90.161s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/launch/hobot_image_publisher_videolist_demo.launch.py
+[90.161s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/launch/hobot_image_publisher.launch.py
+[90.161s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/launch/hobot_image_publisher_video_demo.launch.py
+[90.161s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/launch/hobot_image_publisher_demo.launch.py
+[90.162s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_image_publisher
+[90.162s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_image_publisher
+[90.162s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/environment/ament_prefix_path.sh
+[90.163s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/environment/ament_prefix_path.dsv
+[90.163s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/environment/path.sh
+[90.163s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/environment/path.dsv
+[90.163s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/local_setup.bash
+[90.164s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/local_setup.sh
+[90.164s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/local_setup.zsh
+[90.164s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/local_setup.dsv
+[90.164s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/package.dsv
+[90.164s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_image_publisher
+[90.165s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/cmake/hobot_image_publisherConfig.cmake
+[90.165s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/cmake/hobot_image_publisherConfig-version.cmake
+[90.165s] -- Installing: /cc_ws/tros_ws/install/share/hobot_image_publisher/package.xml
+[90.198s] Invoked command in '/cc_ws/tros_ws/build/hobot_image_publisher' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_image_publisher

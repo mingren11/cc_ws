@@ -1,0 +1,39 @@
+{
+  "package_name": "performance_test",
+  "output_dir": "/cc_ws/tros_ws/build/performance_test/rosidl_typesupport_introspection_cpp/performance_test",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
+  "idl_tuples": [
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl:msg/Array1k.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl:msg/Array4k.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl:msg/Array16k.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl:msg/Array32k.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl:msg/Array60k.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl:msg/Array64k.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl:msg/Array256k.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl:msg/Array1m.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl:msg/Array2m.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl:msg/Array4m.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl:msg/Array8m.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl/msg/Array1k.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl/msg/Array4k.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl/msg/Array16k.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl/msg/Array32k.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl/msg/Array60k.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl/msg/Array64k.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl/msg/Array256k.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl/msg/Array1m.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl/msg/Array2m.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl/msg/Array4m.idl",
+    "/cc_ws/tros_ws/build/performance_test/gen/rosidl/msg/Array8m.idl"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "package_name": "ai_msgs",
+  "non_idl_tuples": [
+    "/cc_ws/tros_ws/src/box/hobot_msgs/ai_msgs:msg/Attribute.msg",
+    "/cc_ws/tros_ws/src/box/hobot_msgs/ai_msgs:msg/DBResult.msg",
+    "/cc_ws/tros_ws/src/box/hobot_msgs/ai_msgs:msg/Capture.msg",
+    "/cc_ws/tros_ws/src/box/hobot_msgs/ai_msgs:msg/Point.msg",
+    "/cc_ws/tros_ws/src/box/hobot_msgs/ai_msgs:msg/Roi.msg",
+    "/cc_ws/tros_ws/src/box/hobot_msgs/ai_msgs:msg/Target.msg",
+    "/cc_ws/tros_ws/src/box/hobot_msgs/ai_msgs:msg/Perf.msg",
+    "/cc_ws/tros_ws/src/box/hobot_msgs/ai_msgs:msg/CaptureTargets.msg",
+    "/cc_ws/tros_ws/src/box/hobot_msgs/ai_msgs:msg/PerceptionTargets.msg",
+    "/cc_ws/tros_ws/src/box/hobot_msgs/ai_msgs:msg/PerceptionInfo.msg"
+  ]
+}

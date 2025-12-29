@@ -1,0 +1,196 @@
+[0.037s] Invoking command in '/cc_ws/tros_ws/build/tros_perception_fusion_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/tros_perception_fusion/tros_perception_fusion_msgs -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[1.289s] Not searching for unused variables given on the command line.
+[1.289s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.289s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.289s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.290s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.290s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.290s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.290s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.290s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[1.290s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[1.291s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[1.291s]   set the policy and suppress this warning.
+[1.291s] 
+[1.291s]   For compatibility with older versions of CMake, option is clearing the
+[1.291s]   normal variable 'BUILD_TESTING'.
+[1.291s] Call Stack (most recent call first):
+[1.291s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[1.291s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.292s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.292s]   CMakeLists.txt:9 (find_package)
+[1.292s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.292s] [0m
+[1.726s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.077s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.108s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.138s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.139s] -- Using PYTHON_INCLUDE_DIRS: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include/python3.10
+[2.141s] -- Using PYTHON_LIBRARIES: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libpython3.10.so
+[2.494s] -- Using numpy include directory: /usr/local/lib/python3.10/dist-packages/numpy/core/include
+[2.521s] -- Configuring done
+[2.671s] -- Generating done
+[2.708s] -- Build files have been written to: /cc_ws/tros_ws/build/tros_perception_fusion_msgs
+[2.753s] Invoked command in '/cc_ws/tros_ws/build/tros_perception_fusion_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/tros_perception_fusion/tros_perception_fusion_msgs -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[2.754s] Invoking command in '/cc_ws/tros_ws/build/tros_perception_fusion_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/tros_perception_fusion_msgs -- -j12 -l12
+[3.426s] [35m[1mConsolidate compiler generated dependencies of target tros_perception_fusion_msgs__rosidl_generator_c[0m
+[3.426s] [  9%] Built target tros_perception_fusion_msgs__rosidl_generator_c
+[3.426s] [ 12%] Built target tros_perception_fusion_msgs__cpp
+[3.427s] [ 12%] Built target ament_cmake_python_copy_tros_perception_fusion_msgs
+[3.427s] [35m[1mConsolidate compiler generated dependencies of target tros_perception_fusion_msgs__rosidl_typesupport_c[0m
+[3.427s] [35m[1mConsolidate compiler generated dependencies of target tros_perception_fusion_msgs__rosidl_typesupport_fastrtps_c[0m
+[3.427s] [35m[1mConsolidate compiler generated dependencies of target tros_perception_fusion_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[3.427s] [35m[1mConsolidate compiler generated dependencies of target tros_perception_fusion_msgs__rosidl_typesupport_introspection_c[0m
+[3.427s] [35m[1mConsolidate compiler generated dependencies of target tros_perception_fusion_msgs__rosidl_typesupport_cpp[0m
+[3.427s] [35m[1mConsolidate compiler generated dependencies of target tros_perception_fusion_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.428s] [ 22%] Built target tros_perception_fusion_msgs__rosidl_typesupport_c
+[3.428s] [ 32%] Built target tros_perception_fusion_msgs__rosidl_typesupport_fastrtps_c
+[3.428s] [ 41%] Built target tros_perception_fusion_msgs__rosidl_typesupport_cpp
+[3.428s] [ 51%] Built target tros_perception_fusion_msgs__rosidl_typesupport_introspection_c
+[3.428s] [ 61%] Built target tros_perception_fusion_msgs__rosidl_typesupport_fastrtps_cpp
+[3.428s] [ 70%] Built target tros_perception_fusion_msgs__rosidl_typesupport_introspection_cpp
+[3.534s] [ 70%] Built target tros_perception_fusion_msgs
+[3.668s] [ 74%] Built target tros_perception_fusion_msgs__py
+[3.737s] [35m[1mConsolidate compiler generated dependencies of target tros_perception_fusion_msgs__rosidl_generator_py[0m
+[3.814s] [ 80%] Built target tros_perception_fusion_msgs__rosidl_generator_py
+[3.878s] [35m[1mConsolidate compiler generated dependencies of target tros_perception_fusion_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[3.893s] [35m[1mConsolidate compiler generated dependencies of target tros_perception_fusion_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.901s] [35m[1mConsolidate compiler generated dependencies of target tros_perception_fusion_msgs__rosidl_typesupport_c__pyext[0m
+[3.945s] running egg_info
+[3.958s] writing tros_perception_fusion_msgs.egg-info/PKG-INFO
+[3.958s] writing dependency_links to tros_perception_fusion_msgs.egg-info/dependency_links.txt
+[3.958s] [ 87%] Built target tros_perception_fusion_msgs__rosidl_typesupport_introspection_c__pyext
+[3.958s] writing top-level names to tros_perception_fusion_msgs.egg-info/top_level.txt
+[3.970s] reading manifest file 'tros_perception_fusion_msgs.egg-info/SOURCES.txt'
+[3.971s] writing manifest file 'tros_perception_fusion_msgs.egg-info/SOURCES.txt'
+[3.976s] [ 93%] Built target tros_perception_fusion_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.997s] [100%] Built target tros_perception_fusion_msgs__rosidl_typesupport_c__pyext
+[4.070s] [100%] Built target ament_cmake_python_build_tros_perception_fusion_msgs_egg
+[4.107s] Invoked command in '/cc_ws/tros_ws/build/tros_perception_fusion_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/tros_perception_fusion_msgs -- -j12 -l12
+[4.509s] Invoking command in '/cc_ws/tros_ws/build/tros_perception_fusion_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/tros_perception_fusion_msgs
+[4.531s] -- Install configuration: ""
+[4.531s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/rosidl_interfaces/tros_perception_fusion_msgs
+[4.531s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs
+[4.531s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/msg
+[4.531s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.531s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv
+[4.531s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/topic_manage.h
+[4.532s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail
+[4.532s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail/topic_manage__functions.c
+[4.532s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail/topic_manage__struct.h
+[4.532s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail/topic_manage__functions.h
+[4.532s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail/topic_manage__type_support.h
+[4.532s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/environment/library_path.sh
+[4.532s] -- Installing: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/environment/library_path.dsv
+[4.539s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libtros_perception_fusion_msgs__rosidl_generator_c.so
+[4.539s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs
+[4.539s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/msg
+[4.539s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.539s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv
+[4.540s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail
+[4.540s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail/topic_manage__rosidl_typesupport_fastrtps_c.h
+[4.540s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libtros_perception_fusion_msgs__rosidl_typesupport_fastrtps_c.so
+[4.540s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs
+[4.540s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv
+[4.540s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/topic_manage.hpp
+[4.540s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail
+[4.541s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail/topic_manage__builder.hpp
+[4.541s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail/topic_manage__traits.hpp
+[4.541s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail/topic_manage__struct.hpp
+[4.541s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs
+[4.541s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/msg
+[4.541s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.541s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv
+[4.541s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail
+[4.542s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail/topic_manage__rosidl_typesupport_fastrtps_cpp.hpp
+[4.542s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail/dds_fastrtps
+[4.542s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libtros_perception_fusion_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.542s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs
+[4.542s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/msg
+[4.542s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.542s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv
+[4.542s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail
+[4.543s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail/topic_manage__rosidl_typesupport_introspection_c.h
+[4.543s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail/topic_manage__type_support.c
+[4.543s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libtros_perception_fusion_msgs__rosidl_typesupport_introspection_c.so
+[4.543s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libtros_perception_fusion_msgs__rosidl_typesupport_c.so
+[4.543s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs
+[4.543s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv
+[4.543s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail
+[4.544s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail/topic_manage__rosidl_typesupport_introspection_cpp.hpp
+[4.544s] -- Up-to-date: /cc_ws/tros_ws/install/include/tros_perception_fusion_msgs/tros_perception_fusion_msgs/srv/detail/topic_manage__type_support.cpp
+[4.544s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libtros_perception_fusion_msgs__rosidl_typesupport_introspection_cpp.so
+[4.544s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libtros_perception_fusion_msgs__rosidl_typesupport_cpp.so
+[4.544s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/environment/pythonpath.sh
+[4.544s] -- Installing: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/environment/pythonpath.dsv
+[4.544s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs-0.0.1-py3.10.egg-info
+[4.545s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs-0.0.1-py3.10.egg-info/SOURCES.txt
+[4.545s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs-0.0.1-py3.10.egg-info/PKG-INFO
+[4.545s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs-0.0.1-py3.10.egg-info/dependency_links.txt
+[4.545s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs-0.0.1-py3.10.egg-info/top_level.txt
+[4.545s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs
+[4.545s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/_tros_perception_fusion_msgs_s.ep.rosidl_typesupport_c.c
+[4.545s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/tros_perception_fusion_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.546s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/libtros_perception_fusion_msgs__rosidl_generator_py.so
+[4.546s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/_tros_perception_fusion_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.546s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/tros_perception_fusion_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.546s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/__init__.py
+[4.546s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/tros_perception_fusion_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.546s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/_tros_perception_fusion_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.546s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/srv
+[4.546s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/srv/__init__.py
+[4.547s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/srv/_topic_manage.py
+[4.547s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/srv/_topic_manage_s.c
+[4.596s] Listing '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs'...
+[4.596s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/__init__.py'...
+[4.596s] Listing '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/srv'...
+[4.605s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/tros_perception_fusion_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.605s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/tros_perception_fusion_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.606s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/tros_perception_fusion_msgs/tros_perception_fusion_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.606s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libtros_perception_fusion_msgs__rosidl_generator_py.so
+[4.608s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/srv/TopicManage.idl
+[4.609s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/srv/TopicManage.srv
+[4.609s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/srv/TopicManage_Request.msg
+[4.609s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/srv/TopicManage_Response.msg
+[4.616s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/tros_perception_fusion_msgs
+[4.619s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/tros_perception_fusion_msgs
+[4.619s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/environment/ament_prefix_path.sh
+[4.619s] -- Installing: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/environment/ament_prefix_path.dsv
+[4.620s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/environment/path.sh
+[4.620s] -- Installing: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/environment/path.dsv
+[4.620s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/local_setup.bash
+[4.620s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/local_setup.sh
+[4.620s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/local_setup.zsh
+[4.620s] -- Installing: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/local_setup.dsv
+[4.620s] -- Installing: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/package.dsv
+[4.620s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/tros_perception_fusion_msgs
+[4.620s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/export_tros_perception_fusion_msgs__rosidl_generator_cExport.cmake
+[4.620s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/export_tros_perception_fusion_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.620s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/export_tros_perception_fusion_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.621s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/export_tros_perception_fusion_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.621s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/export_tros_perception_fusion_msgs__rosidl_generator_cppExport.cmake
+[4.621s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/export_tros_perception_fusion_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.621s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/export_tros_perception_fusion_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.621s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/tros_perception_fusion_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.621s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/tros_perception_fusion_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.621s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/tros_perception_fusion_msgs__rosidl_typesupport_cExport.cmake
+[4.621s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/tros_perception_fusion_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.621s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/tros_perception_fusion_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.623s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/tros_perception_fusion_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.623s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/tros_perception_fusion_msgs__rosidl_typesupport_cppExport.cmake
+[4.623s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/tros_perception_fusion_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.623s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/export_tros_perception_fusion_msgs__rosidl_generator_pyExport.cmake
+[4.623s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/export_tros_perception_fusion_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.623s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/rosidl_cmake-extras.cmake
+[4.623s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.624s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.624s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.624s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.625s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.625s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.625s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/tros_perception_fusion_msgsConfig.cmake
+[4.625s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/cmake/tros_perception_fusion_msgsConfig-version.cmake
+[4.625s] -- Up-to-date: /cc_ws/tros_ws/install/share/tros_perception_fusion_msgs/package.xml
+[4.652s] Invoked command in '/cc_ws/tros_ws/build/tros_perception_fusion_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/tros_perception_fusion_msgs

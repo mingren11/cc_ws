@@ -1,0 +1,680 @@
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_560f1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_560f1.dir/build.make CMakeFiles/cmTC_560f1.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_560f1.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_560f1.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_560f1.dir/build.make:78: CMakeFiles/cmTC_560f1.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_560f1/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_af36f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af36f.dir/build.make CMakeFiles/cmTC_af36f.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af36f.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_af36f.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_af36f.dir/build.make:78: CMakeFiles/cmTC_af36f.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_af36f/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1b9e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1b9e2.dir/build.make CMakeFiles/cmTC_1b9e2.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b9e2.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_1b9e2.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_1b9e2.dir/build.make:78: CMakeFiles/cmTC_1b9e2.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_1b9e2/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e1718/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e1718.dir/build.make CMakeFiles/cmTC_e1718.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1718.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_e1718.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e1718.dir/build.make:78: CMakeFiles/cmTC_e1718.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e1718/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_be7f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_be7f0.dir/build.make CMakeFiles/cmTC_be7f0.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be7f0.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_be7f0.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_be7f0.dir/build.make:78: CMakeFiles/cmTC_be7f0.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_be7f0/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_829de/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_829de.dir/build.make CMakeFiles/cmTC_829de.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_829de.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_829de.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_829de.dir/build.make:78: CMakeFiles/cmTC_829de.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_829de/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7ffe1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7ffe1.dir/build.make CMakeFiles/cmTC_7ffe1.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ffe1.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_7ffe1.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_7ffe1.dir/build.make:78: CMakeFiles/cmTC_7ffe1.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7ffe1/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_124d6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_124d6.dir/build.make CMakeFiles/cmTC_124d6.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_124d6.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_124d6.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_124d6.dir/build.make:78: CMakeFiles/cmTC_124d6.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_124d6/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bac46/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bac46.dir/build.make CMakeFiles/cmTC_bac46.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bac46.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_bac46.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_bac46.dir/build.make:78: CMakeFiles/cmTC_bac46.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_bac46/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5862d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5862d.dir/build.make CMakeFiles/cmTC_5862d.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5862d.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_5862d.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_5862d.dir/build.make:78: CMakeFiles/cmTC_5862d.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5862d/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8644d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8644d.dir/build.make CMakeFiles/cmTC_8644d.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8644d.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_8644d.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_8644d.dir/build.make:78: CMakeFiles/cmTC_8644d.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_8644d/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a5dae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a5dae.dir/build.make CMakeFiles/cmTC_a5dae.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5dae.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_a5dae.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_a5dae.dir/build.make:78: CMakeFiles/cmTC_a5dae.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a5dae/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13b35/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13b35.dir/build.make CMakeFiles/cmTC_13b35.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13b35.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_13b35.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_13b35.dir/build.make:78: CMakeFiles/cmTC_13b35.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_13b35/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc22a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cc22a.dir/build.make CMakeFiles/cmTC_cc22a.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc22a.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_cc22a.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_cc22a.dir/build.make:78: CMakeFiles/cmTC_cc22a.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_cc22a/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3e58/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3e58.dir/build.make CMakeFiles/cmTC_b3e58.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3e58.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_b3e58.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_b3e58.dir/build.make:78: CMakeFiles/cmTC_b3e58.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b3e58/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0794/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0794.dir/build.make CMakeFiles/cmTC_e0794.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0794.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_e0794.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e0794.dir/build.make:78: CMakeFiles/cmTC_e0794.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e0794/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_845fb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_845fb.dir/build.make CMakeFiles/cmTC_845fb.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_845fb.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_845fb.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_845fb.dir/build.make:78: CMakeFiles/cmTC_845fb.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_845fb/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_721d8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_721d8.dir/build.make CMakeFiles/cmTC_721d8.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_721d8.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_721d8.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_721d8.dir/build.make:78: CMakeFiles/cmTC_721d8.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_721d8/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_314c8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_314c8.dir/build.make CMakeFiles/cmTC_314c8.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_314c8.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_314c8.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_314c8.dir/build.make:78: CMakeFiles/cmTC_314c8.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_314c8/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_56a7f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_56a7f.dir/build.make CMakeFiles/cmTC_56a7f.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56a7f.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_56a7f.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_56a7f.dir/build.make:78: CMakeFiles/cmTC_56a7f.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_56a7f/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7aea7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7aea7.dir/build.make CMakeFiles/cmTC_7aea7.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7aea7.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_7aea7.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_7aea7.dir/build.make:78: CMakeFiles/cmTC_7aea7.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7aea7/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6efef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6efef.dir/build.make CMakeFiles/cmTC_6efef.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6efef.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_6efef.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_6efef.dir/build.make:78: CMakeFiles/cmTC_6efef.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_6efef/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_873be/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_873be.dir/build.make CMakeFiles/cmTC_873be.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_873be.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_873be.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_873be.dir/build.make:78: CMakeFiles/cmTC_873be.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_873be/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b4243/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b4243.dir/build.make CMakeFiles/cmTC_b4243.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4243.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_b4243.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_b4243.dir/build.make:78: CMakeFiles/cmTC_b4243.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b4243/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_45e42/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_45e42.dir/build.make CMakeFiles/cmTC_45e42.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45e42.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_45e42.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_45e42.dir/build.make:78: CMakeFiles/cmTC_45e42.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_45e42/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b77f4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b77f4.dir/build.make CMakeFiles/cmTC_b77f4.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b77f4.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_b77f4.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_b77f4.dir/build.make:78: CMakeFiles/cmTC_b77f4.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b77f4/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1d701/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1d701.dir/build.make CMakeFiles/cmTC_1d701.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d701.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_1d701.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_1d701.dir/build.make:78: CMakeFiles/cmTC_1d701.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_1d701/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_10910/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_10910.dir/build.make CMakeFiles/cmTC_10910.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10910.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_10910.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_10910.dir/build.make:78: CMakeFiles/cmTC_10910.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_10910/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9c048/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9c048.dir/build.make CMakeFiles/cmTC_9c048.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c048.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_9c048.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_9c048.dir/build.make:78: CMakeFiles/cmTC_9c048.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9c048/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a9f48/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a9f48.dir/build.make CMakeFiles/cmTC_a9f48.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9f48.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_a9f48.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_a9f48.dir/build.make:78: CMakeFiles/cmTC_a9f48.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a9f48/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e6a30/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6a30.dir/build.make CMakeFiles/cmTC_e6a30.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6a30.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_e6a30.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e6a30.dir/build.make:78: CMakeFiles/cmTC_e6a30.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e6a30/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_009d8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_009d8.dir/build.make CMakeFiles/cmTC_009d8.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_009d8.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_009d8.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_009d8.dir/build.make:78: CMakeFiles/cmTC_009d8.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_009d8/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4432a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4432a.dir/build.make CMakeFiles/cmTC_4432a.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4432a.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_4432a.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_4432a.dir/build.make:78: CMakeFiles/cmTC_4432a.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4432a/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d288f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d288f.dir/build.make CMakeFiles/cmTC_d288f.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d288f.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_d288f.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d288f.dir/build.make:78: CMakeFiles/cmTC_d288f.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d288f/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_adddc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_adddc.dir/build.make CMakeFiles/cmTC_adddc.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_adddc.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_adddc.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_adddc.dir/build.make:78: CMakeFiles/cmTC_adddc.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_adddc/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b53c1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b53c1.dir/build.make CMakeFiles/cmTC_b53c1.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b53c1.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_b53c1.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_b53c1.dir/build.make:78: CMakeFiles/cmTC_b53c1.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b53c1/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_99a26/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_99a26.dir/build.make CMakeFiles/cmTC_99a26.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99a26.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_99a26.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_99a26.dir/build.make:78: CMakeFiles/cmTC_99a26.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_99a26/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_96a51/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_96a51.dir/build.make CMakeFiles/cmTC_96a51.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96a51.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_96a51.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_96a51.dir/build.make:78: CMakeFiles/cmTC_96a51.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_96a51/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_45c5d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_45c5d.dir/build.make CMakeFiles/cmTC_45c5d.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45c5d.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_45c5d.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_45c5d.dir/build.make:78: CMakeFiles/cmTC_45c5d.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_45c5d/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_161e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_161e2.dir/build.make CMakeFiles/cmTC_161e2.dir/build
+gmake[1]: Entering directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_161e2.dir/test_mpi.c.o
+/usr/bin/aarch64-linux-gnu-gcc --sysroot=/cc_ws/tros_ws/robot_dev_config/../../sysroot_docker    -o CMakeFiles/cmTC_161e2.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_161e2.dir/build.make:78: CMakeFiles/cmTC_161e2.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/cc_ws/tros_ws/build/ground_robot_planner/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_161e2/fast] Error 2
+
+
+

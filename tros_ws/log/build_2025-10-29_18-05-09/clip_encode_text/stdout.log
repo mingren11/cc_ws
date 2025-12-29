@@ -1,0 +1,44 @@
+running egg_info
+creating ../../../../build/clip_encode_text/clip_encode_text.egg-info
+writing ../../../../build/clip_encode_text/clip_encode_text.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/clip_encode_text/clip_encode_text.egg-info/dependency_links.txt
+writing entry points to ../../../../build/clip_encode_text/clip_encode_text.egg-info/entry_points.txt
+writing requirements to ../../../../build/clip_encode_text/clip_encode_text.egg-info/requires.txt
+writing top-level names to ../../../../build/clip_encode_text/clip_encode_text.egg-info/top_level.txt
+writing manifest file '../../../../build/clip_encode_text/clip_encode_text.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/clip_encode_text/clip_encode_text.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/clip_encode_text/clip_encode_text.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /cc_ws/tros_ws/build/clip_encode_text/build
+creating /cc_ws/tros_ws/build/clip_encode_text/build/lib
+creating /cc_ws/tros_ws/build/clip_encode_text/build/lib/clip_encode_text
+copying clip_encode_text/__init__.py -> /cc_ws/tros_ws/build/clip_encode_text/build/lib/clip_encode_text
+copying clip_encode_text/clip_encode_text_node.py -> /cc_ws/tros_ws/build/clip_encode_text/build/lib/clip_encode_text
+creating /cc_ws/tros_ws/build/clip_encode_text/build/lib/clip_encode_text/clip
+copying clip_encode_text/clip/simple_tokenizer.py -> /cc_ws/tros_ws/build/clip_encode_text/build/lib/clip_encode_text/clip
+copying clip_encode_text/clip/__init__.py -> /cc_ws/tros_ws/build/clip_encode_text/build/lib/clip_encode_text/clip
+copying clip_encode_text/clip/clip.py -> /cc_ws/tros_ws/build/clip_encode_text/build/lib/clip_encode_text/clip
+running install
+running install_lib
+creating /cc_ws/tros_ws/install/lib/python3.10/site-packages/clip_encode_text
+creating /cc_ws/tros_ws/install/lib/python3.10/site-packages/clip_encode_text/clip
+copying /cc_ws/tros_ws/build/clip_encode_text/build/lib/clip_encode_text/clip/simple_tokenizer.py -> /cc_ws/tros_ws/install/lib/python3.10/site-packages/clip_encode_text/clip
+copying /cc_ws/tros_ws/build/clip_encode_text/build/lib/clip_encode_text/clip/__init__.py -> /cc_ws/tros_ws/install/lib/python3.10/site-packages/clip_encode_text/clip
+copying /cc_ws/tros_ws/build/clip_encode_text/build/lib/clip_encode_text/clip/clip.py -> /cc_ws/tros_ws/install/lib/python3.10/site-packages/clip_encode_text/clip
+copying /cc_ws/tros_ws/build/clip_encode_text/build/lib/clip_encode_text/__init__.py -> /cc_ws/tros_ws/install/lib/python3.10/site-packages/clip_encode_text
+copying /cc_ws/tros_ws/build/clip_encode_text/build/lib/clip_encode_text/clip_encode_text_node.py -> /cc_ws/tros_ws/install/lib/python3.10/site-packages/clip_encode_text
+byte-compiling /cc_ws/tros_ws/install/lib/python3.10/site-packages/clip_encode_text/clip/simple_tokenizer.py to simple_tokenizer.cpython-310.pyc
+byte-compiling /cc_ws/tros_ws/install/lib/python3.10/site-packages/clip_encode_text/clip/__init__.py to __init__.cpython-310.pyc
+byte-compiling /cc_ws/tros_ws/install/lib/python3.10/site-packages/clip_encode_text/clip/clip.py to clip.cpython-310.pyc
+byte-compiling /cc_ws/tros_ws/install/lib/python3.10/site-packages/clip_encode_text/__init__.py to __init__.cpython-310.pyc
+byte-compiling /cc_ws/tros_ws/install/lib/python3.10/site-packages/clip_encode_text/clip_encode_text_node.py to clip_encode_text_node.cpython-310.pyc
+running install_data
+copying resource/clip_encode_text -> /cc_ws/tros_ws/install/share/ament_index/resource_index/packages
+copying package.xml -> /cc_ws/tros_ws/install/share/clip_encode_text
+copying config/bpe_simple_vocab_16e6.txt.gz -> /cc_ws/tros_ws/install/lib/python3.10/site-packages/clip_encode_text/clip
+running install_egg_info
+Copying ../../../../build/clip_encode_text/clip_encode_text.egg-info to /cc_ws/tros_ws/install/lib/python3.10/site-packages/clip_encode_text-0.0.0-py3.10.egg-info
+running install_scripts
+Installing clip_encode_text_node script to /cc_ws/tros_ws/install/lib/clip_encode_text
+writing list of installed files to '/cc_ws/tros_ws/build/clip_encode_text/install.log'

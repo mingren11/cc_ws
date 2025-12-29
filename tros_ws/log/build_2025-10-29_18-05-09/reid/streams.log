@@ -1,0 +1,1713 @@
+[0.298s] Invoking command in '/cc_ws/tros_ws/build/reid': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/reid -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[42.656s] Not searching for unused variables given on the command line.
+[42.656s] -- The C compiler identification is GNU 11.4.0
+[42.656s] -- The CXX compiler identification is GNU 11.4.0
+[42.657s] -- Detecting C compiler ABI info
+[42.657s] -- Detecting C compiler ABI info - done
+[42.657s] -- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc - skipped
+[42.657s] -- Detecting C compile features
+[42.658s] -- Detecting C compile features - done
+[42.658s] -- Detecting CXX compiler ABI info
+[42.658s] -- Detecting CXX compiler ABI info - done
+[42.658s] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+[42.658s] -- Detecting CXX compile features
+[42.659s] -- Detecting CXX compile features - done
+[42.675s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[42.675s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[42.676s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[42.676s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[42.676s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[42.676s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[42.677s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[42.677s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[42.677s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[42.677s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[42.677s] -- Found OpenSSL: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[42.678s] -- Found FastRTPS: /opt/ros/humble/include  
+[42.678s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[42.678s] -- Looking for pthread.h
+[42.678s] -- Looking for pthread.h - found
+[42.679s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[42.679s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[42.679s] -- Found Threads: TRUE  
+[42.679s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[42.679s] -- Found ai_msgs: 2.0.1 (/cc_ws/tros_ws/robot_dev_config/../install/share/ai_msgs/cmake)
+[42.680s] -- Found dnn_node: 2.5.4 (/cc_ws/tros_ws/robot_dev_config/../install/share/dnn_node/cmake)
+[42.680s] -- Found OpenCV: /cc_ws/sysroot_docker/usr_x5 (found suitable version "4.5.4", minimum required is "4") 
+[42.680s] -- Found SQLite3: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include (found version "3.37.2") 
+[42.680s] -- Found hbm_img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/hbm_img_msgs/cmake)
+[42.681s] -- Configuring done
+[42.681s] -- Generating done
+[42.681s] -- Build files have been written to: /cc_ws/tros_ws/build/reid
+[42.698s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[42.699s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[42.699s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[42.699s]   set the policy and suppress this warning.
+[42.699s] 
+[42.699s]   For compatibility with older versions of CMake, option is clearing the
+[42.700s]   normal variable 'BUILD_TESTING'.
+[42.700s] Call Stack (most recent call first):
+[42.700s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[42.700s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[42.700s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[42.701s]   CMakeLists.txt:33 (find_package)
+[42.701s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[42.701s] [0m
+[42.701s] [0mbuild platform X5[0m
+[42.702s] [0mCMAKE_SYSROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[42.760s] Invoked command in '/cc_ws/tros_ws/build/reid' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/reid -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[42.762s] Invoking command in '/cc_ws/tros_ws/build/reid': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/reid -- -j12 -l12
+[42.958s] [ 14%] [32mBuilding CXX object CMakeFiles/reid.dir/src/main.cpp.o[0m
+[51.267s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[51.267s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[51.267s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[51.267s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[51.268s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[51.268s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[51.268s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[51.268s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[51.269s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[51.269s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[51.269s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[51.269s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[51.269s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.270s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:[m[K In member function ‘[01m[Kint ReidFeedCache::Feed(const ConstSharedPtr&)[m[K’:
+[51.270s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:69:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[51.270s]    69 |                   [01;35m[K"Ai msg cache len: %d exceeds limit: %d, erase ai ts: %s"[m[K,
+[51.270s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.270s]    70 |                   [32m[Krecved_aimsg_cache_.size()[m[K,
+[51.271s]       |                   [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.271s]       |                                           [32m[K|[m[K
+[51.271s]       |                                           [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+[51.271s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[51.271s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.272s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:69:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[51.272s]    69 |                   "Ai msg cache len: [01;36m[K%d[m[K exceeds limit: %d, erase ai ts: %s",
+[51.272s]       |                                      [01;36m[K~^[m[K
+[51.275s]       |                                       [01;36m[K|[m[K
+[51.275s]       |                                       [01;36m[Kint[m[K
+[51.275s]       |                                      [32m[K%ld[m[K
+[51.275s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[51.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[51.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[51.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[51.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[51.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[51.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[51.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[51.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[51.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[51.278s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[51.293s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[51.294s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.294s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:69:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[51.294s]    69 |                   [01;35m[K"Ai msg cache len: %d exceeds limit: %d, erase ai ts: %s"[m[K,
+[51.295s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.295s]    70 |                   recved_aimsg_cache_.size(),
+[51.296s]    71 |                   [32m[Kcache_limt_len_[m[K,
+[51.296s]       |                   [32m[K~~~~~~~~~~~~~~~[m[K
+[51.296s]       |                   [32m[K|[m[K
+[51.296s]       |                   [32m[Ksize_t {aka long unsigned int}[m[K
+[51.297s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[51.297s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.297s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:69:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[51.297s]    69 |                   "Ai msg cache len: %d exceeds limit: [01;36m[K%d[m[K, erase ai ts: %s",
+[51.297s]       |                                                        [01;36m[K~^[m[K
+[51.298s]       |                                                         [01;36m[K|[m[K
+[51.298s]       |                                                         [01;36m[Kint[m[K
+[51.298s]       |                                                        [32m[K%ld[m[K
+[51.298s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[51.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[51.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[51.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[51.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[51.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[51.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[51.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[51.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[51.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[51.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[51.301s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[51.301s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.301s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:81:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[51.301s]    81 |                   [01;35m[K"Ts cache len: %d exceeds limit: %d, erase ts: %s"[m[K,
+[51.301s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.302s]    82 |                   [32m[Krecved_aimsg_ts_.size()[m[K,
+[51.302s]       |                   [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.302s]       |                                        [32m[K|[m[K
+[51.302s]       |                                        [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+[51.303s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[51.303s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.303s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:81:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[51.303s]    81 |                   "Ts cache len: [01;36m[K%d[m[K exceeds limit: %d, erase ts: %s",
+[51.303s]       |                                  [01;36m[K~^[m[K
+[51.304s]       |                                   [01;36m[K|[m[K
+[51.304s]       |                                   [01;36m[Kint[m[K
+[51.304s]       |                                  [32m[K%ld[m[K
+[51.304s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[51.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[51.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[51.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[51.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[51.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[51.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[51.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[51.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[51.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[51.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[51.307s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[51.307s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.307s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:81:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[51.308s]    81 |                   [01;35m[K"Ts cache len: %d exceeds limit: %d, erase ts: %s"[m[K,
+[51.308s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.309s]    82 |                   recved_aimsg_ts_.size(),
+[51.309s]    83 |                   [32m[Kcache_limt_len_[m[K,
+[51.309s]       |                   [32m[K~~~~~~~~~~~~~~~[m[K
+[51.309s]       |                   [32m[K|[m[K
+[51.310s]       |                   [32m[Ksize_t {aka long unsigned int}[m[K
+[51.310s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[51.310s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.311s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:81:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[51.311s]    81 |                   "Ts cache len: %d exceeds limit: [01;36m[K%d[m[K, erase ts: %s",
+[51.311s]       |                                                    [01;36m[K~^[m[K
+[51.311s]       |                                                     [01;36m[K|[m[K
+[51.311s]       |                                                     [01;36m[Kint[m[K
+[51.312s]       |                                                    [32m[K%ld[m[K
+[51.312s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[51.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[51.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[51.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[51.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[51.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[51.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[51.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[51.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[51.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[51.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[51.314s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[51.315s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.315s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+[51.315s]    92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+[51.315s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.316s]    93 |                  [32m[Krecved_aimsg_ts_.top().sec[m[K,
+[51.316s]       |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.316s]       |                                         [32m[K|[m[K
+[51.316s]       |                                         [32m[Kint[m[K
+[51.317s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[51.317s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.317s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:30:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[51.318s]    92 |                  "top ts: [01;36m[K%llu[m[K %llu, cache size: %d, ts size: %d",
+[51.318s]       |                           [01;36m[K~~~^[m[K
+[51.318s]       |                              [01;36m[K|[m[K
+[51.319s]       |                              [01;36m[Klong long unsigned int[m[K
+[51.319s]       |                           [32m[K%u[m[K
+[51.319s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[51.319s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[51.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[51.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[51.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[51.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[51.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[51.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[51.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[51.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[51.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[51.322s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[51.322s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.322s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+[51.322s]    92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+[51.322s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.323s]    93 |                  recved_aimsg_ts_.top().sec,
+[51.323s]    94 |                  [32m[Krecved_aimsg_ts_.top().nanosec[m[K,
+[51.323s]       |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.323s]       |                                         [32m[K|[m[K
+[51.323s]       |                                         [32m[Kunsigned int[m[K
+[51.324s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[51.324s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.325s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[51.325s]    92 |                  "top ts: %llu [01;36m[K%llu[m[K, cache size: %d, ts size: %d",
+[51.325s]       |                                [01;36m[K~~~^[m[K
+[51.326s]       |                                   [01;36m[K|[m[K
+[51.326s]       |                                   [01;36m[Klong long unsigned int[m[K
+[51.326s]       |                                [32m[K%u[m[K
+[51.326s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[51.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[51.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[51.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[51.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[51.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[51.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[51.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[51.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[51.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[51.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[51.329s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[51.329s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.329s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[51.329s]    92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+[51.330s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.330s] ......
+[51.330s]    95 |                  [32m[Krecved_aimsg_cache_.size()[m[K,
+[51.330s]       |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.331s]       |                                          [32m[K|[m[K
+[51.332s]       |                                          [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+[51.333s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[51.333s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.333s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[51.333s]    92 |                  "top ts: %llu %llu, cache size: [01;36m[K%d[m[K, ts size: %d",
+[51.334s]       |                                                  [01;36m[K~^[m[K
+[51.334s]       |                                                   [01;36m[K|[m[K
+[51.334s]       |                                                   [01;36m[Kint[m[K
+[51.334s]       |                                                  [32m[K%ld[m[K
+[51.334s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[51.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[51.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[51.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[51.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[51.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[51.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[51.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[51.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[51.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[51.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[51.337s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[51.337s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.337s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[51.338s]    92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+[51.338s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.338s] ......
+[51.338s]    96 |                  [32m[Krecved_aimsg_ts_.size()[m[K);
+[51.338s]       |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.339s]       |                                       [32m[K|[m[K
+[51.339s]       |                                       [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+[51.339s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[51.339s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.340s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:64:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[51.340s]    92 |                  "top ts: %llu %llu, cache size: %d, ts size: [01;36m[K%d[m[K",
+[51.340s]       |                                                               [01;36m[K~^[m[K
+[51.340s]       |                                                                [01;36m[K|[m[K
+[51.340s]       |                                                                [01;36m[Kint[m[K
+[51.341s]       |                                                               [32m[K%ld[m[K
+[51.341s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[51.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[51.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[51.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[51.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[51.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[51.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[51.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[51.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[51.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[51.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[51.343s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[51.344s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.344s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:[m[K In member function ‘[01m[Kai_msgs::msg::PerceptionTargets_<std::allocator<void> >::UniquePtr ReidFeedCache::Get(const _stamp_type&, int)[m[K’:
+[51.344s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+[51.344s]   119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+[51.345s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.345s]   120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+[51.345s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.345s]   121 |                    ts.c_str(),
+[51.345s]   122 |                    [32m[Krecved_aimsg_ts_.top().sec[m[K,
+[51.346s]       |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.346s]       |                                           [32m[K|[m[K
+[51.346s]       |                                           [32m[Kint[m[K
+[51.346s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[51.346s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.347s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[51.347s]   119 |                    "find ts %s success, recved_aimsg_ts_ top ts: [01;36m[K%llu[m[K %llu, "
+[51.347s]       |                                                                  [01;36m[K~~~^[m[K
+[51.347s]       |                                                                     [01;36m[K|[m[K
+[51.348s]       |                                                                     [01;36m[Klong long unsigned int[m[K
+[51.348s]       |                                                                  [32m[K%u[m[K
+[51.348s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[51.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[51.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[51.349s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[51.349s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[51.349s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[51.349s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[51.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[51.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[51.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[51.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[51.350s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[51.351s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.351s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 7 has type ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+[51.351s]   119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+[51.351s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.352s]   120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+[51.352s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.352s] ......
+[51.352s]   123 |                    [32m[Krecved_aimsg_ts_.top().nanosec[m[K,
+[51.352s]       |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.353s]       |                                           [32m[K|[m[K
+[51.353s]       |                                           [32m[Kunsigned int[m[K
+[51.353s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[51.353s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.354s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:74:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[51.354s]   119 |                    "find ts %s success, recved_aimsg_ts_ top ts: %llu [01;36m[K%llu[m[K, "
+[51.354s]       |                                                                       [01;36m[K~~~^[m[K
+[51.354s]       |                                                                          [01;36m[K|[m[K
+[51.354s]       |                                                                          [01;36m[Klong long unsigned int[m[K
+[51.355s]       |                                                                       [32m[K%u[m[K
+[51.355s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[51.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[51.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[51.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[51.356s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[51.356s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[51.356s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[51.356s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[51.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[51.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[51.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[51.357s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[51.357s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.358s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[51.358s]   119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+[51.358s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.359s]   120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+[51.359s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.359s] ......
+[51.359s]   124 |                    [32m[Krecved_aimsg_cache_.size()[m[K,
+[51.360s]       |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.360s]       |                                            [32m[K|[m[K
+[51.360s]       |                                            [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+[51.361s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[51.361s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.361s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:120:34:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[51.361s]   120 |                    "cache size: [01;36m[K%d[m[K, ts size: %d",
+[51.361s]       |                                 [01;36m[K~^[m[K
+[51.362s]       |                                  [01;36m[K|[m[K
+[51.362s]       |                                  [01;36m[Kint[m[K
+[51.362s]       |                                 [32m[K%ld[m[K
+[51.362s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[51.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[51.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[51.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[51.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[51.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[51.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[51.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[51.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[51.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[51.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[51.365s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[51.365s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.365s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[51.366s]   119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+[51.366s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.366s]   120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+[51.366s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.366s] ......
+[51.367s]   125 |                    [32m[Krecved_aimsg_ts_.size()[m[K);
+[51.367s]       |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.367s]       |                                         [32m[K|[m[K
+[51.367s]       |                                         [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+[51.368s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[51.368s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.368s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:120:47:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[51.368s]   120 |                    "cache size: %d, ts size: [01;36m[K%d[m[K",
+[51.369s]       |                                              [01;36m[K~^[m[K
+[51.369s]       |                                               [01;36m[K|[m[K
+[51.369s]       |                                               [01;36m[Kint[m[K
+[51.369s]       |                                              [32m[K%ld[m[K
+[51.369s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[51.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[51.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[51.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[51.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[51.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[51.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[51.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[51.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[51.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[51.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[51.372s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[51.372s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.372s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:141:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[51.374s]   141 |                        [01;35m[K"Erase top ts: %s, cache len: %d ts len: %d"[m[K,
+[51.375s]       |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.375s]   142 |                        top_ts.data(),
+[51.375s]   143 |                        [32m[Krecved_aimsg_cache_.size()[m[K,
+[51.376s]       |                        [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.376s]       |                                                [32m[K|[m[K
+[51.376s]       |                                                [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+[51.376s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[51.376s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.377s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:141:55:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[51.377s]   141 |                        "Erase top ts: %s, cache len: [01;36m[K%d[m[K ts len: %d",
+[51.377s]       |                                                      [01;36m[K~^[m[K
+[51.377s]       |                                                       [01;36m[K|[m[K
+[51.378s]       |                                                       [01;36m[Kint[m[K
+[51.378s]       |                                                      [32m[K%ld[m[K
+[51.386s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[51.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[51.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[51.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[51.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[51.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[51.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[51.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[51.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[51.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[51.389s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[51.389s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[51.389s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.389s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:141:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[51.390s]   141 |                        [01;35m[K"Erase top ts: %s, cache len: %d ts len: %d"[m[K,
+[51.390s]       |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.390s] ......
+[51.390s]   144 |                        [32m[Krecved_aimsg_ts_.size()[m[K);
+[51.390s]       |                        [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.391s]       |                                             [32m[K|[m[K
+[51.391s]       |                                             [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+[51.391s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[51.391s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.392s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:141:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[51.392s]   141 |                        "Erase top ts: %s, cache len: %d ts len: [01;36m[K%d[m[K",
+[51.392s]       |                                                                 [01;36m[K~^[m[K
+[51.392s]       |                                                                  [01;36m[K|[m[K
+[51.392s]       |                                                                  [01;36m[Kint[m[K
+[51.393s]       |                                                                 [32m[K%ld[m[K
+[51.393s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/feature_manage.h:27[m[K,
+[51.393s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:32[m[K,
+[51.393s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/main.cpp:18[m[K:
+[51.394s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:[m[K In constructor ‘[01m[KItemDatabase::ItemDatabase()[m[K’:
+[51.394s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:82:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KItemDatabase::db_name[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[51.395s]    82 |   std::string [01;35m[Kdb_name[m[K;
+[51.396s]       |               [01;35m[K^~~~~~~[m[K
+[51.396s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:80:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksqlite3* ItemDatabase::db[m[K’ [[01;35m[K-Wreorder[m[K]
+[51.396s]    80 |   sqlite3* [01;35m[Kdb[m[K;
+[51.396s]       |            [01;35m[K^~[m[K
+[51.396s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:30:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[51.397s]    30 |   [01;35m[KItemDatabase[m[K() : db_name(""), db(nullptr) {}
+[51.397s]       |   [01;35m[K^~~~~~~~~~~~[m[K
+[51.397s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:[m[K In constructor ‘[01m[KItemDatabase::ItemDatabase(const string&)[m[K’:
+[51.397s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:82:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KItemDatabase::db_name[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[51.397s]    82 |   std::string [01;35m[Kdb_name[m[K;
+[51.397s]       |               [01;35m[K^~~~~~~[m[K
+[51.398s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:80:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksqlite3* ItemDatabase::db[m[K’ [[01;35m[K-Wreorder[m[K]
+[51.398s]    80 |   sqlite3* [01;35m[Kdb[m[K;
+[51.398s]       |            [01;35m[K^~[m[K
+[51.398s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:31:12:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[51.399s]    31 |   explicit [01;35m[KItemDatabase[m[K(const std::string& db_name) : db_name(db_name), db(nullptr) {
+[51.399s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[54.750s] [ 28%] [32mBuilding CXX object CMakeFiles/reid.dir/src/database.cpp.o[0m
+[62.917s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/database.cpp:24[m[K:
+[62.918s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:[m[K In constructor ‘[01m[KItemDatabase::ItemDatabase()[m[K’:
+[62.918s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:82:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KItemDatabase::db_name[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[62.918s]    82 |   std::string [01;35m[Kdb_name[m[K;
+[62.918s]       |               [01;35m[K^~~~~~~[m[K
+[62.919s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:80:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksqlite3* ItemDatabase::db[m[K’ [[01;35m[K-Wreorder[m[K]
+[62.919s]    80 |   sqlite3* [01;35m[Kdb[m[K;
+[62.919s]       |            [01;35m[K^~[m[K
+[62.919s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:30:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[62.920s]    30 |   [01;35m[KItemDatabase[m[K() : db_name(""), db(nullptr) {}
+[62.920s]       |   [01;35m[K^~~~~~~~~~~~[m[K
+[62.922s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:[m[K In constructor ‘[01m[KItemDatabase::ItemDatabase(const string&)[m[K’:
+[62.923s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:82:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KItemDatabase::db_name[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[62.923s]    82 |   std::string [01;35m[Kdb_name[m[K;
+[62.923s]       |               [01;35m[K^~~~~~~[m[K
+[62.923s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:80:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksqlite3* ItemDatabase::db[m[K’ [[01;35m[K-Wreorder[m[K]
+[62.923s]    80 |   sqlite3* [01;35m[Kdb[m[K;
+[62.924s]       |            [01;35m[K^~[m[K
+[62.924s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:31:12:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[62.925s]    31 |   explicit [01;35m[KItemDatabase[m[K(const std::string& db_name) : db_name(db_name), db(nullptr) {
+[62.925s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[64.725s] [ 42%] [32mBuilding CXX object CMakeFiles/reid.dir/src/feature_manage.cpp.o[0m
+[74.522s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/feature_manage.h:27[m[K,
+[74.522s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/feature_manage.cpp:20[m[K:
+[74.523s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:[m[K In constructor ‘[01m[KItemDatabase::ItemDatabase()[m[K’:
+[74.523s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:82:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KItemDatabase::db_name[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[74.524s]    82 |   std::string [01;35m[Kdb_name[m[K;
+[74.524s]       |               [01;35m[K^~~~~~~[m[K
+[74.524s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:80:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksqlite3* ItemDatabase::db[m[K’ [[01;35m[K-Wreorder[m[K]
+[74.524s]    80 |   sqlite3* [01;35m[Kdb[m[K;
+[74.524s]       |            [01;35m[K^~[m[K
+[74.525s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:30:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[74.525s]    30 |   [01;35m[KItemDatabase[m[K() : db_name(""), db(nullptr) {}
+[74.525s]       |   [01;35m[K^~~~~~~~~~~~[m[K
+[74.525s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:[m[K In constructor ‘[01m[KItemDatabase::ItemDatabase(const string&)[m[K’:
+[74.526s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:82:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KItemDatabase::db_name[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[74.526s]    82 |   std::string [01;35m[Kdb_name[m[K;
+[74.526s]       |               [01;35m[K^~~~~~~[m[K
+[74.526s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:80:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksqlite3* ItemDatabase::db[m[K’ [[01;35m[K-Wreorder[m[K]
+[74.527s]    80 |   sqlite3* [01;35m[Kdb[m[K;
+[74.528s]       |            [01;35m[K^~[m[K
+[74.529s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:31:12:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[74.529s]    31 |   explicit [01;35m[KItemDatabase[m[K(const std::string& db_name) : db_name(db_name), db(nullptr) {
+[74.529s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[74.579s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/feature_manage.cpp:[m[K In member function ‘[01m[Kint FeatureManage::Query(const float*, std::vector<Item>&)[m[K’:
+[74.579s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/feature_manage.cpp:144:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Item>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[74.579s]   144 |     for (int j = 0; [01;35m[Kj < image_items.size()[m[K; j++) {
+[74.579s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[78.193s] [ 57%] [32mBuilding CXX object CMakeFiles/reid.dir/src/item.cpp.o[0m
+[79.381s] [ 71%] [32mBuilding CXX object CMakeFiles/reid.dir/src/ai_msg_manage.cpp.o[0m
+[88.069s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.070s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.070s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.070s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.073s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.073s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.073s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.076s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:[m[K In member function ‘[01m[Kint ReidFeedCache::Feed(const ConstSharedPtr&)[m[K’:
+[88.076s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:69:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[88.077s]    69 |                   [01;35m[K"Ai msg cache len: %d exceeds limit: %d, erase ai ts: %s"[m[K,
+[88.077s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.077s]    70 |                   [32m[Krecved_aimsg_cache_.size()[m[K,
+[88.077s]       |                   [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.078s]       |                                           [32m[K|[m[K
+[88.078s]       |                                           [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+[88.078s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.078s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:69:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.079s]    69 |                   "Ai msg cache len: [01;36m[K%d[m[K exceeds limit: %d, erase ai ts: %s",
+[88.079s]       |                                      [01;36m[K~^[m[K
+[88.079s]       |                                       [01;36m[K|[m[K
+[88.079s]       |                                       [01;36m[Kint[m[K
+[88.079s]       |                                      [32m[K%ld[m[K
+[88.080s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.080s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.080s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.081s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.081s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.081s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.081s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.081s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.082s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.083s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.083s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.084s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.084s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.084s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.084s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:69:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[88.084s]    69 |                   [01;35m[K"Ai msg cache len: %d exceeds limit: %d, erase ai ts: %s"[m[K,
+[88.085s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.085s]    70 |                   recved_aimsg_cache_.size(),
+[88.085s]    71 |                   [32m[Kcache_limt_len_[m[K,
+[88.086s]       |                   [32m[K~~~~~~~~~~~~~~~[m[K
+[88.086s]       |                   [32m[K|[m[K
+[88.086s]       |                   [32m[Ksize_t {aka long unsigned int}[m[K
+[88.086s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.087s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:69:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.087s]    69 |                   "Ai msg cache len: %d exceeds limit: [01;36m[K%d[m[K, erase ai ts: %s",
+[88.087s]       |                                                        [01;36m[K~^[m[K
+[88.087s]       |                                                         [01;36m[K|[m[K
+[88.088s]       |                                                         [01;36m[Kint[m[K
+[88.088s]       |                                                        [32m[K%ld[m[K
+[88.088s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.088s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.089s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.089s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.089s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.089s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.089s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.090s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.091s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.091s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.091s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:81:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[88.091s]    81 |                   [01;35m[K"Ts cache len: %d exceeds limit: %d, erase ts: %s"[m[K,
+[88.092s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.092s]    82 |                   [32m[Krecved_aimsg_ts_.size()[m[K,
+[88.092s]       |                   [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.092s]       |                                        [32m[K|[m[K
+[88.092s]       |                                        [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+[88.092s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.093s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:81:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.093s]    81 |                   "Ts cache len: [01;36m[K%d[m[K exceeds limit: %d, erase ts: %s",
+[88.093s]       |                                  [01;36m[K~^[m[K
+[88.093s]       |                                   [01;36m[K|[m[K
+[88.093s]       |                                   [01;36m[Kint[m[K
+[88.094s]       |                                  [32m[K%ld[m[K
+[88.094s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.096s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.096s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.096s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.096s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.097s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.097s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:81:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[88.097s]    81 |                   [01;35m[K"Ts cache len: %d exceeds limit: %d, erase ts: %s"[m[K,
+[88.097s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.097s]    82 |                   recved_aimsg_ts_.size(),
+[88.098s]    83 |                   [32m[Kcache_limt_len_[m[K,
+[88.098s]       |                   [32m[K~~~~~~~~~~~~~~~[m[K
+[88.098s]       |                   [32m[K|[m[K
+[88.098s]       |                   [32m[Ksize_t {aka long unsigned int}[m[K
+[88.098s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.099s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:81:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.099s]    81 |                   "Ts cache len: %d exceeds limit: [01;36m[K%d[m[K, erase ts: %s",
+[88.099s]       |                                                    [01;36m[K~^[m[K
+[88.099s]       |                                                     [01;36m[K|[m[K
+[88.100s]       |                                                     [01;36m[Kint[m[K
+[88.100s]       |                                                    [32m[K%ld[m[K
+[88.100s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.100s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.100s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.101s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.101s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.101s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.101s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.101s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.102s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.102s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.102s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.102s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.102s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.103s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.103s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+[88.103s]    92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+[88.103s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.103s]    93 |                  [32m[Krecved_aimsg_ts_.top().sec[m[K,
+[88.104s]       |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.104s]       |                                         [32m[K|[m[K
+[88.104s]       |                                         [32m[Kint[m[K
+[88.104s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.104s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:30:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.105s]    92 |                  "top ts: [01;36m[K%llu[m[K %llu, cache size: %d, ts size: %d",
+[88.105s]       |                           [01;36m[K~~~^[m[K
+[88.105s]       |                              [01;36m[K|[m[K
+[88.105s]       |                              [01;36m[Klong long unsigned int[m[K
+[88.105s]       |                           [32m[K%u[m[K
+[88.106s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.108s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.108s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.108s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.108s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.108s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+[88.109s]    92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+[88.109s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.109s]    93 |                  recved_aimsg_ts_.top().sec,
+[88.109s]    94 |                  [32m[Krecved_aimsg_ts_.top().nanosec[m[K,
+[88.109s]       |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.110s]       |                                         [32m[K|[m[K
+[88.110s]       |                                         [32m[Kunsigned int[m[K
+[88.110s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.110s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.110s]    92 |                  "top ts: %llu [01;36m[K%llu[m[K, cache size: %d, ts size: %d",
+[88.111s]       |                                [01;36m[K~~~^[m[K
+[88.111s]       |                                   [01;36m[K|[m[K
+[88.111s]       |                                   [01;36m[Klong long unsigned int[m[K
+[88.111s]       |                                [32m[K%u[m[K
+[88.111s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.112s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.112s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.112s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.112s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.112s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.113s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.113s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.113s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.113s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.113s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.114s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.114s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.114s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.114s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[88.114s]    92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+[88.115s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.115s] ......
+[88.115s]    95 |                  [32m[Krecved_aimsg_cache_.size()[m[K,
+[88.115s]       |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.115s]       |                                          [32m[K|[m[K
+[88.116s]       |                                          [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+[88.116s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.116s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.116s]    92 |                  "top ts: %llu %llu, cache size: [01;36m[K%d[m[K, ts size: %d",
+[88.116s]       |                                                  [01;36m[K~^[m[K
+[88.117s]       |                                                   [01;36m[K|[m[K
+[88.117s]       |                                                   [01;36m[Kint[m[K
+[88.117s]       |                                                  [32m[K%ld[m[K
+[88.117s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.117s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.119s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.119s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.119s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.119s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.119s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.120s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.120s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.120s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[88.120s]    92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+[88.120s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.121s] ......
+[88.121s]    96 |                  [32m[Krecved_aimsg_ts_.size()[m[K);
+[88.121s]       |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.121s]       |                                       [32m[K|[m[K
+[88.122s]       |                                       [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+[88.122s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.122s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:64:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.122s]    92 |                  "top ts: %llu %llu, cache size: %d, ts size: [01;36m[K%d[m[K",
+[88.122s]       |                                                               [01;36m[K~^[m[K
+[88.122s]       |                                                                [01;36m[K|[m[K
+[88.123s]       |                                                                [01;36m[Kint[m[K
+[88.123s]       |                                                               [32m[K%ld[m[K
+[88.123s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.123s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.124s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.124s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.124s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.124s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.124s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.125s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.125s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.125s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.125s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.125s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.126s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.126s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.126s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:[m[K In member function ‘[01m[Kai_msgs::msg::PerceptionTargets_<std::allocator<void> >::UniquePtr ReidFeedCache::Get(const _stamp_type&, int)[m[K’:
+[88.126s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+[88.126s]   119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+[88.127s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.127s]   120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+[88.127s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.127s]   121 |                    ts.c_str(),
+[88.127s]   122 |                    [32m[Krecved_aimsg_ts_.top().sec[m[K,
+[88.127s]       |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.128s]       |                                           [32m[K|[m[K
+[88.128s]       |                                           [32m[Kint[m[K
+[88.128s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.128s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.128s]   119 |                    "find ts %s success, recved_aimsg_ts_ top ts: [01;36m[K%llu[m[K %llu, "
+[88.129s]       |                                                                  [01;36m[K~~~^[m[K
+[88.129s]       |                                                                     [01;36m[K|[m[K
+[88.129s]       |                                                                     [01;36m[Klong long unsigned int[m[K
+[88.129s]       |                                                                  [32m[K%u[m[K
+[88.129s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.130s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.130s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.130s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.130s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.130s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.131s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.131s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.131s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.131s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.131s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.132s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.132s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.132s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.132s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 7 has type ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+[88.132s]   119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+[88.133s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.133s]   120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+[88.133s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.133s] ......
+[88.133s]   123 |                    [32m[Krecved_aimsg_ts_.top().nanosec[m[K,
+[88.134s]       |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.134s]       |                                           [32m[K|[m[K
+[88.134s]       |                                           [32m[Kunsigned int[m[K
+[88.134s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.134s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:74:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.135s]   119 |                    "find ts %s success, recved_aimsg_ts_ top ts: %llu [01;36m[K%llu[m[K, "
+[88.135s]       |                                                                       [01;36m[K~~~^[m[K
+[88.135s]       |                                                                          [01;36m[K|[m[K
+[88.135s]       |                                                                          [01;36m[Klong long unsigned int[m[K
+[88.135s]       |                                                                       [32m[K%u[m[K
+[88.136s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.138s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.138s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.138s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.138s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.138s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[88.139s]   119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+[88.139s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.139s]   120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+[88.139s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.140s] ......
+[88.140s]   124 |                    [32m[Krecved_aimsg_cache_.size()[m[K,
+[88.140s]       |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.140s]       |                                            [32m[K|[m[K
+[88.140s]       |                                            [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+[88.141s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.141s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:120:34:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.141s]   120 |                    "cache size: [01;36m[K%d[m[K, ts size: %d",
+[88.141s]       |                                 [01;36m[K~^[m[K
+[88.141s]       |                                  [01;36m[K|[m[K
+[88.142s]       |                                  [01;36m[Kint[m[K
+[88.142s]       |                                 [32m[K%ld[m[K
+[88.142s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.142s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.142s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.144s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.144s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.144s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.144s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.144s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.145s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.145s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[88.145s]   119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+[88.145s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.145s]   120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+[88.146s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.146s] ......
+[88.146s]   125 |                    [32m[Krecved_aimsg_ts_.size()[m[K);
+[88.146s]       |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.146s]       |                                         [32m[K|[m[K
+[88.147s]       |                                         [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+[88.147s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.147s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:120:47:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.147s]   120 |                    "cache size: %d, ts size: [01;36m[K%d[m[K",
+[88.147s]       |                                              [01;36m[K~^[m[K
+[88.148s]       |                                               [01;36m[K|[m[K
+[88.148s]       |                                               [01;36m[Kint[m[K
+[88.148s]       |                                              [32m[K%ld[m[K
+[88.148s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.150s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.151s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.151s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.151s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:141:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[88.151s]   141 |                        [01;35m[K"Erase top ts: %s, cache len: %d ts len: %d"[m[K,
+[88.151s]       |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.152s]   142 |                        top_ts.data(),
+[88.152s]   143 |                        [32m[Krecved_aimsg_cache_.size()[m[K,
+[88.152s]       |                        [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.152s]       |                                                [32m[K|[m[K
+[88.152s]       |                                                [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+[88.153s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.153s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:141:55:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.153s]   141 |                        "Erase top ts: %s, cache len: [01;36m[K%d[m[K ts len: %d",
+[88.153s]       |                                                      [01;36m[K~^[m[K
+[88.153s]       |                                                       [01;36m[K|[m[K
+[88.154s]       |                                                       [01;36m[Kint[m[K
+[88.154s]       |                                                      [32m[K%ld[m[K
+[88.154s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.155s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.155s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.155s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.155s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.156s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.156s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.156s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.156s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.156s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.157s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.157s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:141:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[88.157s]   141 |                        [01;35m[K"Erase top ts: %s, cache len: %d ts len: %d"[m[K,
+[88.157s]       |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.157s] ......
+[88.158s]   144 |                        [32m[Krecved_aimsg_ts_.size()[m[K);
+[88.158s]       |                        [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.158s]       |                                             [32m[K|[m[K
+[88.158s]       |                                             [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+[88.158s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.159s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:141:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.159s]   141 |                        "Erase top ts: %s, cache len: %d ts len: [01;36m[K%d[m[K",
+[88.159s]       |                                                                 [01;36m[K~^[m[K
+[88.159s]       |                                                                  [01;36m[K|[m[K
+[88.159s]       |                                                                  [01;36m[Kint[m[K
+[88.160s]       |                                                                 [32m[K%ld[m[K
+[88.167s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.167s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.167s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.167s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.168s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.168s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.168s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.168s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.168s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.168s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.169s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.169s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.169s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.170s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.170s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:[m[K In member function ‘[01m[Kint AiMsgManage::GetTargetRois(const _stamp_type&, std::shared_ptr<std::vector<hbDNNRoi> >&, std::map<long unsigned int, long unsigned int>&, ai_msgs::msg::PerceptionTargets_<std::allocator<void> >::UniquePtr&, std::function<int(const hbDNNRoi*, hbDNNRoi*)>, int)[m[K’:
+[88.170s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:68:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<ai_msgs::msg::Target_<std::allocator<void> >, std::allocator<ai_msgs::msg::Target_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[88.170s]    68 |                [01;35m[K"Frame ai ts: %s targets size: %d"[m[K,
+[88.171s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.171s]    69 |                ts.c_str(),
+[88.171s]    70 |                [32m[Kai_msg->targets.size()[m[K);
+[88.171s]       |                [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.171s]       |                                    [32m[K|[m[K
+[88.171s]       |                                    [32m[Kstd::vector<ai_msgs::msg::Target_<std::allocator<void> >, std::allocator<ai_msgs::msg::Target_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K
+[88.172s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:68:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.172s]    68 |                "Frame ai ts: %s targets size: [01;36m[K%d[m[K",
+[88.172s]       |                                               [01;36m[K~^[m[K
+[88.172s]       |                                                [01;36m[K|[m[K
+[88.172s]       |                                                [01;36m[Kint[m[K
+[88.172s]       |                                               [32m[K%ld[m[K
+[88.173s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:72:19:[m[K [01;35m[Kwarning: [m[Kloop variable ‘[01m[Ktarget[m[K’ creates a copy from type ‘[01m[Kconst ai_msgs::msg::Target_<std::allocator<void> >[m[K’ [[01;35m[K-Wrange-loop-construct[m[K]
+[88.173s]    72 |   for (const auto [01;35m[Ktarget[m[K : ai_msg->targets) {
+[88.176s]       |                   [01;35m[K^~~~~~[m[K
+[88.176s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:72:19:[m[K [01;36m[Knote: [m[Kuse reference type to prevent copying
+[88.176s]    72 |   for (const auto [01;36m[Ktarget[m[K : ai_msg->targets) {
+[88.177s]       |                   [01;36m[K^~~~~~[m[K
+[88.177s]       |                   [32m[K&[m[K
+[88.177s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.177s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.178s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.178s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.178s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.178s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.178s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.178s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.178s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.179s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.179s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.179s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.179s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.179s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.179s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:74:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<ai_msgs::msg::Roi_<std::allocator<void> >, std::allocator<ai_msgs::msg::Roi_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[88.180s]    74 |                  [01;35m[K"target.rois.size: %d"[m[K,
+[88.180s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.180s]    75 |                  [32m[Ktarget.rois.size()[m[K);
+[88.180s]       |                  [32m[K~~~~~~~~~~~~~~~~~~[m[K
+[88.180s]       |                                  [32m[K|[m[K
+[88.180s]       |                                  [32m[Kstd::vector<ai_msgs::msg::Roi_<std::allocator<void> >, std::allocator<ai_msgs::msg::Roi_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K
+[88.180s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:74:38:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.181s]    74 |                  "target.rois.size: [01;36m[K%d[m[K",
+[88.181s]       |                                     [01;36m[K~^[m[K
+[88.181s]       |                                      [01;36m[K|[m[K
+[88.181s]       |                                      [01;36m[Kint[m[K
+[88.181s]       |                                     [32m[K%ld[m[K
+[88.181s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.183s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.183s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.184s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.184s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:103:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<hbDNNRoi>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[88.184s]   103 |                        [01;35m[K"rois size: %d"[m[K,
+[88.184s]       |                        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[88.184s]   104 |                        [32m[Krois->size()[m[K);
+[88.184s]       |                        [32m[K~~~~~~~~~~~~[m[K
+[88.184s]       |                                  [32m[K|[m[K
+[88.185s]       |                                  [32m[Kstd::vector<hbDNNRoi>::size_type {aka long unsigned int}[m[K
+[88.185s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:103:37:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.185s]   103 |                        "rois size: [01;36m[K%d[m[K",
+[88.185s]       |                                    [01;36m[K~^[m[K
+[88.185s]       |                                     [01;36m[K|[m[K
+[88.185s]       |                                     [01;36m[Kint[m[K
+[88.185s]       |                                    [32m[K%ld[m[K
+[88.195s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.195s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.196s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.196s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.196s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.196s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.196s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.197s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.197s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.197s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.197s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.197s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.198s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.198s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.198s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:109:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[88.198s]   109 |                        [01;35m[K"Valid person roi map: %d %d"[m[K,
+[88.198s]       |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.199s]   110 |                        [32m[Kbody_roi_idx[m[K,
+[88.199s]       |                        [32m[K~~~~~~~~~~~~[m[K
+[88.199s]       |                        [32m[K|[m[K
+[88.199s]       |                        [32m[Ksize_t {aka long unsigned int}[m[K
+[88.200s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:109:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.200s]   109 |                        "Valid person roi map: [01;36m[K%d[m[K %d",
+[88.200s]       |                                               [01;36m[K~^[m[K
+[88.200s]       |                                                [01;36m[K|[m[K
+[88.200s]       |                                                [01;36m[Kint[m[K
+[88.201s]       |                                               [32m[K%ld[m[K
+[88.201s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[88.201s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[88.201s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[88.201s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[88.202s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[88.202s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[88.202s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[88.202s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[88.202s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[88.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[88.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[88.203s]                  from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+[88.203s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:24[m[K,
+[88.203s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:15[m[K:
+[88.204s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:109:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::map<long unsigned int, long unsigned int>::mapped_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[88.204s]   109 |                        [01;35m[K"Valid person roi map: %d %d"[m[K,
+[88.204s]       |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[88.205s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/ai_msg_manage.cpp:109:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[88.205s]   109 |                        "Valid person roi map: %d [01;36m[K%d[m[K",
+[88.205s]       |                                                  [01;36m[K~^[m[K
+[88.205s]       |                                                   [01;36m[K|[m[K
+[88.206s]       |                                                   [01;36m[Kint[m[K
+[88.206s]       |                                                  [32m[K%ld[m[K
+[91.592s] [ 85%] [32mBuilding CXX object CMakeFiles/reid.dir/src/reid_node.cpp.o[0m
+[97.313s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[97.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[97.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[97.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[97.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[97.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[97.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[97.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[97.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[97.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[97.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[97.315s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[97.315s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.315s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:[m[K In member function ‘[01m[Kint ReidFeedCache::Feed(const ConstSharedPtr&)[m[K’:
+[97.315s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:69:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[97.315s]    69 |                   [01;35m[K"Ai msg cache len: %d exceeds limit: %d, erase ai ts: %s"[m[K,
+[97.316s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.316s]    70 |                   [32m[Krecved_aimsg_cache_.size()[m[K,
+[97.316s]       |                   [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.316s]       |                                           [32m[K|[m[K
+[97.317s]       |                                           [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+[97.317s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[97.317s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.317s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:69:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[97.317s]    69 |                   "Ai msg cache len: [01;36m[K%d[m[K exceeds limit: %d, erase ai ts: %s",
+[97.318s]       |                                      [01;36m[K~^[m[K
+[97.318s]       |                                       [01;36m[K|[m[K
+[97.318s]       |                                       [01;36m[Kint[m[K
+[97.318s]       |                                      [32m[K%ld[m[K
+[97.318s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[97.319s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[97.319s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[97.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[97.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[97.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[97.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[97.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[97.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[97.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[97.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[97.321s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[97.321s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.321s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:69:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[97.321s]    69 |                   [01;35m[K"Ai msg cache len: %d exceeds limit: %d, erase ai ts: %s"[m[K,
+[97.322s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.322s]    70 |                   recved_aimsg_cache_.size(),
+[97.322s]    71 |                   [32m[Kcache_limt_len_[m[K,
+[97.322s]       |                   [32m[K~~~~~~~~~~~~~~~[m[K
+[97.322s]       |                   [32m[K|[m[K
+[97.322s]       |                   [32m[Ksize_t {aka long unsigned int}[m[K
+[97.323s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[97.323s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.323s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:69:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[97.323s]    69 |                   "Ai msg cache len: %d exceeds limit: [01;36m[K%d[m[K, erase ai ts: %s",
+[97.323s]       |                                                        [01;36m[K~^[m[K
+[97.323s]       |                                                         [01;36m[K|[m[K
+[97.324s]       |                                                         [01;36m[Kint[m[K
+[97.324s]       |                                                        [32m[K%ld[m[K
+[97.324s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[97.324s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[97.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[97.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[97.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[97.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[97.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[97.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[97.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[97.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[97.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[97.328s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[97.328s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.328s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:81:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[97.328s]    81 |                   [01;35m[K"Ts cache len: %d exceeds limit: %d, erase ts: %s"[m[K,
+[97.328s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.328s]    82 |                   [32m[Krecved_aimsg_ts_.size()[m[K,
+[97.329s]       |                   [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.329s]       |                                        [32m[K|[m[K
+[97.329s]       |                                        [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+[97.329s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[97.330s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.330s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:81:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[97.330s]    81 |                   "Ts cache len: [01;36m[K%d[m[K exceeds limit: %d, erase ts: %s",
+[97.330s]       |                                  [01;36m[K~^[m[K
+[97.330s]       |                                   [01;36m[K|[m[K
+[97.331s]       |                                   [01;36m[Kint[m[K
+[97.331s]       |                                  [32m[K%ld[m[K
+[97.331s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[97.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[97.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[97.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[97.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[97.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[97.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[97.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[97.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[97.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[97.333s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[97.333s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[97.333s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.333s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:81:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[97.333s]    81 |                   [01;35m[K"Ts cache len: %d exceeds limit: %d, erase ts: %s"[m[K,
+[97.333s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.334s]    82 |                   recved_aimsg_ts_.size(),
+[97.334s]    83 |                   [32m[Kcache_limt_len_[m[K,
+[97.334s]       |                   [32m[K~~~~~~~~~~~~~~~[m[K
+[97.334s]       |                   [32m[K|[m[K
+[97.334s]       |                   [32m[Ksize_t {aka long unsigned int}[m[K
+[97.334s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[97.334s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.334s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:81:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[97.335s]    81 |                   "Ts cache len: %d exceeds limit: [01;36m[K%d[m[K, erase ts: %s",
+[97.335s]       |                                                    [01;36m[K~^[m[K
+[97.335s]       |                                                     [01;36m[K|[m[K
+[97.335s]       |                                                     [01;36m[Kint[m[K
+[97.335s]       |                                                    [32m[K%ld[m[K
+[97.336s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[97.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[97.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[97.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[97.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[97.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[97.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[97.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[97.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[97.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[97.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[97.338s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[97.338s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.338s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+[97.338s]    92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+[97.338s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.339s]    93 |                  [32m[Krecved_aimsg_ts_.top().sec[m[K,
+[97.339s]       |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.339s]       |                                         [32m[K|[m[K
+[97.339s]       |                                         [32m[Kint[m[K
+[97.339s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[97.339s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.339s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:30:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[97.340s]    92 |                  "top ts: [01;36m[K%llu[m[K %llu, cache size: %d, ts size: %d",
+[97.340s]       |                           [01;36m[K~~~^[m[K
+[97.340s]       |                              [01;36m[K|[m[K
+[97.340s]       |                              [01;36m[Klong long unsigned int[m[K
+[97.340s]       |                           [32m[K%u[m[K
+[97.340s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[97.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[97.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[97.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[97.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[97.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[97.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[97.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[97.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[97.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[97.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[97.342s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[97.342s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.342s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+[97.343s]    92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+[97.343s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.343s]    93 |                  recved_aimsg_ts_.top().sec,
+[97.343s]    94 |                  [32m[Krecved_aimsg_ts_.top().nanosec[m[K,
+[97.343s]       |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.343s]       |                                         [32m[K|[m[K
+[97.344s]       |                                         [32m[Kunsigned int[m[K
+[97.344s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[97.344s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.344s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[97.344s]    92 |                  "top ts: %llu [01;36m[K%llu[m[K, cache size: %d, ts size: %d",
+[97.344s]       |                                [01;36m[K~~~^[m[K
+[97.345s]       |                                   [01;36m[K|[m[K
+[97.345s]       |                                   [01;36m[Klong long unsigned int[m[K
+[97.345s]       |                                [32m[K%u[m[K
+[97.345s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[97.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[97.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[97.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[97.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[97.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[97.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[97.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[97.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[97.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[97.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[97.347s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[97.347s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.347s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[97.347s]    92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+[97.347s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.348s] ......
+[97.348s]    95 |                  [32m[Krecved_aimsg_cache_.size()[m[K,
+[97.348s]       |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.348s]       |                                          [32m[K|[m[K
+[97.348s]       |                                          [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+[97.348s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[97.349s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.349s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[97.349s]    92 |                  "top ts: %llu %llu, cache size: [01;36m[K%d[m[K, ts size: %d",
+[97.349s]       |                                                  [01;36m[K~^[m[K
+[97.349s]       |                                                   [01;36m[K|[m[K
+[97.349s]       |                                                   [01;36m[Kint[m[K
+[97.349s]       |                                                  [32m[K%ld[m[K
+[97.350s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[97.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[97.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[97.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[97.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[97.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[97.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[97.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[97.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[97.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[97.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[97.351s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[97.352s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.352s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[97.352s]    92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+[97.352s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.352s] ......
+[97.352s]    96 |                  [32m[Krecved_aimsg_ts_.size()[m[K);
+[97.353s]       |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.353s]       |                                       [32m[K|[m[K
+[97.353s]       |                                       [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+[97.353s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[97.353s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.353s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:92:64:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[97.354s]    92 |                  "top ts: %llu %llu, cache size: %d, ts size: [01;36m[K%d[m[K",
+[97.354s]       |                                                               [01;36m[K~^[m[K
+[97.354s]       |                                                                [01;36m[K|[m[K
+[97.354s]       |                                                                [01;36m[Kint[m[K
+[97.354s]       |                                                               [32m[K%ld[m[K
+[97.354s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[97.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[97.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[97.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[97.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[97.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[97.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[97.356s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[97.356s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[97.356s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[97.356s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[97.356s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[97.356s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.357s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:[m[K In member function ‘[01m[Kai_msgs::msg::PerceptionTargets_<std::allocator<void> >::UniquePtr ReidFeedCache::Get(const _stamp_type&, int)[m[K’:
+[97.357s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+[97.357s]   119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+[97.357s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.357s]   120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+[97.357s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.358s]   121 |                    ts.c_str(),
+[97.358s]   122 |                    [32m[Krecved_aimsg_ts_.top().sec[m[K,
+[97.358s]       |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.358s]       |                                           [32m[K|[m[K
+[97.358s]       |                                           [32m[Kint[m[K
+[97.358s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[97.359s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.359s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[97.359s]   119 |                    "find ts %s success, recved_aimsg_ts_ top ts: [01;36m[K%llu[m[K %llu, "
+[97.359s]       |                                                                  [01;36m[K~~~^[m[K
+[97.359s]       |                                                                     [01;36m[K|[m[K
+[97.359s]       |                                                                     [01;36m[Klong long unsigned int[m[K
+[97.360s]       |                                                                  [32m[K%u[m[K
+[97.360s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[97.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[97.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[97.360s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[97.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[97.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[97.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[97.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[97.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[97.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[97.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[97.362s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[97.362s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.362s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 7 has type ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+[97.362s]   119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+[97.362s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.363s]   120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+[97.363s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.363s] ......
+[97.363s]   123 |                    [32m[Krecved_aimsg_ts_.top().nanosec[m[K,
+[97.363s]       |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.363s]       |                                           [32m[K|[m[K
+[97.364s]       |                                           [32m[Kunsigned int[m[K
+[97.364s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[97.364s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.364s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:74:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[97.364s]   119 |                    "find ts %s success, recved_aimsg_ts_ top ts: %llu [01;36m[K%llu[m[K, "
+[97.365s]       |                                                                       [01;36m[K~~~^[m[K
+[97.365s]       |                                                                          [01;36m[K|[m[K
+[97.365s]       |                                                                          [01;36m[Klong long unsigned int[m[K
+[97.365s]       |                                                                       [32m[K%u[m[K
+[97.365s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[97.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[97.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[97.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[97.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[97.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[97.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[97.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[97.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[97.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[97.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[97.367s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[97.367s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.368s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[97.368s]   119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+[97.368s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.368s]   120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+[97.368s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.368s] ......
+[97.369s]   124 |                    [32m[Krecved_aimsg_cache_.size()[m[K,
+[97.369s]       |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.369s]       |                                            [32m[K|[m[K
+[97.369s]       |                                            [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+[97.369s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[97.369s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.370s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:120:34:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[97.370s]   120 |                    "cache size: [01;36m[K%d[m[K, ts size: %d",
+[97.370s]       |                                 [01;36m[K~^[m[K
+[97.370s]       |                                  [01;36m[K|[m[K
+[97.370s]       |                                  [01;36m[Kint[m[K
+[97.371s]       |                                 [32m[K%ld[m[K
+[97.371s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[97.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[97.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[97.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[97.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[97.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[97.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[97.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[97.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[97.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[97.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[97.372s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[97.373s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.373s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[97.373s]   119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+[97.373s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.373s]   120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+[97.373s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.374s] ......
+[97.374s]   125 |                    [32m[Krecved_aimsg_ts_.size()[m[K);
+[97.374s]       |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.374s]       |                                         [32m[K|[m[K
+[97.374s]       |                                         [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+[97.375s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[97.375s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.375s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:120:47:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[97.375s]   120 |                    "cache size: %d, ts size: [01;36m[K%d[m[K",
+[97.375s]       |                                              [01;36m[K~^[m[K
+[97.375s]       |                                               [01;36m[K|[m[K
+[97.376s]       |                                               [01;36m[Kint[m[K
+[97.376s]       |                                              [32m[K%ld[m[K
+[97.376s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[97.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[97.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[97.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[97.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[97.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[97.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[97.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[97.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[97.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[97.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[97.378s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[97.378s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.378s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:141:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[97.378s]   141 |                        [01;35m[K"Erase top ts: %s, cache len: %d ts len: %d"[m[K,
+[97.378s]       |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.379s]   142 |                        top_ts.data(),
+[97.379s]   143 |                        [32m[Krecved_aimsg_cache_.size()[m[K,
+[97.379s]       |                        [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.379s]       |                                                [32m[K|[m[K
+[97.379s]       |                                                [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+[97.379s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[97.380s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.380s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:141:55:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[97.380s]   141 |                        "Erase top ts: %s, cache len: [01;36m[K%d[m[K ts len: %d",
+[97.380s]       |                                                      [01;36m[K~^[m[K
+[97.380s]       |                                                       [01;36m[K|[m[K
+[97.380s]       |                                                       [01;36m[Kint[m[K
+[97.381s]       |                                                      [32m[K%ld[m[K
+[97.381s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[97.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[97.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[97.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[97.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[97.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[97.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[97.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[97.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[97.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[97.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[97.383s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[97.383s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.383s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:141:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[97.383s]   141 |                        [01;35m[K"Erase top ts: %s, cache len: %d ts len: %d"[m[K,
+[97.383s]       |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.384s] ......
+[97.384s]   144 |                        [32m[Krecved_aimsg_ts_.size()[m[K);
+[97.384s]       |                        [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[97.384s]       |                                             [32m[K|[m[K
+[97.384s]       |                                             [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+[97.385s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:31[m[K,
+[97.385s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.385s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/ai_msg_manage.h:141:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[97.385s]   141 |                        "Erase top ts: %s, cache len: %d ts len: [01;36m[K%d[m[K",
+[97.385s]       |                                                                 [01;36m[K~^[m[K
+[97.385s]       |                                                                  [01;36m[K|[m[K
+[97.386s]       |                                                                  [01;36m[Kint[m[K
+[97.386s]       |                                                                 [32m[K%ld[m[K
+[97.386s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/feature_manage.h:27[m[K,
+[97.386s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:32[m[K,
+[97.386s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[97.387s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:[m[K In constructor ‘[01m[KItemDatabase::ItemDatabase()[m[K’:
+[97.387s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:82:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KItemDatabase::db_name[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[97.387s]    82 |   std::string [01;35m[Kdb_name[m[K;
+[97.387s]       |               [01;35m[K^~~~~~~[m[K
+[97.387s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:80:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksqlite3* ItemDatabase::db[m[K’ [[01;35m[K-Wreorder[m[K]
+[97.387s]    80 |   sqlite3* [01;35m[Kdb[m[K;
+[97.388s]       |            [01;35m[K^~[m[K
+[97.388s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:30:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[97.388s]    30 |   [01;35m[KItemDatabase[m[K() : db_name(""), db(nullptr) {}
+[97.388s]       |   [01;35m[K^~~~~~~~~~~~[m[K
+[97.388s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:[m[K In constructor ‘[01m[KItemDatabase::ItemDatabase(const string&)[m[K’:
+[97.388s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:82:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KItemDatabase::db_name[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[97.389s]    82 |   std::string [01;35m[Kdb_name[m[K;
+[97.389s]       |               [01;35m[K^~~~~~~[m[K
+[97.389s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:80:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksqlite3* ItemDatabase::db[m[K’ [[01;35m[K-Wreorder[m[K]
+[97.389s]    80 |   sqlite3* [01;35m[Kdb[m[K;
+[97.389s]       |            [01;35m[K^~[m[K
+[97.390s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/database.h:31:12:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[97.390s]    31 |   explicit [01;35m[KItemDatabase[m[K(const std::string& db_name) : db_name(db_name), db(nullptr) {
+[97.390s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[98.905s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[98.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[98.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[98.906s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[98.906s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[98.906s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[98.906s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[98.906s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[98.906s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[98.906s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[98.906s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[98.906s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[98.906s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[98.907s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:[m[K In member function ‘[01m[Kvirtual int ReidNode::PostProcess(const std::shared_ptr<hobot::dnn_node::DnnNodeOutput>&)[m[K’:
+[98.907s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:326:23:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[98.907s]   326 |                       [01;35m[K"reid outputs %d unmatch with roi idx %d"[m[K,
+[98.907s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[98.907s]   327 |                       [32m[Kreid_val->ids.size()[m[K,
+[98.907s]       |                       [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[98.907s]       |                                         [32m[K|[m[K
+[98.907s]       |                                         [32m[Kstd::vector<int>::size_type {aka long unsigned int}[m[K
+[98.907s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:326:38:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[98.907s]   326 |                       "reid outputs [01;36m[K%d[m[K unmatch with roi idx %d",
+[98.908s]       |                                     [01;36m[K~^[m[K
+[98.908s]       |                                      [01;36m[K|[m[K
+[98.908s]       |                                      [01;36m[Kint[m[K
+[98.908s]       |                                     [32m[K%ld[m[K
+[98.908s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[98.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[98.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[98.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[98.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[98.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[98.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[98.909s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[98.909s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[98.909s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[98.909s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[98.909s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[98.909s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[98.909s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:326:23:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+[98.909s]   326 |                       [01;35m[K"reid outputs %d unmatch with roi idx %d"[m[K,
+[98.909s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[98.909s]   327 |                       reid_val->ids.size(),
+[98.910s]   328 |                       [32m[Kbody_valid_roi_idx[m[K);
+[98.910s]       |                       [32m[K~~~~~~~~~~~~~~~~~~[m[K
+[98.910s]       |                       [32m[K|[m[K
+[98.910s]       |                       [32m[Klong unsigned int[m[K
+[98.910s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:326:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[98.910s]   326 |                       "reid outputs %d unmatch with roi idx [01;36m[K%d[m[K",
+[98.910s]       |                                                             [01;36m[K~^[m[K
+[98.910s]       |                                                              [01;36m[K|[m[K
+[98.910s]       |                                                              [01;36m[Kint[m[K
+[98.910s]       |                                                             [32m[K%ld[m[K
+[98.916s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[98.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[98.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[98.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[98.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[98.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[98.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[98.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[98.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[98.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[98.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[98.917s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[98.918s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[98.918s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:[m[K In member function ‘[01m[Kint ReidNode::Predict(std::vector<std::shared_ptr<hobot::easy_dnn::DNNInput> >&, std::shared_ptr<std::vector<hbDNNRoi> >, std::shared_ptr<hobot::dnn_node::DnnNodeOutput>)[m[K’:
+[98.918s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:414:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<std::shared_ptr<hobot::easy_dnn::DNNInput> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[98.918s]   414 |               [01;35m[K"inputs.size(): %d, rois->size(): %d"[m[K,
+[98.918s]       |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[98.918s]   415 |               [32m[Kinputs.size()[m[K,
+[98.918s]       |               [32m[K~~~~~~~~~~~~~[m[K
+[98.918s]       |                          [32m[K|[m[K
+[98.918s]       |                          [32m[Kstd::vector<std::shared_ptr<hobot::easy_dnn::DNNInput> >::size_type {aka long unsigned int}[m[K
+[98.919s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:414:32:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[98.919s]   414 |               "inputs.size(): [01;36m[K%d[m[K, rois->size(): %d",
+[98.919s]       |                               [01;36m[K~^[m[K
+[98.919s]       |                                [01;36m[K|[m[K
+[98.919s]       |                                [01;36m[Kint[m[K
+[98.919s]       |                               [32m[K%ld[m[K
+[98.919s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[98.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[98.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[98.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[98.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[98.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[98.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[98.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[98.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[98.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[98.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[98.920s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[98.921s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[98.921s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:414:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<hbDNNRoi>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[98.921s]   414 |               [01;35m[K"inputs.size(): %d, rois->size(): %d"[m[K,
+[98.921s]       |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[98.921s]   415 |               inputs.size(),
+[98.921s]   416 |               [32m[Krois->size()[m[K);
+[98.921s]       |               [32m[K~~~~~~~~~~~~[m[K
+[98.921s]       |                         [32m[K|[m[K
+[98.921s]       |                         [32m[Kstd::vector<hbDNNRoi>::size_type {aka long unsigned int}[m[K
+[98.921s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:414:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[98.922s]   414 |               "inputs.size(): %d, rois->size(): [01;36m[K%d[m[K",
+[98.922s]       |                                                 [01;36m[K~^[m[K
+[98.922s]       |                                                  [01;36m[K|[m[K
+[98.922s]       |                                                  [01;36m[Kint[m[K
+[98.922s]       |                                                 [32m[K%ld[m[K
+[98.956s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[98.956s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[98.956s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[98.956s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[98.957s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[98.957s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[98.957s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[98.957s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[98.957s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[98.957s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[98.958s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[98.958s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/include/reid_node.h:20[m[K,
+[98.958s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:15[m[K:
+[98.958s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:[m[K In member function ‘[01m[Kvoid ReidNode::SharedMemImgProcess(hbm_img_msgs::msg::HbmMsg1080P_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[98.958s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:547:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst _encoding_type[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 12>[m[K’} [[01;35m[K-Wformat=[m[K]
+[98.958s]   547 |                 [01;35m[K"Unsupported img encoding: %s"[m[K,
+[98.959s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[98.959s]   548 |                 [32m[Kimg_msg->encoding[m[K);
+[98.959s]       |                 [32m[K~~~~~~~~~~~~~~~~~[m[K
+[98.959s]       |                          [32m[K|[m[K
+[98.959s]       |                          [32m[Kconst _encoding_type {aka const std::array<unsigned char, 12>}[m[K
+[98.959s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:547:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[98.960s]   547 |                 "Unsupported img encoding: [01;36m[K%s[m[K",
+[98.960s]       |                                            [01;36m[K~^[m[K
+[98.960s]       |                                             [01;36m[K|[m[K
+[98.960s]       |                                             [01;36m[Kchar*[m[K
+[98.964s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:[m[K In member function ‘[01m[Kint ReidNode::FeedFromLocal()[m[K’:
+[98.965s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:637:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[98.965s]   637 |   for (int i = 0; [01;35m[Ki < fb_img_info_.rois.size()[m[K; i++) {
+[98.965s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[99.033s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:[m[K In member function ‘[01m[Kint ReidNode::NormalizeRoi(const hbDNNRoi*, hbDNNRoi*, float, uint32_t, uint32_t)[m[K’:
+[99.033s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:814:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[99.033s]   814 |   dst->right = [01;35m[Kdst->right > total_w[m[K ? total_w : dst->right;
+[99.034s]       |                [01;35m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[99.034s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:815:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[99.034s]   815 |   dst->bottom = [01;35m[Kdst->bottom > total_h[m[K ? total_h : dst->bottom;
+[99.034s]       |                 [01;35m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[99.034s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/reid/src/reid_node.cpp:828:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[99.034s]   828 |       dst->left > 0 && [01;35m[Kdst->right < total_w[m[K) {
+[99.035s]       |                        [01;35m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[125.698s] [100%] [32m[1mLinking CXX executable reid[0m
+[127.489s] [100%] Built target reid
+[127.503s] Invoked command in '/cc_ws/tros_ws/build/reid' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/reid -- -j12 -l12
+[127.549s] Invoking command in '/cc_ws/tros_ws/build/reid': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/reid
+[127.557s] -- Install configuration: ""
+[127.557s] -- Installing: /cc_ws/tros_ws/install/lib/reid/reid
+[127.566s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/reid/reid" to ""
+[127.566s] -- Installing: /cc_ws/tros_ws/install/lib/reid/config/
+[127.566s] -- Installing: /cc_ws/tros_ws/install/lib/reid/config//reid.bin
+[127.576s] -- Installing: /cc_ws/tros_ws/install/lib/reid/config/960x544.nv12
+[127.578s] -- Installing: /cc_ws/tros_ws/install/share/reid/launch
+[127.578s] -- Installing: /cc_ws/tros_ws/install/share/reid/launch/reid.launch.py
+[127.578s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/reid
+[127.579s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/reid
+[127.579s] -- Installing: /cc_ws/tros_ws/install/share/reid/environment/ament_prefix_path.sh
+[127.579s] -- Installing: /cc_ws/tros_ws/install/share/reid/environment/ament_prefix_path.dsv
+[127.579s] -- Installing: /cc_ws/tros_ws/install/share/reid/environment/path.sh
+[127.580s] -- Installing: /cc_ws/tros_ws/install/share/reid/environment/path.dsv
+[127.580s] -- Installing: /cc_ws/tros_ws/install/share/reid/local_setup.bash
+[127.580s] -- Installing: /cc_ws/tros_ws/install/share/reid/local_setup.sh
+[127.580s] -- Installing: /cc_ws/tros_ws/install/share/reid/local_setup.zsh
+[127.581s] -- Installing: /cc_ws/tros_ws/install/share/reid/local_setup.dsv
+[127.581s] -- Installing: /cc_ws/tros_ws/install/share/reid/package.dsv
+[127.581s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/reid
+[127.581s] -- Installing: /cc_ws/tros_ws/install/share/reid/cmake/reidConfig.cmake
+[127.581s] -- Installing: /cc_ws/tros_ws/install/share/reid/cmake/reidConfig-version.cmake
+[127.581s] -- Installing: /cc_ws/tros_ws/install/share/reid/package.xml
+[127.583s] Invoked command in '/cc_ws/tros_ws/build/reid' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/reid

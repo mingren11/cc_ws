@@ -1,0 +1,10 @@
+/cc_ws/tros_ws/build/clip_encode_image/CMakeFiles/uninstall.dir
+/cc_ws/tros_ws/build/clip_encode_image/CMakeFiles/clip_encode_image_uninstall.dir
+/cc_ws/tros_ws/build/clip_encode_image/CMakeFiles/clip_encode_image.dir
+/cc_ws/tros_ws/build/clip_encode_image/CMakeFiles/test.dir
+/cc_ws/tros_ws/build/clip_encode_image/CMakeFiles/edit_cache.dir
+/cc_ws/tros_ws/build/clip_encode_image/CMakeFiles/rebuild_cache.dir
+/cc_ws/tros_ws/build/clip_encode_image/CMakeFiles/list_install_components.dir
+/cc_ws/tros_ws/build/clip_encode_image/CMakeFiles/install.dir
+/cc_ws/tros_ws/build/clip_encode_image/CMakeFiles/install/local.dir
+/cc_ws/tros_ws/build/clip_encode_image/CMakeFiles/install/strip.dir

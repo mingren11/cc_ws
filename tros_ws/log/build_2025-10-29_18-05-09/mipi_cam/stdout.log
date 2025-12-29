@@ -1,0 +1,93 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV: /cc_ws/sysroot_docker/usr_x5 (found version "4.5.4") 
+-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found OpenCV: /cc_ws/sysroot_docker/usr_x5 (found suitable version "4.5.4", minimum required is "4") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cc_ws/tros_ws/build/mipi_cam
+[  6%] [32mBuilding CXX object CMakeFiles/mipi_cam_plugin.dir/src/camera.cpp.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/mipi_cam_plugin.dir/src/x5/sensor/vp_sensors.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/mipi_cam_plugin.dir/src/x5/sensor/imx415_linear_3840x2160_raw10_30fps_2lane.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/mipi_cam_plugin.dir/src/x5/sensor/imx477_linear_1920x1080_raw12_50fps_2lane.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/mipi_cam_plugin.dir/src/x5/sensor/imx219_linear_1920x1080_raw10_30fps_2lane.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/mipi_cam_plugin.dir/src/x5/sensor/sc230ai_linear_1920x1080_raw10_30fps_1lane.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/mipi_cam_plugin.dir/src/x5/sensor/sc132gs_linear_1088x1280_raw10_30fps_1lane.c.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/mipi_cam_plugin.dir/src/x5/sensor/ov5647_linear_1920x1080_raw10_30fps_2lane.c.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/mipi_cam_plugin.dir/src/x5/hobot_mipi_factory.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/mipi_cam_plugin.dir/src/x5/hobot_mipi_cap_iml.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/mipi_cam_plugin.dir/src/hobot_mipi_cam.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/mipi_cam_plugin.dir/src/hobot_mipi_node.cpp.o[0m
+[ 86%] [32m[1mLinking CXX shared library libmipi_cam_plugin.so[0m
+[ 86%] Built target mipi_cam_plugin
+[ 93%] [32mBuilding CXX object CMakeFiles/mipi_cam.dir/rclcpp_components/node_main_mipi_cam.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mipi_cam[0m
+[100%] Built target mipi_cam
+-- Install configuration: "Release"
+-- Installing: /cc_ws/tros_ws/install/lib/mipi_cam/mipi_cam
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/mipi_cam/mipi_cam" to ""
+-- Up-to-date: /cc_ws/tros_ws/install/lib/mipi_cam/mipi_cam
+-- Installing: /cc_ws/tros_ws/install/lib/libmipi_cam_plugin.so
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/libmipi_cam_plugin.so" to ""
+-- Installing: /cc_ws/tros_ws/install/lib/mipi_cam/config/
+-- Installing: /cc_ws/tros_ws/install/lib/mipi_cam/config//SC230ai_dual_calibration.yaml
+-- Installing: /cc_ws/tros_ws/install/lib/mipi_cam/config//sc132gs_calibration.yaml
+-- Installing: /cc_ws/tros_ws/install/lib/mipi_cam/config//GC4663_calibration.yaml
+-- Installing: /cc_ws/tros_ws/install/lib/mipi_cam/config//sc132gs_calibration_90.yaml
+-- Installing: /cc_ws/tros_ws/install/lib/mipi_cam/config//SC132gs_dual_calibration.yaml
+-- Installing: /cc_ws/tros_ws/install/lib/mipi_cam/config//F37_calibration.yaml
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_topic_remap.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_websocket.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_dual_channel.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_1920x1080_bgr8.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_dual_channel_websocket.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_640x480_bgr8_hbmem.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_640x480_bgr8.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_640x480_nv12_hbmem.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_1920x1080_nv12_hbmem.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_1920x1080_bgr8_hbmem.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/mipi_cam
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/mipi_cam
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/environment/ament_prefix_path.sh
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/environment/ament_prefix_path.dsv
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/environment/path.sh
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/environment/path.dsv
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/local_setup.bash
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/local_setup.sh
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/local_setup.zsh
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/local_setup.dsv
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/package.dsv
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/mipi_cam
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/rclcpp_components/mipi_cam
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/cmake/mipi_camConfig.cmake
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/cmake/mipi_camConfig-version.cmake
+-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/package.xml

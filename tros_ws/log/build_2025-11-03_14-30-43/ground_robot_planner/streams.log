@@ -1,0 +1,228 @@
+[0.039s] Invoking command in '/cc_ws/tros_ws/build/ground_robot_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/dm_unitree/GroundRobotPlanner_ros2/src/ground_robot_planner -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.052s] Not searching for unused variables given on the command line.
+[0.074s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.315s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[0.316s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.316s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.316s]   set the policy and suppress this warning.
+[0.316s] 
+[0.316s]   For compatibility with older versions of CMake, option is clearing the
+[0.316s]   normal variable 'BUILD_TESTING'.
+[0.317s] Call Stack (most recent call first):
+[0.317s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.317s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.317s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.317s]   CMakeLists.txt:25 (find_package)
+[0.317s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.317s] [0m
+[0.320s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.390s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.403s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.427s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.475s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.519s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.688s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.692s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.934s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.293s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.630s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.802s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.042s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.118s] -- Checking for module 'eigen3'
+[2.133s] --   No package 'eigen3' found
+[2.135s] -- Eigen found (include: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include/eigen3, version: 3.4.0)
+[2.202s] -- FLANN found (include: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include, lib: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[2.229s] -- The imported target "VTK::WrapHierarchy" references the file
+[2.229s]    "/cc_ws/sysroot_docker/usr/bin/vtkWrapHierarchy-9.1"
+[2.230s] but this file does not exist.  Possible reasons include:
+[2.230s] * The file was deleted, renamed, or moved to another location.
+[2.230s] * An install or uninstall procedure did not complete successfully.
+[2.230s] * The installation package was faulty and contained
+[2.230s]    "/cc_ws/sysroot_docker/usr/lib/aarch64-linux-gnu/cmake/vtk-9.1/VTK-targets.cmake"
+[2.230s] but not all the files it references.
+[2.230s] 
+[2.230s] -- The imported target "VTK::WrapPython" references the file
+[2.230s]    "/cc_ws/sysroot_docker/usr/bin/vtkWrapPython-9.1"
+[2.231s] but this file does not exist.  Possible reasons include:
+[2.231s] * The file was deleted, renamed, or moved to another location.
+[2.231s] * An install or uninstall procedure did not complete successfully.
+[2.231s] * The installation package was faulty and contained
+[2.231s]    "/cc_ws/sysroot_docker/usr/lib/aarch64-linux-gnu/cmake/vtk-9.1/VTK-targets.cmake"
+[2.231s] but not all the files it references.
+[2.231s] 
+[2.231s] -- The imported target "VTK::WrapPythonInit" references the file
+[2.232s]    "/cc_ws/sysroot_docker/usr/bin/vtkWrapPythonInit-9.1"
+[2.232s] but this file does not exist.  Possible reasons include:
+[2.232s] * The file was deleted, renamed, or moved to another location.
+[2.232s] * An install or uninstall procedure did not complete successfully.
+[2.232s] * The installation package was faulty and contained
+[2.232s]    "/cc_ws/sysroot_docker/usr/lib/aarch64-linux-gnu/cmake/vtk-9.1/VTK-targets.cmake"
+[2.233s] but not all the files it references.
+[2.233s] 
+[2.233s] -- The imported target "VTK::ParseJava" references the file
+[2.233s]    "/cc_ws/sysroot_docker/usr/bin/vtkParseJava-9.1"
+[2.233s] but this file does not exist.  Possible reasons include:
+[2.233s] * The file was deleted, renamed, or moved to another location.
+[2.233s] * An install or uninstall procedure did not complete successfully.
+[2.233s] * The installation package was faulty and contained
+[2.233s]    "/cc_ws/sysroot_docker/usr/lib/aarch64-linux-gnu/cmake/vtk-9.1/VTK-targets.cmake"
+[2.234s] but not all the files it references.
+[2.234s] 
+[2.234s] -- The imported target "VTK::WrapJava" references the file
+[2.234s]    "/cc_ws/sysroot_docker/usr/bin/vtkWrapJava-9.1"
+[2.234s] but this file does not exist.  Possible reasons include:
+[2.234s] * The file was deleted, renamed, or moved to another location.
+[2.234s] * An install or uninstall procedure did not complete successfully.
+[2.234s] * The installation package was faulty and contained
+[2.235s]    "/cc_ws/sysroot_docker/usr/lib/aarch64-linux-gnu/cmake/vtk-9.1/VTK-targets.cmake"
+[2.235s] but not all the files it references.
+[2.235s] 
+[2.235s] -- The imported target "VTK::vtkProbeOpenGLVersion" references the file
+[2.235s]    "/cc_ws/sysroot_docker/usr/bin/vtkProbeOpenGLVersion-9.1"
+[2.235s] but this file does not exist.  Possible reasons include:
+[2.235s] * The file was deleted, renamed, or moved to another location.
+[2.235s] * An install or uninstall procedure did not complete successfully.
+[2.236s] * The installation package was faulty and contained
+[2.236s]    "/cc_ws/sysroot_docker/usr/lib/aarch64-linux-gnu/cmake/vtk-9.1/VTK-targets.cmake"
+[2.236s] but not all the files it references.
+[2.236s] 
+[2.437s] -- Checking for module 'mpi-c'
+[2.444s] --   No package 'mpi-c' found
+[2.524s] -- Could NOT find MPI_C (missing: MPI_C_LIB_NAMES MPI_C_HEADER_DIR MPI_C_WORKS) 
+[2.524s] -- Could NOT find MPI (missing: MPI_C_FOUND C) 
+[2.586s] -- Found Eigen3: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include/eigen3 (found version "3.4.0") 
+[2.899s] -- OpenNI found (version: 1.5.4.0, include: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include/ni, lib: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/libOpenNI.so;libusb::libusb)
+[2.913s] -- OpenNI2 found (version: 2.2.0.33, include: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include/openni2, lib: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.914s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[3.075s] -- Checking for module 'mpi-c'
+[3.078s] --   No package 'mpi-c' found
+[3.131s] -- Could NOT find MPI_C (missing: MPI_C_LIB_NAMES MPI_C_HEADER_DIR MPI_C_WORKS) 
+[3.131s] -- Could NOT find MPI (missing: MPI_C_FOUND C) 
+[3.419s] -- Checking for module 'eigen3'
+[3.423s] --   No package 'eigen3' found
+[3.426s] -- Eigen found (include: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include/eigen3, version: 3.4.0)
+[3.442s] -- OpenNI found (version: 1.5.4.0, include: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include/ni, lib: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/libOpenNI.so;libusb::libusb)
+[3.475s] -- OpenNI2 found (version: 2.2.0.33, include: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include/openni2, lib: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.581s] -- Checking for module 'mpi-c'
+[3.585s] --   No package 'mpi-c' found
+[3.653s] -- Could NOT find MPI_C (missing: MPI_C_LIB_NAMES MPI_C_HEADER_DIR MPI_C_WORKS) 
+[3.653s] -- Could NOT find MPI (missing: MPI_C_FOUND C) 
+[3.924s] -- Found Qhull version 8.0.2
+[4.033s] -- Checking for module 'mpi-c'
+[4.039s] --   No package 'mpi-c' found
+[4.167s] -- Could NOT find MPI_C (missing: MPI_C_LIB_NAMES MPI_C_HEADER_DIR MPI_C_WORKS) 
+[4.167s] -- Could NOT find MPI (missing: MPI_C_FOUND C) 
+[4.513s] -- OpenNI found (version: 1.5.4.0, include: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include/ni, lib: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/libOpenNI.so;libusb::libusb)
+[4.753s] -- Checking for module 'mpi-c'
+[4.756s] --   No package 'mpi-c' found
+[4.877s] -- Could NOT find MPI_C (missing: MPI_C_LIB_NAMES MPI_C_HEADER_DIR MPI_C_WORKS) 
+[4.877s] -- Could NOT find MPI (missing: MPI_C_FOUND C) 
+[5.306s] -- looking for PCL_COMMON
+[5.312s] -- Could NOT find PCL_COMMON (missing: PCL_COMMON_LIBRARY PCL_COMMON_INCLUDE_DIR) 
+[5.312s] -- looking for PCL_KDTREE
+[5.313s] -- Could NOT find PCL_KDTREE (missing: PCL_KDTREE_LIBRARY PCL_KDTREE_INCLUDE_DIR) 
+[5.313s] -- looking for PCL_OCTREE
+[5.314s] -- Could NOT find PCL_OCTREE (missing: PCL_OCTREE_LIBRARY PCL_OCTREE_INCLUDE_DIR) 
+[5.314s] -- looking for PCL_SEARCH
+[5.315s] -- Could NOT find PCL_SEARCH (missing: PCL_SEARCH_LIBRARY PCL_SEARCH_INCLUDE_DIR) 
+[5.315s] -- looking for PCL_SAMPLE_CONSENSUS
+[5.316s] -- Could NOT find PCL_SAMPLE_CONSENSUS (missing: PCL_SAMPLE_CONSENSUS_LIBRARY PCL_SAMPLE_CONSENSUS_INCLUDE_DIR) 
+[5.316s] -- looking for PCL_FILTERS
+[5.317s] -- Could NOT find PCL_FILTERS (missing: PCL_FILTERS_LIBRARY PCL_FILTERS_INCLUDE_DIR) 
+[5.317s] -- looking for PCL_2D
+[5.317s] -- Could NOT find PCL_2D (missing: PCL_2D_INCLUDE_DIR) 
+[5.318s] -- looking for PCL_GEOMETRY
+[5.318s] -- Could NOT find PCL_GEOMETRY (missing: PCL_GEOMETRY_INCLUDE_DIR) 
+[5.318s] -- looking for PCL_IO
+[5.329s] -- Could NOT find PCL_IO (missing: PCL_IO_LIBRARY PCL_IO_INCLUDE_DIR) 
+[5.329s] -- looking for PCL_FEATURES
+[5.329s] -- Could NOT find PCL_FEATURES (missing: PCL_FEATURES_LIBRARY PCL_FEATURES_INCLUDE_DIR) 
+[5.329s] -- looking for PCL_ML
+[5.330s] -- Could NOT find PCL_ML (missing: PCL_ML_LIBRARY PCL_ML_INCLUDE_DIR) 
+[5.330s] -- looking for PCL_SEGMENTATION
+[5.331s] -- Could NOT find PCL_SEGMENTATION (missing: PCL_SEGMENTATION_LIBRARY PCL_SEGMENTATION_INCLUDE_DIR) 
+[5.331s] -- looking for PCL_VISUALIZATION
+[5.332s] -- Could NOT find PCL_VISUALIZATION (missing: PCL_VISUALIZATION_LIBRARY PCL_VISUALIZATION_INCLUDE_DIR) 
+[5.332s] -- looking for PCL_SURFACE
+[5.344s] -- Could NOT find PCL_SURFACE (missing: PCL_SURFACE_LIBRARY PCL_SURFACE_INCLUDE_DIR) 
+[5.344s] -- looking for PCL_REGISTRATION
+[5.345s] -- Could NOT find PCL_REGISTRATION (missing: PCL_REGISTRATION_LIBRARY PCL_REGISTRATION_INCLUDE_DIR) 
+[5.345s] -- looking for PCL_KEYPOINTS
+[5.346s] -- Could NOT find PCL_KEYPOINTS (missing: PCL_KEYPOINTS_LIBRARY PCL_KEYPOINTS_INCLUDE_DIR) 
+[5.346s] -- looking for PCL_TRACKING
+[5.347s] -- Could NOT find PCL_TRACKING (missing: PCL_TRACKING_LIBRARY PCL_TRACKING_INCLUDE_DIR) 
+[5.347s] -- looking for PCL_RECOGNITION
+[5.348s] -- Could NOT find PCL_RECOGNITION (missing: PCL_RECOGNITION_LIBRARY PCL_RECOGNITION_INCLUDE_DIR) 
+[5.348s] -- looking for PCL_STEREO
+[5.349s] -- Could NOT find PCL_STEREO (missing: PCL_STEREO_LIBRARY PCL_STEREO_INCLUDE_DIR) 
+[5.356s] -- looking for PCL_APPS
+[5.356s] -- Could NOT find PCL_APPS (missing: PCL_APPS_LIBRARY PCL_APPS_INCLUDE_DIR) 
+[5.357s] -- looking for PCL_IN_HAND_SCANNER
+[5.357s] -- Could NOT find PCL_IN_HAND_SCANNER (missing: PCL_IN_HAND_SCANNER_INCLUDE_DIR) 
+[5.357s] -- looking for PCL_MODELER
+[5.358s] -- Could NOT find PCL_MODELER (missing: PCL_MODELER_INCLUDE_DIR) 
+[5.358s] -- looking for PCL_POINT_CLOUD_EDITOR
+[5.358s] -- Could NOT find PCL_POINT_CLOUD_EDITOR (missing: PCL_POINT_CLOUD_EDITOR_INCLUDE_DIR) 
+[5.359s] -- looking for PCL_OUTOFCORE
+[5.359s] -- Could NOT find PCL_OUTOFCORE (missing: PCL_OUTOFCORE_LIBRARY PCL_OUTOFCORE_INCLUDE_DIR) 
+[5.360s] -- looking for PCL_PEOPLE
+[5.360s] -- Could NOT find PCL_PEOPLE (missing: PCL_PEOPLE_LIBRARY PCL_PEOPLE_INCLUDE_DIR) 
+[5.363s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[5.732s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[5.762s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.566s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.580s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.580s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.581s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.957s] -- Configuring done
+[7.162s] -- Generating done
+[7.165s] -- Build files have been written to: /cc_ws/tros_ws/build/ground_robot_planner
+[7.297s] Invoked command in '/cc_ws/tros_ws/build/ground_robot_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/dm_unitree/GroundRobotPlanner_ros2/src/ground_robot_planner -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[7.299s] Invoking command in '/cc_ws/tros_ws/build/ground_robot_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/ground_robot_planner -- -j12 -l12
+[7.530s] [35m[1mConsolidate compiler generated dependencies of target ground_robot_planner_lib[0m
+[7.761s] [ 64%] Built target ground_robot_planner_lib
+[7.786s] [35m[1mConsolidate compiler generated dependencies of target navigation_manager_node[0m
+[7.813s] [35m[1mConsolidate compiler generated dependencies of target controller_node[0m
+[7.839s] [35m[1mConsolidate compiler generated dependencies of target grid_map_node[0m
+[7.886s] [ 76%] Built target navigation_manager_node
+[7.915s] [ 88%] Built target controller_node
+[7.970s] [100%] Built target grid_map_node
+[8.045s] Invoked command in '/cc_ws/tros_ws/build/ground_robot_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/ground_robot_planner -- -j12 -l12
+[8.520s] Invoking command in '/cc_ws/tros_ws/build/ground_robot_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/ground_robot_planner
+[8.737s] -- Install configuration: ""
+[8.737s] -- Up-to-date: /cc_ws/tros_ws/install/lib/ground_robot_planner/controller_node
+[8.738s] -- Up-to-date: /cc_ws/tros_ws/install/lib/ground_robot_planner/grid_map_node
+[8.738s] -- Up-to-date: /cc_ws/tros_ws/install/share/ground_robot_planner/launch
+[8.738s] -- Up-to-date: /cc_ws/tros_ws/install/share/ground_robot_planner/launch/nav_stereo_without.py
+[8.738s] -- Up-to-date: /cc_ws/tros_ws/install/share/ground_robot_planner/config
+[8.738s] -- Up-to-date: /cc_ws/tros_ws/install/share/ground_robot_planner/config/planner_params.yaml
+[8.738s] -- Up-to-date: /cc_ws/tros_ws/install/share/ground_robot_planner/config/trajectory_sampler_params.yaml
+[8.738s] -- Up-to-date: /cc_ws/tros_ws/install/share/ground_robot_planner/config/dwa_params.yaml
+[8.738s] -- Up-to-date: /cc_ws/tros_ws/install/include/ground_robot_planner
+[8.739s] -- Up-to-date: /cc_ws/tros_ws/install/include/ground_robot_planner/dwa.h
+[8.739s] -- Up-to-date: /cc_ws/tros_ws/install/include/ground_robot_planner/statistics_manager.h
+[8.739s] -- Up-to-date: /cc_ws/tros_ws/install/include/ground_robot_planner/path_follower.h
+[8.739s] -- Up-to-date: /cc_ws/tros_ws/install/include/ground_robot_planner/astar_planner.h
+[8.739s] -- Up-to-date: /cc_ws/tros_ws/install/include/ground_robot_planner/controller.h
+[8.739s] -- Up-to-date: /cc_ws/tros_ws/install/include/ground_robot_planner/ray_caster.h
+[8.739s] -- Up-to-date: /cc_ws/tros_ws/install/include/ground_robot_planner/grid_map.h
+[8.740s] -- Up-to-date: /cc_ws/tros_ws/install/include/ground_robot_planner/state_manager.h
+[8.740s] -- Up-to-date: /cc_ws/tros_ws/install/include/ground_robot_planner/navigation_manager.h
+[8.740s] -- Up-to-date: /cc_ws/tros_ws/install/include/ground_robot_planner/parameter_manager.h
+[8.740s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libground_robot_planner_lib.a
+[8.740s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/ground_robot_planner
+[8.740s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/ground_robot_planner
+[8.740s] -- Up-to-date: /cc_ws/tros_ws/install/share/ground_robot_planner/environment/ament_prefix_path.sh
+[8.740s] -- Installing: /cc_ws/tros_ws/install/share/ground_robot_planner/environment/ament_prefix_path.dsv
+[8.740s] -- Up-to-date: /cc_ws/tros_ws/install/share/ground_robot_planner/environment/path.sh
+[8.741s] -- Installing: /cc_ws/tros_ws/install/share/ground_robot_planner/environment/path.dsv
+[8.741s] -- Up-to-date: /cc_ws/tros_ws/install/share/ground_robot_planner/local_setup.bash
+[8.741s] -- Up-to-date: /cc_ws/tros_ws/install/share/ground_robot_planner/local_setup.sh
+[8.741s] -- Up-to-date: /cc_ws/tros_ws/install/share/ground_robot_planner/local_setup.zsh
+[8.741s] -- Installing: /cc_ws/tros_ws/install/share/ground_robot_planner/local_setup.dsv
+[8.741s] -- Installing: /cc_ws/tros_ws/install/share/ground_robot_planner/package.dsv
+[8.741s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/ground_robot_planner
+[8.741s] -- Up-to-date: /cc_ws/tros_ws/install/share/ground_robot_planner/cmake/ground_robot_plannerConfig.cmake
+[8.742s] -- Up-to-date: /cc_ws/tros_ws/install/share/ground_robot_planner/cmake/ground_robot_plannerConfig-version.cmake
+[8.742s] -- Up-to-date: /cc_ws/tros_ws/install/share/ground_robot_planner/package.xml
+[8.765s] Invoked command in '/cc_ws/tros_ws/build/ground_robot_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/ground_robot_planner

@@ -1,0 +1,10 @@
+/cc_ws/tros_ws/build/ai_msgs/rosidl_adapter/ai_msgs:msg/Attribute.idl
+/cc_ws/tros_ws/build/ai_msgs/rosidl_adapter/ai_msgs:msg/DBResult.idl
+/cc_ws/tros_ws/build/ai_msgs/rosidl_adapter/ai_msgs:msg/Capture.idl
+/cc_ws/tros_ws/build/ai_msgs/rosidl_adapter/ai_msgs:msg/Point.idl
+/cc_ws/tros_ws/build/ai_msgs/rosidl_adapter/ai_msgs:msg/Roi.idl
+/cc_ws/tros_ws/build/ai_msgs/rosidl_adapter/ai_msgs:msg/Target.idl
+/cc_ws/tros_ws/build/ai_msgs/rosidl_adapter/ai_msgs:msg/Perf.idl
+/cc_ws/tros_ws/build/ai_msgs/rosidl_adapter/ai_msgs:msg/CaptureTargets.idl
+/cc_ws/tros_ws/build/ai_msgs/rosidl_adapter/ai_msgs:msg/PerceptionTargets.idl
+/cc_ws/tros_ws/build/ai_msgs/rosidl_adapter/ai_msgs:msg/PerceptionInfo.idl

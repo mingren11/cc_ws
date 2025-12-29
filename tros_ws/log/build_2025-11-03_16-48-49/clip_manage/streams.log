@@ -1,0 +1,58 @@
+[0.734s] Invoking command in '/cc_ws/tros_ws/build/clip_manage': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_clip/clip_manage -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.758s] Not searching for unused variables given on the command line.
+[0.774s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.209s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[1.209s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[1.211s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[1.211s]   set the policy and suppress this warning.
+[1.212s] 
+[1.212s]   For compatibility with older versions of CMake, option is clearing the
+[1.212s]   normal variable 'BUILD_TESTING'.
+[1.212s] Call Stack (most recent call first):
+[1.212s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[1.213s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.213s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.214s]   CMakeLists.txt:21 (find_package)
+[1.214s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.214s] [0m
+[1.215s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.333s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.345s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.369s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.409s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.468s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.692s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.704s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.217s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.058s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.402s] -- Found clip_msgs: 0.3.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/clip_msgs/cmake)
+[4.002s] -- Configuring done
+[4.061s] -- Generating done
+[4.066s] -- Build files have been written to: /cc_ws/tros_ws/build/clip_manage
+[4.122s] Invoked command in '/cc_ws/tros_ws/build/clip_manage' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_clip/clip_manage -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[4.124s] Invoking command in '/cc_ws/tros_ws/build/clip_manage': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/clip_manage -- -j12 -l12
+[5.067s] [35m[1mConsolidate compiler generated dependencies of target clip_manage[0m
+[5.067s] [100%] Built target clip_manage
+[5.164s] Invoked command in '/cc_ws/tros_ws/build/clip_manage' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/clip_manage -- -j12 -l12
+[5.183s] Invoking command in '/cc_ws/tros_ws/build/clip_manage': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/clip_manage
+[5.256s] -- Install configuration: "RelWithDebInfo"
+[5.257s] -- Up-to-date: /cc_ws/tros_ws/install/lib/clip_manage/clip_manage
+[5.257s] -- Up-to-date: /cc_ws/tros_ws/install/lib/clip_manage/config/index.html
+[5.257s] -- Up-to-date: /cc_ws/tros_ws/install/share/clip_manage/launch
+[5.258s] -- Up-to-date: /cc_ws/tros_ws/install/share/clip_manage/launch/hobot_clip_manage.launch.py
+[5.258s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/clip_manage
+[5.258s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/clip_manage
+[5.258s] -- Up-to-date: /cc_ws/tros_ws/install/share/clip_manage/environment/ament_prefix_path.sh
+[5.258s] -- Installing: /cc_ws/tros_ws/install/share/clip_manage/environment/ament_prefix_path.dsv
+[5.259s] -- Up-to-date: /cc_ws/tros_ws/install/share/clip_manage/environment/path.sh
+[5.259s] -- Installing: /cc_ws/tros_ws/install/share/clip_manage/environment/path.dsv
+[5.259s] -- Up-to-date: /cc_ws/tros_ws/install/share/clip_manage/local_setup.bash
+[5.259s] -- Up-to-date: /cc_ws/tros_ws/install/share/clip_manage/local_setup.sh
+[5.259s] -- Up-to-date: /cc_ws/tros_ws/install/share/clip_manage/local_setup.zsh
+[5.260s] -- Installing: /cc_ws/tros_ws/install/share/clip_manage/local_setup.dsv
+[5.260s] -- Installing: /cc_ws/tros_ws/install/share/clip_manage/package.dsv
+[5.260s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/clip_manage
+[5.260s] -- Up-to-date: /cc_ws/tros_ws/install/share/clip_manage/cmake/clip_manageConfig.cmake
+[5.260s] -- Up-to-date: /cc_ws/tros_ws/install/share/clip_manage/cmake/clip_manageConfig-version.cmake
+[5.261s] -- Up-to-date: /cc_ws/tros_ws/install/share/clip_manage/package.xml
+[5.264s] Invoked command in '/cc_ws/tros_ws/build/clip_manage' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/clip_manage

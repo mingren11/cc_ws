@@ -1,0 +1,121 @@
+[0.089s] Invoking command in '/cc_ws/tros_ws/build/hobot_cv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_cv -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.200s] Not searching for unused variables given on the command line.
+[0.200s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.599s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[0.599s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.599s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.600s]   set the policy and suppress this warning.
+[0.600s] 
+[0.600s]   For compatibility with older versions of CMake, option is clearing the
+[0.600s]   normal variable 'BUILD_TESTING'.
+[0.600s] Call Stack (most recent call first):
+[0.600s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.601s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.601s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.601s]   CMakeLists.txt:36 (find_package)
+[0.601s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.601s] [0m
+[0.604s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.761s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.783s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.835s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.906s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.981s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.358s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.375s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.943s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.726s] [0mbuild platform X5[0m
+[2.727s] [0mPREFIX_PATH is x5[0m
+[2.727s] [0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[2.727s] [0mPROJECT_SOURCE_DIR /cc_ws/tros_ws/src/box/hobot_cv[0m
+[2.727s] [0mOpenCV_LIBS: opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio;opencv_alphamat;opencv_aruco;opencv_barcode;opencv_bgsegm;opencv_bioinspired;opencv_ccalib;opencv_datasets;opencv_dnn_objdetect;opencv_dnn_superres;opencv_dpm;opencv_face;opencv_freetype;opencv_fuzzy;opencv_hdf;opencv_hfs;opencv_img_hash;opencv_intensity_transform;opencv_line_descriptor;opencv_mcc;opencv_optflow;opencv_phase_unwrapping;opencv_plot;opencv_quality;opencv_rapid;opencv_reg;opencv_rgbd;opencv_saliency;opencv_shape;opencv_stereo;opencv_structured_light;opencv_superres;opencv_surface_matching;opencv_text;opencv_tracking;opencv_videostab;opencv_viz;opencv_wechat_qrcode;opencv_ximgproc;opencv_xobjdetect;opencv_xphoto[0m
+[2.728s] [0mcompile to x5 platform[0m
+[3.115s] -- Configuring done
+[3.661s] -- Generating done
+[3.671s] -- Build files have been written to: /cc_ws/tros_ws/build/hobot_cv
+[3.698s] Invoked command in '/cc_ws/tros_ws/build/hobot_cv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_cv -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[3.699s] Invoking command in '/cc_ws/tros_ws/build/hobot_cv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_cv -- -j12 -l12
+[3.860s] [35m[1mConsolidate compiler generated dependencies of target hobot_cv[0m
+[3.973s] [ 27%] Built target hobot_cv
+[4.031s] [35m[1mConsolidate compiler generated dependencies of target rotate_example[0m
+[4.036s] [35m[1mConsolidate compiler generated dependencies of target resize_example[0m
+[4.047s] [35m[1mConsolidate compiler generated dependencies of target crop_example[0m
+[4.151s] [ 40%] Built target resize_example
+[4.152s] [ 45%] Built target rotate_example
+[4.163s] [ 54%] Built target crop_example
+[4.226s] [35m[1mConsolidate compiler generated dependencies of target test_gaussian_blur[0m
+[4.226s] [35m[1mConsolidate compiler generated dependencies of target test_conersion[0m
+[4.226s] [35m[1mConsolidate compiler generated dependencies of target neon_example[0m
+[4.290s] [ 63%] Built target test_gaussian_blur
+[4.320s] [35m[1mConsolidate compiler generated dependencies of target padding_example[0m
+[4.324s] [ 72%] Built target test_conersion
+[4.372s] [ 81%] Built target neon_example
+[4.423s] [ 90%] Built target padding_example
+[4.423s] [35m[1mConsolidate compiler generated dependencies of target imgproc_example[0m
+[4.523s] [100%] Built target imgproc_example
+[4.665s] Invoked command in '/cc_ws/tros_ws/build/hobot_cv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_cv -- -j12 -l12
+[5.318s] Invoking command in '/cc_ws/tros_ws/build/hobot_cv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_cv
+[5.649s] -- Install configuration: "Release"
+[5.649s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libhobot_cv.so
+[5.650s] -- Up-to-date: /cc_ws/tros_ws/install/include/hobot_cv/hobotcv_imgproc.h
+[5.650s] -- Up-to-date: /cc_ws/tros_ws/install/include/hobot_cv/hobotcv_gaussian_blur.h
+[5.650s] -- Up-to-date: /cc_ws/tros_ws/install/include/hobot_cv/hobotcv_gaussian_blur_imp.hpp
+[5.650s] -- Up-to-date: /cc_ws/tros_ws/install/include/hobot_cv/hobotcv_neon_blur.h
+[5.651s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libhobotcv_neon_blur.so
+[5.651s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/padding_example
+[5.651s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/test_gaussian_blur
+[5.651s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/test_conersion
+[5.651s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/resize_example
+[5.652s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/crop_example
+[5.652s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/rotate_example
+[5.652s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/imgproc_example
+[5.652s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/neon_example
+[5.653s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config/
+[5.653s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//models
+[5.653s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//models/gaussian_blur_640x480_3_3_0.000000_0.000000.hbm
+[5.653s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//models/gaussian_blur_320_240_3_3_0.000000_0.000000.hbm
+[5.653s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//test.jpg
+[5.654s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//480x270.jpg
+[5.654s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images
+[5.654s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_5.png
+[5.654s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_0.png
+[5.655s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_2.png
+[5.655s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_4.png
+[5.655s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_3.png
+[5.655s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_1.png
+[5.655s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch
+[5.656s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_conversion.launch.py
+[5.656s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_pyramid.launch.py
+[5.656s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_benchmark.launch.py
+[5.656s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_gaussian_blur.launch.py
+[5.656s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_rotate.launch.py
+[5.657s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_crop.launch.py
+[5.657s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_neon_blur.launch.py
+[5.657s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_resize.launch.py
+[5.657s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_padding.launch.py
+[5.658s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_imgproc.launch.py
+[5.658s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_crop_resize_rotate_pyramid.launch.py
+[5.658s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libhobot_cv.so
+[5.658s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/environment/library_path.sh
+[5.658s] -- Installing: /cc_ws/tros_ws/install/share/hobot_cv/environment/library_path.dsv
+[5.659s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_cv
+[5.659s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_cv
+[5.659s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/environment/ament_prefix_path.sh
+[5.659s] -- Installing: /cc_ws/tros_ws/install/share/hobot_cv/environment/ament_prefix_path.dsv
+[5.659s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/environment/path.sh
+[5.659s] -- Installing: /cc_ws/tros_ws/install/share/hobot_cv/environment/path.dsv
+[5.678s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/local_setup.bash
+[5.678s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/local_setup.sh
+[5.678s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/local_setup.zsh
+[5.679s] -- Installing: /cc_ws/tros_ws/install/share/hobot_cv/local_setup.dsv
+[5.679s] -- Installing: /cc_ws/tros_ws/install/share/hobot_cv/package.dsv
+[5.679s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_cv
+[5.679s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/cmake/hobot_cvExport.cmake
+[5.679s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/cmake/hobot_cvExport-release.cmake
+[5.680s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.680s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/cmake/ament_cmake_export_libraries-extras.cmake
+[5.680s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/cmake/ament_cmake_export_targets-extras.cmake
+[5.699s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/cmake/hobot_cvConfig.cmake
+[5.699s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/cmake/hobot_cvConfig-version.cmake
+[5.699s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/package.xml
+[5.761s] Invoked command in '/cc_ws/tros_ws/build/hobot_cv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_cv

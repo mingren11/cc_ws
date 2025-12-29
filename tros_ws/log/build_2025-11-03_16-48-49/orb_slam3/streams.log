@@ -1,0 +1,771 @@
+[0.098s] Invoking command in '/cc_ws/tros_ws/build/orb_slam3': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.318s] [0mBuild type: Release[0m
+[0.318s] [0mENABLE_VIEWER: OFF[0m
+[0.318s] Not searching for unused variables given on the command line.
+[0.318s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.577s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[0.578s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.578s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.578s]   set the policy and suppress this warning.
+[0.578s] 
+[0.578s]   For compatibility with older versions of CMake, option is clearing the
+[0.579s]   normal variable 'BUILD_TESTING'.
+[0.579s] Call Stack (most recent call first):
+[0.579s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.579s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.579s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.585s]   CMakeLists.txt:29 (find_package)
+[0.585s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.585s] [0m
+[0.587s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.745s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.766s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.796s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.909s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.978s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.292s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.297s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.733s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.639s] -- Found dnn_node: 2.5.4 (/cc_ws/tros_ws/robot_dev_config/../install/share/dnn_node/cmake)
+[2.646s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.194s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.739s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.107s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[4.157s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[4.199s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[5.135s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[5.145s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.148s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.149s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.171s] [0mdnn_node_includes: [0m
+[5.171s] [0mdnn_node_includes: /cc_ws/tros_ws/install/include[0m
+[5.176s] -- Using flag -std=c++17.
+[5.191s] [0mOPENCV VERSION:[0m
+[5.191s] [0m4.5.4[0m
+[5.218s] [33mCMake Warning at CMakeLists.txt:95 (find_package):
+[5.219s]   By not providing "Findrealsense2.cmake" in CMAKE_MODULE_PATH this project
+[5.219s]   has asked CMake to find a package configuration file provided by
+[5.219s]   "realsense2", but CMake did not find one.
+[5.219s] 
+[5.220s]   Could not find a package configuration file provided by "realsense2" with
+[5.220s]   any of the following names:
+[5.220s] 
+[5.220s]     realsense2Config.cmake
+[5.221s]     realsense2-config.cmake
+[5.221s] 
+[5.229s]   Add the installation prefix of "realsense2" to CMAKE_PREFIX_PATH or set
+[5.229s]   "realsense2_DIR" to a directory containing one of the above files.  If
+[5.230s]   "realsense2" provides a separate development package or SDK, be sure it has
+[5.230s]   been installed.
+[5.230s] 
+[5.230s] [0m
+[5.230s] [0mCMake Deprecation Warning at Thirdparty/g2o/CMakeLists.txt:1 (CMAKE_MINIMUM_REQUIRED):
+[5.231s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[5.231s]   CMake.
+[5.231s] 
+[5.231s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[5.232s]   CMake that the project does not need compatibility with older versions.
+[5.232s] 
+[5.232s] [0m
+[5.233s] -- BUILD TYPE:Release
+[5.233s] -- Compiling on Unix
+[5.320s] -- Found Eigen3: TRUE (found suitable version "3.4.0", minimum required is "3.1.0") 
+[5.363s] [0mCMake Deprecation Warning at Thirdparty/DBoW2/CMakeLists.txt:1 (cmake_minimum_required):
+[5.364s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[5.364s]   CMake.
+[5.364s] 
+[5.365s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[5.365s]   CMake that the project does not need compatibility with older versions.
+[5.365s] 
+[5.365s] [0m
+[5.394s] [0mOpenCV_LIBS: opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio;opencv_alphamat;opencv_aruco;opencv_barcode;opencv_bgsegm;opencv_bioinspired;opencv_ccalib;opencv_datasets;opencv_dnn_objdetect;opencv_dnn_superres;opencv_dpm;opencv_face;opencv_freetype;opencv_fuzzy;opencv_hdf;opencv_hfs;opencv_img_hash;opencv_intensity_transform;opencv_line_descriptor;opencv_mcc;opencv_optflow;opencv_phase_unwrapping;opencv_plot;opencv_quality;opencv_rapid;opencv_reg;opencv_rgbd;opencv_saliency;opencv_shape;opencv_stereo;opencv_structured_light;opencv_superres;opencv_surface_matching;opencv_text;opencv_tracking;opencv_videostab;opencv_viz;opencv_wechat_qrcode;opencv_ximgproc;opencv_xobjdetect;opencv_xphoto;opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio;opencv_alphamat;opencv_aruco;opencv_barcode;opencv_bgsegm;opencv_bioinspired;opencv_ccalib;opencv_datasets;opencv_dnn_objdetect;opencv_dnn_superres;opencv_dpm;opencv_face;opencv_freetype;opencv_fuzzy;opencv_hdf;opencv_hfs;opencv_img_hash;opencv_intensity_transform;opencv_line_descriptor;opencv_mcc;opencv_optflow;opencv_phase_unwrapping;opencv_plot;opencv_quality;opencv_rapid;opencv_reg;opencv_rgbd;opencv_saliency;opencv_shape;opencv_stereo;opencv_structured_light;opencv_superres;opencv_surface_matching;opencv_text;opencv_tracking;opencv_videostab;opencv_viz;opencv_wechat_qrcode;opencv_ximgproc;opencv_xobjdetect;opencv_xphoto[0m
+[5.394s] [0mPangolin_LIBRARIES: [0m
+[5.394s] [0mTORCH_LIBRARIES: [0m
+[5.573s] -- Configuring done
+[6.698s] -- Generating done
+[6.711s] -- Build files have been written to: /cc_ws/tros_ws/build/orb_slam3
+[6.877s] Invoked command in '/cc_ws/tros_ws/build/orb_slam3' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[6.878s] Invoking command in '/cc_ws/tros_ws/build/orb_slam3': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/orb_slam3 -- -j12 -l12
+[7.106s] [35m[1mConsolidate compiler generated dependencies of target DBoW2[0m
+[7.117s] [35m[1mConsolidate compiler generated dependencies of target g2o[0m
+[7.206s] [  6%] Built target DBoW2
+[7.328s] [ 36%] Built target g2o
+[7.481s] [35m[1mConsolidate compiler generated dependencies of target orb_slam3[0m
+[7.994s] [ 65%] Built target orb_slam3
+[8.060s] [35m[1mConsolidate compiler generated dependencies of target rgbd_tum[0m
+[8.071s] [35m[1mConsolidate compiler generated dependencies of target stereo_euroc[0m
+[8.071s] [35m[1mConsolidate compiler generated dependencies of target stereo_realsense_D435i_image[0m
+[8.077s] [35m[1mConsolidate compiler generated dependencies of target stereo_tum_vi[0m
+[8.093s] [35m[1mConsolidate compiler generated dependencies of target mono_kitti[0m
+[8.094s] [35m[1mConsolidate compiler generated dependencies of target stereo_kitti[0m
+[8.133s] [35m[1mConsolidate compiler generated dependencies of target mono_tum[0m
+[8.133s] [35m[1mConsolidate compiler generated dependencies of target mono_euroc[0m
+[8.277s] [ 67%] Built target stereo_kitti
+[8.307s] [ 69%] Built target stereo_euroc
+[8.314s] [ 71%] Built target stereo_tum_vi
+[8.316s] [ 73%] Built target mono_tum
+[8.317s] [ 75%] Built target rgbd_tum
+[8.333s] [ 77%] Built target mono_kitti
+[8.339s] [35m[1mConsolidate compiler generated dependencies of target mono_inertial_tum_vi[0m
+[8.352s] [ 79%] Built target stereo_realsense_D435i_image
+[8.354s] [ 81%] Built target mono_euroc
+[8.389s] [35m[1mConsolidate compiler generated dependencies of target mono_inertial_realsense_D435i_image[0m
+[8.422s] [35m[1mConsolidate compiler generated dependencies of target mono_tum_vi[0m
+[8.429s] [35m[1mConsolidate compiler generated dependencies of target mono_inertial_euroc[0m
+[8.451s] [35m[1mConsolidate compiler generated dependencies of target mono_realsense_D435i_image[0m
+[8.452s] [35m[1mConsolidate compiler generated dependencies of target stereo_inertial_euroc[0m
+[8.466s] [ 83%] Built target mono_inertial_tum_vi
+[8.469s] [35m[1mConsolidate compiler generated dependencies of target stereo_inertial_realsense_D435i_image[0m
+[8.482s] [35m[1mConsolidate compiler generated dependencies of target stereo_inertial_tum_vi[0m
+[8.502s] [35m[1mConsolidate compiler generated dependencies of target mono_euroc_old[0m
+[8.634s] [ 85%] Built target mono_inertial_euroc
+[8.638s] [ 87%] Built target stereo_inertial_euroc
+[8.650s] [ 89%] Built target stereo_inertial_realsense_D435i_image
+[8.687s] [ 91%] Built target mono_inertial_realsense_D435i_image
+[8.688s] [ 93%] Built target mono_realsense_D435i_image
+[8.688s] [ 95%] Built target mono_tum_vi
+[8.690s] [ 96%] Built target mono_euroc_old
+[8.707s] [ 98%] Built target stereo_inertial_tum_vi
+[8.732s] [35m[1mConsolidate compiler generated dependencies of target create_vocabulary[0m
+[8.853s] [100%] Built target create_vocabulary
+[8.930s] Invoked command in '/cc_ws/tros_ws/build/orb_slam3' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/orb_slam3 -- -j12 -l12
+[9.406s] Invoking command in '/cc_ws/tros_ws/build/orb_slam3': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/orb_slam3
+[10.846s] -- Install configuration: "Release"
+[10.846s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/
+[10.846s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//LocalMapping.h
+[10.847s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//Frame.h
+[10.847s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//System.h
+[10.847s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//FrameDrawer.h
+[10.847s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//Map.h
+[10.848s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//ImuTypes.h
+[10.848s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//Atlas.h
+[10.848s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//ORBextractor.h
+[10.848s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//TwoViewReconstruction.h
+[10.849s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//MLPnPsolver.h
+[10.849s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//Config.h
+[10.849s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//ORBVocabulary.h
+[10.849s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//Optimizer.h
+[10.849s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//KeyFrameDatabase.h
+[10.850s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//MapPoint.h
+[10.850s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//Viewer.h
+[10.850s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//SerializationUtils.h
+[10.850s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//ORBmatcher.h
+[10.855s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//CameraModels
+[10.856s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//CameraModels/KannalaBrandt8.h
+[10.856s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//CameraModels/Pinhole.h
+[10.856s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//CameraModels/GeometricCamera.h
+[10.856s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//Sim3Solver.h
+[10.856s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//G2oTypes.h
+[10.857s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//GeometricTools.h
+[10.857s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//Settings.h
+[10.857s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//MapDrawer.h
+[10.857s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//KeyFrame.h
+[10.858s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//Tracking.h
+[10.858s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//SuperPointExtractor.h
+[10.858s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//OptimizableTypes.h
+[10.858s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//threadpool.h
+[10.859s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//LoopClosing.h
+[10.859s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3//Converter.h
+[10.859s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty/
+[10.859s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus
+[10.859s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/.gitignore
+[10.860s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/doxyrest-config.lua
+[10.860s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/examples
+[10.860s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/examples/CMakeLists.txt
+[10.860s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/examples/HelloSO3.cpp
+[10.861s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test
+[10.861s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/CMakeLists.txt
+[10.861s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core
+[10.861s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_sim2.cpp
+[10.862s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_so3.cpp
+[10.862s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_common.cpp
+[10.862s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_se2.cpp
+[10.862s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_se3.cpp
+[10.862s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_velocities.cpp
+[10.863s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/CMakeLists.txt
+[10.864s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_rxso2.cpp
+[10.864s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_sim3.cpp
+[10.864s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_rxso3.cpp
+[10.864s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_geometry.cpp
+[10.865s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_so2.cpp
+[10.865s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/tests.hpp
+[10.865s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/ceres
+[10.865s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/ceres/CMakeLists.txt
+[10.866s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/ceres/local_parameterization_se3.hpp
+[10.866s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/ceres/test_ceres_se3.cpp
+[10.866s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/.clang-format
+[10.867s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py
+[10.867s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/run_tests.sh
+[10.867s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus
+[10.867s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/dual_quaternion.py
+[10.868s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/so3_codegen.py
+[10.868s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/so2.py
+[10.868s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/matrix.py
+[10.868s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/__init__.py
+[10.879s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/quaternion.py
+[10.886s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/so3.py
+[10.886s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/se3.py
+[10.886s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/cse_codegen.py
+[10.887s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/complex.py
+[10.887s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/se2.py
+[10.887s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode
+[10.887s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode/Se3_Dx_exp_x.cpp
+[10.888s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode/So2_Dx_exp_x.cpp
+[10.888s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode/Se2_Dx_exp_x.cpp
+[10.888s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode/Se2_Dx_this_mul_exp_x_at_0.cpp
+[10.888s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode/So2_Dx_this_mul_exp_x_at_0.cpp
+[10.888s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode/So3_Dx_this_mul_exp_x_at_0.cpp
+[10.889s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode/So3_Dx_exp_x.cpp
+[10.889s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode/Se3_Dx_this_mul_exp_x_at_0.cpp
+[10.889s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/CMakeLists.txt
+[10.889s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/run_format.sh
+[10.890s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/README.rst
+[10.890s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/package.xml
+[10.890s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/scripts
+[10.890s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/scripts/install_linux_deps.sh
+[10.891s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/scripts/run_cpp_tests.sh
+[10.891s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/scripts/install_docs_deps.sh
+[10.891s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/scripts/install_osx_deps.sh
+[10.891s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/rst-dir
+[10.891s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/rst-dir/pysophus.rst
+[10.892s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/rst-dir/page_index.rst
+[10.892s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/rst-dir/conf.py
+[10.892s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/appveyor.yml
+[10.892s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/SophusConfig.cmake.in
+[10.893s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/make_docs.sh
+[10.893s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/LICENSE.txt
+[10.893s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus
+[10.893s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/so3.hpp
+[10.893s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/types.hpp
+[10.894s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/example_ensure_handler.cpp
+[10.894s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/rotation_matrix.hpp
+[10.894s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/so2.hpp
+[10.894s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/common.hpp
+[10.895s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/se2.hpp
+[10.895s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/test_macros.hpp
+[10.895s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/num_diff.hpp
+[10.896s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/sim_details.hpp
+[10.896s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/se3.hpp
+[10.896s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/rxso2.hpp
+[10.896s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/sim3.hpp
+[10.897s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/rxso3.hpp
+[10.897s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/sim2.hpp
+[10.897s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/interpolate.hpp
+[10.897s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/interpolate_details.hpp
+[10.897s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/average.hpp
+[10.898s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/formatstring.hpp
+[10.898s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/geometry.hpp
+[10.898s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/velocities.hpp
+[10.898s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/.travis.yml
+[10.899s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o
+[10.899s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/config.h
+[10.915s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/CMakeLists.txt
+[10.917s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/license-bsd.txt
+[10.917s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/README.txt
+[10.918s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/lib
+[10.923s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/lib/libg2o.so
+[10.924s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o
+[10.924s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/solvers
+[10.924s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/solvers/linear_solver_dense.h
+[10.925s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/solvers/linear_solver_eigen.h
+[10.926s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types
+[10.926s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/sim3.h
+[10.926s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/types_six_dof_expmap.cpp
+[10.926s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/se3mat.h
+[10.926s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/se3_ops.hpp
+[10.927s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/types_seven_dof_expmap.cpp
+[10.927s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/types_six_dof_expmap.h
+[10.927s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/se3_ops.h
+[10.927s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/se3mat.cpp
+[10.928s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/types_seven_dof_expmap.h
+[10.928s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/types_sba.cpp
+[10.928s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/se3quat.h
+[10.928s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/types_sba.h
+[10.928s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff
+[10.929s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/color_macros.h
+[10.929s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/string_tools.cpp
+[10.929s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/misc.h
+[10.929s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/macros.h
+[10.929s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/os_specific.c
+[10.930s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/os_specific.h
+[10.930s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/timeutil.h
+[10.930s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/string_tools.h
+[10.930s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/property.h
+[10.930s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/property.cpp
+[10.931s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/timeutil.cpp
+[10.931s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core
+[10.932s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/sparse_optimizer.h
+[10.932s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/parameter.cpp
+[10.932s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/robust_kernel.cpp
+[10.932s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/sparse_optimizer.cpp
+[10.932s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/robust_kernel.h
+[10.933s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_gauss_newton.cpp
+[10.933s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_factory.cpp
+[10.933s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_binary_edge.h
+[10.933s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_property.h
+[10.933s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/factory.cpp
+[10.934s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_with_hessian.h
+[10.934s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/hyper_graph_action.h
+[10.934s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/sparse_block_matrix.hpp
+[10.934s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_binary_edge.hpp
+[10.935s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm.h
+[10.935s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_unary_edge.h
+[10.935s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/sparse_block_matrix_ccs.h
+[10.936s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/block_solver.h
+[10.936s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/sparse_block_matrix.h
+[10.936s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/parameter_container.cpp
+[10.936s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/robust_kernel_impl.cpp
+[10.937s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_dogleg.h
+[10.937s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_vertex.h
+[10.938s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimizable_graph.h
+[10.938s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/matrix_structure.cpp
+[10.938s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_with_hessian.cpp
+[10.938s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/marginal_covariance_cholesky.h
+[10.939s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/eigen_types.h
+[10.939s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_levenberg.h
+[10.939s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/matrix_structure.h
+[10.939s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/sparse_block_matrix_test.cpp
+[10.940s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_factory.h
+[10.940s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/jacobian_workspace.h
+[10.940s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/robust_kernel_factory.cpp
+[10.941s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/estimate_propagator.h
+[10.941s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/hyper_graph.cpp
+[10.942s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/sparse_block_matrix_diagonal.h
+[10.942s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/solver.cpp
+[10.942s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/hyper_graph_action.cpp
+[10.942s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/estimate_propagator.cpp
+[10.942s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/jacobian_workspace.cpp
+[10.943s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/batch_stats.cpp
+[10.943s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm.cpp
+[10.943s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/cache.cpp
+[10.943s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/robust_kernel_factory.h
+[10.943s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_dogleg.cpp
+[10.944s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/matrix_operations.h
+[10.944s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/robust_kernel_impl.h
+[10.944s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/solver.h
+[10.944s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/marginal_covariance_cholesky.cpp
+[10.944s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/parameter_container.h
+[10.945s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/linear_solver.h
+[10.945s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/batch_stats.h
+[10.945s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/factory.h
+[10.945s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimizable_graph.cpp
+[10.945s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/openmp_mutex.h
+[10.946s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_unary_edge.hpp
+[10.946s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_vertex.hpp
+[10.946s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/creators.h
+[10.946s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_multi_edge.h
+[10.948s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/parameter.h
+[10.948s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_levenberg.cpp
+[10.948s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/hyper_graph.h
+[10.955s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/block_solver.hpp
+[10.955s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/hyper_dijkstra.cpp
+[10.955s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_gauss_newton.h
+[10.955s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/hyper_dijkstra.h
+[10.956s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_multi_edge.hpp
+[10.956s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/cache.h
+[10.956s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_edge.h
+[10.956s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/config.h.in
+[10.957s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2
+[10.957s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/CMakeLists.txt
+[10.957s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/README.txt
+[10.957s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DUtils
+[10.957s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DUtils/Timestamp.cpp
+[10.958s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DUtils/Random.cpp
+[10.963s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DUtils/Timestamp.h
+[10.963s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DUtils/Random.h
+[10.964s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2
+[10.964s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/FORB.h
+[10.964s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/FeatureVector.cpp
+[10.964s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/TemplatedVocabulary.h
+[10.965s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/BowVector.h
+[10.965s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/ScoringObject.cpp
+[10.965s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/BowVector.cpp
+[10.965s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/FORB.cpp
+[10.965s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/ScoringObject.h
+[10.965s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/FeatureVector.h
+[10.965s] -- Up-to-date: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/FClass.h
+[10.966s] -- Up-to-date: /cc_ws/tros_ws/install/lib/liborb_slam3.so
+[10.966s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libDBoW2.so
+[10.966s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libg2o.so
+[10.966s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples
+[10.966s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D-Inertial
+[10.966s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D-Inertial/RealSense_D435i.yaml
+[10.966s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D-Inertial/rgbd_inertial_realsense_D435i.cc
+[10.966s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial
+[10.968s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps
+[10.968s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/V202.txt
+[10.969s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/MH03.txt
+[10.969s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/V101.txt
+[10.969s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/MH05.txt
+[10.969s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/V201.txt
+[10.970s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/MH01.txt
+[10.970s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/V102.txt
+[10.970s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/MH04.txt
+[10.970s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/V103.txt
+[10.971s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/MH02.txt
+[10.971s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/V203.txt
+[10.971s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps
+[10.971s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-outdoors4_512.txt
+[10.971s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-magistrale2_512.txt
+[10.972s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-corridor1_512.txt
+[10.972s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-room1_512.txt
+[10.972s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-corridor2_1024.txt
+[10.972s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-magistrale4_512.txt
+[10.972s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-corridor2_512.txt
+[10.973s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-slides3_512.txt
+[10.973s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-magistrale3_512.txt
+[10.987s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-slides2_512.txt
+[10.988s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-corridor3_512.txt
+[10.988s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-outdoors3_512.txt
+[10.988s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-slides1_512.txt
+[10.988s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-corridor5_512.txt
+[10.989s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-magistrale1_512.txt
+[10.989s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-magistrale6_512.txt
+[10.989s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-outdoors7_512.txt
+[10.989s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-outdoors1_512.txt
+[10.989s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-corridor4_512.txt
+[10.990s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-outdoors2_512.txt
+[10.990s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-outdoors8_512.txt
+[10.990s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-room6_512.txt
+[10.990s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-room5_512.txt
+[10.991s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-outdoors5_512.txt
+[10.991s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-magistrale5_512.txt
+[10.991s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-room4_512.txt
+[10.991s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-room3_512.txt
+[10.991s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-room2_512.txt
+[10.992s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-outdoors6_512.txt
+[10.992s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM-VI_far.yaml
+[10.992s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/RealSense_D435i.yaml
+[10.992s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/mono_inertial_tum_vi
+[10.992s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/mono_inertial_tum_vi.cc
+[10.993s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM-VI.yaml
+[10.993s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/mono_inertial_realsense_D435i_image.cc
+[10.993s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU
+[10.993s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors4_512.txt
+[11.005s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-magistrale2_512.txt
+[11.005s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-corridor1_512.txt
+[11.005s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-room1_512.txt
+[11.006s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-corridor2_1024.txt
+[11.006s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-magistrale4_512.txt
+[11.006s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-corridor2_512.txt
+[11.006s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-slides3_512.txt
+[11.006s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-magistrale3_512.txt
+[11.007s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-slides2_512.txt
+[11.007s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-corridor3_512.txt
+[11.007s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors3_512.txt
+[11.007s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-slides1_512.txt
+[11.008s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-corridor5_512.txt
+[11.008s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-magistrale1_512.txt
+[11.008s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-magistrale6_512.txt
+[11.008s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors7_512.txt
+[11.008s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors1_512.txt
+[11.009s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-corridor4_512.txt
+[11.009s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors2_512.txt
+[11.009s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors8_512.txt
+[11.009s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-room6_512.txt
+[11.009s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-room5_512.txt
+[11.010s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors5_512.txt
+[11.010s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-magistrale5_512.txt
+[11.010s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-room4_512.txt
+[11.010s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-room3_512.txt
+[11.011s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-room2_512.txt
+[11.011s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors6_512.txt
+[11.011s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/mono_inertial_euroc
+[11.011s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU
+[11.011s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/V202.txt
+[11.012s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/MH03.txt
+[11.012s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/V101.txt
+[11.012s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/MH05.txt
+[11.012s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/V201.txt
+[11.012s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/MH01.txt
+[11.013s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/V102.txt
+[11.013s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/MH04.txt
+[11.013s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/V103.txt
+[11.013s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/MH02.txt
+[11.013s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/V203.txt
+[11.015s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/mono_inertial_realsense_D435i.cc
+[11.016s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/mono_inertial_realsense_D435i_image
+[11.016s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/mono_inertial_realsense_t265.cc
+[11.016s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/RealSense_T265.yaml
+[11.016s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC.yaml
+[11.016s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/mono_inertial_euroc.cc
+[11.025s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/REAMDME.md
+[11.026s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular
+[11.026s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_euroc
+[11.026s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/KITTI04-12.yaml
+[11.027s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_realsense_D435i_image
+[11.028s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps
+[11.028s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/V202.txt
+[11.028s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/MH03.txt
+[11.028s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/V101.txt
+[11.028s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/MH05.txt
+[11.029s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/V201.txt
+[11.029s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/MH01.txt
+[11.029s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/V102.txt
+[11.029s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/MH04.txt
+[11.030s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/V103.txt
+[11.030s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/MH02.txt
+[11.030s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/V203.txt
+[11.030s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM3.yaml
+[11.031s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps
+[11.031s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-outdoors4_512.txt
+[11.032s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-magistrale2_512.txt
+[11.032s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-corridor1_512.txt
+[11.032s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-room1_512.txt
+[11.032s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-corridor2_1024.txt
+[11.033s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-magistrale4_512.txt
+[11.033s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-corridor2_512.txt
+[11.033s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-slides3_512.txt
+[11.033s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-magistrale3_512.txt
+[11.033s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-slides2_512.txt
+[11.034s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-corridor3_512.txt
+[11.034s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-outdoors3_512.txt
+[11.034s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-slides1_512.txt
+[11.034s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-corridor5_512.txt
+[11.035s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-magistrale1_512.txt
+[11.035s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-magistrale6_512.txt
+[11.035s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-outdoors7_512.txt
+[11.035s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-outdoors1_512.txt
+[11.036s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-corridor4_512.txt
+[11.036s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-outdoors2_512.txt
+[11.036s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-outdoors8_512.txt
+[11.036s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-room6_512.txt
+[11.036s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-room5_512.txt
+[11.037s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-outdoors5_512.txt
+[11.037s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-magistrale5_512.txt
+[11.037s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-room4_512.txt
+[11.037s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-room3_512.txt
+[11.038s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-room2_512.txt
+[11.038s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-outdoors6_512.txt
+[11.038s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_tum_vi
+[11.038s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_realsense_D435i.cc
+[11.038s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/RealSense_D435i.yaml
+[11.040s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_realsense_D435i_image.cc
+[11.041s] -- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mipi.yaml
+[11.041s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM-VI.yaml
+[11.041s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_euroc.cc
+[11.041s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_kitti.cc
+[11.042s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_tum.cc
+[11.042s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_kitti
+[11.042s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_tum
+[11.042s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/KITTI03.yaml
+[11.043s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/RealSense_T265.yaml
+[11.044s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/KITTI00-02.yaml
+[11.045s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC.yaml
+[11.045s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_tum_vi.cc
+[11.045s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_realsense_t265.cc
+[11.045s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM1.yaml
+[11.046s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM2.yaml
+[11.046s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration
+[11.046s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration/recorder_realsense_D435i.cc
+[11.046s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration/python_scripts
+[11.046s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration/python_scripts/process_imu.py
+[11.047s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration/create_vocabulary.cc
+[11.047s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration/recorder_realsense_T265.cc
+[11.047s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration/create_vocabulary
+[11.048s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration/recorder_empty
+[11.048s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration/recorder_empty/april_6x6_80x80cm_larues.yaml
+[11.048s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial
+[11.048s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/stereo_inertial_euroc
+[11.049s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps
+[11.049s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/V202.txt
+[11.049s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/MH03.txt
+[11.050s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/V101.txt
+[11.050s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/MH05.txt
+[11.050s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/V201.txt
+[11.050s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/MH01.txt
+[11.050s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/V102.txt
+[11.051s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/MH04.txt
+[11.051s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/V203_2.txt
+[11.051s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/V103.txt
+[11.051s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/MH02.txt
+[11.052s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/V203.txt
+[11.052s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps
+[11.052s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-outdoors4_512.txt
+[11.053s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-magistrale2_512.txt
+[11.053s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-corridor1_512.txt
+[11.053s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-room1_512.txt
+[11.053s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-corridor2_1024.txt
+[11.054s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-magistrale4_512.txt
+[11.054s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-corridor2_512.txt
+[11.054s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-slides3_512.txt
+[11.055s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-magistrale3_512.txt
+[11.055s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-slides2_512.txt
+[11.055s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-corridor3_512.txt
+[11.056s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-outdoors3_512.txt
+[11.056s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-slides1_512.txt
+[11.056s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-corridor5_512.txt
+[11.057s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-magistrale1_512.txt
+[11.057s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-magistrale6_512.txt
+[11.057s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-outdoors7_512.txt
+[11.058s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-outdoors1_512.txt
+[11.058s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-corridor4_512.txt
+[11.058s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-outdoors2_512.txt
+[11.058s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-outdoors8_512.txt
+[11.059s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-room6_512.txt
+[11.059s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-room5_512.txt
+[11.059s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-outdoors5_512.txt
+[11.060s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-magistrale5_512.txt
+[11.060s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-room4_512.txt
+[11.060s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-room3_512.txt
+[11.061s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-room2_512.txt
+[11.061s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-outdoors6_512.txt
+[11.061s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/stereo_inertial_realsense_D435i_image
+[11.061s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM-VI_far.yaml
+[11.061s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/stereo_inertial_euroc.cc
+[11.062s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/RealSense_D435i.yaml
+[11.062s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/stereo_inertial_realsense_D435i_image.cc
+[11.063s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM-VI.yaml
+[11.063s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU
+[11.063s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors4_512.txt
+[11.063s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-magistrale2_512.txt
+[11.063s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-corridor1_512.txt
+[11.064s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-room1_512.txt
+[11.064s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-corridor2_1024.txt
+[11.064s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-magistrale4_512.txt
+[11.064s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-corridor2_512.txt
+[11.064s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-slides3_512.txt
+[11.065s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-magistrale3_512.txt
+[11.065s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-slides2_512.txt
+[11.065s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-corridor3_512.txt
+[11.065s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors3_512.txt
+[11.065s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-slides1_512.txt
+[11.066s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-corridor5_512.txt
+[11.066s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-magistrale1_512.txt
+[11.066s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-magistrale6_512.txt
+[11.066s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors7_512.txt
+[11.066s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors1_512.txt
+[11.067s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-corridor4_512.txt
+[11.067s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors2_512.txt
+[11.067s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors8_512.txt
+[11.068s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-room6_512.txt
+[11.068s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-room5_512.txt
+[11.068s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors5_512.txt
+[11.068s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-magistrale5_512.txt
+[11.068s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-room4_512.txt
+[11.069s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-room3_512.txt
+[11.069s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-room2_512.txt
+[11.069s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors6_512.txt
+[11.069s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/stereo_inertial_tum_vi.cc
+[11.069s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/stereo_inertial_realsense_t265.cc
+[11.075s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/stereo_inertial_tum_vi
+[11.075s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/stereo_inertial_realsense_D435i.cc
+[11.075s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU
+[11.075s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/V202.txt
+[11.075s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/MH03.txt
+[11.075s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/V101.txt
+[11.076s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/MH05.txt
+[11.076s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/V201.txt
+[11.076s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/MH01.txt
+[11.077s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/V102.txt
+[11.077s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/MH04.txt
+[11.077s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/V103.txt
+[11.077s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/MH02.txt
+[11.078s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/V203.txt
+[11.078s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/RealSense_T265.yaml
+[11.078s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC.yaml
+[11.078s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D
+[11.079s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/rgbd_tum
+[11.079s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/TUM3.yaml
+[11.080s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/rgbd_realsense_D435i.cc
+[11.080s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/RealSense_D435i.yaml
+[11.080s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations
+[11.080s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr2_desk.txt
+[11.080s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr3_nstr_tex_near.txt
+[11.083s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr1_desk.txt
+[11.083s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr1_desk2.txt
+[11.084s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr3_str_tex_near.txt
+[11.084s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr3_office.txt
+[11.084s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr3_office_val.txt
+[11.084s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr1_room.txt
+[11.084s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr2_xyz.txt
+[11.085s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr3_str_tex_far.txt
+[11.087s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr1_xyz.txt
+[11.087s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/rgbd_tum.cc
+[11.087s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/TUM1.yaml
+[11.088s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/TUM2.yaml
+[11.088s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo
+[11.093s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/KITTI04-12.yaml
+[11.094s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps
+[11.094s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/V202.txt
+[11.094s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/MH03.txt
+[11.096s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/V101.txt
+[11.097s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/MH05.txt
+[11.097s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/V201.txt
+[11.097s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/MH01.txt
+[11.097s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/V102.txt
+[11.097s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/MH04.txt
+[11.099s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/V103.txt
+[11.099s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/MH02.txt
+[11.100s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/V203.txt
+[11.100s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_kitti.cc
+[11.100s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps
+[11.100s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-outdoors4_512.txt
+[11.101s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-magistrale2_512.txt
+[11.113s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-corridor1_512.txt
+[11.119s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-room1_512.txt
+[11.119s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-corridor2_1024.txt
+[11.119s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-magistrale4_512.txt
+[11.120s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-corridor2_512.txt
+[11.120s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-slides3_512.txt
+[11.120s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-magistrale3_512.txt
+[11.120s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-slides2_512.txt
+[11.121s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-corridor3_512.txt
+[11.122s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-outdoors3_512.txt
+[11.122s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-slides1_512.txt
+[11.122s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-corridor5_512.txt
+[11.122s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-magistrale1_512.txt
+[11.122s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-magistrale6_512.txt
+[11.123s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-outdoors7_512.txt
+[11.123s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-outdoors1_512.txt
+[11.123s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-corridor4_512.txt
+[11.123s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-outdoors2_512.txt
+[11.123s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-outdoors8_512.txt
+[11.124s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-room6_512.txt
+[11.124s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-room5_512.txt
+[11.124s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-outdoors5_512.txt
+[11.124s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-magistrale5_512.txt
+[11.124s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-room4_512.txt
+[11.125s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-room3_512.txt
+[11.125s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-room2_512.txt
+[11.125s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-outdoors6_512.txt
+[11.126s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_tum_vi.cc
+[11.127s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_tum_vi
+[11.127s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/RealSense_D435i.yaml
+[11.127s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_euroc.cc
+[11.128s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_realsense_t265.cc
+[11.128s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/mipi.yaml
+[11.128s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_realsense_D435i.cc
+[11.128s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM-VI.yaml
+[11.128s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_kitti
+[11.129s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/KITTI03.yaml
+[11.129s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/RealSense_T265.yaml
+[11.129s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/KITTI00-02.yaml
+[11.129s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_realsense_D435i_image
+[11.130s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC.yaml
+[11.130s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_realsense_D435i_image.cc
+[11.130s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_euroc
+[11.130s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/config
+[11.130s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/config/Stub
+[11.131s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Vocabulary
+[11.131s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/Vocabulary/ORBvoc.txt.tar.gz
+[11.141s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/environment/library_path.sh
+[11.142s] -- Installing: /cc_ws/tros_ws/install/share/orb_slam3/environment/library_path.dsv
+[11.142s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/orb_slam3
+[11.142s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/orb_slam3
+[11.143s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/environment/ament_prefix_path.sh
+[11.144s] -- Installing: /cc_ws/tros_ws/install/share/orb_slam3/environment/ament_prefix_path.dsv
+[11.144s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/environment/path.sh
+[11.144s] -- Installing: /cc_ws/tros_ws/install/share/orb_slam3/environment/path.dsv
+[11.145s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/local_setup.bash
+[11.145s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/local_setup.sh
+[11.145s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/local_setup.zsh
+[11.146s] -- Installing: /cc_ws/tros_ws/install/share/orb_slam3/local_setup.dsv
+[11.146s] -- Installing: /cc_ws/tros_ws/install/share/orb_slam3/package.dsv
+[11.146s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/orb_slam3
+[11.146s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/cmake/ament_cmake_export_libraries-extras.cmake
+[11.151s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.152s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/cmake/orb_slam3Config.cmake
+[11.152s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/cmake/orb_slam3Config-version.cmake
+[11.152s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3/package.xml
+[11.171s] Invoked command in '/cc_ws/tros_ws/build/orb_slam3' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/orb_slam3

@@ -1,0 +1,57 @@
+[0.666s] Invoking command in '/cc_ws/tros_ws/build/hobot_falldown_detection': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/hobot_falldown_detection -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.695s] Not searching for unused variables given on the command line.
+[0.715s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.244s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[1.244s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[1.244s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[1.244s]   set the policy and suppress this warning.
+[1.245s] 
+[1.245s]   For compatibility with older versions of CMake, option is clearing the
+[1.245s]   normal variable 'BUILD_TESTING'.
+[1.245s] Call Stack (most recent call first):
+[1.245s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[1.246s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.246s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.246s]   CMakeLists.txt:33 (find_package)
+[1.246s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.247s] [0m
+[1.252s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.450s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.459s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.481s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.584s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.101s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.108s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.673s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.586s] -- Found ai_msgs: 2.0.1 (/cc_ws/tros_ws/robot_dev_config/../install/share/ai_msgs/cmake)
+[4.647s] -- Configuring done
+[4.703s] -- Generating done
+[4.707s] -- Build files have been written to: /cc_ws/tros_ws/build/hobot_falldown_detection
+[4.760s] Invoked command in '/cc_ws/tros_ws/build/hobot_falldown_detection' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/hobot_falldown_detection -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[4.761s] Invoking command in '/cc_ws/tros_ws/build/hobot_falldown_detection': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_falldown_detection -- -j12 -l12
+[4.956s] [35m[1mConsolidate compiler generated dependencies of target hobot_falldown_detection[0m
+[5.061s] [100%] Built target hobot_falldown_detection
+[5.102s] Invoked command in '/cc_ws/tros_ws/build/hobot_falldown_detection' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_falldown_detection -- -j12 -l12
+[5.453s] Invoking command in '/cc_ws/tros_ws/build/hobot_falldown_detection': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_falldown_detection
+[5.471s] -- Install configuration: ""
+[5.478s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_falldown_detection/hobot_falldown_detection
+[5.479s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_falldown_detection
+[5.480s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_falldown_detection/launch
+[5.480s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_falldown_detection/launch/hobot_falldown_detection.launch.py
+[5.480s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_falldown_detection
+[5.481s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_falldown_detection
+[5.481s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_falldown_detection/environment/ament_prefix_path.sh
+[5.481s] -- Installing: /cc_ws/tros_ws/install/share/hobot_falldown_detection/environment/ament_prefix_path.dsv
+[5.482s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_falldown_detection/environment/path.sh
+[5.482s] -- Installing: /cc_ws/tros_ws/install/share/hobot_falldown_detection/environment/path.dsv
+[5.483s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_falldown_detection/local_setup.bash
+[5.483s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_falldown_detection/local_setup.sh
+[5.483s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_falldown_detection/local_setup.zsh
+[5.483s] -- Installing: /cc_ws/tros_ws/install/share/hobot_falldown_detection/local_setup.dsv
+[5.484s] -- Installing: /cc_ws/tros_ws/install/share/hobot_falldown_detection/package.dsv
+[5.484s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_falldown_detection
+[5.487s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_falldown_detection/cmake/hobot_falldown_detectionConfig.cmake
+[5.488s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_falldown_detection/cmake/hobot_falldown_detectionConfig-version.cmake
+[5.488s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_falldown_detection/package.xml
+[5.501s] Invoked command in '/cc_ws/tros_ws/build/hobot_falldown_detection' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_falldown_detection

@@ -1,0 +1,1121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000506] (-) JobUnselected: {'identifier': 'DBoW3'}
+[0.000567] (-) JobUnselected: {'identifier': 'ai_msgs'}
+[0.000645] (-) JobUnselected: {'identifier': 'audio_msg'}
+[0.000667] (-) JobUnselected: {'identifier': 'base'}
+[0.000685] (-) JobUnselected: {'identifier': 'ceres-solver'}
+[0.000703] (-) JobUnselected: {'identifier': 'clip_encode_image'}
+[0.000720] (-) JobUnselected: {'identifier': 'clip_encode_text'}
+[0.000737] (-) JobUnselected: {'identifier': 'clip_manage'}
+[0.000754] (-) JobUnselected: {'identifier': 'clip_msgs'}
+[0.000771] (-) JobUnselected: {'identifier': 'dnn_benchmark_example'}
+[0.000787] (-) JobUnselected: {'identifier': 'dnn_node'}
+[0.000804] (-) JobUnselected: {'identifier': 'dnn_node_example'}
+[0.000821] (-) JobUnselected: {'identifier': 'dnn_node_sample'}
+[0.000838] (-) JobUnselected: {'identifier': 'dstereo_occnet'}
+[0.000854] (-) JobUnselected: {'identifier': 'elevation_net'}
+[0.000871] (-) JobUnselected: {'identifier': 'example'}
+[0.000890] (-) JobUnselected: {'identifier': 'face_age_detection'}
+[0.001041] (-) JobUnselected: {'identifier': 'face_landmarks_detection'}
+[0.001289] (-) JobUnselected: {'identifier': 'ground_robot_planner'}
+[0.001310] (-) JobUnselected: {'identifier': 'hand_gesture_detection'}
+[0.001328] (-) JobUnselected: {'identifier': 'hand_lmk_detection'}
+[0.001345] (-) JobUnselected: {'identifier': 'hbm_img_msgs'}
+[0.001362] (-) JobUnselected: {'identifier': 'hobot_chatbot'}
+[0.001379] (-) JobUnselected: {'identifier': 'hobot_codec'}
+[0.001396] (-) JobUnselected: {'identifier': 'hobot_cv'}
+[0.001412] (-) JobUnselected: {'identifier': 'hobot_dosod'}
+[0.001428] (-) JobUnselected: {'identifier': 'hobot_falldown_detection'}
+[0.001445] (-) JobUnselected: {'identifier': 'hobot_image_publisher'}
+[0.001461] (-) JobUnselected: {'identifier': 'hobot_mot'}
+[0.001477] (-) JobUnselected: {'identifier': 'hobot_rtsp_client'}
+[0.001493] (-) JobUnselected: {'identifier': 'hobot_shm'}
+[0.001510] (-) JobUnselected: {'identifier': 'hobot_stereonet_utils'}
+[0.001526] (-) JobUnselected: {'identifier': 'hobot_usb_cam'}
+[0.001542] (-) JobUnselected: {'identifier': 'hobot_visualization'}
+[0.001558] (-) JobUnselected: {'identifier': 'hobot_yolo_world'}
+[0.001574] (-) JobUnselected: {'identifier': 'hobot_zed_cam'}
+[0.001590] (-) JobUnselected: {'identifier': 'img_msgs'}
+[0.001607] (-) JobUnselected: {'identifier': 'imu_sensor'}
+[0.001623] (-) JobUnselected: {'identifier': 'mipi_cam'}
+[0.001640] (-) JobUnselected: {'identifier': 'mono2d_body_detection'}
+[0.001656] (-) JobUnselected: {'identifier': 'mono2d_trash_detection'}
+[0.001672] (-) JobUnselected: {'identifier': 'mono3d_indoor_detection'}
+[0.001689] (-) JobUnselected: {'identifier': 'mono_edgesam'}
+[0.001706] (-) JobUnselected: {'identifier': 'mono_mobilesam'}
+[0.001722] (-) JobUnselected: {'identifier': 'mono_pwcnet'}
+[0.001738] (-) JobUnselected: {'identifier': 'nlohmann_json'}
+[0.001759] (-) JobUnselected: {'identifier': 'orb_slam3'}
+[0.002095] (-) JobUnselected: {'identifier': 'orb_slam3_example_ros2'}
+[0.002184] (-) JobUnselected: {'identifier': 'performance_test'}
+[0.002249] (-) JobUnselected: {'identifier': 'recorder_node'}
+[0.002306] (-) JobUnselected: {'identifier': 'reid'}
+[0.002369] (-) JobUnselected: {'identifier': 'sophus'}
+[0.002424] (-) JobUnselected: {'identifier': 'trigger_node'}
+[0.002470] (-) JobUnselected: {'identifier': 'trigger_node_example'}
+[0.002502] (-) JobUnselected: {'identifier': 'tros'}
+[0.002533] (-) JobUnselected: {'identifier': 'tros_lowpass_filter'}
+[0.002592] (-) JobUnselected: {'identifier': 'tros_perception_fusion'}
+[0.002646] (-) JobUnselected: {'identifier': 'tros_perception_fusion_msgs'}
+[0.002676] (-) JobUnselected: {'identifier': 'vio'}
+[0.002792] (-) JobUnselected: {'identifier': 'websocket'}
+[0.002833] (hobot_stereonet) JobQueued: {'identifier': 'hobot_stereonet', 'dependencies': OrderedDict()}
+[0.002896] (hobot_stereonet) JobStarted: {'identifier': 'hobot_stereonet'}
+[0.016496] (hobot_stereonet) JobProgress: {'identifier': 'hobot_stereonet', 'progress': 'cmake'}
+[0.017404] (hobot_stereonet) Command: {'cmd': ['/usr/bin/cmake', '/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '--no-warn-unused-cli', '-DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake', '-DPLATFORM_X5=ON', '-DTHIRDPARTY=ON', '-DBUILD_TESTING=OFF', '-DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/', '-DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install'], 'cwd': '/cc_ws/tros_ws/build/hobot_stereonet', 'env': OrderedDict([('HISTTIMEFORMAT', '%F %T'), ('USER', 'mingren'), ('PLATFORM_X86', 'OFF'), ('HOSTNAME', 'in_docker'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mingren'), ('OLDPWD', '/cc_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('CROSS_COMPILE', '/usr/bin/aarch64-linux-gnu-'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/cc_ws/tros_ws/../sysroot_docker/usr/lib/aarch64-linux-gnu/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TARGET_TRIPLE', 'aarch64-linux-gnu'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PLATFORM_X3', 'OFF'), ('PLATFORM_Rdkultra', 'OFF'), ('DISPLAY', ':1'), ('PLATFORM_X5', 'OFF'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PLATFORM_S100', 'OFF'), ('PWD', '/cc_ws/tros_ws/build/hobot_stereonet'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TARGET_ARCH', 'aarch64'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('HISTFILE', '/cc_ws/.cc_ws_bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.025025] (hobot_stereonet) StdoutLine: {'line': b'Not searching for unused variables given on the command line.\n'}
+[0.042425] (hobot_stereonet) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.100029] (-) TimerEvent: {}
+[0.183510] (hobot_stereonet) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):\n'}
+[0.183715] (hobot_stereonet) StderrLine: {'line': b'  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake\n'}
+[0.183824] (hobot_stereonet) StderrLine: {'line': b'  --help-policy CMP0077" for policy details.  Use the cmake_policy command to\n'}
+[0.183931] (hobot_stereonet) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.184030] (hobot_stereonet) StderrLine: {'line': b'\n'}
+[0.184124] (hobot_stereonet) StderrLine: {'line': b'  For compatibility with older versions of CMake, option is clearing the\n'}
+[0.184220] (hobot_stereonet) StderrLine: {'line': b"  normal variable 'BUILD_TESTING'.\n"}
+[0.184314] (hobot_stereonet) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.184408] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)\n'}
+[0.184503] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.184598] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.184692] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.184786] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[0.184880] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.184973] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[0.185067] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.185161] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[0.185254] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.185349] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)\n'}
+[0.185442] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.185536] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.185630] (hobot_stereonet) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[0.185724] (hobot_stereonet) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.185819] (hobot_stereonet) StderrLine: {'line': b'\x1b[0m\n'}
+[0.195758] (hobot_stereonet) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.199104] (hobot_stereonet) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.200131] (-) TimerEvent: {}
+[0.207594] (hobot_stereonet) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.222483] (hobot_stereonet) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.241650] (hobot_stereonet) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300262] (-) TimerEvent: {}
+[0.311298] (hobot_stereonet) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.313439] (hobot_stereonet) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400379] (-) TimerEvent: {}
+[0.423908] (hobot_stereonet) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500502] (-) TimerEvent: {}
+[0.600745] (-) TimerEvent: {}
+[0.603453] (hobot_stereonet) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.670331] (hobot_stereonet) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.700870] (-) TimerEvent: {}
+[0.801136] (-) TimerEvent: {}
+[0.807087] (hobot_stereonet) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.815392] (hobot_stereonet) StdoutLine: {'line': b'-- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.821524] (hobot_stereonet) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.901266] (-) TimerEvent: {}
+[1.001507] (-) TimerEvent: {}
+[1.101793] (-) TimerEvent: {}
+[1.105297] (hobot_stereonet) StderrLine: {'line': b'\x1b[0mPREFIX_PATH is \x1b[0m\n'}
+[1.105448] (hobot_stereonet) StderrLine: {'line': b'\x1b[0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker\x1b[0m\n'}
+[1.105520] (hobot_stereonet) StdoutLine: {'line': b'-- Preferred ROS distribution: humble\n'}
+[1.105589] (hobot_stereonet) StderrLine: {'line': b'\x1b[0mhobot_stereonet build platform X5\x1b[0m\n'}
+[1.201910] (-) TimerEvent: {}
+[1.270066] (hobot_stereonet) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.302036] (-) TimerEvent: {}
+[1.402271] (-) TimerEvent: {}
+[1.502540] (-) TimerEvent: {}
+[1.602804] (-) TimerEvent: {}
+[1.703054] (-) TimerEvent: {}
+[1.739411] (hobot_stereonet) StdoutLine: {'line': b'-- Generating done\n'}
+[1.741720] (hobot_stereonet) StdoutLine: {'line': b'-- Build files have been written to: /cc_ws/tros_ws/build/hobot_stereonet\n'}
+[1.750764] (hobot_stereonet) CommandEnded: {'returncode': 0}
+[1.751548] (hobot_stereonet) JobProgress: {'identifier': 'hobot_stereonet', 'progress': 'build'}
+[1.752413] (hobot_stereonet) Command: {'cmd': ['/usr/bin/cmake', '--build', '/cc_ws/tros_ws/build/hobot_stereonet', '--', '-j12', '-l12'], 'cwd': '/cc_ws/tros_ws/build/hobot_stereonet', 'env': OrderedDict([('HISTTIMEFORMAT', '%F %T'), ('USER', 'mingren'), ('PLATFORM_X86', 'OFF'), ('HOSTNAME', 'in_docker'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mingren'), ('OLDPWD', '/cc_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('CROSS_COMPILE', '/usr/bin/aarch64-linux-gnu-'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/cc_ws/tros_ws/../sysroot_docker/usr/lib/aarch64-linux-gnu/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TARGET_TRIPLE', 'aarch64-linux-gnu'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PLATFORM_X3', 'OFF'), ('PLATFORM_Rdkultra', 'OFF'), ('DISPLAY', ':1'), ('PLATFORM_X5', 'OFF'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PLATFORM_S100', 'OFF'), ('PWD', '/cc_ws/tros_ws/build/hobot_stereonet'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TARGET_ARCH', 'aarch64'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('HISTFILE', '/cc_ws/.cc_ws_bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.790082] (hobot_stereonet) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereonet_model_intra_sub_node\x1b[0m\n'}
+[1.791626] (hobot_stereonet) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereonet_model_component_node\x1b[0m\n'}
+[1.793517] (hobot_stereonet) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereonet_model_intra_sub\x1b[0m\n'}
+[1.796020] (hobot_stereonet) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereonet_model_sub_node\x1b[0m\n'}
+[1.797105] (hobot_stereonet) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target data_collection\x1b[0m\n'}
+[1.798711] (hobot_stereonet) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereonet_model\x1b[0m\n'}
+[1.800405] (hobot_stereonet) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereonet_model_node\x1b[0m\n'}
+[1.804142] (-) TimerEvent: {}
+[1.811989] (hobot_stereonet) StdoutLine: {'line': b'[ 10%] Built target stereonet_model_intra_sub_node\n'}
+[1.813238] (hobot_stereonet) StdoutLine: {'line': b'[ 20%] Built target stereonet_model_component_node\n'}
+[1.817791] (hobot_stereonet) StdoutLine: {'line': b'[ 30%] Built target stereonet_model_intra_sub\n'}
+[1.819981] (hobot_stereonet) StdoutLine: {'line': b'[ 40%] Built target data_collection\n'}
+[1.826668] (hobot_stereonet) StdoutLine: {'line': b'[ 55%] Built target stereonet_model_sub_node\n'}
+[1.838278] (hobot_stereonet) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/stereonet_model.dir/src/stereonet_component.cpp.o\x1b[0m\n'}
+[1.843664] (hobot_stereonet) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/stereonet_model_node.dir/src/stereonet_component.cpp.o\x1b[0m\n'}
+[1.843831] (hobot_stereonet) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/stereonet_model_node.dir/src/node.cpp.o\x1b[0m\n'}
+[1.904256] (-) TimerEvent: {}
+[2.004601] (-) TimerEvent: {}
+[2.106996] (-) TimerEvent: {}
+[2.207326] (-) TimerEvent: {}
+[2.307651] (-) TimerEvent: {}
+[2.407974] (-) TimerEvent: {}
+[2.508306] (-) TimerEvent: {}
+[2.608607] (-) TimerEvent: {}
+[2.708876] (-) TimerEvent: {}
+[2.809215] (-) TimerEvent: {}
+[2.909557] (-) TimerEvent: {}
+[3.009888] (-) TimerEvent: {}
+[3.110223] (-) TimerEvent: {}
+[3.210551] (-) TimerEvent: {}
+[3.310866] (-) TimerEvent: {}
+[3.411147] (-) TimerEvent: {}
+[3.511472] (-) TimerEvent: {}
+[3.611966] (-) TimerEvent: {}
+[3.712290] (-) TimerEvent: {}
+[3.812598] (-) TimerEvent: {}
+[3.912908] (-) TimerEvent: {}
+[4.013249] (-) TimerEvent: {}
+[4.114994] (-) TimerEvent: {}
+[4.215354] (-) TimerEvent: {}
+[4.315726] (-) TimerEvent: {}
+[4.416097] (-) TimerEvent: {}
+[4.516380] (-) TimerEvent: {}
+[4.616655] (-) TimerEvent: {}
+[4.717005] (-) TimerEvent: {}
+[4.817312] (-) TimerEvent: {}
+[4.917586] (-) TimerEvent: {}
+[5.017883] (-) TimerEvent: {}
+[5.118161] (-) TimerEvent: {}
+[5.218432] (-) TimerEvent: {}
+[5.318765] (-) TimerEvent: {}
+[5.419127] (-) TimerEvent: {}
+[5.519473] (-) TimerEvent: {}
+[5.619818] (-) TimerEvent: {}
+[5.720176] (-) TimerEvent: {}
+[5.820516] (-) TimerEvent: {}
+[5.920845] (-) TimerEvent: {}
+[6.021200] (-) TimerEvent: {}
+[6.121453] (-) TimerEvent: {}
+[6.221714] (-) TimerEvent: {}
+[6.322005] (-) TimerEvent: {}
+[6.422304] (-) TimerEvent: {}
+[6.522599] (-) TimerEvent: {}
+[6.622901] (-) TimerEvent: {}
+[6.723188] (-) TimerEvent: {}
+[6.823453] (-) TimerEvent: {}
+[6.923719] (-) TimerEvent: {}
+[7.024010] (-) TimerEvent: {}
+[7.124345] (-) TimerEvent: {}
+[7.224683] (-) TimerEvent: {}
+[7.325038] (-) TimerEvent: {}
+[7.425368] (-) TimerEvent: {}
+[7.525667] (-) TimerEvent: {}
+[7.625973] (-) TimerEvent: {}
+[7.726270] (-) TimerEvent: {}
+[7.826572] (-) TimerEvent: {}
+[7.926875] (-) TimerEvent: {}
+[8.027192] (-) TimerEvent: {}
+[8.127480] (-) TimerEvent: {}
+[8.227809] (-) TimerEvent: {}
+[8.328148] (-) TimerEvent: {}
+[8.428472] (-) TimerEvent: {}
+[8.528797] (-) TimerEvent: {}
+[8.629073] (-) TimerEvent: {}
+[8.729385] (-) TimerEvent: {}
+[8.829708] (-) TimerEvent: {}
+[8.930030] (-) TimerEvent: {}
+[9.030353] (-) TimerEvent: {}
+[9.130654] (-) TimerEvent: {}
+[9.230965] (-) TimerEvent: {}
+[9.331222] (-) TimerEvent: {}
+[9.431481] (-) TimerEvent: {}
+[9.531768] (-) TimerEvent: {}
+[9.632058] (-) TimerEvent: {}
+[9.732342] (-) TimerEvent: {}
+[9.832636] (-) TimerEvent: {}
+[9.932922] (-) TimerEvent: {}
+[10.033203] (-) TimerEvent: {}
+[10.133447] (-) TimerEvent: {}
+[10.233725] (-) TimerEvent: {}
+[10.334027] (-) TimerEvent: {}
+[10.434326] (-) TimerEvent: {}
+[10.534635] (-) TimerEvent: {}
+[10.634981] (-) TimerEvent: {}
+[10.735282] (-) TimerEvent: {}
+[10.835577] (-) TimerEvent: {}
+[10.937694] (-) TimerEvent: {}
+[11.038041] (-) TimerEvent: {}
+[11.138369] (-) TimerEvent: {}
+[11.147933] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29\x1b[m\x1b[K,\n'}
+[11.148102] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29\x1b[m\x1b[K,\n'}
+[11.148186] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26\x1b[m\x1b[K,\n'}
+[11.148256] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18\x1b[m\x1b[K,\n'}
+[11.148325] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21\x1b[m\x1b[K,\n'}
+[11.148392] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19\x1b[m\x1b[K,\n'}
+[11.148461] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16\x1b[m\x1b[K:\n'}
+[11.148528] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic void pcl_filter::applyfilter(sensor_msgs::msg::PointCloud2&, float, int, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.148596] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:37:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[11.148667] (hobot_stereonet) StderrLine: {'line': b'   37 |     RCLCPP_DEBUG(rclcpp::get_logger(""), \x1b[01;35m\x1b[K"origin pcd size: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kcloud->size()\x1b[m\x1b[K);\n'}
+[11.148734] (hobot_stereonet) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.148812] (hobot_stereonet) StderrLine: {'line': b'      |                                                                            \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.148877] (hobot_stereonet) StderrLine: {'line': b'      |                                                                            \x1b[32m\x1b[Kstd::size_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[11.148949] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18\x1b[m\x1b[K:\n'}
+[11.149016] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:37:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.149082] (hobot_stereonet) StderrLine: {'line': b'   37 |     RCLCPP_DEBUG(rclcpp::get_logger(""), "origin pcd size: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", cloud->size());\n'}
+[11.149155] (hobot_stereonet) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.149220] (hobot_stereonet) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.149286] (hobot_stereonet) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.149350] (hobot_stereonet) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.151134] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29\x1b[m\x1b[K,\n'}
+[11.151297] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29\x1b[m\x1b[K,\n'}
+[11.151368] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26\x1b[m\x1b[K,\n'}
+[11.151435] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18\x1b[m\x1b[K,\n'}
+[11.151512] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21\x1b[m\x1b[K,\n'}
+[11.151580] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19\x1b[m\x1b[K,\n'}
+[11.151647] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16\x1b[m\x1b[K:\n'}
+[11.151712] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:43:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[11.151783] (hobot_stereonet) StderrLine: {'line': b'   43 |     RCLCPP_DEBUG(rclcpp::get_logger(""), \x1b[01;35m\x1b[K"after voxel, pcd size: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kcloud_filtered->size()\x1b[m\x1b[K);\n'}
+[11.151861] (hobot_stereonet) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.151929] (hobot_stereonet) StderrLine: {'line': b'      |                                                                                           \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.151995] (hobot_stereonet) StderrLine: {'line': b'      |                                                                                           \x1b[32m\x1b[Kstd::size_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[11.152068] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18\x1b[m\x1b[K:\n'}
+[11.152136] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:43:67:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.152204] (hobot_stereonet) StderrLine: {'line': b'   43 |     RCLCPP_DEBUG(rclcpp::get_logger(""), "after voxel, pcd size: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", cloud_filtered->size());\n'}
+[11.152272] (hobot_stereonet) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.152338] (hobot_stereonet) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.152404] (hobot_stereonet) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.152471] (hobot_stereonet) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.152652] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29\x1b[m\x1b[K,\n'}
+[11.152737] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29\x1b[m\x1b[K,\n'}
+[11.152809] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26\x1b[m\x1b[K,\n'}
+[11.152881] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18\x1b[m\x1b[K,\n'}
+[11.152953] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21\x1b[m\x1b[K,\n'}
+[11.153024] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19\x1b[m\x1b[K,\n'}
+[11.153159] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16\x1b[m\x1b[K:\n'}
+[11.153230] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:50:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[11.153301] (hobot_stereonet) StderrLine: {'line': b'   50 |     RCLCPP_DEBUG(rclcpp::get_logger(""), \x1b[01;35m\x1b[K"after StatisticalOutlierRemoval, pcd size: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kcloud_filtered->size()\x1b[m\x1b[K);\n'}
+[11.153369] (hobot_stereonet) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.153442] (hobot_stereonet) StderrLine: {'line': b'      |                                                                                                               \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.153510] (hobot_stereonet) StderrLine: {'line': b'      |                                                                                                               \x1b[32m\x1b[Kstd::size_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[11.153582] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18\x1b[m\x1b[K:\n'}
+[11.153648] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:50:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.153718] (hobot_stereonet) StderrLine: {'line': b'   50 |     RCLCPP_DEBUG(rclcpp::get_logger(""), "after StatisticalOutlierRemoval, pcd size: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", cloud_filtered->size());\n'}
+[11.153789] (hobot_stereonet) StderrLine: {'line': b'      |                                                                                      \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.153860] (hobot_stereonet) StderrLine: {'line': b'      |                                                                                       \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.153931] (hobot_stereonet) StderrLine: {'line': b'      |                                                                                       \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.154002] (hobot_stereonet) StderrLine: {'line': b'      |                                                                                      \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.154180] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29\x1b[m\x1b[K,\n'}
+[11.154257] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29\x1b[m\x1b[K,\n'}
+[11.154328] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26\x1b[m\x1b[K,\n'}
+[11.154399] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18\x1b[m\x1b[K,\n'}
+[11.154688] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21\x1b[m\x1b[K,\n'}
+[11.154761] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19\x1b[m\x1b[K,\n'}
+[11.154832] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16\x1b[m\x1b[K:\n'}
+[11.154904] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:82:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[11.155087] (hobot_stereonet) StderrLine: {'line': b'   82 |                  \x1b[01;35m\x1b[K"ROS to PCL: %dms, "\x1b[m\x1b[K\n'}
+[11.155158] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.155225] (hobot_stereonet) StderrLine: {'line': b'   83 | \x1b[01;35m\x1b[K                 "PCL filter: %dms,, "\x1b[m\x1b[K\n'}
+[11.155291] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.155357] (hobot_stereonet) StderrLine: {'line': b'   84 | \x1b[01;35m\x1b[K                 "PCL to ROS: %dms"\x1b[m\x1b[K, \x1b[32m\x1b[Kd1\x1b[m\x1b[K, d2, d3);\n'}
+[11.155424] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~\x1b[m\x1b[K\n'}
+[11.155490] (hobot_stereonet) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.155563] (hobot_stereonet) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Klong int\x1b[m\x1b[K\n'}
+[11.155628] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18\x1b[m\x1b[K:\n'}
+[11.155695] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:82:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.155766] (hobot_stereonet) StderrLine: {'line': b'   82 |                  "ROS to PCL: \x1b[01;36m\x1b[K%d\x1b[m\x1b[Kms, "\n'}
+[11.155833] (hobot_stereonet) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.155898] (hobot_stereonet) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.155963] (hobot_stereonet) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.156029] (hobot_stereonet) StderrLine: {'line': b'      |                               \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.156103] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29\x1b[m\x1b[K,\n'}
+[11.156175] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29\x1b[m\x1b[K,\n'}
+[11.156240] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26\x1b[m\x1b[K,\n'}
+[11.156309] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18\x1b[m\x1b[K,\n'}
+[11.156374] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21\x1b[m\x1b[K,\n'}
+[11.156440] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19\x1b[m\x1b[K,\n'}
+[11.156514] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16\x1b[m\x1b[K:\n'}
+[11.156591] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:82:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[11.156662] (hobot_stereonet) StderrLine: {'line': b'   82 |                  \x1b[01;35m\x1b[K"ROS to PCL: %dms, "\x1b[m\x1b[K\n'}
+[11.156729] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.156797] (hobot_stereonet) StderrLine: {'line': b'   83 | \x1b[01;35m\x1b[K                 "PCL filter: %dms,, "\x1b[m\x1b[K\n'}
+[11.156869] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.156935] (hobot_stereonet) StderrLine: {'line': b'   84 | \x1b[01;35m\x1b[K                 "PCL to ROS: %dms"\x1b[m\x1b[K, d1, \x1b[32m\x1b[Kd2\x1b[m\x1b[K, d3);\n'}
+[11.157001] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K      \x1b[32m\x1b[K~~\x1b[m\x1b[K\n'}
+[11.157067] (hobot_stereonet) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.157133] (hobot_stereonet) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[Klong int\x1b[m\x1b[K\n'}
+[11.157205] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18\x1b[m\x1b[K:\n'}
+[11.157273] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:83:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.157340] (hobot_stereonet) StderrLine: {'line': b'   83 |                  "PCL filter: \x1b[01;36m\x1b[K%d\x1b[m\x1b[Kms,, "\n'}
+[11.157406] (hobot_stereonet) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.157471] (hobot_stereonet) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.157537] (hobot_stereonet) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.157604] (hobot_stereonet) StderrLine: {'line': b'      |                               \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.157670] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29\x1b[m\x1b[K,\n'}
+[11.157741] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29\x1b[m\x1b[K,\n'}
+[11.157807] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26\x1b[m\x1b[K,\n'}
+[11.157873] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18\x1b[m\x1b[K,\n'}
+[11.157939] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21\x1b[m\x1b[K,\n'}
+[11.158004] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19\x1b[m\x1b[K,\n'}
+[11.158069] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16\x1b[m\x1b[K:\n'}
+[11.158135] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:82:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[11.158207] (hobot_stereonet) StderrLine: {'line': b'   82 |                  \x1b[01;35m\x1b[K"ROS to PCL: %dms, "\x1b[m\x1b[K\n'}
+[11.158279] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.158346] (hobot_stereonet) StderrLine: {'line': b'   83 | \x1b[01;35m\x1b[K                 "PCL filter: %dms,, "\x1b[m\x1b[K\n'}
+[11.158412] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.158479] (hobot_stereonet) StderrLine: {'line': b'   84 | \x1b[01;35m\x1b[K                 "PCL to ROS: %dms"\x1b[m\x1b[K, d1, d2, \x1b[32m\x1b[Kd3\x1b[m\x1b[K);\n'}
+[11.158546] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K          \x1b[32m\x1b[K~~\x1b[m\x1b[K\n'}
+[11.158612] (hobot_stereonet) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.158679] (hobot_stereonet) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[Klong int\x1b[m\x1b[K\n'}
+[11.158745] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18\x1b[m\x1b[K:\n'}
+[11.158816] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:84:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.158884] (hobot_stereonet) StderrLine: {'line': b'   84 |                  "PCL to ROS: \x1b[01;36m\x1b[K%d\x1b[m\x1b[Kms", d1, d2, d3);\n'}
+[11.158984] (hobot_stereonet) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.159081] (hobot_stereonet) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.159145] (hobot_stereonet) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.159209] (hobot_stereonet) StderrLine: {'line': b'      |                               \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.238464] (-) TimerEvent: {}
+[11.254569] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29\x1b[m\x1b[K,\n'}
+[11.254764] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29\x1b[m\x1b[K,\n'}
+[11.254846] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26\x1b[m\x1b[K,\n'}
+[11.254918] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18\x1b[m\x1b[K,\n'}
+[11.255021] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21\x1b[m\x1b[K,\n'}
+[11.255088] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19\x1b[m\x1b[K,\n'}
+[11.255154] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16\x1b[m\x1b[K:\n'}
+[11.255219] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid stereonet::StereoNetNode::pub_func(stereonet::StereoNetNode::pub_data_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.255287] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:1130:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunknown conversion type character \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 in format [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[11.255355] (hobot_stereonet) StderrLine: {'line': b' 1130 |         \x1b[01;35m\x1b[K"fps: %d, latency: %dms, cpu_usage: %d%, bpu_usage: %d%"\x1b[m\x1b[K,\n'}
+[11.255421] (hobot_stereonet) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.255486] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:1130:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.255551] (hobot_stereonet) StderrLine: {'line': b' 1130 |         "fps: %d, latency: %dms, cpu_usage: %d%\x1b[01;36m\x1b[K,\x1b[m\x1b[K bpu_usage: %d%",\n'}
+[11.255616] (hobot_stereonet) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[11.255680] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29\x1b[m\x1b[K,\n'}
+[11.255744] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29\x1b[m\x1b[K,\n'}
+[11.255815] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26\x1b[m\x1b[K,\n'}
+[11.255885] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18\x1b[m\x1b[K,\n'}
+[11.255948] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21\x1b[m\x1b[K,\n'}
+[11.256027] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19\x1b[m\x1b[K,\n'}
+[11.256089] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16\x1b[m\x1b[K:\n'}
+[11.256159] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:1130:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kspurious trailing \xe2\x80\x98\x1b[01m\x1b[K%\x1b[m\x1b[K\xe2\x80\x99 in format [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[11.256236] (hobot_stereonet) StderrLine: {'line': b' 1130 |         \x1b[01;35m\x1b[K"fps: %d, latency: %dms, cpu_usage: %d%, bpu_usage: %d%"\x1b[m\x1b[K,\n'}
+[11.256308] (hobot_stereonet) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.256370] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:1130:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.256432] (hobot_stereonet) StderrLine: {'line': b' 1130 |         "fps: %d, latency: %dms, cpu_usage: %d%, bpu_usage: %d\x1b[01;36m\x1b[K%\x1b[m\x1b[K",\n'}
+[11.256494] (hobot_stereonet) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[11.338593] (-) TimerEvent: {}
+[11.438860] (-) TimerEvent: {}
+[11.473935] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29\x1b[m\x1b[K,\n'}
+[11.474143] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29\x1b[m\x1b[K,\n'}
+[11.474222] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26\x1b[m\x1b[K,\n'}
+[11.474297] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18\x1b[m\x1b[K,\n'}
+[11.474375] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21\x1b[m\x1b[K,\n'}
+[11.474441] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19\x1b[m\x1b[K,\n'}
+[11.474506] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16\x1b[m\x1b[K:\n'}
+[11.474571] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic void pcl_filter::applyfilter(sensor_msgs::msg::PointCloud2&, float, int, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.474639] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:37:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[11.474727] (hobot_stereonet) StderrLine: {'line': b'   37 |     RCLCPP_DEBUG(rclcpp::get_logger(""), \x1b[01;35m\x1b[K"origin pcd size: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kcloud->size()\x1b[m\x1b[K);\n'}
+[11.474793] (hobot_stereonet) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.474859] (hobot_stereonet) StderrLine: {'line': b'      |                                                                            \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.474948] (hobot_stereonet) StderrLine: {'line': b'      |                                                                            \x1b[32m\x1b[Kstd::size_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[11.475040] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18\x1b[m\x1b[K:\n'}
+[11.475103] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:37:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.475168] (hobot_stereonet) StderrLine: {'line': b'   37 |     RCLCPP_DEBUG(rclcpp::get_logger(""), "origin pcd size: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", cloud->size());\n'}
+[11.475240] (hobot_stereonet) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.475303] (hobot_stereonet) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.475365] (hobot_stereonet) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.475427] (hobot_stereonet) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.478359] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29\x1b[m\x1b[K,\n'}
+[11.478549] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29\x1b[m\x1b[K,\n'}
+[11.478629] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26\x1b[m\x1b[K,\n'}
+[11.478711] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18\x1b[m\x1b[K,\n'}
+[11.478783] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21\x1b[m\x1b[K,\n'}
+[11.478865] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19\x1b[m\x1b[K,\n'}
+[11.478968] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16\x1b[m\x1b[K:\n'}
+[11.479039] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:43:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[11.479108] (hobot_stereonet) StderrLine: {'line': b'   43 |     RCLCPP_DEBUG(rclcpp::get_logger(""), \x1b[01;35m\x1b[K"after voxel, pcd size: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kcloud_filtered->size()\x1b[m\x1b[K);\n'}
+[11.479179] (hobot_stereonet) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.479252] (hobot_stereonet) StderrLine: {'line': b'      |                                                                                           \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.479358] (hobot_stereonet) StderrLine: {'line': b'      |                                                                                           \x1b[32m\x1b[Kstd::size_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[11.479430] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18\x1b[m\x1b[K:\n'}
+[11.479495] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:43:67:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.479582] (hobot_stereonet) StderrLine: {'line': b'   43 |     RCLCPP_DEBUG(rclcpp::get_logger(""), "after voxel, pcd size: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", cloud_filtered->size());\n'}
+[11.479649] (hobot_stereonet) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.479712] (hobot_stereonet) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.479775] (hobot_stereonet) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.479846] (hobot_stereonet) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.480370] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29\x1b[m\x1b[K,\n'}
+[11.480464] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29\x1b[m\x1b[K,\n'}
+[11.480537] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26\x1b[m\x1b[K,\n'}
+[11.480607] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18\x1b[m\x1b[K,\n'}
+[11.480738] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21\x1b[m\x1b[K,\n'}
+[11.480804] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19\x1b[m\x1b[K,\n'}
+[11.480867] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16\x1b[m\x1b[K:\n'}
+[11.480930] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:50:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[11.480998] (hobot_stereonet) StderrLine: {'line': b'   50 |     RCLCPP_DEBUG(rclcpp::get_logger(""), \x1b[01;35m\x1b[K"after StatisticalOutlierRemoval, pcd size: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kcloud_filtered->size()\x1b[m\x1b[K);\n'}
+[11.481062] (hobot_stereonet) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.481160] (hobot_stereonet) StderrLine: {'line': b'      |                                                                                                               \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.481234] (hobot_stereonet) StderrLine: {'line': b'      |                                                                                                               \x1b[32m\x1b[Kstd::size_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[11.481297] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18\x1b[m\x1b[K:\n'}
+[11.481360] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:50:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.481431] (hobot_stereonet) StderrLine: {'line': b'   50 |     RCLCPP_DEBUG(rclcpp::get_logger(""), "after StatisticalOutlierRemoval, pcd size: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", cloud_filtered->size());\n'}
+[11.481500] (hobot_stereonet) StderrLine: {'line': b'      |                                                                                      \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.481564] (hobot_stereonet) StderrLine: {'line': b'      |                                                                                       \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.481627] (hobot_stereonet) StderrLine: {'line': b'      |                                                                                       \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.481689] (hobot_stereonet) StderrLine: {'line': b'      |                                                                                      \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.481976] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29\x1b[m\x1b[K,\n'}
+[11.482060] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29\x1b[m\x1b[K,\n'}
+[11.482130] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26\x1b[m\x1b[K,\n'}
+[11.482197] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18\x1b[m\x1b[K,\n'}
+[11.482264] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21\x1b[m\x1b[K,\n'}
+[11.482612] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19\x1b[m\x1b[K,\n'}
+[11.482685] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16\x1b[m\x1b[K:\n'}
+[11.482752] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:82:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[11.482829] (hobot_stereonet) StderrLine: {'line': b'   82 |                  \x1b[01;35m\x1b[K"ROS to PCL: %dms, "\x1b[m\x1b[K\n'}
+[11.482899] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.483047] (hobot_stereonet) StderrLine: {'line': b'   83 | \x1b[01;35m\x1b[K                 "PCL filter: %dms,, "\x1b[m\x1b[K\n'}
+[11.483124] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.483187] (hobot_stereonet) StderrLine: {'line': b'   84 | \x1b[01;35m\x1b[K                 "PCL to ROS: %dms"\x1b[m\x1b[K, \x1b[32m\x1b[Kd1\x1b[m\x1b[K, d2, d3);\n'}
+[11.483250] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~\x1b[m\x1b[K\n'}
+[11.483312] (hobot_stereonet) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.483374] (hobot_stereonet) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Klong int\x1b[m\x1b[K\n'}
+[11.483436] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18\x1b[m\x1b[K:\n'}
+[11.483500] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:82:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.483570] (hobot_stereonet) StderrLine: {'line': b'   82 |                  "ROS to PCL: \x1b[01;36m\x1b[K%d\x1b[m\x1b[Kms, "\n'}
+[11.483632] (hobot_stereonet) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.483695] (hobot_stereonet) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.483759] (hobot_stereonet) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.483820] (hobot_stereonet) StderrLine: {'line': b'      |                               \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.483883] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29\x1b[m\x1b[K,\n'}
+[11.483946] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29\x1b[m\x1b[K,\n'}
+[11.484009] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26\x1b[m\x1b[K,\n'}
+[11.484071] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18\x1b[m\x1b[K,\n'}
+[11.484134] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21\x1b[m\x1b[K,\n'}
+[11.484197] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19\x1b[m\x1b[K,\n'}
+[11.484260] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16\x1b[m\x1b[K:\n'}
+[11.484329] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:82:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[11.484404] (hobot_stereonet) StderrLine: {'line': b'   82 |                  \x1b[01;35m\x1b[K"ROS to PCL: %dms, "\x1b[m\x1b[K\n'}
+[11.484467] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.484530] (hobot_stereonet) StderrLine: {'line': b'   83 | \x1b[01;35m\x1b[K                 "PCL filter: %dms,, "\x1b[m\x1b[K\n'}
+[11.484598] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.484663] (hobot_stereonet) StderrLine: {'line': b'   84 | \x1b[01;35m\x1b[K                 "PCL to ROS: %dms"\x1b[m\x1b[K, d1, \x1b[32m\x1b[Kd2\x1b[m\x1b[K, d3);\n'}
+[11.484730] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K      \x1b[32m\x1b[K~~\x1b[m\x1b[K\n'}
+[11.484813] (hobot_stereonet) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.484886] (hobot_stereonet) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[Klong int\x1b[m\x1b[K\n'}
+[11.484975] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18\x1b[m\x1b[K:\n'}
+[11.485039] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:83:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.485103] (hobot_stereonet) StderrLine: {'line': b'   83 |                  "PCL filter: \x1b[01;36m\x1b[K%d\x1b[m\x1b[Kms,, "\n'}
+[11.485165] (hobot_stereonet) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.485227] (hobot_stereonet) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.485288] (hobot_stereonet) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.485367] (hobot_stereonet) StderrLine: {'line': b'      |                               \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.485431] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29\x1b[m\x1b[K,\n'}
+[11.485493] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29\x1b[m\x1b[K,\n'}
+[11.485556] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26\x1b[m\x1b[K,\n'}
+[11.485618] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18\x1b[m\x1b[K,\n'}
+[11.485681] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21\x1b[m\x1b[K,\n'}
+[11.485743] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19\x1b[m\x1b[K,\n'}
+[11.485805] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16\x1b[m\x1b[K:\n'}
+[11.485880] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:82:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[11.485982] (hobot_stereonet) StderrLine: {'line': b'   82 |                  \x1b[01;35m\x1b[K"ROS to PCL: %dms, "\x1b[m\x1b[K\n'}
+[11.486077] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.486140] (hobot_stereonet) StderrLine: {'line': b'   83 | \x1b[01;35m\x1b[K                 "PCL filter: %dms,, "\x1b[m\x1b[K\n'}
+[11.486217] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.486308] (hobot_stereonet) StderrLine: {'line': b'   84 | \x1b[01;35m\x1b[K                 "PCL to ROS: %dms"\x1b[m\x1b[K, d1, d2, \x1b[32m\x1b[Kd3\x1b[m\x1b[K);\n'}
+[11.486418] (hobot_stereonet) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K          \x1b[32m\x1b[K~~\x1b[m\x1b[K\n'}
+[11.486521] (hobot_stereonet) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.486627] (hobot_stereonet) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[Klong int\x1b[m\x1b[K\n'}
+[11.486731] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18\x1b[m\x1b[K:\n'}
+[11.486830] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:84:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.486948] (hobot_stereonet) StderrLine: {'line': b'   84 |                  "PCL to ROS: \x1b[01;36m\x1b[K%d\x1b[m\x1b[Kms", d1, d2, d3);\n'}
+[11.487056] (hobot_stereonet) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.487155] (hobot_stereonet) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.487251] (hobot_stereonet) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.487347] (hobot_stereonet) StderrLine: {'line': b'      |                               \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.538985] (-) TimerEvent: {}
+[11.578288] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29\x1b[m\x1b[K,\n'}
+[11.578521] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29\x1b[m\x1b[K,\n'}
+[11.578616] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26\x1b[m\x1b[K,\n'}
+[11.578699] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18\x1b[m\x1b[K,\n'}
+[11.578769] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21\x1b[m\x1b[K,\n'}
+[11.578836] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19\x1b[m\x1b[K,\n'}
+[11.578903] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16\x1b[m\x1b[K:\n'}
+[11.578991] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid stereonet::StereoNetNode::pub_func(stereonet::StereoNetNode::pub_data_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.579069] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:1130:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunknown conversion type character \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 in format [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[11.579138] (hobot_stereonet) StderrLine: {'line': b' 1130 |         \x1b[01;35m\x1b[K"fps: %d, latency: %dms, cpu_usage: %d%, bpu_usage: %d%"\x1b[m\x1b[K,\n'}
+[11.579203] (hobot_stereonet) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.579293] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:1130:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.579376] (hobot_stereonet) StderrLine: {'line': b' 1130 |         "fps: %d, latency: %dms, cpu_usage: %d%\x1b[01;36m\x1b[K,\x1b[m\x1b[K bpu_usage: %d%",\n'}
+[11.579454] (hobot_stereonet) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[11.579518] (hobot_stereonet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29\x1b[m\x1b[K,\n'}
+[11.579582] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29\x1b[m\x1b[K,\n'}
+[11.579647] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26\x1b[m\x1b[K,\n'}
+[11.579712] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18\x1b[m\x1b[K,\n'}
+[11.579777] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21\x1b[m\x1b[K,\n'}
+[11.579842] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19\x1b[m\x1b[K,\n'}
+[11.579907] (hobot_stereonet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16\x1b[m\x1b[K:\n'}
+[11.579972] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:1130:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kspurious trailing \xe2\x80\x98\x1b[01m\x1b[K%\x1b[m\x1b[K\xe2\x80\x99 in format [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[11.580038] (hobot_stereonet) StderrLine: {'line': b' 1130 |         \x1b[01;35m\x1b[K"fps: %d, latency: %dms, cpu_usage: %d%, bpu_usage: %d%"\x1b[m\x1b[K,\n'}
+[11.580103] (hobot_stereonet) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.580172] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:1130:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.580264] (hobot_stereonet) StderrLine: {'line': b' 1130 |         "fps: %d, latency: %dms, cpu_usage: %d%, bpu_usage: %d\x1b[01;36m\x1b[K%\x1b[m\x1b[K",\n'}
+[11.580335] (hobot_stereonet) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[11.639080] (-) TimerEvent: {}
+[11.739334] (-) TimerEvent: {}
+[11.839590] (-) TimerEvent: {}
+[11.939875] (-) TimerEvent: {}
+[12.040128] (-) TimerEvent: {}
+[12.140404] (-) TimerEvent: {}
+[12.240660] (-) TimerEvent: {}
+[12.340912] (-) TimerEvent: {}
+[12.441168] (-) TimerEvent: {}
+[12.541464] (-) TimerEvent: {}
+[12.641726] (-) TimerEvent: {}
+[12.742010] (-) TimerEvent: {}
+[12.842277] (-) TimerEvent: {}
+[12.942565] (-) TimerEvent: {}
+[13.042857] (-) TimerEvent: {}
+[13.143120] (-) TimerEvent: {}
+[13.243378] (-) TimerEvent: {}
+[13.343621] (-) TimerEvent: {}
+[13.443906] (-) TimerEvent: {}
+[13.544240] (-) TimerEvent: {}
+[13.644496] (-) TimerEvent: {}
+[13.744807] (-) TimerEvent: {}
+[13.845076] (-) TimerEvent: {}
+[13.945387] (-) TimerEvent: {}
+[14.045655] (-) TimerEvent: {}
+[14.145939] (-) TimerEvent: {}
+[14.246253] (-) TimerEvent: {}
+[14.346527] (-) TimerEvent: {}
+[14.446825] (-) TimerEvent: {}
+[14.547139] (-) TimerEvent: {}
+[14.647468] (-) TimerEvent: {}
+[14.747730] (-) TimerEvent: {}
+[14.847986] (-) TimerEvent: {}
+[14.948251] (-) TimerEvent: {}
+[15.048519] (-) TimerEvent: {}
+[15.148779] (-) TimerEvent: {}
+[15.249081] (-) TimerEvent: {}
+[15.349356] (-) TimerEvent: {}
+[15.449624] (-) TimerEvent: {}
+[15.549891] (-) TimerEvent: {}
+[15.650160] (-) TimerEvent: {}
+[15.750497] (-) TimerEvent: {}
+[15.850818] (-) TimerEvent: {}
+[15.951123] (-) TimerEvent: {}
+[16.051440] (-) TimerEvent: {}
+[16.151689] (-) TimerEvent: {}
+[16.251931] (-) TimerEvent: {}
+[16.352198] (-) TimerEvent: {}
+[16.452512] (-) TimerEvent: {}
+[16.552797] (-) TimerEvent: {}
+[16.653127] (-) TimerEvent: {}
+[16.753476] (-) TimerEvent: {}
+[16.853818] (-) TimerEvent: {}
+[16.954134] (-) TimerEvent: {}
+[17.054447] (-) TimerEvent: {}
+[17.154758] (-) TimerEvent: {}
+[17.255136] (-) TimerEvent: {}
+[17.355527] (-) TimerEvent: {}
+[17.455859] (-) TimerEvent: {}
+[17.556210] (-) TimerEvent: {}
+[17.656542] (-) TimerEvent: {}
+[17.756878] (-) TimerEvent: {}
+[17.858352] (-) TimerEvent: {}
+[17.958998] (-) TimerEvent: {}
+[18.059324] (-) TimerEvent: {}
+[18.159645] (-) TimerEvent: {}
+[18.259966] (-) TimerEvent: {}
+[18.360320] (-) TimerEvent: {}
+[18.460603] (-) TimerEvent: {}
+[18.560948] (-) TimerEvent: {}
+[18.661304] (-) TimerEvent: {}
+[18.761597] (-) TimerEvent: {}
+[18.861890] (-) TimerEvent: {}
+[18.962161] (-) TimerEvent: {}
+[19.062426] (-) TimerEvent: {}
+[19.162690] (-) TimerEvent: {}
+[19.262959] (-) TimerEvent: {}
+[19.363216] (-) TimerEvent: {}
+[19.463480] (-) TimerEvent: {}
+[19.563747] (-) TimerEvent: {}
+[19.664023] (-) TimerEvent: {}
+[19.764307] (-) TimerEvent: {}
+[19.864625] (-) TimerEvent: {}
+[19.964933] (-) TimerEvent: {}
+[20.065189] (-) TimerEvent: {}
+[20.165480] (-) TimerEvent: {}
+[20.265731] (-) TimerEvent: {}
+[20.344512] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid stereonet::save_images(cv::Mat&, cv::Mat&, uint64_t, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.344699] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:836:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Kint system(const char*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-result\x1b[m\x1b[K]\n'}
+[20.344775] (hobot_stereonet) StderrLine: {'line': b'  836 |     \x1b[01;35m\x1b[Ksystem("mkdir -p"\x1b[m\x1b[K\n'}
+[20.344839] (hobot_stereonet) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.344899] (hobot_stereonet) StderrLine: {'line': b'  837 | \x1b[01;35m\x1b[K           " ./images/cam0/data/"\x1b[m\x1b[K\n'}
+[20.344959] (hobot_stereonet) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.345019] (hobot_stereonet) StderrLine: {'line': b'  838 | \x1b[01;35m\x1b[K           " ./images/cam1/data/"\x1b[m\x1b[K\n'}
+[20.345077] (hobot_stereonet) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.345142] (hobot_stereonet) StderrLine: {'line': b'  839 | \x1b[01;35m\x1b[K           " ./images/cam_combine/data/")\x1b[m\x1b[K;\n'}
+[20.345203] (hobot_stereonet) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.365859] (-) TimerEvent: {}
+[20.466133] (-) TimerEvent: {}
+[20.566407] (-) TimerEvent: {}
+[20.666691] (-) TimerEvent: {}
+[20.701441] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid stereonet::save_images(cv::Mat&, cv::Mat&, uint64_t, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.701607] (hobot_stereonet) StderrLine: {'line': b'\x1b[01m\x1b[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:836:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Kint system(const char*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-result\x1b[m\x1b[K]\n'}
+[20.701690] (hobot_stereonet) StderrLine: {'line': b'  836 |     \x1b[01;35m\x1b[Ksystem("mkdir -p"\x1b[m\x1b[K\n'}
+[20.701774] (hobot_stereonet) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.701841] (hobot_stereonet) StderrLine: {'line': b'  837 | \x1b[01;35m\x1b[K           " ./images/cam0/data/"\x1b[m\x1b[K\n'}
+[20.701917] (hobot_stereonet) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.701982] (hobot_stereonet) StderrLine: {'line': b'  838 | \x1b[01;35m\x1b[K           " ./images/cam1/data/"\x1b[m\x1b[K\n'}
+[20.702047] (hobot_stereonet) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.702135] (hobot_stereonet) StderrLine: {'line': b'  839 | \x1b[01;35m\x1b[K           " ./images/cam_combine/data/")\x1b[m\x1b[K;\n'}
+[20.702203] (hobot_stereonet) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.766817] (-) TimerEvent: {}
+[20.867071] (-) TimerEvent: {}
+[20.967313] (-) TimerEvent: {}
+[21.067571] (-) TimerEvent: {}
+[21.167863] (-) TimerEvent: {}
+[21.268140] (-) TimerEvent: {}
+[21.368418] (-) TimerEvent: {}
+[21.468697] (-) TimerEvent: {}
+[21.568941] (-) TimerEvent: {}
+[21.669198] (-) TimerEvent: {}
+[21.769449] (-) TimerEvent: {}
+[21.869703] (-) TimerEvent: {}
+[21.969954] (-) TimerEvent: {}
+[22.070198] (-) TimerEvent: {}
+[22.170442] (-) TimerEvent: {}
+[22.270686] (-) TimerEvent: {}
+[22.370972] (-) TimerEvent: {}
+[22.471209] (-) TimerEvent: {}
+[22.571450] (-) TimerEvent: {}
+[22.671690] (-) TimerEvent: {}
+[22.771970] (-) TimerEvent: {}
+[22.872207] (-) TimerEvent: {}
+[22.972488] (-) TimerEvent: {}
+[23.072770] (-) TimerEvent: {}
+[23.173045] (-) TimerEvent: {}
+[23.273321] (-) TimerEvent: {}
+[23.373598] (-) TimerEvent: {}
+[23.473869] (-) TimerEvent: {}
+[23.574138] (-) TimerEvent: {}
+[23.674373] (-) TimerEvent: {}
+[23.774644] (-) TimerEvent: {}
+[23.874896] (-) TimerEvent: {}
+[23.975139] (-) TimerEvent: {}
+[24.075376] (-) TimerEvent: {}
+[24.175610] (-) TimerEvent: {}
+[24.275888] (-) TimerEvent: {}
+[24.376156] (-) TimerEvent: {}
+[24.476406] (-) TimerEvent: {}
+[24.576682] (-) TimerEvent: {}
+[24.676951] (-) TimerEvent: {}
+[24.777188] (-) TimerEvent: {}
+[24.877468] (-) TimerEvent: {}
+[24.977741] (-) TimerEvent: {}
+[25.077986] (-) TimerEvent: {}
+[25.178221] (-) TimerEvent: {}
+[25.278472] (-) TimerEvent: {}
+[25.378745] (-) TimerEvent: {}
+[25.479014] (-) TimerEvent: {}
+[25.579249] (-) TimerEvent: {}
+[25.679488] (-) TimerEvent: {}
+[25.779763] (-) TimerEvent: {}
+[25.880041] (-) TimerEvent: {}
+[25.980313] (-) TimerEvent: {}
+[26.080601] (-) TimerEvent: {}
+[26.180890] (-) TimerEvent: {}
+[26.281206] (-) TimerEvent: {}
+[26.381475] (-) TimerEvent: {}
+[26.481762] (-) TimerEvent: {}
+[26.582093] (-) TimerEvent: {}
+[26.682339] (-) TimerEvent: {}
+[26.782591] (-) TimerEvent: {}
+[26.882857] (-) TimerEvent: {}
+[26.983185] (-) TimerEvent: {}
+[27.083444] (-) TimerEvent: {}
+[27.183726] (-) TimerEvent: {}
+[27.283990] (-) TimerEvent: {}
+[27.384264] (-) TimerEvent: {}
+[27.484535] (-) TimerEvent: {}
+[27.584770] (-) TimerEvent: {}
+[27.685041] (-) TimerEvent: {}
+[27.785310] (-) TimerEvent: {}
+[27.885578] (-) TimerEvent: {}
+[27.985850] (-) TimerEvent: {}
+[28.086123] (-) TimerEvent: {}
+[28.186394] (-) TimerEvent: {}
+[28.286661] (-) TimerEvent: {}
+[28.386943] (-) TimerEvent: {}
+[28.487188] (-) TimerEvent: {}
+[28.587432] (-) TimerEvent: {}
+[28.687691] (-) TimerEvent: {}
+[28.787953] (-) TimerEvent: {}
+[28.888223] (-) TimerEvent: {}
+[28.988490] (-) TimerEvent: {}
+[29.088760] (-) TimerEvent: {}
+[29.188990] (-) TimerEvent: {}
+[29.289258] (-) TimerEvent: {}
+[29.389529] (-) TimerEvent: {}
+[29.489801] (-) TimerEvent: {}
+[29.590091] (-) TimerEvent: {}
+[29.690369] (-) TimerEvent: {}
+[29.790621] (-) TimerEvent: {}
+[29.890908] (-) TimerEvent: {}
+[29.991178] (-) TimerEvent: {}
+[30.091466] (-) TimerEvent: {}
+[30.191786] (-) TimerEvent: {}
+[30.292091] (-) TimerEvent: {}
+[30.392357] (-) TimerEvent: {}
+[30.492640] (-) TimerEvent: {}
+[30.592969] (-) TimerEvent: {}
+[30.693249] (-) TimerEvent: {}
+[30.793520] (-) TimerEvent: {}
+[30.893865] (-) TimerEvent: {}
+[30.994123] (-) TimerEvent: {}
+[31.094388] (-) TimerEvent: {}
+[31.194652] (-) TimerEvent: {}
+[31.294917] (-) TimerEvent: {}
+[31.395192] (-) TimerEvent: {}
+[31.495494] (-) TimerEvent: {}
+[31.595766] (-) TimerEvent: {}
+[31.696064] (-) TimerEvent: {}
+[31.796331] (-) TimerEvent: {}
+[31.896629] (-) TimerEvent: {}
+[31.996905] (-) TimerEvent: {}
+[32.097212] (-) TimerEvent: {}
+[32.197472] (-) TimerEvent: {}
+[32.297774] (-) TimerEvent: {}
+[32.398043] (-) TimerEvent: {}
+[32.498317] (-) TimerEvent: {}
+[32.598613] (-) TimerEvent: {}
+[32.698978] (-) TimerEvent: {}
+[32.799245] (-) TimerEvent: {}
+[32.899515] (-) TimerEvent: {}
+[32.999837] (-) TimerEvent: {}
+[33.100133] (-) TimerEvent: {}
+[33.200436] (-) TimerEvent: {}
+[33.300705] (-) TimerEvent: {}
+[33.401007] (-) TimerEvent: {}
+[33.501315] (-) TimerEvent: {}
+[33.601632] (-) TimerEvent: {}
+[33.701909] (-) TimerEvent: {}
+[33.802209] (-) TimerEvent: {}
+[33.902480] (-) TimerEvent: {}
+[34.002801] (-) TimerEvent: {}
+[34.103075] (-) TimerEvent: {}
+[34.203331] (-) TimerEvent: {}
+[34.303594] (-) TimerEvent: {}
+[34.403872] (-) TimerEvent: {}
+[34.504141] (-) TimerEvent: {}
+[34.604440] (-) TimerEvent: {}
+[34.704713] (-) TimerEvent: {}
+[34.805005] (-) TimerEvent: {}
+[34.905295] (-) TimerEvent: {}
+[35.005559] (-) TimerEvent: {}
+[35.105815] (-) TimerEvent: {}
+[35.206110] (-) TimerEvent: {}
+[35.306413] (-) TimerEvent: {}
+[35.406636] (-) TimerEvent: {}
+[35.506959] (-) TimerEvent: {}
+[35.607217] (-) TimerEvent: {}
+[35.707476] (-) TimerEvent: {}
+[35.807738] (-) TimerEvent: {}
+[35.907993] (-) TimerEvent: {}
+[36.008294] (-) TimerEvent: {}
+[36.108595] (-) TimerEvent: {}
+[36.208875] (-) TimerEvent: {}
+[36.309134] (-) TimerEvent: {}
+[36.409391] (-) TimerEvent: {}
+[36.509687] (-) TimerEvent: {}
+[36.609983] (-) TimerEvent: {}
+[36.710273] (-) TimerEvent: {}
+[36.810530] (-) TimerEvent: {}
+[36.910825] (-) TimerEvent: {}
+[37.011095] (-) TimerEvent: {}
+[37.111352] (-) TimerEvent: {}
+[37.211649] (-) TimerEvent: {}
+[37.311943] (-) TimerEvent: {}
+[37.412196] (-) TimerEvent: {}
+[37.512483] (-) TimerEvent: {}
+[37.612741] (-) TimerEvent: {}
+[37.713036] (-) TimerEvent: {}
+[37.813332] (-) TimerEvent: {}
+[37.913629] (-) TimerEvent: {}
+[38.013885] (-) TimerEvent: {}
+[38.114171] (-) TimerEvent: {}
+[38.214467] (-) TimerEvent: {}
+[38.314761] (-) TimerEvent: {}
+[38.415027] (-) TimerEvent: {}
+[38.515298] (-) TimerEvent: {}
+[38.615567] (-) TimerEvent: {}
+[38.715889] (-) TimerEvent: {}
+[38.816207] (-) TimerEvent: {}
+[38.916475] (-) TimerEvent: {}
+[39.016788] (-) TimerEvent: {}
+[39.117078] (-) TimerEvent: {}
+[39.217342] (-) TimerEvent: {}
+[39.317604] (-) TimerEvent: {}
+[39.417895] (-) TimerEvent: {}
+[39.518191] (-) TimerEvent: {}
+[39.618493] (-) TimerEvent: {}
+[39.718750] (-) TimerEvent: {}
+[39.819014] (-) TimerEvent: {}
+[39.919280] (-) TimerEvent: {}
+[40.019536] (-) TimerEvent: {}
+[40.119825] (-) TimerEvent: {}
+[40.220156] (-) TimerEvent: {}
+[40.320454] (-) TimerEvent: {}
+[40.420751] (-) TimerEvent: {}
+[40.521047] (-) TimerEvent: {}
+[40.621349] (-) TimerEvent: {}
+[40.721645] (-) TimerEvent: {}
+[40.821931] (-) TimerEvent: {}
+[40.922188] (-) TimerEvent: {}
+[41.022489] (-) TimerEvent: {}
+[41.122789] (-) TimerEvent: {}
+[41.223070] (-) TimerEvent: {}
+[41.323339] (-) TimerEvent: {}
+[41.423605] (-) TimerEvent: {}
+[41.523905] (-) TimerEvent: {}
+[41.624207] (-) TimerEvent: {}
+[41.724504] (-) TimerEvent: {}
+[41.824767] (-) TimerEvent: {}
+[41.925066] (-) TimerEvent: {}
+[42.025327] (-) TimerEvent: {}
+[42.125620] (-) TimerEvent: {}
+[42.225929] (-) TimerEvent: {}
+[42.326223] (-) TimerEvent: {}
+[42.426525] (-) TimerEvent: {}
+[42.526823] (-) TimerEvent: {}
+[42.627101] (-) TimerEvent: {}
+[42.727357] (-) TimerEvent: {}
+[42.827697] (-) TimerEvent: {}
+[42.928031] (-) TimerEvent: {}
+[43.028326] (-) TimerEvent: {}
+[43.128651] (-) TimerEvent: {}
+[43.228986] (-) TimerEvent: {}
+[43.329314] (-) TimerEvent: {}
+[43.429639] (-) TimerEvent: {}
+[43.529973] (-) TimerEvent: {}
+[43.630304] (-) TimerEvent: {}
+[43.730634] (-) TimerEvent: {}
+[43.830950] (-) TimerEvent: {}
+[43.931249] (-) TimerEvent: {}
+[44.031549] (-) TimerEvent: {}
+[44.131873] (-) TimerEvent: {}
+[44.232196] (-) TimerEvent: {}
+[44.332514] (-) TimerEvent: {}
+[44.432837] (-) TimerEvent: {}
+[44.533140] (-) TimerEvent: {}
+[44.633443] (-) TimerEvent: {}
+[44.733706] (-) TimerEvent: {}
+[44.834010] (-) TimerEvent: {}
+[44.934308] (-) TimerEvent: {}
+[45.034567] (-) TimerEvent: {}
+[45.134865] (-) TimerEvent: {}
+[45.235141] (-) TimerEvent: {}
+[45.335409] (-) TimerEvent: {}
+[45.435707] (-) TimerEvent: {}
+[45.536002] (-) TimerEvent: {}
+[45.636267] (-) TimerEvent: {}
+[45.736609] (-) TimerEvent: {}
+[45.836993] (-) TimerEvent: {}
+[45.937298] (-) TimerEvent: {}
+[46.037607] (-) TimerEvent: {}
+[46.137908] (-) TimerEvent: {}
+[46.238293] (-) TimerEvent: {}
+[46.338614] (-) TimerEvent: {}
+[46.438911] (-) TimerEvent: {}
+[46.539229] (-) TimerEvent: {}
+[46.639540] (-) TimerEvent: {}
+[46.739814] (-) TimerEvent: {}
+[46.840082] (-) TimerEvent: {}
+[46.940375] (-) TimerEvent: {}
+[47.040676] (-) TimerEvent: {}
+[47.140972] (-) TimerEvent: {}
+[47.241268] (-) TimerEvent: {}
+[47.341566] (-) TimerEvent: {}
+[47.441839] (-) TimerEvent: {}
+[47.542145] (-) TimerEvent: {}
+[47.642448] (-) TimerEvent: {}
+[47.742711] (-) TimerEvent: {}
+[47.843029] (-) TimerEvent: {}
+[47.943284] (-) TimerEvent: {}
+[48.043540] (-) TimerEvent: {}
+[48.143828] (-) TimerEvent: {}
+[48.244084] (-) TimerEvent: {}
+[48.344368] (-) TimerEvent: {}
+[48.444651] (-) TimerEvent: {}
+[48.544906] (-) TimerEvent: {}
+[48.645160] (-) TimerEvent: {}
+[48.745445] (-) TimerEvent: {}
+[48.845745] (-) TimerEvent: {}
+[48.946043] (-) TimerEvent: {}
+[49.046332] (-) TimerEvent: {}
+[49.146590] (-) TimerEvent: {}
+[49.246887] (-) TimerEvent: {}
+[49.347161] (-) TimerEvent: {}
+[49.447423] (-) TimerEvent: {}
+[49.547685] (-) TimerEvent: {}
+[49.647982] (-) TimerEvent: {}
+[49.748254] (-) TimerEvent: {}
+[49.848549] (-) TimerEvent: {}
+[49.948809] (-) TimerEvent: {}
+[50.049106] (-) TimerEvent: {}
+[50.149404] (-) TimerEvent: {}
+[50.249697] (-) TimerEvent: {}
+[50.350019] (-) TimerEvent: {}
+[50.450315] (-) TimerEvent: {}
+[50.550606] (-) TimerEvent: {}
+[50.650902] (-) TimerEvent: {}
+[50.751170] (-) TimerEvent: {}
+[50.851459] (-) TimerEvent: {}
+[50.951753] (-) TimerEvent: {}
+[51.052008] (-) TimerEvent: {}
+[51.152313] (-) TimerEvent: {}
+[51.252578] (-) TimerEvent: {}
+[51.352858] (-) TimerEvent: {}
+[51.453155] (-) TimerEvent: {}
+[51.553451] (-) TimerEvent: {}
+[51.653713] (-) TimerEvent: {}
+[51.754018] (-) TimerEvent: {}
+[51.854320] (-) TimerEvent: {}
+[51.954621] (-) TimerEvent: {}
+[52.054912] (-) TimerEvent: {}
+[52.155174] (-) TimerEvent: {}
+[52.255438] (-) TimerEvent: {}
+[52.355726] (-) TimerEvent: {}
+[52.456020] (-) TimerEvent: {}
+[52.556366] (-) TimerEvent: {}
+[52.656686] (-) TimerEvent: {}
+[52.756988] (-) TimerEvent: {}
+[52.857273] (-) TimerEvent: {}
+[52.938660] (hobot_stereonet) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libstereonet_model.so\x1b[0m\n'}
+[52.957394] (-) TimerEvent: {}
+[53.057687] (-) TimerEvent: {}
+[53.157983] (-) TimerEvent: {}
+[53.258245] (-) TimerEvent: {}
+[53.358510] (-) TimerEvent: {}
+[53.458803] (-) TimerEvent: {}
+[53.559091] (-) TimerEvent: {}
+[53.600808] (hobot_stereonet) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable stereonet_model_node\x1b[0m\n'}
+[53.659189] (-) TimerEvent: {}
+[53.759459] (-) TimerEvent: {}
+[53.859735] (-) TimerEvent: {}
+[53.960051] (-) TimerEvent: {}
+[54.060367] (-) TimerEvent: {}
+[54.160736] (-) TimerEvent: {}
+[54.261094] (-) TimerEvent: {}
+[54.361445] (-) TimerEvent: {}
+[54.461761] (-) TimerEvent: {}
+[54.562134] (-) TimerEvent: {}
+[54.662497] (-) TimerEvent: {}
+[54.762789] (-) TimerEvent: {}
+[54.863082] (-) TimerEvent: {}
+[54.963369] (-) TimerEvent: {}
+[55.063662] (-) TimerEvent: {}
+[55.163957] (-) TimerEvent: {}
+[55.264233] (-) TimerEvent: {}
+[55.364533] (-) TimerEvent: {}
+[55.399282] (hobot_stereonet) StdoutLine: {'line': b'[ 90%] Built target stereonet_model\n'}
+[55.464666] (-) TimerEvent: {}
+[55.564965] (-) TimerEvent: {}
+[55.665332] (-) TimerEvent: {}
+[55.765600] (-) TimerEvent: {}
+[55.865942] (-) TimerEvent: {}
+[55.966241] (-) TimerEvent: {}
+[56.066534] (-) TimerEvent: {}
+[56.166838] (-) TimerEvent: {}
+[56.267144] (-) TimerEvent: {}
+[56.367409] (-) TimerEvent: {}
+[56.369443] (hobot_stereonet) StdoutLine: {'line': b'[100%] Built target stereonet_model_node\n'}
+[56.378637] (hobot_stereonet) CommandEnded: {'returncode': 0}
+[56.412052] (hobot_stereonet) JobProgress: {'identifier': 'hobot_stereonet', 'progress': 'install'}
+[56.419784] (hobot_stereonet) Command: {'cmd': ['/usr/bin/cmake', '--install', '/cc_ws/tros_ws/build/hobot_stereonet'], 'cwd': '/cc_ws/tros_ws/build/hobot_stereonet', 'env': OrderedDict([('HISTTIMEFORMAT', '%F %T'), ('USER', 'mingren'), ('PLATFORM_X86', 'OFF'), ('HOSTNAME', 'in_docker'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mingren'), ('OLDPWD', '/cc_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('CROSS_COMPILE', '/usr/bin/aarch64-linux-gnu-'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/cc_ws/tros_ws/../sysroot_docker/usr/lib/aarch64-linux-gnu/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TARGET_TRIPLE', 'aarch64-linux-gnu'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PLATFORM_X3', 'OFF'), ('PLATFORM_Rdkultra', 'OFF'), ('DISPLAY', ':1'), ('PLATFORM_X5', 'OFF'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PLATFORM_S100', 'OFF'), ('PWD', '/cc_ws/tros_ws/build/hobot_stereonet'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TARGET_ARCH', 'aarch64'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('HISTFILE', '/cc_ws/.cc_ws_bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[56.425708] (hobot_stereonet) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[56.425869] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_component_node\n'}
+[56.426105] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_intra_sub_node\n'}
+[56.426317] (hobot_stereonet) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_node\n'}
+[56.429471] (hobot_stereonet) StdoutLine: {'line': b'-- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_node" to ""\n'}
+[56.429611] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_intra_sub_node\n'}
+[56.429727] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/data_collection\n'}
+[56.429971] (hobot_stereonet) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/lib/libstereonet_model.so\n'}
+[56.434309] (hobot_stereonet) StdoutLine: {'line': b'-- Set runtime path of "/cc_ws/tros_ws/install/lib/libstereonet_model.so" to ""\n'}
+[56.434448] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/lib/libstereonet_model_intra_sub.so\n'}
+[56.434545] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config\n'}
+[56.434690] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo.yaml\n'}
+[56.434809] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.bin\n'}
+[56.434936] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int16.bin\n'}
+[56.435016] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.4.hbm\n'}
+[56.435162] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_2.yaml\n'}
+[56.435277] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_cv.yaml\n'}
+[56.435415] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_26.yaml\n'}
+[56.435554] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.1.hbm\n'}
+[56.435699] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.1.bin\n'}
+[56.435793] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int8.bin\n'}
+[56.435886] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.2.bin\n'}
+[56.435950] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_15.yaml\n'}
+[56.436042] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.1.bin\n'}
+[56.436106] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.0.bin\n'}
+[56.436193] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int16_320_256.bin\n'}
+[56.436284] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model.launch.py\n'}
+[56.436347] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_component.launch.py\n'}
+[56.436424] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual.launch.py\n'}
+[56.436487] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component.launch.py\n'}
+[56.436605] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_offline_infer.launch.py\n'}
+[56.436685] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_230ai.launch.py\n'}
+[56.436748] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_2i.launch.py\n'}
+[56.436810] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_mini.launch.py\n'}
+[56.436878] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_mini_v2.launch.py\n'}
+[56.436940] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.0.launch.py\n'}
+[56.437001] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.1.launch.py\n'}
+[56.437078] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.2.launch.py\n'}
+[56.437140] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.3.launch.py\n'}
+[56.437202] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.0.launch.py\n'}
+[56.437265] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.1.launch.py\n'}
+[56.437334] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.2.launch.py\n'}
+[56.437396] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.3.launch.py\n'}
+[56.437459] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.4_int16.launch.py\n'}
+[56.437521] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.4_int16_320_256.launch.py\n'}
+[56.437584] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.4_int8.launch.py\n'}
+[56.437648] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_zed_v2.0.launch.py\n'}
+[56.437711] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_zed_v2.2.launch.py\n'}
+[56.437960] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config\n'}
+[56.438256] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo.yaml\n'}
+[56.438706] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.bin\n'}
+[56.438874] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int16.bin\n'}
+[56.438980] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.4.hbm\n'}
+[56.439150] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_2.yaml\n'}
+[56.439255] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_cv.yaml\n'}
+[56.439416] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_26.yaml\n'}
+[56.439651] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.1.hbm\n'}
+[56.439795] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.1.bin\n'}
+[56.439995] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int8.bin\n'}
+[56.440127] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.2.bin\n'}
+[56.440298] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_15.yaml\n'}
+[56.440395] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.1.bin\n'}
+[56.440542] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.0.bin\n'}
+[56.440616] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int16_320_256.bin\n'}
+[56.440764] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data\n'}
+[56.440887] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000002.png\n'}
+[56.441009] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000000.png\n'}
+[56.441132] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000004.png\n'}
+[56.441330] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000001.png\n'}
+[56.441431] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000002.png\n'}
+[56.441522] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000000.png\n'}
+[56.441654] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000004.png\n'}
+[56.441849] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000003.png\n'}
+[56.441992] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000003.png\n'}
+[56.442196] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000001.png\n'}
+[56.442416] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_stereonet\n'}
+[56.442543] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_stereonet\n'}
+[56.442648] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/ament_prefix_path.sh\n'}
+[56.442788] (hobot_stereonet) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/ament_prefix_path.dsv\n'}
+[56.442885] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/path.sh\n'}
+[56.443115] (hobot_stereonet) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/path.dsv\n'}
+[56.443769] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.bash\n'}
+[56.443848] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.sh\n'}
+[56.443978] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.zsh\n'}
+[56.444060] (hobot_stereonet) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.dsv\n'}
+[56.444135] (hobot_stereonet) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/package.dsv\n'}
+[56.444369] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_stereonet\n'}
+[56.444543] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/rclcpp_components/hobot_stereonet\n'}
+[56.444661] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/cmake/hobot_stereonetConfig.cmake\n'}
+[56.444773] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/cmake/hobot_stereonetConfig-version.cmake\n'}
+[56.444862] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/package.xml\n'}
+[56.444959] (hobot_stereonet) CommandEnded: {'returncode': 0}
+[56.467509] (-) TimerEvent: {}
+[56.494414] (hobot_stereonet) JobEnded: {'identifier': 'hobot_stereonet', 'rc': 0}
+[56.495416] (-) EventReactorShutdown: {}

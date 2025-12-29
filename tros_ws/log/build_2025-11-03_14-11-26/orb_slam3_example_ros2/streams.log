@@ -1,0 +1,117 @@
+[0.182s] Invoking command in '/cc_ws/tros_ws/build/orb_slam3_example_ros2': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/orb_slam3/orb_slam3_example_ros2 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.452s] Not searching for unused variables given on the command line.
+[0.453s] -- Using flag -std=c++17.
+[0.453s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.483s] [0mBuild type: Release[0m
+[0.483s] [0mOPENCV VERSION:[0m
+[0.484s] [0m4.5.4[0m
+[0.484s] [33mCMake Warning at CMakeLists.txt:54 (find_package):
+[0.484s]   By not providing "Findrealsense2.cmake" in CMAKE_MODULE_PATH this project
+[0.484s]   has asked CMake to find a package configuration file provided by
+[0.485s]   "realsense2", but CMake did not find one.
+[0.485s] 
+[0.485s]   Could not find a package configuration file provided by "realsense2" with
+[0.485s]   any of the following names:
+[0.485s] 
+[0.486s]     realsense2Config.cmake
+[0.486s]     realsense2-config.cmake
+[0.486s] 
+[0.486s]   Add the installation prefix of "realsense2" to CMAKE_PREFIX_PATH or set
+[0.487s]   "realsense2_DIR" to a directory containing one of the above files.  If
+[0.487s]   "realsense2" provides a separate development package or SDK, be sure it has
+[0.487s]   been installed.
+[0.487s] 
+[0.488s] [0m
+[1.513s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[1.514s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[1.514s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[1.514s]   set the policy and suppress this warning.
+[1.515s] 
+[1.515s]   For compatibility with older versions of CMake, option is clearing the
+[1.515s]   normal variable 'BUILD_TESTING'.
+[1.516s] Call Stack (most recent call first):
+[1.516s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[1.517s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.517s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.517s]   CMakeLists.txt:59 (find_package)
+[1.518s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.518s] [0m
+[1.534s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.679s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.701s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.770s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.925s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.029s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.465s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.471s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.015s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.783s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.229s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.524s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.751s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[4.782s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[4.811s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[5.891s] -- Found orb_slam3: 2.3.1 (/cc_ws/tros_ws/robot_dev_config/../install/share/orb_slam3/cmake)
+[5.912s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[5.926s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.931s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.973s] [0morb_slam3 dirs: /cc_ws/sysroot_docker/usr_x5/include/opencv4;/cc_ws/tros_ws/install/include, /cc_ws/tros_ws/install/lib/liborb_slam3.so;/cc_ws/tros_ws/install/lib/libDBoW2.so;/cc_ws/tros_ws/install/lib/libg2o.so;/cc_ws/tros_ws/install/lib/liborb_slam3.so;/cc_ws/tros_ws/install/lib/libdnn_node.so;alog;gflags;dnn;cnn_intf;hbrt_bayes_aarch64;rclcpp::rclcpp;std_msgs::std_msgs__rosidl_generator_c;std_msgs::std_msgs__rosidl_typesupport_fastrtps_c;std_msgs::std_msgs__rosidl_generator_cpp;std_msgs::std_msgs__rosidl_typesupport_fastrtps_cpp;std_msgs::std_msgs__rosidl_typesupport_introspection_c;std_msgs::std_msgs__rosidl_typesupport_c;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;std_msgs::std_msgs__rosidl_typesupport_cpp;std_msgs::std_msgs__rosidl_generator_py;opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio;opencv_alphamat;opencv_aruco;opencv_barcode;opencv_bgsegm;opencv_bioinspired;opencv_ccalib;opencv_datasets;opencv_dnn_objdetect;opencv_dnn_superres;opencv_dpm;opencv_face;opencv_freetype;opencv_fuzzy;opencv_hdf;opencv_hfs;opencv_img_hash;opencv_intensity_transform;opencv_line_descriptor;opencv_mcc;opencv_optflow;opencv_phase_unwrapping;opencv_plot;opencv_quality;opencv_rapid;opencv_reg;opencv_rgbd;opencv_saliency;opencv_shape;opencv_stereo;opencv_structured_light;opencv_superres;opencv_surface_matching;opencv_text;opencv_tracking;opencv_videostab;opencv_viz;opencv_wechat_qrcode;opencv_ximgproc;opencv_xobjdetect;opencv_xphoto, [0m
+[5.973s] [0mconsole_bridge dir[0m
+[5.973s] [0m/cc_ws/sysroot_docker/usr/include[0m
+[5.973s] [0m1.0.1[0m
+[5.974s] [0morb_slam3 include dirs: /cc_ws/sysroot_docker/usr_x5/include/opencv4;/cc_ws/tros_ws/install/include[0m
+[6.458s] -- Configuring done
+[6.957s] -- Generating done
+[6.963s] -- Build files have been written to: /cc_ws/tros_ws/build/orb_slam3_example_ros2
+[7.026s] Invoked command in '/cc_ws/tros_ws/build/orb_slam3_example_ros2' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/orb_slam3/orb_slam3_example_ros2 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[7.027s] Invoking command in '/cc_ws/tros_ws/build/orb_slam3_example_ros2': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/orb_slam3_example_ros2 -- -j12 -l12
+[7.156s] [35m[1mConsolidate compiler generated dependencies of target rgbd_inertial[0m
+[7.175s] [35m[1mConsolidate compiler generated dependencies of target stereo[0m
+[7.194s] [35m[1mConsolidate compiler generated dependencies of target stereo_inertial[0m
+[7.293s] [  8%] [32m[1mLinking CXX executable rgbd_inertial[0m
+[7.325s] [ 16%] [32m[1mLinking CXX executable stereo_inertial[0m
+[7.336s] [ 25%] [32m[1mLinking CXX executable stereo[0m
+[10.259s] [ 33%] Built target stereo
+[10.349s] [ 41%] Built target rgbd_inertial
+[10.359s] [ 50%] Built target stereo_inertial
+[10.395s] [35m[1mConsolidate compiler generated dependencies of target mono[0m
+[10.484s] [ 58%] [32mBuilding CXX object CMakeFiles/mono.dir/src/ros2_mono.cpp.o[0m
+[74.774s] [ 66%] [32m[1mLinking CXX executable mono[0m
+[75.815s] [ 66%] Built target mono
+[75.834s] [35m[1mConsolidate compiler generated dependencies of target rgbd[0m
+[75.834s] [35m[1mConsolidate compiler generated dependencies of target mono_inertial[0m
+[75.892s] [ 75%] [32m[1mLinking CXX executable mono_inertial[0m
+[75.892s] [ 83%] [32m[1mLinking CXX executable rgbd[0m
+[77.009s] [ 91%] Built target rgbd
+[77.075s] [100%] Built target mono_inertial
+[77.099s] Invoked command in '/cc_ws/tros_ws/build/orb_slam3_example_ros2' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/orb_slam3_example_ros2 -- -j12 -l12
+[77.193s] Invoking command in '/cc_ws/tros_ws/build/orb_slam3_example_ros2': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/orb_slam3_example_ros2
+[77.203s] -- Install configuration: "Release"
+[77.205s] -- Installing: /cc_ws/tros_ws/install/lib/orb_slam3_example_ros2/stereo_inertial
+[77.219s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/orb_slam3_example_ros2/stereo_inertial" to ""
+[77.219s] -- Installing: /cc_ws/tros_ws/install/lib/orb_slam3_example_ros2/stereo
+[77.228s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/orb_slam3_example_ros2/stereo" to ""
+[77.238s] -- Installing: /cc_ws/tros_ws/install/lib/orb_slam3_example_ros2/rgbd_inertial
+[77.246s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/orb_slam3_example_ros2/rgbd_inertial" to ""
+[77.247s] -- Installing: /cc_ws/tros_ws/install/lib/orb_slam3_example_ros2/rgbd
+[77.252s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/orb_slam3_example_ros2/rgbd" to ""
+[77.255s] -- Installing: /cc_ws/tros_ws/install/lib/orb_slam3_example_ros2/mono_inertial
+[77.260s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/orb_slam3_example_ros2/mono_inertial" to ""
+[77.263s] -- Installing: /cc_ws/tros_ws/install/lib/orb_slam3_example_ros2/mono
+[77.265s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/orb_slam3_example_ros2/mono" to ""
+[77.265s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/orb_slam3_example_ros2
+[77.265s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/orb_slam3_example_ros2
+[77.266s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3_example_ros2/environment/ament_prefix_path.sh
+[77.266s] -- Installing: /cc_ws/tros_ws/install/share/orb_slam3_example_ros2/environment/ament_prefix_path.dsv
+[77.266s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3_example_ros2/environment/path.sh
+[77.267s] -- Installing: /cc_ws/tros_ws/install/share/orb_slam3_example_ros2/environment/path.dsv
+[77.267s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3_example_ros2/local_setup.bash
+[77.267s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3_example_ros2/local_setup.sh
+[77.267s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3_example_ros2/local_setup.zsh
+[77.268s] -- Installing: /cc_ws/tros_ws/install/share/orb_slam3_example_ros2/local_setup.dsv
+[77.268s] -- Installing: /cc_ws/tros_ws/install/share/orb_slam3_example_ros2/package.dsv
+[77.269s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/orb_slam3_example_ros2
+[77.269s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3_example_ros2/cmake/orb_slam3_example_ros2Config.cmake
+[77.269s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3_example_ros2/cmake/orb_slam3_example_ros2Config-version.cmake
+[77.269s] -- Up-to-date: /cc_ws/tros_ws/install/share/orb_slam3_example_ros2/package.xml
+[77.274s] Invoked command in '/cc_ws/tros_ws/build/orb_slam3_example_ros2' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/orb_slam3_example_ros2

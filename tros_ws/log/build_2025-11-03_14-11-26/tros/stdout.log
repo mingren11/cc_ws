@@ -1,0 +1,21 @@
+Not searching for unused variables given on the command line.
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cc_ws/tros_ws/build/tros
+-- Install configuration: ""
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/tros
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/tros
+-- Up-to-date: /cc_ws/tros_ws/install/share/tros/environment/ament_prefix_path.sh
+-- Installing: /cc_ws/tros_ws/install/share/tros/environment/ament_prefix_path.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/tros/environment/path.sh
+-- Installing: /cc_ws/tros_ws/install/share/tros/environment/path.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/tros/local_setup.bash
+-- Up-to-date: /cc_ws/tros_ws/install/share/tros/local_setup.sh
+-- Up-to-date: /cc_ws/tros_ws/install/share/tros/local_setup.zsh
+-- Installing: /cc_ws/tros_ws/install/share/tros/local_setup.dsv
+-- Installing: /cc_ws/tros_ws/install/share/tros/package.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/tros
+-- Up-to-date: /cc_ws/tros_ws/install/share/tros/cmake/trosConfig.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/tros/cmake/trosConfig-version.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/tros/package.xml

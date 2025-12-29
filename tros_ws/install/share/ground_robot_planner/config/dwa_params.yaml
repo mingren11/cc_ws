@@ -1,0 +1,38 @@
+# DWA算法参数配置文件
+# 机器人动力学约束
+dwa:
+  # 速度约束
+  max_v: 1.0          # 最大线速度 (m/s)
+  min_v: -0.5         # 最小线速度 (m/s) 
+  max_omega: 1.0      # 最大角速度 (rad/s)
+  min_omega: -1.0     # 最小角速度 (rad/s)
+  
+  # 加速度约束
+  max_acc_v: 0.5      # 最大线加速度 (m/s²)
+  max_acc_omega: 1.0  # 最大角加速度 (rad/s²)
+  
+  # 预测参数
+  predict_time: 2.0   # 预测时间窗口 (s)
+  dt: 0.1            # 时间步长 (s)
+  
+  # 代价函数权重
+  heading_weight: 1.0    # 朝向代价权重
+  obstacle_weight: 10.0  # 障碍物代价权重  
+  velocity_weight: 1.0   # 速度代价权重
+  path_weight: 1.0       # 路径代价权重
+  
+  # 障碍物检测
+  obstacle_threshold: 0.3  # 障碍物距离阈值 (m)
+
+# 使用示例：
+# 1. 在launch文件中加载此配置：
+#    <rosparam file="$(find ground_robot_planner)/config/dwa_params.yaml" command="load"/>
+#
+# 2. 在代码中获取参数：
+#    double max_v = node_->get_parameter("dwa.max_v").as_double();
+#
+# 3. 调整参数建议：
+#    - 如果机器人经常撞到障碍物，增加 obstacle_weight
+#    - 如果机器人偏离路径太多，增加 path_weight  
+#    - 如果机器人运动不够平滑，调整 max_acc_v 和 max_acc_omega
+#    - 如果规划时间太长，减少 predict_time 或增加采样步长

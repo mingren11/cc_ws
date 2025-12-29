@@ -1,0 +1,516 @@
+[0.189s] Invoking command in '/cc_ws/tros_ws/build/mono2d_body_detection': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[43.195s] Not searching for unused variables given on the command line.
+[43.196s] -- The C compiler identification is GNU 11.4.0
+[43.200s] -- The CXX compiler identification is GNU 11.4.0
+[43.200s] -- Detecting C compiler ABI info
+[43.200s] -- Detecting C compiler ABI info - done
+[43.200s] -- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc - skipped
+[43.201s] -- Detecting C compile features
+[43.201s] -- Detecting C compile features - done
+[43.201s] -- Detecting CXX compiler ABI info
+[43.201s] -- Detecting CXX compiler ABI info - done
+[43.201s] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+[43.202s] -- Detecting CXX compile features
+[43.202s] -- Detecting CXX compile features - done
+[43.202s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[43.202s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[43.202s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[43.203s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[43.203s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[43.203s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[43.203s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[43.204s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[43.204s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[43.204s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[43.204s] -- Found OpenSSL: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[43.204s] -- Found FastRTPS: /opt/ros/humble/include  
+[43.205s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[43.205s] -- Looking for pthread.h
+[43.205s] -- Looking for pthread.h - found
+[43.205s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[43.205s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[43.206s] -- Found Threads: TRUE  
+[43.206s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[43.206s] -- Found ai_msgs: 2.0.1 (/cc_ws/tros_ws/robot_dev_config/../install/share/ai_msgs/cmake)
+[43.206s] -- Found dnn_node: 2.5.4 (/cc_ws/tros_ws/robot_dev_config/../install/share/dnn_node/cmake)
+[43.206s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[43.207s] -- Found hobot_cv: 2.3.2 (/cc_ws/tros_ws/robot_dev_config/../install/share/hobot_cv/cmake)
+[43.207s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[43.207s] -- Found hbm_img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/hbm_img_msgs/cmake)
+[43.207s] -- Found hobot_mot: 2.0.2 (/cc_ws/tros_ws/robot_dev_config/../install/share/hobot_mot/cmake)
+[43.207s] -- Configuring done
+[43.208s] -- Generating done
+[43.208s] -- Build files have been written to: /cc_ws/tros_ws/build/mono2d_body_detection
+[43.209s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[43.209s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[43.209s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[43.209s]   set the policy and suppress this warning.
+[43.210s] 
+[43.210s]   For compatibility with older versions of CMake, option is clearing the
+[43.210s]   normal variable 'BUILD_TESTING'.
+[43.210s] Call Stack (most recent call first):
+[43.210s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[43.211s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[43.211s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[43.211s]   CMakeLists.txt:33 (find_package)
+[43.211s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[43.212s] [0m
+[43.212s] [0mbuild mono2d_body_detection for platform X5[0m
+[43.212s] [0mCMAKE_SYSROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[43.255s] Invoked command in '/cc_ws/tros_ws/build/mono2d_body_detection' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[43.256s] Invoking command in '/cc_ws/tros_ws/build/mono2d_body_detection': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/mono2d_body_detection -- -j12 -l12
+[43.425s] [ 16%] [32mBuilding CXX object CMakeFiles/mono2d_body_detection_component.dir/src/main.cpp.o[0m
+[63.440s] [ 33%] [32mBuilding CXX object CMakeFiles/mono2d_body_detection_component.dir/src/post_process/yolo_pose_parser.cpp.o[0m
+[75.066s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/post_process/yolo_pose_parser.cpp:[m[K In function ‘[01m[Kint32_t YoloPoseParse(const std::vector<std::shared_ptr<hobot::easy_dnn::DNNTensor> >&, std::vector<std::shared_ptr<hobot::dnn_node::parser_fasterrcnn::Filter2DResult> >&, std::shared_ptr<hobot::dnn_node::parser_fasterrcnn::LandmarksResult>&)[m[K’:
+[75.067s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/post_process/yolo_pose_parser.cpp:152:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[75.067s]   152 |   for (int i = 0; [01;35m[Ki < orders.size()[m[K; i++) {
+[75.067s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[78.110s] [ 50%] [32mBuilding CXX object CMakeFiles/mono2d_body_detection_component.dir/src/mono2d_body_det_node.cpp.o[0m
+[94.062s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[94.062s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[94.062s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[94.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[94.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[94.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[94.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[94.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[94.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[94.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[94.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[94.065s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/include/mono2d_body_det_node.h:24[m[K,
+[94.065s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:15[m[K:
+[94.066s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:[m[K In function ‘[01m[Kint Render(const std::shared_ptr<hobot::easy_dnn::NV12PyramidInput>&, const UniquePtr&)[m[K’:
+[94.066s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:125:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<ai_msgs::msg::Target_<std::allocator<void> >, std::allocator<ai_msgs::msg::Target_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[94.066s]   125 |               [01;35m[K"target size: %d"[m[K,
+[94.066s]       |               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[94.067s]   126 |               [32m[Kai_msg->targets.size()[m[K);
+[94.067s]       |               [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[94.067s]       |                                   [32m[K|[m[K
+[94.067s]       |                                   [32m[Kstd::vector<ai_msgs::msg::Target_<std::allocator<void> >, std::allocator<ai_msgs::msg::Target_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K
+[94.074s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:125:30:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[94.074s]   125 |               "target size: [01;36m[K%d[m[K",
+[94.075s]       |                             [01;36m[K~^[m[K
+[94.075s]       |                              [01;36m[K|[m[K
+[94.075s]       |                              [01;36m[Kint[m[K
+[94.075s]       |                             [32m[K%ld[m[K
+[94.075s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[94.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[94.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[94.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[94.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[94.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[94.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[94.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[94.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[94.078s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[94.078s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[94.078s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/include/mono2d_body_det_node.h:24[m[K,
+[94.078s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:15[m[K:
+[94.078s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:135:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<ai_msgs::msg::Roi_<std::allocator<void> >, std::allocator<ai_msgs::msg::Roi_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[94.079s]   135 |                 [01;35m[K"target type: %s, rois.size: %d"[m[K,
+[94.079s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[94.079s]   136 |                 target.type.c_str(),
+[94.079s]   137 |                 [32m[Ktarget.rois.size()[m[K);
+[94.081s]       |                 [32m[K~~~~~~~~~~~~~~~~~~[m[K
+[94.084s]       |                                 [32m[K|[m[K
+[94.084s]       |                                 [32m[Kstd::vector<ai_msgs::msg::Roi_<std::allocator<void> >, std::allocator<ai_msgs::msg::Roi_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K
+[94.085s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:135:47:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[94.085s]   135 |                 "target type: %s, rois.size: [01;36m[K%d[m[K",
+[94.092s]       |                                              [01;36m[K~^[m[K
+[94.093s]       |                                               [01;36m[K|[m[K
+[94.093s]       |                                               [01;36m[Kint[m[K
+[94.093s]       |                                              [32m[K%ld[m[K
+[94.094s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[94.102s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[94.102s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[94.102s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[94.102s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[94.108s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[94.108s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[94.109s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[94.109s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[94.109s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[94.109s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[94.109s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/include/mono2d_body_det_node.h:24[m[K,
+[94.110s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:15[m[K:
+[94.110s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:[m[K In member function ‘[01m[Kvoid NodeOutputManage::Feed(uint64_t)[m[K’:
+[94.110s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:194:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[94.110s]   194 |       rclcpp::get_logger("mono2d_body_det"), [01;35m[K"feed frame ts: %llu"[m[K, [32m[Kts_ms[m[K);
+[94.111s]       |                                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~[m[K
+[94.111s]       |                                                                     [32m[K|[m[K
+[94.111s]       |                                                                     [32m[Kuint64_t {aka long unsigned int}[m[K
+[94.116s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:194:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[94.117s]   194 |       rclcpp::get_logger("mono2d_body_det"), "feed frame ts: [01;36m[K%llu[m[K", ts_ms);
+[94.117s]       |                                                              [01;36m[K~~~^[m[K
+[94.117s]       |                                                                 [01;36m[K|[m[K
+[94.131s]       |                                                                 [01;36m[Klong long unsigned int[m[K
+[94.131s]       |                                                              [32m[K%lu[m[K
+[94.131s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[94.132s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[94.132s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[94.132s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[94.133s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[94.133s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[94.133s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[94.133s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[94.133s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[94.134s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[94.134s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[94.134s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/include/mono2d_body_det_node.h:24[m[K,
+[94.136s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:15[m[K:
+[94.137s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:202:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::set<long unsigned int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[94.137s]   202 |                [01;35m[K"cache_frame_.size(): %d"[m[K,
+[94.137s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[94.138s]   203 |                [32m[Kcache_frame_.size()[m[K);
+[94.138s]       |                [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[94.138s]       |                                 [32m[K|[m[K
+[94.138s]       |                                 [32m[Kstd::set<long unsigned int>::size_type {aka long unsigned int}[m[K
+[94.139s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:202:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[94.139s]   202 |                "cache_frame_.size(): [01;36m[K%d[m[K",
+[94.139s]       |                                      [01;36m[K~^[m[K
+[94.139s]       |                                       [01;36m[K|[m[K
+[94.139s]       |                                       [01;36m[Kint[m[K
+[94.140s]       |                                      [32m[K%ld[m[K
+[94.140s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[94.140s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[94.140s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[94.141s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[94.141s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[94.142s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[94.142s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[94.142s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[94.142s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[94.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[94.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[94.143s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/include/mono2d_body_det_node.h:24[m[K,
+[94.148s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:15[m[K:
+[94.149s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:[m[K In member function ‘[01m[Kstd::vector<std::shared_ptr<hobot::dnn_node::DnnNodeOutput> > NodeOutputManage::Feed(const std::shared_ptr<hobot::dnn_node::DnnNodeOutput>&)[m[K’:
+[94.149s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:218:55:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[94.149s]   218 |   RCLCPP_DEBUG(rclcpp::get_logger("mono2d_body_det"), [01;35m[K"feed ts: %llu"[m[K, [32m[Kts_ms[m[K);
+[94.149s]       |                                                       [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~[m[K
+[94.150s]       |                                                                        [32m[K|[m[K
+[94.150s]       |                                                                        [32m[Kuint64_t {aka long unsigned int}[m[K
+[94.150s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:218:68:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[94.150s]   218 |   RCLCPP_DEBUG(rclcpp::get_logger("mono2d_body_det"), "feed ts: [01;36m[K%llu[m[K", ts_ms);
+[94.150s]       |                                                                 [01;36m[K~~~^[m[K
+[94.151s]       |                                                                    [01;36m[K|[m[K
+[94.159s]       |                                                                    [01;36m[Klong long unsigned int[m[K
+[94.159s]       |                                                                 [32m[K%lu[m[K
+[94.160s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[94.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[94.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[94.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[94.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[94.161s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[94.161s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[94.161s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[94.161s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[94.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[94.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[94.162s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/include/mono2d_body_det_node.h:24[m[K,
+[94.162s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:15[m[K:
+[94.162s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:235:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<std::shared_ptr<hobot::dnn_node::DnnNodeOutput> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[94.163s]   235 |                [01;35m[K"node_outputs.size(): %d"[m[K,
+[94.163s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[94.163s]   236 |                [32m[Knode_outputs.size()[m[K);
+[94.163s]       |                [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[94.163s]       |                                 [32m[K|[m[K
+[94.182s]       |                                 [32m[Kstd::vector<std::shared_ptr<hobot::dnn_node::DnnNodeOutput> >::size_type {aka long unsigned int}[m[K
+[94.183s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:235:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[94.183s]   235 |                "node_outputs.size(): [01;36m[K%d[m[K",
+[94.184s]       |                                      [01;36m[K~^[m[K
+[94.184s]       |                                       [01;36m[K|[m[K
+[94.191s]       |                                       [01;36m[Kint[m[K
+[94.192s]       |                                      [32m[K%ld[m[K
+[94.192s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[94.192s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[94.193s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[94.193s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[94.193s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[94.193s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[94.193s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[94.194s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[94.194s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[94.194s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[94.194s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[94.195s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/include/mono2d_body_det_node.h:24[m[K,
+[94.195s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:15[m[K:
+[94.195s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:251:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+[94.195s]   251 |                      [01;35m[K"push ts: %llu"[m[K,
+[94.196s]       |                      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[94.196s]   252 |                      [32m[K*first_frame[m[K);
+[94.196s]       |                      [32m[K~~~~~~~~~~~~[m[K
+[94.196s]       |                      [32m[K|[m[K
+[94.197s]       |                      [32m[Klong unsigned int[m[K
+[94.197s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:251:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[94.197s]   251 |                      "push ts: [01;36m[K%llu[m[K",
+[94.197s]       |                                [01;36m[K~~~^[m[K
+[94.197s]       |                                   [01;36m[K|[m[K
+[94.198s]       |                                   [01;36m[Klong long unsigned int[m[K
+[94.198s]       |                                [32m[K%lu[m[K
+[94.290s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:[m[K In member function ‘[01m[Kvirtual int Mono2dBodyDetNode::PostProcess(const std::shared_ptr<hobot::dnn_node::DnnNodeOutput>&)[m[K’:
+[94.291s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:502:19:[m[K [01;35m[Kwarning: [m[Kloop variable ‘[01m[Knode_output[m[K’ creates a copy from type ‘[01m[Kconst std::shared_ptr<hobot::dnn_node::DnnNodeOutput>[m[K’ [[01;35m[K-Wrange-loop-construct[m[K]
+[94.291s]   502 |   for (const auto [01;35m[Knode_output[m[K : node_outputs) {
+[94.291s]       |                   [01;35m[K^~~~~~~~~~~[m[K
+[94.291s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:502:19:[m[K [01;36m[Knote: [m[Kuse reference type to prevent copying
+[94.292s]   502 |   for (const auto [01;36m[Knode_output[m[K : node_outputs) {
+[94.292s]       |                   [01;36m[K^~~~~~~~~~~[m[K
+[94.292s]       |                   [32m[K&[m[K
+[94.374s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:559:15:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<hobot::dnn_node::parser_fasterrcnn::Filter2DResult> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[94.375s]   559 |       if ([01;35m[Kidx >= results.size()[m[K) {
+[94.375s]       |           [01;35m[K~~~~^~~~~~~~~~~~~~~~~[m[K
+[94.377s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[94.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[94.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[94.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[94.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[94.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[94.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[94.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[94.378s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[94.379s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[94.379s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[94.379s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/include/mono2d_body_det_node.h:24[m[K,
+[94.379s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:15[m[K:
+[94.379s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:561:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<std::shared_ptr<hobot::dnn_node::parser_fasterrcnn::Filter2DResult> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[94.380s]   561 |                      [01;35m[K"Output index: %d exceeds results size %d"[m[K,
+[94.380s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[94.380s]   562 |                      idx, [32m[Kresults.size()[m[K);
+[94.380s]       |                           [32m[K~~~~~~~~~~~~~~[m[K
+[94.380s]       |                                       [32m[K|[m[K
+[94.381s]       |                                       [32m[Kstd::vector<std::shared_ptr<hobot::dnn_node::parser_fasterrcnn::Filter2DResult> >::size_type {aka long unsigned int}[m[K
+[94.381s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:561:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[94.381s]   561 |                      "Output index: %d exceeds results size [01;36m[K%d[m[K",
+[94.381s]       |                                                             [01;36m[K~^[m[K
+[94.381s]       |                                                              [01;36m[K|[m[K
+[94.381s]       |                                                              [01;36m[Kint[m[K
+[94.382s]       |                                                             [32m[K%ld[m[K
+[94.388s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[94.389s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[94.389s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[94.391s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[94.392s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[94.392s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[94.392s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[94.392s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[94.393s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[94.393s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[94.393s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[94.394s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/include/mono2d_body_det_node.h:24[m[K,
+[94.394s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:15[m[K:
+[94.394s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:582:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<hobot::dnn_node::parser_fasterrcnn::PerceptionRect>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[94.395s]   582 |                   [01;35m[K"Output box type: %s, rect size: %d"[m[K,
+[94.395s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[94.395s]   583 |                   roi_type.data(),
+[94.395s]   584 |                   [32m[Kfilter2d_result->boxes.size()[m[K);
+[94.396s]       |                   [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[94.396s]       |                                              [32m[K|[m[K
+[94.396s]       |                                              [32m[Kstd::vector<hobot::dnn_node::parser_fasterrcnn::PerceptionRect>::size_type {aka long unsigned int}[m[K
+[94.397s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:582:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[94.397s]   582 |                   "Output box type: %s, rect size: [01;36m[K%d[m[K",
+[94.397s]       |                                                    [01;36m[K~^[m[K
+[94.398s]       |                                                     [01;36m[K|[m[K
+[94.398s]       |                                                     [01;36m[Kint[m[K
+[94.398s]       |                                                    [32m[K%ld[m[K
+[94.559s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:777:23:[m[K [01;35m[Kwarning: [m[Kloop variable ‘[01m[Ktarget[m[K’ creates a copy from type ‘[01m[Kconst ai_msgs::msg::Target_<std::allocator<void> >[m[K’ [[01;35m[K-Wrange-loop-construct[m[K]
+[94.560s]   777 |       for (const auto [01;35m[Ktarget[m[K : pub_data->targets) {
+[94.560s]       |                       [01;35m[K^~~~~~[m[K
+[94.560s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:777:23:[m[K [01;36m[Knote: [m[Kuse reference type to prevent copying
+[94.560s]   777 |       for (const auto [01;36m[Ktarget[m[K : pub_data->targets) {
+[94.561s]       |                       [01;36m[K^~~~~~[m[K
+[94.561s]       |                       [32m[K&[m[K
+[94.626s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[94.627s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[94.627s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[94.627s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[94.627s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[94.627s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[94.628s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[94.628s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[94.628s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[94.628s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[94.629s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[94.629s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/include/mono2d_body_det_node.h:24[m[K,
+[94.629s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:15[m[K:
+[94.629s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:[m[K In member function ‘[01m[Kvoid Mono2dBodyDetNode::RosImgProcess(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[94.629s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:880:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[94.630s]   880 |                    [01;35m[K"after cvtColorForDisplay cost ms: %d"[m[K,
+[94.630s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[94.630s]   881 |                    [32m[Kinterval[m[K);
+[94.630s]       |                    [32m[K~~~~~~~~[m[K
+[94.630s]       |                    [32m[K|[m[K
+[94.631s]       |                    [32m[Klong int[m[K
+[94.631s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:880:56:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[94.631s]   880 |                    "after cvtColorForDisplay cost ms: [01;36m[K%d[m[K",
+[94.631s]       |                                                       [01;36m[K~^[m[K
+[94.632s]       |                                                        [01;36m[K|[m[K
+[94.632s]       |                                                        [01;36m[Kint[m[K
+[94.632s]       |                                                       [32m[K%ld[m[K
+[94.644s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[94.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[94.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[94.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[94.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[94.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[94.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[94.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[94.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[94.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[94.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[94.647s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/include/mono2d_body_det_node.h:24[m[K,
+[94.647s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:15[m[K:
+[94.647s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:922:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[94.647s]   922 |                  [01;35m[K"after GetNV12Pyramid cost ms: %d"[m[K,
+[94.647s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[94.648s]   923 |                  [32m[Kinterval[m[K);
+[94.648s]       |                  [32m[K~~~~~~~~[m[K
+[94.648s]       |                  [32m[K|[m[K
+[94.648s]       |                  [32m[Klong int[m[K
+[94.648s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:922:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[94.649s]   922 |                  "after GetNV12Pyramid cost ms: [01;36m[K%d[m[K",
+[94.649s]       |                                                 [01;36m[K~^[m[K
+[94.649s]       |                                                  [01;36m[K|[m[K
+[94.649s]       |                                                  [01;36m[Kint[m[K
+[94.650s]       |                                                 [32m[K%ld[m[K
+[94.665s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[94.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[94.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[94.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[94.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[94.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[94.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[94.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[94.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[94.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[94.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[94.667s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/include/mono2d_body_det_node.h:24[m[K,
+[94.668s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:15[m[K:
+[94.668s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:949:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[94.668s]   949 |                  [01;35m[K"after Predict cost ms: %d"[m[K,
+[94.668s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[94.668s]   950 |                  [32m[Kinterval[m[K);
+[94.669s]       |                  [32m[K~~~~~~~~[m[K
+[94.669s]       |                  [32m[K|[m[K
+[94.669s]       |                  [32m[Klong int[m[K
+[94.674s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:949:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[94.674s]   949 |                  "after Predict cost ms: [01;36m[K%d[m[K",
+[94.675s]       |                                          [01;36m[K~^[m[K
+[94.675s]       |                                           [01;36m[K|[m[K
+[94.675s]       |                                           [01;36m[Kint[m[K
+[94.675s]       |                                          [32m[K%ld[m[K
+[94.696s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[94.697s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[94.697s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[94.697s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[94.697s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[94.698s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[94.698s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[94.698s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[94.698s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[94.698s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[94.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[94.699s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/include/mono2d_body_det_node.h:24[m[K,
+[94.699s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:15[m[K:
+[94.699s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:[m[K In member function ‘[01m[Kvoid Mono2dBodyDetNode::SharedMemImgProcess(hbm_img_msgs::msg::HbmMsg1080P_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[94.700s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:1030:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst _encoding_type[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 12>[m[K’} [[01;35m[K-Wformat=[m[K]
+[94.700s]  1030 |                 [01;35m[K"Unsupported img encoding: %s"[m[K,
+[94.700s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[94.700s]  1031 |                 [32m[Kimg_msg->encoding[m[K);
+[94.701s]       |                 [32m[K~~~~~~~~~~~~~~~~~[m[K
+[94.701s]       |                          [32m[K|[m[K
+[94.701s]       |                          [32m[Kconst _encoding_type {aka const std::array<unsigned char, 12>}[m[K
+[94.702s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:1030:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[94.702s]  1030 |                 "Unsupported img encoding: [01;36m[K%s[m[K",
+[94.703s]       |                                            [01;36m[K~^[m[K
+[94.703s]       |                                             [01;36m[K|[m[K
+[94.703s]       |                                             [01;36m[Kchar*[m[K
+[94.703s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[94.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[94.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[94.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[94.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[94.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[94.705s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[94.705s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[94.705s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[94.705s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[94.706s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[94.706s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/include/mono2d_body_det_node.h:24[m[K,
+[94.706s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:15[m[K:
+[94.706s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:1045:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[94.706s]  1045 |                  [01;35m[K"after GetNV12Pyramid cost ms: %d"[m[K,
+[94.707s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[94.707s]  1046 |                  [32m[Kinterval[m[K);
+[94.707s]       |                  [32m[K~~~~~~~~[m[K
+[94.707s]       |                  [32m[K|[m[K
+[94.707s]       |                  [32m[Klong int[m[K
+[94.708s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:1045:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[94.708s]  1045 |                  "after GetNV12Pyramid cost ms: [01;36m[K%d[m[K",
+[94.708s]       |                                                 [01;36m[K~^[m[K
+[94.708s]       |                                                  [01;36m[K|[m[K
+[94.713s]       |                                                  [01;36m[Kint[m[K
+[94.714s]       |                                                 [32m[K%ld[m[K
+[94.714s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[94.714s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[94.714s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[94.715s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[94.715s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[94.715s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[94.715s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[94.715s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[94.716s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[94.716s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[94.716s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[94.716s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/include/mono2d_body_det_node.h:24[m[K,
+[94.717s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:15[m[K:
+[94.717s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:1080:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[94.717s]  1080 |                  [01;35m[K"after Predict cost ms: %d"[m[K,
+[94.717s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[94.717s]  1081 |                  [32m[Kinterval[m[K);
+[94.718s]       |                  [32m[K~~~~~~~~[m[K
+[94.718s]       |                  [32m[K|[m[K
+[94.718s]       |                  [32m[Klong int[m[K
+[94.718s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono2d_body_detection/src/mono2d_body_det_node.cpp:1080:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[94.718s]  1080 |                  "after Predict cost ms: [01;36m[K%d[m[K",
+[94.719s]       |                                          [01;36m[K~^[m[K
+[94.719s]       |                                           [01;36m[K|[m[K
+[94.719s]       |                                           [01;36m[Kint[m[K
+[94.725s]       |                                          [32m[K%ld[m[K
+[134.993s] [ 66%] [32m[1mLinking CXX shared library libmono2d_body_detection_component.so[0m
+[140.996s] [ 66%] Built target mono2d_body_detection_component
+[141.126s] [ 83%] [32mBuilding CXX object CMakeFiles/mono2d_body_detection.dir/rclcpp_components/node_main_mono2d_body_detection.cpp.o[0m
+[158.066s] [100%] [32m[1mLinking CXX executable mono2d_body_detection[0m
+[158.787s] [100%] Built target mono2d_body_detection
+[158.865s] Invoked command in '/cc_ws/tros_ws/build/mono2d_body_detection' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/mono2d_body_detection -- -j12 -l12
+[159.422s] Invoking command in '/cc_ws/tros_ws/build/mono2d_body_detection': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/mono2d_body_detection
+[201.186s] -- Install configuration: ""
+[201.186s] -- Installing: /cc_ws/tros_ws/install/lib/mono2d_body_detection/mono2d_body_detection
+[201.186s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/mono2d_body_detection/mono2d_body_detection" to ""
+[201.187s] -- Up-to-date: /cc_ws/tros_ws/install/lib/mono2d_body_detection/mono2d_body_detection
+[201.187s] -- Installing: /cc_ws/tros_ws/install/lib/libmono2d_body_detection_component.so
+[201.187s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libmono2d_body_detection_component.so" to ""
+[201.187s] -- Installing: /cc_ws/tros_ws/install/lib/mono2d_body_detection/config/
+[201.188s] -- Installing: /cc_ws/tros_ws/install/lib/mono2d_body_detection/config//multitask_body_head_face_hand_kps_960x544.hbm
+[201.188s] -- Installing: /cc_ws/tros_ws/install/lib/mono2d_body_detection/config/iou2_euclid_method_param.json
+[201.188s] -- Installing: /cc_ws/tros_ws/install/lib/mono2d_body_detection/config/iou2_method_param.json
+[201.188s] -- Installing: /cc_ws/tros_ws/install/lib/mono2d_body_detection/config/person_body.jpg
+[201.188s] -- Installing: /cc_ws/tros_ws/install/share/mono2d_body_detection/launch
+[201.189s] -- Installing: /cc_ws/tros_ws/install/share/mono2d_body_detection/launch/mono2d_body_detection_without_camera.launch.py
+[201.189s] -- Installing: /cc_ws/tros_ws/install/share/mono2d_body_detection/launch/mono2d_body_detection.launch.py
+[201.189s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/mono2d_body_detection
+[201.189s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/mono2d_body_detection
+[201.189s] -- Installing: /cc_ws/tros_ws/install/share/mono2d_body_detection/environment/ament_prefix_path.sh
+[201.190s] -- Installing: /cc_ws/tros_ws/install/share/mono2d_body_detection/environment/ament_prefix_path.dsv
+[201.190s] -- Installing: /cc_ws/tros_ws/install/share/mono2d_body_detection/environment/path.sh
+[201.190s] -- Installing: /cc_ws/tros_ws/install/share/mono2d_body_detection/environment/path.dsv
+[201.190s] -- Installing: /cc_ws/tros_ws/install/share/mono2d_body_detection/local_setup.bash
+[201.191s] -- Installing: /cc_ws/tros_ws/install/share/mono2d_body_detection/local_setup.sh
+[201.191s] -- Installing: /cc_ws/tros_ws/install/share/mono2d_body_detection/local_setup.zsh
+[201.191s] -- Installing: /cc_ws/tros_ws/install/share/mono2d_body_detection/local_setup.dsv
+[201.191s] -- Installing: /cc_ws/tros_ws/install/share/mono2d_body_detection/package.dsv
+[201.207s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/mono2d_body_detection
+[201.208s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/rclcpp_components/mono2d_body_detection
+[201.208s] -- Installing: /cc_ws/tros_ws/install/share/mono2d_body_detection/cmake/mono2d_body_detectionConfig.cmake
+[201.208s] -- Installing: /cc_ws/tros_ws/install/share/mono2d_body_detection/cmake/mono2d_body_detectionConfig-version.cmake
+[201.208s] -- Installing: /cc_ws/tros_ws/install/share/mono2d_body_detection/package.xml
+[201.326s] Invoked command in '/cc_ws/tros_ws/build/mono2d_body_detection' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/mono2d_body_detection

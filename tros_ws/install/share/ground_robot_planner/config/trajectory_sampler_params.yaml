@@ -1,0 +1,27 @@
+trajectory_sampler:
+  # 机器人动力学约束
+  robot_constraints:
+    max_linear_velocity: 1.0      # m/s
+    max_angular_velocity: 1.0     # rad/s
+    max_linear_acceleration: 2.0  # m/s²
+    max_angular_acceleration: 2.0 # rad/s²
+    robot_radius: 0.3             # m
+  
+  # 评分权重
+  scoring_weights:
+    obstacle_weight: 1.0    # 障碍物距离权重
+    goal_weight: 0.8        # 目标接近度权重
+    smoothness_weight: 0.3  # 轨迹平滑度权重
+    velocity_weight: 0.2    # 速度合理性权重
+    progress_weight: 0.5    # 前进进度权重
+  
+  # 采样参数
+  sampling:
+    num_samples: 50         # 采样数量
+    time_step: 0.1          # 时间步长 (s)
+    duration: 2.0           # 轨迹时长 (s)
+  
+  # 可视化
+  visualization:
+    enable: true            # 是否启用可视化
+    max_display_samples: 10 # 最大显示样本数

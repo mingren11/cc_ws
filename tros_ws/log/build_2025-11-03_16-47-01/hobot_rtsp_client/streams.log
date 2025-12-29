@@ -1,0 +1,71 @@
+[0.130s] Invoking command in '/cc_ws/tros_ws/build/hobot_rtsp_client': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_sensor/hobot_rtsp_client -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.157s] Not searching for unused variables given on the command line.
+[0.157s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.462s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[0.462s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.462s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.462s]   set the policy and suppress this warning.
+[0.462s] 
+[0.462s]   For compatibility with older versions of CMake, option is clearing the
+[0.462s]   normal variable 'BUILD_TESTING'.
+[0.462s] Call Stack (most recent call first):
+[0.463s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.463s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.463s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.463s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_cmake_auto-extras.cmake:17 (find_package)
+[0.463s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_cmake_autoConfig.cmake:41 (include)
+[0.463s]   CMakeLists.txt:35 (find_package)
+[0.463s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.463s] [0m
+[0.698s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.703s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.714s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.735s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.767s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.896s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.898s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.162s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.514s] -- Configuring done
+[2.549s] -- Generating done
+[2.553s] -- Build files have been written to: /cc_ws/tros_ws/build/hobot_rtsp_client
+[2.579s] Invoked command in '/cc_ws/tros_ws/build/hobot_rtsp_client' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_sensor/hobot_rtsp_client -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[2.580s] Invoking command in '/cc_ws/tros_ws/build/hobot_rtsp_client': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_rtsp_client -- -j12 -l12
+[2.773s] [35m[1mConsolidate compiler generated dependencies of target hobot_rtsp_client[0m
+[2.808s] [35m[1mConsolidate compiler generated dependencies of target hobot_rtsp_client_component[0m
+[2.823s] [ 14%] Built target hobot_rtsp_client
+[2.959s] [100%] Built target hobot_rtsp_client_component
+[3.143s] Invoked command in '/cc_ws/tros_ws/build/hobot_rtsp_client' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_rtsp_client -- -j12 -l12
+[3.796s] Invoking command in '/cc_ws/tros_ws/build/hobot_rtsp_client': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_rtsp_client
+[3.832s] -- Install configuration: "RelWithDebInfo"
+[3.832s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_rtsp_client/hobot_rtsp_client
+[3.832s] -- Up-to-date: /cc_ws/tros_ws/install/lib/
+[3.832s] -- Up-to-date: /cc_ws/tros_ws/install/lib//libUsageEnvironment.so
+[3.832s] -- Up-to-date: /cc_ws/tros_ws/install/lib//libgroupsock.so
+[3.832s] -- Up-to-date: /cc_ws/tros_ws/install/lib//libBasicUsageEnvironment.so
+[3.832s] -- Up-to-date: /cc_ws/tros_ws/install/lib//libliveMedia.so
+[3.832s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_rtsp_client/hobot_rtsp_client
+[3.832s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libhobot_rtsp_client_component.so
+[3.833s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_rtsp_client//launch
+[3.833s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_rtsp_client//launch/hobot_rtsp_client_ai_websocket.launch.py
+[3.833s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_rtsp_client//launch/hobot_rtsp_client_ai_websocket_plugin.launch.py
+[3.833s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_rtsp_client//launch/hobot_rtsp_client.launch.py
+[3.833s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_rtsp_client//launch/hobot_rtsp_client_websocket.launch.py
+[3.833s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_rtsp_client//launch/hobot_rtsp_client_ai.launch.py
+[3.833s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_rtsp_client//launch/hobot_rtsp_client_ai_plugin.launch.py
+[3.833s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_rtsp_client
+[3.833s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_rtsp_client
+[3.833s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_rtsp_client/environment/ament_prefix_path.sh
+[3.833s] -- Installing: /cc_ws/tros_ws/install/share/hobot_rtsp_client/environment/ament_prefix_path.dsv
+[3.834s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_rtsp_client/environment/path.sh
+[3.834s] -- Installing: /cc_ws/tros_ws/install/share/hobot_rtsp_client/environment/path.dsv
+[3.834s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_rtsp_client/local_setup.bash
+[3.834s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_rtsp_client/local_setup.sh
+[3.834s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_rtsp_client/local_setup.zsh
+[3.834s] -- Installing: /cc_ws/tros_ws/install/share/hobot_rtsp_client/local_setup.dsv
+[3.834s] -- Installing: /cc_ws/tros_ws/install/share/hobot_rtsp_client/package.dsv
+[3.834s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_rtsp_client
+[3.834s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/rclcpp_components/hobot_rtsp_client
+[3.834s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_rtsp_client/cmake/hobot_rtsp_clientConfig.cmake
+[3.834s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_rtsp_client/cmake/hobot_rtsp_clientConfig-version.cmake
+[3.835s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_rtsp_client/package.xml
+[3.952s] Invoked command in '/cc_ws/tros_ws/build/hobot_rtsp_client' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_rtsp_client

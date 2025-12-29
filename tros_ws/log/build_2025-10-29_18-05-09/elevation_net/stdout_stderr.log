@@ -1,0 +1,353 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ai_msgs: 2.0.1 (/cc_ws/tros_ws/robot_dev_config/../install/share/ai_msgs/cmake)
+-- Found dnn_node: 2.5.4 (/cc_ws/tros_ws/robot_dev_config/../install/share/dnn_node/cmake)
+-- Found hbm_img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/hbm_img_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cc_ws/tros_ws/build/elevation_net
+[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_TESTING'.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:33 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0mnot using cv_bridge pkg[0m
+[0mbuild platform X5[0m
+[0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/elevation_net.dir/src/main.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/elevation_net.dir/src/elevation_net_output_parser.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/elevation_net.dir/src/image_utils.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/elevation_net.dir/src/elevation_net_node.cpp.o[0m
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:[m[K In member function ‘[01m[Kint ImageUtils::GetNV12Pyramid(const string&, ImageType, int, int, std::vector<std::shared_ptr<hobot::easy_dnn::NV12PyramidInput> >&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:333:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kuv_img_len[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  333 |     int [01;35m[Kuv_img_len[m[K = len / 3;
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:371:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  371 |     if ([01;35m[Koriginal_img_height != (uint32_t)model_input_height_[m[K ||
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:372:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  372 |         [01;35m[Koriginal_img_width != (uint32_t)model_input_width_[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:[m[K In member function ‘[01m[Kint ImageUtils::GetNV12Pyramid(const string&, int, int, int&, int&, std::vector<std::shared_ptr<hobot::easy_dnn::NV12PyramidInput> >&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:408:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  408 |   if ([01;35m[Koriginal_img_height != (uint32_t)model_input_height_[m[K ||
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:409:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  409 |       [01;35m[Koriginal_img_width != (uint32_t)model_input_width_[m[K) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:396:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscaled_img_height[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  396 |     const std::string &image_file, [01;35m[Kint scaled_img_height[m[K, int scaled_img_width,
+      |                                    [01;35m[K~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:396:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscaled_img_width[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  396 |     const std::string &image_file, int scaled_img_height, [01;35m[Kint scaled_img_width[m[K,
+      |                                                           [01;35m[K~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:[m[K In member function ‘[01m[Kint ImageUtils::GetNV12Pyramid(const cv::Mat&, int, int, std::vector<std::shared_ptr<hobot::easy_dnn::NV12PyramidInput> >&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:473:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  473 |   if ([01;35m[Koriginal_img_height != (uint32_t)model_input_height_[m[K ||
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:474:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  474 |       [01;35m[Koriginal_img_width != (uint32_t)model_input_width_[m[K) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:464:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscaled_img_height[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  464 |     const cv::Mat &bgr_mat, [01;35m[Kint scaled_img_height[m[K, int scaled_img_width,
+      |                             [01;35m[K~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:464:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscaled_img_width[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  464 |     const cv::Mat &bgr_mat, int scaled_img_height, [01;35m[Kint scaled_img_width[m[K,
+      |                                                    [01;35m[K~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:[m[K In member function ‘[01m[Kint ImageUtils::GetNV12PyramidFromNV12Img(const char*, int, int, int, int, std::vector<std::shared_ptr<hobot::easy_dnn::NV12PyramidInput> >&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:523:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kuv_img_len[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  523 |   int [01;35m[Kuv_img_len[m[K = y_img_len / 2;
+      |       [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/include/elevation_net_node.h:20[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:15[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:[m[K In member function ‘[01m[Kvirtual int ElevationNetNode::PostProcess(const std::shared_ptr<hobot::dnn_node::DnnNodeOutput>&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:158:57:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  158 |   RCLCPP_INFO(rclcpp::get_logger("elevation_net_node"), [01;35m[K"Output result depth size = %d, height size = %d"[m[K,
+      |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  159 |               [32m[Kdet_result->depth_result.values.size()[m[K, det_result->height_result.values.size());
+      |               [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K     
+      |                                                   [32m[K|[m[K
+      |                                                   [32m[Kstd::vector<float>::size_type {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:158:86:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  158 |   RCLCPP_INFO(rclcpp::get_logger("elevation_net_node"), "Output result depth size = [01;36m[K%d[m[K, height size = %d",
+      |                                                                                     [01;36m[K~^[m[K
+      |                                                                                      [01;36m[K|[m[K
+      |                                                                                      [01;36m[Kint[m[K
+      |                                                                                     [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/include/elevation_net_node.h:20[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:15[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:158:57:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  158 |   RCLCPP_INFO(rclcpp::get_logger("elevation_net_node"), [01;35m[K"Output result depth size = %d, height size = %d"[m[K,
+      |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  159 |               det_result->depth_result.values.size(), [32m[Kdet_result->height_result.values.size()[m[K);
+      |                                                       [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                            [32m[K|[m[K
+      |                                                                                            [32m[Kstd::vector<float>::size_type {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:158:104:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  158 |   RCLCPP_INFO(rclcpp::get_logger("elevation_net_node"), "Output result depth size = %d, height size = [01;36m[K%d[m[K",
+      |                                                                                                       [01;36m[K~^[m[K
+      |                                                                                                        [01;36m[K|[m[K
+      |                                                                                                        [01;36m[Kint[m[K
+      |                                                                                                       [32m[K%ld[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:162:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksmart_fps[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  162 |   int [01;35m[Ksmart_fps[m[K = 0;
+      |       [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/include/elevation_net_node.h:20[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:15[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:[m[K In member function ‘[01m[Kvoid ElevationNetNode::RosImgProcess(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:301:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+  301 |                  [01;35m[K"after GetNV12Pyramid cost ms: %d"[m[K, [32m[Kinterval[m[K);
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~[m[K
+      |                                                      [32m[K|[m[K
+      |                                                      [32m[Klong int[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:301:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  301 |                  "after GetNV12Pyramid cost ms: [01;36m[K%d[m[K", interval);
+      |                                                 [01;36m[K~^[m[K
+      |                                                  [01;36m[K|[m[K
+      |                                                  [01;36m[Kint[m[K
+      |                                                 [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/include/elevation_net_node.h:20[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:15[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:327:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+  327 |                  [01;35m[K"after Predict cost ms: %d"[m[K, [32m[Kinterval[m[K);
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~[m[K
+      |                                               [32m[K|[m[K
+      |                                               [32m[Klong int[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:327:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  327 |                  "after Predict cost ms: [01;36m[K%d[m[K", interval);
+      |                                          [01;36m[K~^[m[K
+      |                                           [01;36m[K|[m[K
+      |                                           [01;36m[Kint[m[K
+      |                                          [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/include/elevation_net_node.h:20[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:15[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:[m[K In member function ‘[01m[Kvoid ElevationNetNode::SharedMemImgProcess(hbm_img_msgs::msg::HbmMsg1080P_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:364:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst _encoding_type[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 12>[m[K’} [[01;35m[K-Wformat=[m[K]
+  364 |                 [01;35m[K"share mem unsupported img encoding: %s"[m[K, [32m[Kimg_msg->encoding[m[K);
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |                                                                    [32m[K|[m[K
+      |                                                                    [32m[Kconst _encoding_type {aka const std::array<unsigned char, 12>}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:364:55:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  364 |                 "share mem unsupported img encoding: [01;36m[K%s[m[K", img_msg->encoding);
+      |                                                      [01;36m[K~^[m[K
+      |                                                       [01;36m[K|[m[K
+      |                                                       [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/include/elevation_net_node.h:20[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:15[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:378:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+  378 |                  [01;35m[K"after GetNV12Pyramid cost ms: %d"[m[K, [32m[Kinterval[m[K);
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~[m[K
+      |                                                      [32m[K|[m[K
+      |                                                      [32m[Klong int[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:378:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  378 |                  "after GetNV12Pyramid cost ms: [01;36m[K%d[m[K", interval);
+      |                                                 [01;36m[K~^[m[K
+      |                                                  [01;36m[K|[m[K
+      |                                                  [01;36m[Kint[m[K
+      |                                                 [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/include/elevation_net_node.h:20[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:15[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:400:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+  400 |                  [01;35m[K"after Predict cost ms: %d"[m[K, [32m[Kinterval[m[K);
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~[m[K
+      |                                               [32m[K|[m[K
+      |                                               [32m[Klong int[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:400:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  400 |                  "after Predict cost ms: [01;36m[K%d[m[K", interval);
+      |                                          [01;36m[K~^[m[K
+      |                                           [01;36m[K|[m[K
+      |                                           [01;36m[Kint[m[K
+      |                                          [32m[K%ld[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:[m[K In member function ‘[01m[Kint ElevationNetNode::PubPointcCloud(std::shared_ptr<ElevationNetResult>, uint32_t, uint32_t)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/elevation_net_node.cpp:414:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksrc_img_height[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  414 |                                      [01;35m[Kuint32_t src_img_height[m[K) {
+      |                                      [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[ 62%] [32m[1mLinking CXX executable elevation_net[0m
+[ 62%] Built target elevation_net
+[ 75%] [32mBuilding CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/image_publisher.dir/src/image_utils.cpp.o[0m
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:[m[K In member function ‘[01m[Kint ImageUtils::GetNV12Pyramid(const string&, ImageType, int, int, std::vector<std::shared_ptr<hobot::easy_dnn::NV12PyramidInput> >&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:333:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kuv_img_len[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  333 |     int [01;35m[Kuv_img_len[m[K = len / 3;
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:371:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  371 |     if ([01;35m[Koriginal_img_height != (uint32_t)model_input_height_[m[K ||
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:372:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  372 |         [01;35m[Koriginal_img_width != (uint32_t)model_input_width_[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:[m[K In member function ‘[01m[Kint ImageUtils::GetNV12Pyramid(const string&, int, int, int&, int&, std::vector<std::shared_ptr<hobot::easy_dnn::NV12PyramidInput> >&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:408:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  408 |   if ([01;35m[Koriginal_img_height != (uint32_t)model_input_height_[m[K ||
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:409:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  409 |       [01;35m[Koriginal_img_width != (uint32_t)model_input_width_[m[K) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:396:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscaled_img_height[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  396 |     const std::string &image_file, [01;35m[Kint scaled_img_height[m[K, int scaled_img_width,
+      |                                    [01;35m[K~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:396:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscaled_img_width[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  396 |     const std::string &image_file, int scaled_img_height, [01;35m[Kint scaled_img_width[m[K,
+      |                                                           [01;35m[K~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:[m[K In member function ‘[01m[Kint ImageUtils::GetNV12Pyramid(const cv::Mat&, int, int, std::vector<std::shared_ptr<hobot::easy_dnn::NV12PyramidInput> >&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:473:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  473 |   if ([01;35m[Koriginal_img_height != (uint32_t)model_input_height_[m[K ||
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:474:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  474 |       [01;35m[Koriginal_img_width != (uint32_t)model_input_width_[m[K) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:464:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscaled_img_height[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  464 |     const cv::Mat &bgr_mat, [01;35m[Kint scaled_img_height[m[K, int scaled_img_width,
+      |                             [01;35m[K~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:464:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscaled_img_width[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  464 |     const cv::Mat &bgr_mat, int scaled_img_height, [01;35m[Kint scaled_img_width[m[K,
+      |                                                    [01;35m[K~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:[m[K In member function ‘[01m[Kint ImageUtils::GetNV12PyramidFromNV12Img(const char*, int, int, int, int, std::vector<std::shared_ptr<hobot::easy_dnn::NV12PyramidInput> >&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/elevation_net/src/image_utils.cpp:523:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kuv_img_len[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  523 |   int [01;35m[Kuv_img_len[m[K = y_img_len / 2;
+      |       [01;35m[K^~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable image_publisher[0m
+[100%] Built target image_publisher
+-- Install configuration: ""
+-- Installing: /cc_ws/tros_ws/install/lib/elevation_net/elevation_net
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/elevation_net/elevation_net" to ""
+-- Installing: /cc_ws/tros_ws/install/lib/elevation_net/image_publisher
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/elevation_net/image_publisher" to ""
+-- Installing: /cc_ws/tros_ws/install/lib/elevation_net/config/
+-- Installing: /cc_ws/tros_ws/install/lib/elevation_net/config//elevation.hbm
+-- Installing: /cc_ws/tros_ws/install/lib/elevation_net/config//images
+-- Installing: /cc_ws/tros_ws/install/lib/elevation_net/config//images/charging_base.png
+-- Installing: /cc_ws/tros_ws/install/lib/elevation_net/config/elevation.yaml
+-- Installing: /cc_ws/tros_ws/install/share/elevation_net/launch
+-- Installing: /cc_ws/tros_ws/install/share/elevation_net/launch/elevation_net.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/elevation_net
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/elevation_net
+-- Installing: /cc_ws/tros_ws/install/share/elevation_net/environment/ament_prefix_path.sh
+-- Installing: /cc_ws/tros_ws/install/share/elevation_net/environment/ament_prefix_path.dsv
+-- Installing: /cc_ws/tros_ws/install/share/elevation_net/environment/path.sh
+-- Installing: /cc_ws/tros_ws/install/share/elevation_net/environment/path.dsv
+-- Installing: /cc_ws/tros_ws/install/share/elevation_net/local_setup.bash
+-- Installing: /cc_ws/tros_ws/install/share/elevation_net/local_setup.sh
+-- Installing: /cc_ws/tros_ws/install/share/elevation_net/local_setup.zsh
+-- Installing: /cc_ws/tros_ws/install/share/elevation_net/local_setup.dsv
+-- Installing: /cc_ws/tros_ws/install/share/elevation_net/package.dsv
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/elevation_net
+-- Installing: /cc_ws/tros_ws/install/share/elevation_net/cmake/elevation_netConfig.cmake
+-- Installing: /cc_ws/tros_ws/install/share/elevation_net/cmake/elevation_netConfig-version.cmake
+-- Installing: /cc_ws/tros_ws/install/share/elevation_net/package.xml

@@ -1,0 +1,97 @@
+[0.313s] Invoking command in '/cc_ws/tros_ws/build/dnn_node_example': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_dnn/dnn_node_example -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.699s] Not searching for unused variables given on the command line.
+[0.700s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.838s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[0.839s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.839s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.839s]   set the policy and suppress this warning.
+[0.840s] 
+[0.840s]   For compatibility with older versions of CMake, option is clearing the
+[0.840s]   normal variable 'BUILD_TESTING'.
+[0.840s] Call Stack (most recent call first):
+[0.840s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.841s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.841s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.841s]   CMakeLists.txt:33 (find_package)
+[0.842s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.842s] [0m
+[0.842s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.950s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.960s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.981s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.037s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.389s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.393s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.811s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.586s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.089s] -- Found ai_msgs: 2.0.1 (/cc_ws/tros_ws/robot_dev_config/../install/share/ai_msgs/cmake)
+[3.471s] -- Found dnn_node: 2.5.4 (/cc_ws/tros_ws/robot_dev_config/../install/share/dnn_node/cmake)
+[3.487s] -- Found hobot_cv: 2.3.2 (/cc_ws/tros_ws/robot_dev_config/../install/share/hobot_cv/cmake)
+[3.503s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[3.565s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.797s] [0musing shared mem[0m
+[3.798s] -- Found hbm_img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/hbm_img_msgs/cmake)
+[4.039s] [0mbuild platform X5[0m
+[4.039s] [0mPREFIX_PATH is x5[0m
+[4.039s] [0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[4.497s] -- Configuring done
+[4.637s] -- Generating done
+[4.651s] -- Build files have been written to: /cc_ws/tros_ws/build/dnn_node_example
+[4.690s] Invoked command in '/cc_ws/tros_ws/build/dnn_node_example' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_dnn/dnn_node_example -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[4.691s] Invoking command in '/cc_ws/tros_ws/build/dnn_node_example': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/dnn_node_example -- -j12 -l12
+[4.897s] [35m[1mConsolidate compiler generated dependencies of target dnn_node_example_component[0m
+[4.900s] [35m[1mConsolidate compiler generated dependencies of target example[0m
+[5.004s] [ 33%] Built target example
+[5.051s] [100%] Built target dnn_node_example_component
+[5.170s] Invoked command in '/cc_ws/tros_ws/build/dnn_node_example' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/dnn_node_example -- -j12 -l12
+[5.661s] Invoking command in '/cc_ws/tros_ws/build/dnn_node_example': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/dnn_node_example
+[5.693s] -- Install configuration: ""
+[5.700s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/example
+[5.701s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libdnn_node_example_component.so
+[5.701s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node_example/launch
+[5.702s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node_example/launch/dnn_node_example_feedback.launch.py
+[5.702s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node_example/launch/dnn_node_example_feedback_h264.launch.py
+[5.703s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node_example/launch/dnn_node_example_mipi_component.launch.py
+[5.703s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node_example/launch/dnn_node_example.launch.py
+[5.703s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config/
+[5.703s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//fcosworkconfig.json
+[5.704s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//mobilenet_ssd_workconfig.json
+[5.704s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//yolov10workconfig.json
+[5.704s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//efficientnet_lite0_workconfig.json
+[5.704s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//mobilenetv2workconfig.json
+[5.705s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//yolov11workconfig.json
+[5.705s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//yolov2workconfig.json
+[5.705s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//stdc_workconfig.json
+[5.705s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//yolov8workconfig.json
+[5.706s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//yolov5workconfig.json
+[5.706s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//fcosb3workconfig.json
+[5.706s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//yolov8segworkconfig.json
+[5.706s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//yolov3workconfig.json
+[5.707s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//mobilenet_unet_workconfig.json
+[5.707s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//yolov12workconfig.json
+[5.707s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config/
+[5.707s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//coco.list
+[5.708s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//960_544.nv12
+[5.708s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//test.jpg
+[5.708s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//raw_unet.jpg
+[5.708s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//target.jpg
+[5.709s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//imagenet.list
+[5.709s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dnn_node_example/config//target_class.jpg
+[5.709s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/dnn_node_example
+[5.709s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/dnn_node_example
+[5.709s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node_example/environment/ament_prefix_path.sh
+[5.710s] -- Installing: /cc_ws/tros_ws/install/share/dnn_node_example/environment/ament_prefix_path.dsv
+[5.710s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node_example/environment/path.sh
+[5.710s] -- Installing: /cc_ws/tros_ws/install/share/dnn_node_example/environment/path.dsv
+[5.710s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node_example/local_setup.bash
+[5.711s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node_example/local_setup.sh
+[5.712s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node_example/local_setup.zsh
+[5.712s] -- Installing: /cc_ws/tros_ws/install/share/dnn_node_example/local_setup.dsv
+[5.716s] -- Installing: /cc_ws/tros_ws/install/share/dnn_node_example/package.dsv
+[5.717s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/dnn_node_example
+[5.717s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/rclcpp_components/dnn_node_example
+[5.717s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node_example/cmake/dnn_node_exampleConfig.cmake
+[5.718s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node_example/cmake/dnn_node_exampleConfig-version.cmake
+[5.718s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node_example/package.xml
+[5.860s] Invoked command in '/cc_ws/tros_ws/build/dnn_node_example' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/dnn_node_example

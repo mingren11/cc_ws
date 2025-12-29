@@ -1,0 +1,23 @@
+[0m=> build for platform X5[0m
+[0m=> SYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_TESTING'.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:48 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/face_age_detection/src/face_age_det_node.cpp:[m[K In member function ‘[01m[Kint FaceAgeDetNode::NormalizeRoi(const hbDNNRoi*, hbDNNRoi*, float, uint32_t, uint32_t)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/face_age_detection/src/face_age_det_node.cpp:794:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  794 |   dst->right = [01;35m[Kdst->right > total_w[m[K ? total_w : dst->right;
+      |                [01;35m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/face_age_detection/src/face_age_det_node.cpp:795:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  795 |   dst->bottom = [01;35m[Kdst->bottom > total_h[m[K ? total_h : dst->bottom;
+      |                 [01;35m[K~~~~~~~~~~~~^~~~~~~~~[m[K

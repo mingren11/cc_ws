@@ -1,0 +1,70 @@
+[0.604s] Invoking command in '/cc_ws/tros_ws/build/mono_edgesam': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/mono_edgesam -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[2.290s] Not searching for unused variables given on the command line.
+[2.290s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.290s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.291s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.291s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.291s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.292s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.294s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[2.294s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[2.295s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[2.295s]   set the policy and suppress this warning.
+[2.295s] 
+[2.295s]   For compatibility with older versions of CMake, option is clearing the
+[2.296s]   normal variable 'BUILD_TESTING'.
+[2.296s] Call Stack (most recent call first):
+[2.296s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[2.296s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.296s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.297s]   CMakeLists.txt:33 (find_package)
+[2.297s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.297s] [0m
+[2.500s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.526s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.068s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.859s] -- Found ai_msgs: 2.0.1 (/cc_ws/tros_ws/robot_dev_config/../install/share/ai_msgs/cmake)
+[6.847s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[6.907s] -- Found dnn_node: 2.5.4 (/cc_ws/tros_ws/robot_dev_config/../install/share/dnn_node/cmake)
+[6.914s] -- Found hobot_cv: 2.3.2 (/cc_ws/tros_ws/robot_dev_config/../install/share/hobot_cv/cmake)
+[6.921s] -- Found hbm_img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/hbm_img_msgs/cmake)
+[7.142s] [0mbuild platform X5[0m
+[7.143s] [0mCMAKE_SYSROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[7.537s] -- Configuring done
+[7.699s] -- Generating done
+[7.699s] -- Build files have been written to: /cc_ws/tros_ws/build/mono_edgesam
+[7.819s] Invoked command in '/cc_ws/tros_ws/build/mono_edgesam' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/mono_edgesam -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[7.820s] Invoking command in '/cc_ws/tros_ws/build/mono_edgesam': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/mono_edgesam -- -j12 -l12
+[8.109s] [35m[1mConsolidate compiler generated dependencies of target mono_edgesam[0m
+[8.232s] [100%] Built target mono_edgesam
+[8.270s] Invoked command in '/cc_ws/tros_ws/build/mono_edgesam' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/mono_edgesam -- -j12 -l12
+[8.443s] Invoking command in '/cc_ws/tros_ws/build/mono_edgesam': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/mono_edgesam
+[8.480s] -- Install configuration: ""
+[8.481s] -- Up-to-date: /cc_ws/tros_ws/install/lib/mono_edgesam/mono_edgesam
+[8.482s] -- Up-to-date: /cc_ws/tros_ws/install/lib/mono_edgesam/config/
+[8.482s] -- Up-to-date: /cc_ws/tros_ws/install/lib/mono_edgesam/config//edgesam_encoder_512.bin
+[8.483s] -- Up-to-date: /cc_ws/tros_ws/install/lib/mono_edgesam/config//edgesam_decoder_1024.bin
+[8.483s] -- Up-to-date: /cc_ws/tros_ws/install/lib/mono_edgesam/config//edgesam_encoder_1024.bin
+[8.484s] -- Up-to-date: /cc_ws/tros_ws/install/lib/mono_edgesam/config//edgesam_decoder_512.bin
+[8.484s] -- Up-to-date: /cc_ws/tros_ws/install/lib/mono_edgesam/config/4.jpg
+[8.485s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/launch
+[8.485s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/launch/sam_with_dosod.launch.py
+[8.486s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/launch/sam_with_dosod_no_setrocam.launch.py
+[8.486s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/launch/sam.launch.py
+[8.487s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/mono_edgesam
+[8.488s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/mono_edgesam
+[8.488s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/environment/ament_prefix_path.sh
+[8.489s] -- Installing: /cc_ws/tros_ws/install/share/mono_edgesam/environment/ament_prefix_path.dsv
+[8.491s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/environment/path.sh
+[8.491s] -- Installing: /cc_ws/tros_ws/install/share/mono_edgesam/environment/path.dsv
+[8.491s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/local_setup.bash
+[8.492s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/local_setup.sh
+[8.492s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/local_setup.zsh
+[8.492s] -- Installing: /cc_ws/tros_ws/install/share/mono_edgesam/local_setup.dsv
+[8.493s] -- Installing: /cc_ws/tros_ws/install/share/mono_edgesam/package.dsv
+[8.493s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/mono_edgesam
+[8.493s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/cmake/mono_edgesamConfig.cmake
+[8.516s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/cmake/mono_edgesamConfig-version.cmake
+[8.516s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/package.xml
+[8.543s] Invoked command in '/cc_ws/tros_ws/build/mono_edgesam' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/mono_edgesam

@@ -1,0 +1,63 @@
+[0.131s] Invoking command in '/cc_ws/tros_ws/build/trigger_node_example': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_trigger/trigger_node_example -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.231s] Not searching for unused variables given on the command line.
+[0.231s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.528s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[0.529s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.529s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.529s]   set the policy and suppress this warning.
+[0.529s] 
+[0.530s]   For compatibility with older versions of CMake, option is clearing the
+[0.530s]   normal variable 'BUILD_TESTING'.
+[0.530s] Call Stack (most recent call first):
+[0.530s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.531s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.532s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.532s]   CMakeLists.txt:19 (find_package)
+[0.533s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.533s] [0m
+[0.533s] -- Found ai_msgs: 2.0.1 (/cc_ws/tros_ws/robot_dev_config/../install/share/ai_msgs/cmake)
+[0.601s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.610s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.631s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.664s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.729s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.127s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.301s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.305s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.696s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.292s] -- Found rosbag2_cpp: 0.15.9 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[3.393s] -- Found trigger_node: 2.1.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/trigger_node/cmake)
+[3.400s] [0minvalid platform, build platform X3 default[0m
+[3.400s] [0mPREFIX_PATH is x3[0m
+[3.400s] [0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[3.657s] -- Configuring done
+[3.694s] -- Generating done
+[3.699s] -- Build files have been written to: /cc_ws/tros_ws/build/trigger_node_example
+[3.737s] Invoked command in '/cc_ws/tros_ws/build/trigger_node_example' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_trigger/trigger_node_example -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[3.738s] Invoking command in '/cc_ws/tros_ws/build/trigger_node_example': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/trigger_node_example -- -j12 -l12
+[4.363s] [35m[1mConsolidate compiler generated dependencies of target trigger_node_example[0m
+[4.363s] [100%] Built target trigger_node_example
+[4.413s] Invoked command in '/cc_ws/tros_ws/build/trigger_node_example' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/trigger_node_example -- -j12 -l12
+[4.512s] Invoking command in '/cc_ws/tros_ws/build/trigger_node_example': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/trigger_node_example
+[4.626s] -- Install configuration: ""
+[4.629s] -- Up-to-date: /cc_ws/tros_ws/install/lib/trigger_node_example/trigger_node_example
+[4.632s] -- Up-to-date: /cc_ws/tros_ws/install/lib/trigger_node_example/config/
+[4.632s] -- Up-to-date: /cc_ws/tros_ws/install/lib/trigger_node_example/config//trigger_config.json
+[4.632s] -- Up-to-date: /cc_ws/tros_ws/install/share/trigger_node_example/launch
+[4.633s] -- Up-to-date: /cc_ws/tros_ws/install/share/trigger_node_example/launch/hobot_trigger_example.launch.py
+[4.633s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/trigger_node_example
+[4.633s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/trigger_node_example
+[4.633s] -- Up-to-date: /cc_ws/tros_ws/install/share/trigger_node_example/environment/ament_prefix_path.sh
+[4.634s] -- Installing: /cc_ws/tros_ws/install/share/trigger_node_example/environment/ament_prefix_path.dsv
+[4.634s] -- Up-to-date: /cc_ws/tros_ws/install/share/trigger_node_example/environment/path.sh
+[4.644s] -- Installing: /cc_ws/tros_ws/install/share/trigger_node_example/environment/path.dsv
+[4.645s] -- Up-to-date: /cc_ws/tros_ws/install/share/trigger_node_example/local_setup.bash
+[4.645s] -- Up-to-date: /cc_ws/tros_ws/install/share/trigger_node_example/local_setup.sh
+[4.645s] -- Up-to-date: /cc_ws/tros_ws/install/share/trigger_node_example/local_setup.zsh
+[4.646s] -- Installing: /cc_ws/tros_ws/install/share/trigger_node_example/local_setup.dsv
+[4.646s] -- Installing: /cc_ws/tros_ws/install/share/trigger_node_example/package.dsv
+[4.646s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/trigger_node_example
+[4.646s] -- Up-to-date: /cc_ws/tros_ws/install/share/trigger_node_example/cmake/trigger_node_exampleConfig.cmake
+[4.646s] -- Up-to-date: /cc_ws/tros_ws/install/share/trigger_node_example/cmake/trigger_node_exampleConfig-version.cmake
+[4.647s] -- Up-to-date: /cc_ws/tros_ws/install/share/trigger_node_example/package.xml
+[4.662s] Invoked command in '/cc_ws/tros_ws/build/trigger_node_example' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/trigger_node_example

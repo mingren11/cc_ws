@@ -1,0 +1,17 @@
+/cc_ws/tros_ws/install/lib/hobot_shm/config//shm_fastdds.xml
+/cc_ws/tros_ws/install/share/hobot_shm//launch/hobot_shm.launch.py
+/cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_shm
+/cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_shm
+/cc_ws/tros_ws/install/share/hobot_shm/environment/ament_prefix_path.sh
+/cc_ws/tros_ws/install/share/hobot_shm/environment/ament_prefix_path.dsv
+/cc_ws/tros_ws/install/share/hobot_shm/environment/path.sh
+/cc_ws/tros_ws/install/share/hobot_shm/environment/path.dsv
+/cc_ws/tros_ws/install/share/hobot_shm/local_setup.bash
+/cc_ws/tros_ws/install/share/hobot_shm/local_setup.sh
+/cc_ws/tros_ws/install/share/hobot_shm/local_setup.zsh
+/cc_ws/tros_ws/install/share/hobot_shm/local_setup.dsv
+/cc_ws/tros_ws/install/share/hobot_shm/package.dsv
+/cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_shm
+/cc_ws/tros_ws/install/share/hobot_shm/cmake/hobot_shmConfig.cmake
+/cc_ws/tros_ws/install/share/hobot_shm/cmake/hobot_shmConfig-version.cmake
+/cc_ws/tros_ws/install/share/hobot_shm/package.xml

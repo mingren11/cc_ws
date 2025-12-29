@@ -1,0 +1,14 @@
+source;share/dstereo_occnet/hook/cmake_prefix_path.ps1
+source;share/dstereo_occnet/hook/cmake_prefix_path.dsv
+source;share/dstereo_occnet/hook/cmake_prefix_path.sh
+source;share/dstereo_occnet/hook/ld_library_path_lib.ps1
+source;share/dstereo_occnet/hook/ld_library_path_lib.dsv
+source;share/dstereo_occnet/hook/ld_library_path_lib.sh
+source;share/dstereo_occnet/hook/pythonpath.ps1
+source;share/dstereo_occnet/hook/pythonpath.dsv
+source;share/dstereo_occnet/hook/pythonpath.sh
+source;share/dstereo_occnet/local_setup.bash
+source;share/dstereo_occnet/local_setup.dsv
+source;share/dstereo_occnet/local_setup.ps1
+source;share/dstereo_occnet/local_setup.sh
+source;share/dstereo_occnet/local_setup.zsh

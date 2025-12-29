@@ -1,0 +1,54 @@
+Not searching for unused variables given on the command line.
+-- Found hbm_img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/hbm_img_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/img_msgs/cmake)
+-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cc_ws/tros_ws/build/hobot_codec
+[35m[1mConsolidate compiler generated dependencies of target hobot_codec_republish[0m
+[35m[1mConsolidate compiler generated dependencies of target hobot_codec_component[0m
+[ 12%] [32m[1mLinking CXX executable hobot_codec_republish[0m
+[ 87%] Built target hobot_codec_component
+[100%] Built target hobot_codec_republish
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_codec/hobot_codec_republish
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_codec/hobot_codec_republish" to ""
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_codec/hobot_codec_republish
+-- Up-to-date: /cc_ws/tros_ws/install/lib/libhobot_codec_component.so
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_codec
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/launch
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/launch/hobot_codec.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/launch/hobot_codec_encode.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/launch/hobot_codec_decode.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/launch/hobot_codec_benchmark.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_codec/config/
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_codec/config//1920x1080.nv12
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_codec/config//1920x1080.h265
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_codec/config//1920x1080.jpeg
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_codec/config//1920x1080.h264
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_codec
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_codec
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/environment/ament_prefix_path.sh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_codec/environment/ament_prefix_path.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/environment/path.sh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_codec/environment/path.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/local_setup.bash
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/local_setup.sh
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/local_setup.zsh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_codec/local_setup.dsv
+-- Installing: /cc_ws/tros_ws/install/share/hobot_codec/package.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_codec
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/rclcpp_components/hobot_codec
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/cmake/hobot_codecConfig.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/cmake/hobot_codecConfig-version.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_codec/package.xml

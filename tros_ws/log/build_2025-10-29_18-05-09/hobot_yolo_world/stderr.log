@@ -1,0 +1,104 @@
+[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_TESTING'.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:35 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0musing shared mem[0m
+[0mbuild platform X5[0m
+[0mPREFIX_PATH is x5[0m
+[0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world/src/yolo_world_node.cpp:[m[K In member function ‘[01m[Kint YoloWorldNode::GetTextIndex(std::vector<std::__cxx11::basic_string<char> >&, std::vector<int>&, std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world/src/yolo_world_node.cpp:301:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  301 |     for (int i = 0; [01;35m[Ki < indice_.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world/src/yolo_world_node.cpp:23[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world/src/yolo_world_node.cpp:[m[K In member function ‘[01m[Kvirtual int YoloWorldNode::PostProcess(const std::shared_ptr<hobot::dnn_node::DnnNodeOutput>&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world/src/yolo_world_node.cpp:397:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<hobot::dnn_node::output_parser::Detection>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  397 |               [01;35m[K"out box size: %d"[m[K,
+      |               [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+  398 |               [32m[Kdet_result->perception.det.size()[m[K);
+      |               [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                              [32m[K|[m[K
+      |                                              [32m[Kstd::vector<hobot::dnn_node::output_parser::Detection>::size_type {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world/src/yolo_world_node.cpp:397:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  397 |               "out box size: [01;36m[K%d[m[K",
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kint[m[K
+      |                              [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world/include/image_utils.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world/src/image_utils.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world/src/image_utils.cpp:[m[K In static member function ‘[01m[Kstatic int ImageUtils::Render(const std::shared_ptr<hobot::easy_dnn::DNNTensor>&, const UniquePtr&, int, int)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world/src/image_utils.cpp:84:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<ai_msgs::msg::Target_<std::allocator<void> >, std::allocator<ai_msgs::msg::Target_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   84 |               [01;35m[K"target size: %d"[m[K,
+      |               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+   85 |               [32m[Kai_msg->targets.size()[m[K);
+      |               [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                   [32m[K|[m[K
+      |                                   [32m[Kstd::vector<ai_msgs::msg::Target_<std::allocator<void> >, std::allocator<ai_msgs::msg::Target_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world/src/image_utils.cpp:84:30:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   84 |               "target size: [01;36m[K%d[m[K",
+      |                             [01;36m[K~^[m[K
+      |                              [01;36m[K|[m[K
+      |                              [01;36m[Kint[m[K
+      |                             [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world/include/image_utils.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world/src/image_utils.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world/src/image_utils.cpp:94:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<ai_msgs::msg::Roi_<std::allocator<void> >, std::allocator<ai_msgs::msg::Roi_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   94 |                 [01;35m[K"target type: %s, rois.size: %d"[m[K,
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   95 |                 target.type.c_str(),
+   96 |                 [32m[Ktarget.rois.size()[m[K);
+      |                 [32m[K~~~~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[K|[m[K
+      |                                 [32m[Kstd::vector<ai_msgs::msg::Roi_<std::allocator<void> >, std::allocator<ai_msgs::msg::Roi_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_yolo_world/src/image_utils.cpp:94:47:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   94 |                 "target type: %s, rois.size: [01;36m[K%d[m[K",
+      |                                              [01;36m[K~^[m[K
+      |                                               [01;36m[K|[m[K
+      |                                               [01;36m[Kint[m[K
+      |                                              [32m[K%ld[m[K

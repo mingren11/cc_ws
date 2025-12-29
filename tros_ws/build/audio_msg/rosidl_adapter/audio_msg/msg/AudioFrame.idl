@@ -1,0 +1,49 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from audio_msg/msg/AudioFrame.msg
+// generated code does not contain a copyright notice
+
+#include "audio_msg/msg/AudioFrameType.idl"
+#include "audio_msg/msg/SmartAudioData.idl"
+#include "builtin_interfaces/msg/Time.idl"
+
+module audio_msg {
+  module msg {
+    @verbatim (language="comment", text=
+      "Copyright (c) 2024，D-Robotics." "\n"
+      "" "\n"
+      "Licensed under the Apache License, Version 2.0 (the \"License\");" "\n"
+      "you may not use this file except in compliance with the License." "\n"
+      "You may obtain a copy of the License at" "\n"
+      "" "\n"
+      "    http://www.apache.org/licenses/LICENSE-2.0" "\n"
+      "" "\n"
+      "Unless required by applicable law or agreed to in writing, software" "\n"
+      "distributed under the License is distributed on an \"AS IS\" BASIS," "\n"
+      "WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied." "\n"
+      "See the License for the specific language governing permissions and" "\n"
+      "limitations under the License.")
+    struct AudioFrame {
+      @verbatim (language="comment", text=
+        "frame index")
+      uint32 index;
+
+      @verbatim (language="comment", text=
+        "timestamp")
+      builtin_interfaces::msg::Time pts;
+
+      @verbatim (language="comment", text=
+        "frame type, , this parameter's value which can be one of several types, see" "\n"
+        "`AudioFrameType.msg`" "\n"
+        " 0：unknow frame type  1：normal audio data  2：smart audio frame")
+      audio_msg::msg::AudioFrameType frame_type;
+
+      @verbatim (language="comment", text=
+        "audio data, if this frame is a normal audio frame, frame_type value is 1, this field is valid")
+      sequence<uint8> data;
+
+      @verbatim (language="comment", text=
+        "If this frame is an smart audio frame, frame_type value is 2, and this field is valid")
+      audio_msg::msg::SmartAudioData smart_audio;
+    };
+  };
+};

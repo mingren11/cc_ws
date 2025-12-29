@@ -1,0 +1,58 @@
+[0.119s] Invoking command in '/cc_ws/tros_ws/build/hobot_shm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_shm -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[13.432s] Not searching for unused variables given on the command line.
+[13.432s] -- The C compiler identification is GNU 11.4.0
+[13.433s] -- The CXX compiler identification is GNU 11.4.0
+[13.433s] -- Detecting C compiler ABI info
+[13.433s] -- Detecting C compiler ABI info - done
+[13.433s] -- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc - skipped
+[13.433s] -- Detecting C compile features
+[13.434s] -- Detecting C compile features - done
+[13.434s] -- Detecting CXX compiler ABI info
+[13.434s] -- Detecting CXX compiler ABI info - done
+[13.434s] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+[13.434s] -- Detecting CXX compile features
+[13.435s] -- Detecting CXX compile features - done
+[13.435s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[13.435s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[13.435s] -- Configuring done
+[13.435s] -- Generating done
+[13.436s] -- Build files have been written to: /cc_ws/tros_ws/build/hobot_shm
+[13.436s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[13.436s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[13.436s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[13.437s]   set the policy and suppress this warning.
+[13.437s] 
+[13.437s]   For compatibility with older versions of CMake, option is clearing the
+[13.443s]   normal variable 'BUILD_TESTING'.
+[13.443s] Call Stack (most recent call first):
+[13.444s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[13.444s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[13.444s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[13.444s]   CMakeLists.txt:19 (find_package)
+[13.444s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[13.445s] [0m
+[13.460s] Invoked command in '/cc_ws/tros_ws/build/hobot_shm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_shm -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[13.461s] Invoking command in '/cc_ws/tros_ws/build/hobot_shm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_shm -- -j12 -l12
+[13.556s] Invoked command in '/cc_ws/tros_ws/build/hobot_shm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_shm -- -j12 -l12
+[13.622s] Invoking command in '/cc_ws/tros_ws/build/hobot_shm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_shm
+[15.119s] -- Install configuration: ""
+[15.119s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_shm/config/
+[15.119s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_shm/config//shm_fastdds.xml
+[15.119s] -- Installing: /cc_ws/tros_ws/install/share/hobot_shm//launch
+[15.120s] -- Installing: /cc_ws/tros_ws/install/share/hobot_shm//launch/hobot_shm.launch.py
+[15.120s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_shm
+[15.120s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_shm
+[15.120s] -- Installing: /cc_ws/tros_ws/install/share/hobot_shm/environment/ament_prefix_path.sh
+[15.127s] -- Installing: /cc_ws/tros_ws/install/share/hobot_shm/environment/ament_prefix_path.dsv
+[15.139s] -- Installing: /cc_ws/tros_ws/install/share/hobot_shm/environment/path.sh
+[15.140s] -- Installing: /cc_ws/tros_ws/install/share/hobot_shm/environment/path.dsv
+[15.141s] -- Installing: /cc_ws/tros_ws/install/share/hobot_shm/local_setup.bash
+[15.141s] -- Installing: /cc_ws/tros_ws/install/share/hobot_shm/local_setup.sh
+[15.142s] -- Installing: /cc_ws/tros_ws/install/share/hobot_shm/local_setup.zsh
+[15.143s] -- Installing: /cc_ws/tros_ws/install/share/hobot_shm/local_setup.dsv
+[15.143s] -- Installing: /cc_ws/tros_ws/install/share/hobot_shm/package.dsv
+[15.143s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_shm
+[15.144s] -- Installing: /cc_ws/tros_ws/install/share/hobot_shm/cmake/hobot_shmConfig.cmake
+[15.144s] -- Installing: /cc_ws/tros_ws/install/share/hobot_shm/cmake/hobot_shmConfig-version.cmake
+[15.145s] -- Installing: /cc_ws/tros_ws/install/share/hobot_shm/package.xml
+[15.201s] Invoked command in '/cc_ws/tros_ws/build/hobot_shm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_shm

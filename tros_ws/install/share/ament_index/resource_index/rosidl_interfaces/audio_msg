@@ -1,0 +1,10 @@
+msg/AudioEventType.idl
+msg/AudioEventType.msg
+msg/AudioFrame.idl
+msg/AudioFrame.msg
+msg/AudioFrameType.idl
+msg/AudioFrameType.msg
+msg/SmartAudioData.idl
+msg/SmartAudioData.msg
+msg/SmartAudioFrameType.idl
+msg/SmartAudioFrameType.msg

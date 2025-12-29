@@ -1,0 +1,65 @@
+Not searching for unused variables given on the command line.
+-- LibUSB Compilation test: FALSE
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0m=> Sensors module available[0m
+[0m=> libhidapi: include dir at /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include/hidapi[0m
+[0m=> libhidapi: libraries at /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libhidapi-libusb.so[0m
+[0m=> Video module available[0m
+[0m=> libusb: include dir at /usr/include/libusb-1.0[0m
+[0m=> libusb: libraries at /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libusb-1.0.so[0m
+[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_TESTING'.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:94 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cc_ws/tros_ws/build/hobot_zed_cam
+[35m[1mConsolidate compiler generated dependencies of target pub_stereo_imgs[0m
+[100%] Built target pub_stereo_imgs
+-- Install configuration: ""
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_zed_cam/anypub_stereo_imgs
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/launch
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/launch/pub_stereo_imgs_noweb.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/launch/zed_cam_node.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/launch/test_stereo_custom_rectify.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/launch/pub_stereo_imgs.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/launch/test_stereo_zed_rectify.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/config
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/config/stereo_8_zed_mini.yaml
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/config/stereo_8_zed_2i.yaml
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_zed_cam
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_zed_cam
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/environment/ament_prefix_path.sh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/environment/ament_prefix_path.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/environment/path.sh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/environment/path.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/local_setup.bash
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/local_setup.sh
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/local_setup.zsh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/local_setup.dsv
+-- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/package.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_zed_cam
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/cmake/hobot_zed_camConfig.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/cmake/hobot_zed_camConfig-version.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_zed_cam/package.xml

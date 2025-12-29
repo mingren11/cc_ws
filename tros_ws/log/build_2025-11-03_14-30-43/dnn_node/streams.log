@@ -1,0 +1,96 @@
+[0.033s] Invoking command in '/cc_ws/tros_ws/build/dnn_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_dnn/dnn_node -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.142s] Not searching for unused variables given on the command line.
+[0.143s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.303s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[0.303s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.304s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.304s]   set the policy and suppress this warning.
+[0.304s] 
+[0.304s]   For compatibility with older versions of CMake, option is clearing the
+[0.304s]   normal variable 'BUILD_TESTING'.
+[0.304s] Call Stack (most recent call first):
+[0.305s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.305s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.305s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.305s]   CMakeLists.txt:33 (find_package)
+[0.305s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.306s] [0m
+[0.309s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.354s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.359s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.371s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.391s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.532s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.534s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.713s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.108s] [0mbuild platform X5[0m
+[1.109s] [0mPREFIX_PATH is libdnn[0m
+[1.109s] [0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[1.315s] -- Configuring done
+[1.406s] -- Generating done
+[1.411s] -- Build files have been written to: /cc_ws/tros_ws/build/dnn_node
+[1.440s] Invoked command in '/cc_ws/tros_ws/build/dnn_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_dnn/dnn_node -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[1.440s] Invoking command in '/cc_ws/tros_ws/build/dnn_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/dnn_node -- -j12 -l12
+[1.611s] [35m[1mConsolidate compiler generated dependencies of target dnn_node[0m
+[1.743s] [100%] Built target dnn_node
+[1.772s] Invoked command in '/cc_ws/tros_ws/build/dnn_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/dnn_node -- -j12 -l12
+[2.348s] Invoking command in '/cc_ws/tros_ws/build/dnn_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/dnn_node
+[2.899s] -- Install configuration: ""
+[2.900s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libdnn_node.so
+[2.900s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/dnn_node.h
+[2.900s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h
+[2.900s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/image_proc.h
+[2.900s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser/
+[2.900s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//perception_common.h
+[2.900s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//segmentation
+[2.900s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//segmentation/ptq_yolo8_seg_output_parser.h
+[2.901s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//segmentation/ptq_unet_output_parser.h
+[2.901s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//segmentation/ptq_stdc_output_parser.h
+[2.901s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//utils.h
+[2.901s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//classification
+[2.901s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//classification/ptq_classification_output_parser.h
+[2.901s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection
+[2.901s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/ptq_yolo3_darknet_output_parser.h
+[2.901s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/ptq_yolo2_output_parser.h
+[2.901s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/ptq_yolo10_output_parser.h
+[2.902s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/fcos_output_parser.h
+[2.902s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/ptq_ssd_output_parser.h
+[2.902s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/ptq_yolov5x_output_parser.h
+[2.902s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/ptq_yolo5_output_parser.h
+[2.902s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/ptq_yolo8_output_parser.h
+[2.902s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/fasterrcnn_output_parser.h
+[2.902s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/nms.h
+[2.902s] -- Up-to-date: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/ptq_efficientdet_output_parser.h
+[2.903s] -- Up-to-date: /cc_ws/tros_ws/install/include/easy_dnn/
+[2.903s] -- Up-to-date: /cc_ws/tros_ws/install/include/easy_dnn//model_roi_infer_task.h
+[2.903s] -- Up-to-date: /cc_ws/tros_ws/install/include/easy_dnn//task.h
+[2.903s] -- Up-to-date: /cc_ws/tros_ws/install/include/easy_dnn//model.h
+[2.903s] -- Up-to-date: /cc_ws/tros_ws/install/include/easy_dnn//model_infer_task.h
+[2.903s] -- Up-to-date: /cc_ws/tros_ws/install/include/easy_dnn//common.h
+[2.903s] -- Up-to-date: /cc_ws/tros_ws/install/include/easy_dnn//input_process.h
+[2.903s] -- Up-to-date: /cc_ws/tros_ws/install/include/easy_dnn//data_structure.h
+[2.904s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libdnn_node.so
+[2.904s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node/environment/library_path.sh
+[2.904s] -- Installing: /cc_ws/tros_ws/install/share/dnn_node/environment/library_path.dsv
+[2.904s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/dnn_node
+[2.904s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/dnn_node
+[2.904s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node/environment/ament_prefix_path.sh
+[2.904s] -- Installing: /cc_ws/tros_ws/install/share/dnn_node/environment/ament_prefix_path.dsv
+[2.904s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node/environment/path.sh
+[2.904s] -- Installing: /cc_ws/tros_ws/install/share/dnn_node/environment/path.dsv
+[2.905s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node/local_setup.bash
+[2.905s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node/local_setup.sh
+[2.905s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node/local_setup.zsh
+[2.905s] -- Installing: /cc_ws/tros_ws/install/share/dnn_node/local_setup.dsv
+[2.905s] -- Installing: /cc_ws/tros_ws/install/share/dnn_node/package.dsv
+[2.905s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/dnn_node
+[2.905s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node/cmake/dnn_nodeExport.cmake
+[2.905s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node/cmake/dnn_nodeExport-noconfig.cmake
+[2.906s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.906s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node/cmake/ament_cmake_export_libraries-extras.cmake
+[2.906s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node/cmake/ament_cmake_export_targets-extras.cmake
+[2.906s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node/cmake/dnn_nodeConfig.cmake
+[2.906s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node/cmake/dnn_nodeConfig-version.cmake
+[2.906s] -- Up-to-date: /cc_ws/tros_ws/install/share/dnn_node/package.xml
+[2.913s] Invoked command in '/cc_ws/tros_ws/build/dnn_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/dnn_node

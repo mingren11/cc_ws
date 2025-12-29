@@ -1,0 +1,371 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_TESTING'.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found OpenCV: /cc_ws/sysroot_docker/usr_x5 (found version "4.5.4") 
+[0mbuild platform X5[0m
+[0mPREFIX_PATH is x5[0m
+[0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[0mPROJECT_SOURCE_DIR /cc_ws/tros_ws/src/box/hobot_cv[0m
+[0mOpenCV_LIBS: opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio;opencv_alphamat;opencv_aruco;opencv_barcode;opencv_bgsegm;opencv_bioinspired;opencv_ccalib;opencv_datasets;opencv_dnn_objdetect;opencv_dnn_superres;opencv_dpm;opencv_face;opencv_freetype;opencv_fuzzy;opencv_hdf;opencv_hfs;opencv_img_hash;opencv_intensity_transform;opencv_line_descriptor;opencv_mcc;opencv_optflow;opencv_phase_unwrapping;opencv_plot;opencv_quality;opencv_rapid;opencv_reg;opencv_rgbd;opencv_saliency;opencv_shape;opencv_stereo;opencv_structured_light;opencv_superres;opencv_surface_matching;opencv_text;opencv_tracking;opencv_videostab;opencv_viz;opencv_wechat_qrcode;opencv_ximgproc;opencv_xobjdetect;opencv_xphoto[0m
+[0mcompile to x5 platform[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cc_ws/tros_ws/build/hobot_cv
+[  4%] [32mBuilding CXX object CMakeFiles/hobot_cv.dir/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/hobot_cv.dir/src/utils.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/hobot_cv.dir/src/x5/hobotcv_imgproc/hobotcv_front.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/hobot_cv.dir/src/x5/hobotcv_gaussian_blur.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/hobot_cv.dir/src/x5/hobotcv_gaussian_blur_imp.cpp.o[0m
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:[m[K In function ‘[01m[Kvoid hobot_cv::nv12_to_bgr24_neon(uint8_t*, uint8_t*, int, int)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:52:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[K_vu64[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   52 |   uint8x8_t [01;35m[K_vu64[m[K = vdup_n_u8(64);
+      |             [01;35m[K^~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:[m[K In function ‘[01m[Kvoid hobot_cv::bgr24_to_nv12_neon(uint8_t*, uint8_t*, int, int)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:118:42:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kint8_t[m[K’ {aka ‘[01m[Ksigned char[m[K’} changes value from ‘[01m[K128[m[K’ to ‘[01m[K-128[m[K’ [[01;35m[K-Woverflow[m[K]
+  118 |   const int8x8_t s8_rounding = vdup_n_s8([01;35m[K128[m[K);
+      |                                          [01;35m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:19[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:[m[K In function ‘[01m[Kint hobot_cv::hobotcv_resize(const cv::Mat&, int, int, cv::Mat&, int, int)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:237:13:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+  237 |             [01;35m[K"hobotcv_resize vps laps ms= %d"[m[K, [32m[K(msEnd - msStart)[m[K);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |                                                      [32m[K|[m[K
+      |                                                      [32m[Kint64_t {aka long int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:237:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  237 |             "hobotcv_resize vps laps ms= [01;36m[K%d[m[K", (msEnd - msStart));
+      |                                          [01;36m[K~^[m[K
+      |                                           [01;36m[K|[m[K
+      |                                           [01;36m[Kint[m[K
+      |                                          [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:19[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:[m[K In function ‘[01m[Kcv::Mat hobot_cv::hobotcv_crop(const cv::Mat&, int, int, int, int, const cv::Range&, const cv::Range&, hobot_cv::HobotcvSpeedUpType)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:371:13:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+  371 |             [01;35m[K"hobotcv_resize vps laps ms= %d"[m[K, [32m[K(msEnd - msStart)[m[K);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |                                                      [32m[K|[m[K
+      |                                                      [32m[Kint64_t {aka long int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:371:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  371 |             "hobotcv_resize vps laps ms= [01;36m[K%d[m[K", (msEnd - msStart));
+      |                                          [01;36m[K~^[m[K
+      |                                           [01;36m[K|[m[K
+      |                                           [01;36m[Kint[m[K
+      |                                          [32m[K%ld[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:341:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktype[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  341 |                      [01;35m[KHobotcvSpeedUpType type[m[K) {
+      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:[m[K In function ‘[01m[Kint hobot_cv::hobotcv_rotate(const cv::Mat&, cv::Mat&, hobot_cv::ROTATION_E)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:492:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksrc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  492 | int hobotcv_rotate([01;35m[Kconst cv::Mat &src[m[K, cv::Mat &dst, ROTATION_E rotation) {
+      |                    [01;35m[K~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:492:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdst[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  492 | int hobotcv_rotate(const cv::Mat &src, [01;35m[Kcv::Mat &dst[m[K, ROTATION_E rotation) {
+      |                                        [01;35m[K~~~~~~~~~^~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:492:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krotation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  492 | int hobotcv_rotate(const cv::Mat &src, cv::Mat &dst, [01;35m[KROTATION_E rotation[m[K) {
+      |                                                      [01;35m[K~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:[m[K In function ‘[01m[Kint hobot_cv::hobotcv_imgproc(const cv::Mat&, cv::Mat&, int, int, hobot_cv::ROTATION_E, const cv::Range&, const cv::Range&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:496:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksrc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  496 | int hobotcv_imgproc([01;35m[Kconst cv::Mat &src[m[K,
+      |                     [01;35m[K~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:497:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdst[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  497 |                     [01;35m[Kcv::Mat &dst[m[K,
+      |                     [01;35m[K~~~~~~~~~^~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:498:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdst_h[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  498 |                     [01;35m[Kint dst_h[m[K,
+      |                     [01;35m[K~~~~^~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:499:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdst_w[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  499 |                     [01;35m[Kint dst_w[m[K,
+      |                     [01;35m[K~~~~^~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:500:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krotate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  500 |                     [01;35m[KROTATION_E rotate[m[K,
+      |                     [01;35m[K~~~~~~~~~~~^~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:501:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrowRange[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  501 |                     [01;35m[Kconst cv::Range &rowRange[m[K,
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:502:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcolRange[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  502 |                     [01;35m[Kconst cv::Range &colRange[m[K) {
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:19[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:[m[K In function ‘[01m[Kstd::shared_ptr<hobot_cv::HOBOT_CV_IMAGE_INFO> hobot_cv::hobotcv_resize(const char*, int, int, int, int)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:586:13:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+  586 |             [01;35m[K"hobotcv_resize vps laps ms= %d"[m[K, [32m[K(msEnd - msStart)[m[K);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |                                                      [32m[K|[m[K
+      |                                                      [32m[Kint64_t {aka long int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:586:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  586 |             "hobotcv_resize vps laps ms= [01;36m[K%d[m[K", (msEnd - msStart));
+      |                                          [01;36m[K~^[m[K
+      |                                           [01;36m[K|[m[K
+      |                                           [01;36m[Kint[m[K
+      |                                          [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:19[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:[m[K In function ‘[01m[Kstd::shared_ptr<hobot_cv::HOBOT_CV_IMAGE_INFO> hobot_cv::hobotcv_crop(const char*, int, int, int, int, const cv::Range&, const cv::Range&, hobot_cv::HobotcvSpeedUpType)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:724:13:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+  724 |             [01;35m[K"hobotcv_resize vps laps ms= %d"[m[K, [32m[K(msEnd - msStart)[m[K);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |                                                      [32m[K|[m[K
+      |                                                      [32m[Kint64_t {aka long int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:724:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  724 |             "hobotcv_resize vps laps ms= [01;36m[K%d[m[K", (msEnd - msStart));
+      |                                          [01;36m[K~^[m[K
+      |                                           [01;36m[K|[m[K
+      |                                           [01;36m[Kint[m[K
+      |                                          [32m[K%ld[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:697:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktype[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  697 |                                         [01;35m[KHobotcvSpeedUpType type[m[K) {
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:[m[K In function ‘[01m[Kstd::shared_ptr<hobot_cv::HOBOT_CV_IMAGE_INFO> hobot_cv::hobotcv_rotate(const char*, int, int, hobot_cv::ROTATION_E)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:855:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksrc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  855 | std::shared_ptr<ImageInfo> hobotcv_rotate([01;35m[Kconst char *src[m[K,
+      |                                           [01;35m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:856:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksrc_h[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  856 |                                           [01;35m[Kint src_h[m[K,
+      |                                           [01;35m[K~~~~^~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:857:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksrc_w[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  857 |                                           [01;35m[Kint src_w[m[K,
+      |                                           [01;35m[K~~~~^~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:858:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krotate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  858 |                                           [01;35m[KROTATION_E rotate[m[K) {
+      |                                           [01;35m[K~~~~~~~~~~~^~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:[m[K In function ‘[01m[Kstd::shared_ptr<hobot_cv::HOBOT_CV_IMAGE_INFO> hobot_cv::hobotcv_imgproc(const char*, int, int, int, int, hobot_cv::ROTATION_E, const cv::Range&, const cv::Range&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:863:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksrc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  863 | std::shared_ptr<ImageInfo> hobotcv_imgproc([01;35m[Kconst char *src[m[K,
+      |                                            [01;35m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:864:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksrc_h[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  864 |                                            [01;35m[Kint src_h[m[K,
+      |                                            [01;35m[K~~~~^~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:865:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksrc_w[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  865 |                                            [01;35m[Kint src_w[m[K,
+      |                                            [01;35m[K~~~~^~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:866:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdst_h[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  866 |                                            [01;35m[Kint dst_h[m[K,
+      |                                            [01;35m[K~~~~^~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:867:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdst_w[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  867 |                                            [01;35m[Kint dst_w[m[K,
+      |                                            [01;35m[K~~~~^~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:868:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krotate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  868 |                                            [01;35m[KROTATION_E rotate[m[K,
+      |                                            [01;35m[K~~~~~~~~~~~^~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:869:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrowRange[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  869 |                                            [01;35m[Kconst cv::Range &rowRange[m[K,
+      |                                            [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_imgproc.cpp:870:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcolRange[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  870 |                                            [01;35m[Kconst cv::Range &colRange[m[K) {
+      |                                            [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_front.cpp:[m[K In member function ‘[01m[Kint hobot_cv::hobotcv_front::processFrame(const char*, int, int, char*, int)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_front.cpp:512:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  512 |   if ([01;35m[Kdst_size < (out_img.buffer.size[0] + out_img.buffer.size[1])[m[K) {
+      |       [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_front.cpp:507:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstride[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  507 |   int [01;35m[Kstride[m[K = out_img.buffer.stride;
+      |       [01;35m[K^~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_front.cpp:508:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwidth[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  508 |   int [01;35m[Kwidth[m[K = out_img.buffer.width;
+      |       [01;35m[K^~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_front.cpp:509:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kheight[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  509 |   int [01;35m[Kheight[m[K = out_img.buffer.height;
+      |       [01;35m[K^~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_front.cpp:[m[K In member function ‘[01m[Kint hobot_cv::hobotcv_front::creat_vflow_node()[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_front.cpp:527:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Khw_id[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  527 |   int [01;35m[Khw_id[m[K = 0;
+      |       [01;35m[K^~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_front.cpp:[m[K In member function ‘[01m[Kint hobot_cv::hobotcv_front::destroy_vse_node()[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_front.cpp:570:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  570 |   int [01;35m[Ki[m[K = 0;
+      |       [01;35m[K^[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_front.cpp:[m[K In member function ‘[01m[Kint hobot_cv::hobotcv_front::set_vse_attr()[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_front.cpp:597:41:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Khbn_buf_alloc_attr_s::buffers_num[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  597 |     hbn_buf_alloc_attr_t alloc_attr = {0[01;35m[K}[m[K;
+      |                                         [01;35m[K^[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_front.cpp:597:41:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Khbn_buf_alloc_attr_s::is_contig[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_front.cpp:598:29:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kframe_fps_ctrl_s::dst[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  598 |     vse_attr_t vse_attr = {0[01;35m[K}[m[K;
+      |                             [01;35m[K^[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_cv/src/x5/hobotcv_imgproc/hobotcv_front.cpp:596:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Khw_id[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  596 |     uint32_t [01;35m[Khw_id[m[K = 0;
+      |              [01;35m[K^~~~~[m[K
+[ 27%] [32m[1mLinking CXX shared library libhobot_cv.so[0m
+lto-wrapper: warning: using serial compilation of 2 LTRANS jobs
+[ 27%] Built target hobot_cv
+[ 31%] [32mBuilding CXX object CMakeFiles/resize_example.dir/test/test_resize.cpp.o[0m
+[ 36%] [32m[1mLinking CXX executable resize_example[0m
+[ 36%] Built target resize_example
+[ 40%] [32mBuilding CXX object CMakeFiles/test_conersion.dir/test/test_conersion.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable test_conersion[0m
+[ 45%] Built target test_conersion
+[ 50%] [32mBuilding CXX object CMakeFiles/test_gaussian_blur.dir/test/test_gaussian_blur.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable test_gaussian_blur[0m
+[ 54%] Built target test_gaussian_blur
+[ 59%] [32mBuilding CXX object CMakeFiles/neon_example.dir/test/test_neon_blur.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable neon_example[0m
+[ 63%] Built target neon_example
+[ 68%] [32mBuilding CXX object CMakeFiles/padding_example.dir/test/test_padding.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable padding_example[0m
+[ 72%] Built target padding_example
+[ 77%] [32mBuilding CXX object CMakeFiles/imgproc_example.dir/test/test_imgproc.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable imgproc_example[0m
+[ 81%] Built target imgproc_example
+[ 86%] [32mBuilding CXX object CMakeFiles/rotate_example.dir/test/test_rotate.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable rotate_example[0m
+[ 90%] Built target rotate_example
+[ 95%] [32mBuilding CXX object CMakeFiles/crop_example.dir/test/test_crop.cpp.o[0m
+[100%] [32m[1mLinking CXX executable crop_example[0m
+[100%] Built target crop_example
+-- Install configuration: "Release"
+-- Installing: /cc_ws/tros_ws/install/lib/libhobot_cv.so
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/libhobot_cv.so" to ""
+-- Installing: /cc_ws/tros_ws/install/include/hobot_cv/hobotcv_imgproc.h
+-- Installing: /cc_ws/tros_ws/install/include/hobot_cv/hobotcv_gaussian_blur.h
+-- Installing: /cc_ws/tros_ws/install/include/hobot_cv/hobotcv_gaussian_blur_imp.hpp
+-- Installing: /cc_ws/tros_ws/install/include/hobot_cv/hobotcv_neon_blur.h
+-- Installing: /cc_ws/tros_ws/install/lib/libhobotcv_neon_blur.so
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/padding_example
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_cv/padding_example" to ""
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/test_gaussian_blur
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_cv/test_gaussian_blur" to ""
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/test_conersion
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_cv/test_conersion" to ""
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/resize_example
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_cv/resize_example" to ""
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/crop_example
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_cv/crop_example" to ""
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/rotate_example
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_cv/rotate_example" to ""
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/imgproc_example
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_cv/imgproc_example" to ""
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/neon_example
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_cv/neon_example" to ""
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/config/
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/config//models
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/config//models/gaussian_blur_640x480_3_3_0.000000_0.000000.hbm
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/config//models/gaussian_blur_320_240_3_3_0.000000_0.000000.hbm
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/config//test.jpg
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/config//480x270.jpg
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_5.png
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_0.png
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_2.png
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_4.png
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_3.png
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_1.png
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/launch
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_conversion.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_pyramid.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_benchmark.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_gaussian_blur.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_rotate.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_crop.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_neon_blur.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_resize.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_padding.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_imgproc.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_crop_resize_rotate_pyramid.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/lib/libhobot_cv.so
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/environment/library_path.sh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/environment/library_path.dsv
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_cv
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_cv
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/environment/ament_prefix_path.sh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/environment/ament_prefix_path.dsv
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/environment/path.sh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/environment/path.dsv
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/local_setup.bash
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/local_setup.sh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/local_setup.zsh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/local_setup.dsv
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/package.dsv
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_cv
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/cmake/hobot_cvExport.cmake
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/cmake/hobot_cvExport-release.cmake
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/cmake/hobot_cvConfig.cmake
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/cmake/hobot_cvConfig-version.cmake
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/package.xml

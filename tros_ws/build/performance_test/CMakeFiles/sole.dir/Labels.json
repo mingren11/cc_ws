@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/cc_ws/tros_ws/build/performance_test/CMakeFiles/sole"
+		},
+		{
+			"file" : "/cc_ws/tros_ws/build/performance_test/CMakeFiles/sole.rule"
+		},
+		{
+			"file" : "/cc_ws/tros_ws/build/performance_test/CMakeFiles/sole-complete.rule"
+		},
+		{
+			"file" : "/cc_ws/tros_ws/build/performance_test/external/src/sole-stamp/sole-build.rule"
+		},
+		{
+			"file" : "/cc_ws/tros_ws/build/performance_test/external/src/sole-stamp/sole-configure.rule"
+		},
+		{
+			"file" : "/cc_ws/tros_ws/build/performance_test/external/src/sole-stamp/sole-download.rule"
+		},
+		{
+			"file" : "/cc_ws/tros_ws/build/performance_test/external/src/sole-stamp/sole-install.rule"
+		},
+		{
+			"file" : "/cc_ws/tros_ws/build/performance_test/external/src/sole-stamp/sole-mkdir.rule"
+		},
+		{
+			"file" : "/cc_ws/tros_ws/build/performance_test/external/src/sole-stamp/sole-patch.rule"
+		},
+		{
+			"file" : "/cc_ws/tros_ws/build/performance_test/external/src/sole-stamp/sole-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sole"
+		],
+		"name" : "sole"
+	}
+}

@@ -1,0 +1,4 @@
+source;share/hobot_stereonet_utils/local_setup.bash
+source;share/hobot_stereonet_utils/local_setup.dsv
+source;share/hobot_stereonet_utils/local_setup.sh
+source;share/hobot_stereonet_utils/local_setup.zsh

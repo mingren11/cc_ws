@@ -1,0 +1,115 @@
+Not searching for unused variables given on the command line.
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_TESTING'.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:36 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0mbuild platform X5[0m
+[0mPREFIX_PATH is x5[0m
+[0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[0mPROJECT_SOURCE_DIR /cc_ws/tros_ws/src/box/hobot_cv[0m
+[0mOpenCV_LIBS: opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio;opencv_alphamat;opencv_aruco;opencv_barcode;opencv_bgsegm;opencv_bioinspired;opencv_ccalib;opencv_datasets;opencv_dnn_objdetect;opencv_dnn_superres;opencv_dpm;opencv_face;opencv_freetype;opencv_fuzzy;opencv_hdf;opencv_hfs;opencv_img_hash;opencv_intensity_transform;opencv_line_descriptor;opencv_mcc;opencv_optflow;opencv_phase_unwrapping;opencv_plot;opencv_quality;opencv_rapid;opencv_reg;opencv_rgbd;opencv_saliency;opencv_shape;opencv_stereo;opencv_structured_light;opencv_superres;opencv_surface_matching;opencv_text;opencv_tracking;opencv_videostab;opencv_viz;opencv_wechat_qrcode;opencv_ximgproc;opencv_xobjdetect;opencv_xphoto[0m
+[0mcompile to x5 platform[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cc_ws/tros_ws/build/hobot_cv
+[35m[1mConsolidate compiler generated dependencies of target hobot_cv[0m
+[ 27%] Built target hobot_cv
+[35m[1mConsolidate compiler generated dependencies of target crop_example[0m
+[35m[1mConsolidate compiler generated dependencies of target imgproc_example[0m
+[35m[1mConsolidate compiler generated dependencies of target resize_example[0m
+[35m[1mConsolidate compiler generated dependencies of target neon_example[0m
+[35m[1mConsolidate compiler generated dependencies of target padding_example[0m
+[35m[1mConsolidate compiler generated dependencies of target test_gaussian_blur[0m
+[35m[1mConsolidate compiler generated dependencies of target rotate_example[0m
+[35m[1mConsolidate compiler generated dependencies of target test_conersion[0m
+[ 36%] Built target imgproc_example
+[ 45%] Built target crop_example
+[ 54%] Built target rotate_example
+[ 63%] Built target neon_example
+[ 72%] Built target test_conersion
+[ 81%] Built target test_gaussian_blur
+[ 90%] Built target padding_example
+[100%] Built target resize_example
+-- Install configuration: "Release"
+-- Up-to-date: /cc_ws/tros_ws/install/lib/libhobot_cv.so
+-- Up-to-date: /cc_ws/tros_ws/install/include/hobot_cv/hobotcv_imgproc.h
+-- Up-to-date: /cc_ws/tros_ws/install/include/hobot_cv/hobotcv_gaussian_blur.h
+-- Up-to-date: /cc_ws/tros_ws/install/include/hobot_cv/hobotcv_gaussian_blur_imp.hpp
+-- Up-to-date: /cc_ws/tros_ws/install/include/hobot_cv/hobotcv_neon_blur.h
+-- Up-to-date: /cc_ws/tros_ws/install/lib/libhobotcv_neon_blur.so
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/padding_example
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/test_gaussian_blur
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/test_conersion
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/resize_example
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/crop_example
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/rotate_example
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/imgproc_example
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/neon_example
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config/
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//models
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//models/gaussian_blur_640x480_3_3_0.000000_0.000000.hbm
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//models/gaussian_blur_320_240_3_3_0.000000_0.000000.hbm
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//test.jpg
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//480x270.jpg
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_5.png
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_0.png
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_2.png
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_4.png
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_3.png
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_cv/config//tof_images/frame1_1.png
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_conversion.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_pyramid.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_benchmark.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_gaussian_blur.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_rotate.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_crop.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_neon_blur.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_resize.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_padding.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_imgproc.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/launch/hobot_cv_crop_resize_rotate_pyramid.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/lib/libhobot_cv.so
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/environment/library_path.sh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/environment/library_path.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_cv
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_cv
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/environment/ament_prefix_path.sh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/environment/ament_prefix_path.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/environment/path.sh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/environment/path.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/local_setup.bash
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/local_setup.sh
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/local_setup.zsh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/local_setup.dsv
+-- Installing: /cc_ws/tros_ws/install/share/hobot_cv/package.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_cv
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/cmake/hobot_cvExport.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/cmake/hobot_cvExport-release.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/cmake/hobot_cvConfig.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/cmake/hobot_cvConfig-version.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_cv/package.xml

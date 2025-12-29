@@ -1,0 +1,1560 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_TESTING'.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:33 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ai_msgs: 2.0.1 (/cc_ws/tros_ws/robot_dev_config/../install/share/ai_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found dnn_node: 2.5.4 (/cc_ws/tros_ws/robot_dev_config/../install/share/dnn_node/cmake)
+-- Found hbm_img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/hbm_img_msgs/cmake)
+[0mbuild platform X5[0m
+[0mCMAKE_SYSROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cc_ws/tros_ws/build/mono_mobilesam
+[ 16%] [32mBuilding CXX object CMakeFiles/mono_mobilesam.dir/src/main.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:[m[K In member function ‘[01m[Kint AiMsgFeedCache::Feed(const ConstSharedPtr&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:69:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   69 |                   [01;35m[K"Ai msg cache len: %d exceeds limit: %d, erase ai ts: %s"[m[K,
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   70 |                   [32m[Krecved_aimsg_cache_.size()[m[K,
+      |                   [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                           [32m[K|[m[K
+      |                                           [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:69:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   69 |                   "Ai msg cache len: [01;36m[K%d[m[K exceeds limit: %d, erase ai ts: %s",
+      |                                      [01;36m[K~^[m[K
+      |                                       [01;36m[K|[m[K
+      |                                       [01;36m[Kint[m[K
+      |                                      [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:69:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   69 |                   [01;35m[K"Ai msg cache len: %d exceeds limit: %d, erase ai ts: %s"[m[K,
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   70 |                   recved_aimsg_cache_.size(),
+   71 |                   [32m[Kcache_limt_len_[m[K,
+      |                   [32m[K~~~~~~~~~~~~~~~[m[K
+      |                   [32m[K|[m[K
+      |                   [32m[Ksize_t {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:69:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   69 |                   "Ai msg cache len: %d exceeds limit: [01;36m[K%d[m[K, erase ai ts: %s",
+      |                                                        [01;36m[K~^[m[K
+      |                                                         [01;36m[K|[m[K
+      |                                                         [01;36m[Kint[m[K
+      |                                                        [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:81:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   81 |                   [01;35m[K"Ts cache len: %d exceeds limit: %d, erase ts: %s"[m[K,
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   82 |                   [32m[Krecved_aimsg_ts_.size()[m[K,
+      |                   [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                        [32m[K|[m[K
+      |                                        [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:81:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   81 |                   "Ts cache len: [01;36m[K%d[m[K exceeds limit: %d, erase ts: %s",
+      |                                  [01;36m[K~^[m[K
+      |                                   [01;36m[K|[m[K
+      |                                   [01;36m[Kint[m[K
+      |                                  [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:81:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   81 |                   [01;35m[K"Ts cache len: %d exceeds limit: %d, erase ts: %s"[m[K,
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   82 |                   recved_aimsg_ts_.size(),
+   83 |                   [32m[Kcache_limt_len_[m[K,
+      |                   [32m[K~~~~~~~~~~~~~~~[m[K
+      |                   [32m[K|[m[K
+      |                   [32m[Ksize_t {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:81:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   81 |                   "Ts cache len: %d exceeds limit: [01;36m[K%d[m[K, erase ts: %s",
+      |                                                    [01;36m[K~^[m[K
+      |                                                     [01;36m[K|[m[K
+      |                                                     [01;36m[Kint[m[K
+      |                                                    [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+   92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   93 |                  [32m[Krecved_aimsg_ts_.top().sec[m[K,
+      |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                         [32m[K|[m[K
+      |                                         [32m[Kint[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:30:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   92 |                  "top ts: [01;36m[K%llu[m[K %llu, cache size: %d, ts size: %d",
+      |                           [01;36m[K~~~^[m[K
+      |                              [01;36m[K|[m[K
+      |                              [01;36m[Klong long unsigned int[m[K
+      |                           [32m[K%u[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+   92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   93 |                  recved_aimsg_ts_.top().sec,
+   94 |                  [32m[Krecved_aimsg_ts_.top().nanosec[m[K,
+      |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                         [32m[K|[m[K
+      |                                         [32m[Kunsigned int[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   92 |                  "top ts: %llu [01;36m[K%llu[m[K, cache size: %d, ts size: %d",
+      |                                [01;36m[K~~~^[m[K
+      |                                   [01;36m[K|[m[K
+      |                                   [01;36m[Klong long unsigned int[m[K
+      |                                [32m[K%u[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+   95 |                  [32m[Krecved_aimsg_cache_.size()[m[K,
+      |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                          [32m[K|[m[K
+      |                                          [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   92 |                  "top ts: %llu %llu, cache size: [01;36m[K%d[m[K, ts size: %d",
+      |                                                  [01;36m[K~^[m[K
+      |                                                   [01;36m[K|[m[K
+      |                                                   [01;36m[Kint[m[K
+      |                                                  [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+   96 |                  [32m[Krecved_aimsg_ts_.size()[m[K);
+      |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                       [32m[K|[m[K
+      |                                       [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:64:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   92 |                  "top ts: %llu %llu, cache size: %d, ts size: [01;36m[K%d[m[K",
+      |                                                               [01;36m[K~^[m[K
+      |                                                                [01;36m[K|[m[K
+      |                                                                [01;36m[Kint[m[K
+      |                                                               [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:[m[K In member function ‘[01m[Kai_msgs::msg::PerceptionTargets_<std::allocator<void> >::UniquePtr AiMsgFeedCache::Get(const _stamp_type&, int)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+  119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  121 |                    ts.c_str(),
+  122 |                    [32m[Krecved_aimsg_ts_.top().sec[m[K,
+      |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                           [32m[K|[m[K
+      |                                           [32m[Kint[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  119 |                    "find ts %s success, recved_aimsg_ts_ top ts: [01;36m[K%llu[m[K %llu, "
+      |                                                                  [01;36m[K~~~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Klong long unsigned int[m[K
+      |                                                                  [32m[K%u[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 7 has type ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+  119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+  123 |                    [32m[Krecved_aimsg_ts_.top().nanosec[m[K,
+      |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                           [32m[K|[m[K
+      |                                           [32m[Kunsigned int[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:74:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  119 |                    "find ts %s success, recved_aimsg_ts_ top ts: %llu [01;36m[K%llu[m[K, "
+      |                                                                       [01;36m[K~~~^[m[K
+      |                                                                          [01;36m[K|[m[K
+      |                                                                          [01;36m[Klong long unsigned int[m[K
+      |                                                                       [32m[K%u[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+  124 |                    [32m[Krecved_aimsg_cache_.size()[m[K,
+      |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                            [32m[K|[m[K
+      |                                            [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:120:34:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  120 |                    "cache size: [01;36m[K%d[m[K, ts size: %d",
+      |                                 [01;36m[K~^[m[K
+      |                                  [01;36m[K|[m[K
+      |                                  [01;36m[Kint[m[K
+      |                                 [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+  125 |                    [32m[Krecved_aimsg_ts_.size()[m[K);
+      |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                         [32m[K|[m[K
+      |                                         [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:120:47:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  120 |                    "cache size: %d, ts size: [01;36m[K%d[m[K",
+      |                                              [01;36m[K~^[m[K
+      |                                               [01;36m[K|[m[K
+      |                                               [01;36m[Kint[m[K
+      |                                              [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:141:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  141 |                        [01;35m[K"Erase top ts: %s, cache len: %d ts len: %d"[m[K,
+      |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  142 |                        top_ts.data(),
+  143 |                        [32m[Krecved_aimsg_cache_.size()[m[K,
+      |                        [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                [32m[K|[m[K
+      |                                                [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:141:55:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  141 |                        "Erase top ts: %s, cache len: [01;36m[K%d[m[K ts len: %d",
+      |                                                      [01;36m[K~^[m[K
+      |                                                       [01;36m[K|[m[K
+      |                                                       [01;36m[Kint[m[K
+      |                                                      [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:141:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  141 |                        [01;35m[K"Erase top ts: %s, cache len: %d ts len: %d"[m[K,
+      |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+  144 |                        [32m[Krecved_aimsg_ts_.size()[m[K);
+      |                        [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                             [32m[K|[m[K
+      |                                             [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/main.cpp:18[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:141:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  141 |                        "Erase top ts: %s, cache len: %d ts len: [01;36m[K%d[m[K",
+      |                                                                 [01;36m[K~^[m[K
+      |                                                                  [01;36m[K|[m[K
+      |                                                                  [01;36m[Kint[m[K
+      |                                                                 [32m[K%ld[m[K
+[ 33%] [32mBuilding CXX object CMakeFiles/mono_mobilesam.dir/src/data_preprocess.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mono_mobilesam.dir/src/mobilesam_output_parser.cpp.o[0m
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_output_parser.cpp:[m[K In member function ‘[01m[Kint32_t MobileSamOutputParser::PostProcess(std::vector<std::shared_ptr<hobot::easy_dnn::DNNTensor> >&, int, int, int, int, hobot::dnn_node::output_parser::Perception&, float)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_output_parser.cpp:62:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   62 |   int [01;35m[Kret[m[K = GenMask(data, resized_img_h, resized_img_w, model_h, model_w, perception, ratio);
+      |       [01;35m[K^~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_output_parser.cpp:[m[K In member function ‘[01m[Kint32_t MobileSamOutputParser::GenMask(const float*, int, int, int, int, hobot::dnn_node::output_parser::Perception&, float)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_output_parser.cpp:127:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koffect[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  127 |         int [01;35m[Koffect[m[K = h * valid_w + w;
+      |             [01;35m[K^~~~~~[m[K
+[ 66%] [32mBuilding CXX object CMakeFiles/mono_mobilesam.dir/src/mobilesam_node.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:[m[K In member function ‘[01m[Kint AiMsgFeedCache::Feed(const ConstSharedPtr&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:69:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   69 |                   [01;35m[K"Ai msg cache len: %d exceeds limit: %d, erase ai ts: %s"[m[K,
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   70 |                   [32m[Krecved_aimsg_cache_.size()[m[K,
+      |                   [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                           [32m[K|[m[K
+      |                                           [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:69:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   69 |                   "Ai msg cache len: [01;36m[K%d[m[K exceeds limit: %d, erase ai ts: %s",
+      |                                      [01;36m[K~^[m[K
+      |                                       [01;36m[K|[m[K
+      |                                       [01;36m[Kint[m[K
+      |                                      [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:69:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   69 |                   [01;35m[K"Ai msg cache len: %d exceeds limit: %d, erase ai ts: %s"[m[K,
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   70 |                   recved_aimsg_cache_.size(),
+   71 |                   [32m[Kcache_limt_len_[m[K,
+      |                   [32m[K~~~~~~~~~~~~~~~[m[K
+      |                   [32m[K|[m[K
+      |                   [32m[Ksize_t {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:69:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   69 |                   "Ai msg cache len: %d exceeds limit: [01;36m[K%d[m[K, erase ai ts: %s",
+      |                                                        [01;36m[K~^[m[K
+      |                                                         [01;36m[K|[m[K
+      |                                                         [01;36m[Kint[m[K
+      |                                                        [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:81:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   81 |                   [01;35m[K"Ts cache len: %d exceeds limit: %d, erase ts: %s"[m[K,
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   82 |                   [32m[Krecved_aimsg_ts_.size()[m[K,
+      |                   [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                        [32m[K|[m[K
+      |                                        [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:81:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   81 |                   "Ts cache len: [01;36m[K%d[m[K exceeds limit: %d, erase ts: %s",
+      |                                  [01;36m[K~^[m[K
+      |                                   [01;36m[K|[m[K
+      |                                   [01;36m[Kint[m[K
+      |                                  [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:81:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   81 |                   [01;35m[K"Ts cache len: %d exceeds limit: %d, erase ts: %s"[m[K,
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   82 |                   recved_aimsg_ts_.size(),
+   83 |                   [32m[Kcache_limt_len_[m[K,
+      |                   [32m[K~~~~~~~~~~~~~~~[m[K
+      |                   [32m[K|[m[K
+      |                   [32m[Ksize_t {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:81:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   81 |                   "Ts cache len: %d exceeds limit: [01;36m[K%d[m[K, erase ts: %s",
+      |                                                    [01;36m[K~^[m[K
+      |                                                     [01;36m[K|[m[K
+      |                                                     [01;36m[Kint[m[K
+      |                                                    [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+   92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   93 |                  [32m[Krecved_aimsg_ts_.top().sec[m[K,
+      |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                         [32m[K|[m[K
+      |                                         [32m[Kint[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:30:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   92 |                  "top ts: [01;36m[K%llu[m[K %llu, cache size: %d, ts size: %d",
+      |                           [01;36m[K~~~^[m[K
+      |                              [01;36m[K|[m[K
+      |                              [01;36m[Klong long unsigned int[m[K
+      |                           [32m[K%u[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+   92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   93 |                  recved_aimsg_ts_.top().sec,
+   94 |                  [32m[Krecved_aimsg_ts_.top().nanosec[m[K,
+      |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                         [32m[K|[m[K
+      |                                         [32m[Kunsigned int[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   92 |                  "top ts: %llu [01;36m[K%llu[m[K, cache size: %d, ts size: %d",
+      |                                [01;36m[K~~~^[m[K
+      |                                   [01;36m[K|[m[K
+      |                                   [01;36m[Klong long unsigned int[m[K
+      |                                [32m[K%u[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+   95 |                  [32m[Krecved_aimsg_cache_.size()[m[K,
+      |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                          [32m[K|[m[K
+      |                                          [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   92 |                  "top ts: %llu %llu, cache size: [01;36m[K%d[m[K, ts size: %d",
+      |                                                  [01;36m[K~^[m[K
+      |                                                   [01;36m[K|[m[K
+      |                                                   [01;36m[Kint[m[K
+      |                                                  [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+   96 |                  [32m[Krecved_aimsg_ts_.size()[m[K);
+      |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                       [32m[K|[m[K
+      |                                       [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:64:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   92 |                  "top ts: %llu %llu, cache size: %d, ts size: [01;36m[K%d[m[K",
+      |                                                               [01;36m[K~^[m[K
+      |                                                                [01;36m[K|[m[K
+      |                                                                [01;36m[Kint[m[K
+      |                                                               [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:[m[K In member function ‘[01m[Kai_msgs::msg::PerceptionTargets_<std::allocator<void> >::UniquePtr AiMsgFeedCache::Get(const _stamp_type&, int)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+  119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  121 |                    ts.c_str(),
+  122 |                    [32m[Krecved_aimsg_ts_.top().sec[m[K,
+      |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                           [32m[K|[m[K
+      |                                           [32m[Kint[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  119 |                    "find ts %s success, recved_aimsg_ts_ top ts: [01;36m[K%llu[m[K %llu, "
+      |                                                                  [01;36m[K~~~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Klong long unsigned int[m[K
+      |                                                                  [32m[K%u[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 7 has type ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+  119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+  123 |                    [32m[Krecved_aimsg_ts_.top().nanosec[m[K,
+      |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                           [32m[K|[m[K
+      |                                           [32m[Kunsigned int[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:74:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  119 |                    "find ts %s success, recved_aimsg_ts_ top ts: %llu [01;36m[K%llu[m[K, "
+      |                                                                       [01;36m[K~~~^[m[K
+      |                                                                          [01;36m[K|[m[K
+      |                                                                          [01;36m[Klong long unsigned int[m[K
+      |                                                                       [32m[K%u[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+  124 |                    [32m[Krecved_aimsg_cache_.size()[m[K,
+      |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                            [32m[K|[m[K
+      |                                            [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:120:34:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  120 |                    "cache size: [01;36m[K%d[m[K, ts size: %d",
+      |                                 [01;36m[K~^[m[K
+      |                                  [01;36m[K|[m[K
+      |                                  [01;36m[Kint[m[K
+      |                                 [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+  125 |                    [32m[Krecved_aimsg_ts_.size()[m[K);
+      |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                         [32m[K|[m[K
+      |                                         [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:120:47:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  120 |                    "cache size: %d, ts size: [01;36m[K%d[m[K",
+      |                                              [01;36m[K~^[m[K
+      |                                               [01;36m[K|[m[K
+      |                                               [01;36m[Kint[m[K
+      |                                              [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:141:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  141 |                        [01;35m[K"Erase top ts: %s, cache len: %d ts len: %d"[m[K,
+      |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  142 |                        top_ts.data(),
+  143 |                        [32m[Krecved_aimsg_cache_.size()[m[K,
+      |                        [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                [32m[K|[m[K
+      |                                                [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:141:55:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  141 |                        "Erase top ts: %s, cache len: [01;36m[K%d[m[K ts len: %d",
+      |                                                      [01;36m[K~^[m[K
+      |                                                       [01;36m[K|[m[K
+      |                                                       [01;36m[Kint[m[K
+      |                                                      [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:141:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  141 |                        [01;35m[K"Erase top ts: %s, cache len: %d ts len: %d"[m[K,
+      |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+  144 |                        [32m[Krecved_aimsg_ts_.size()[m[K);
+      |                        [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                             [32m[K|[m[K
+      |                                             [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:31[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:141:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  141 |                        "Erase top ts: %s, cache len: %d ts len: [01;36m[K%d[m[K",
+      |                                                                 [01;36m[K~^[m[K
+      |                                                                  [01;36m[K|[m[K
+      |                                                                  [01;36m[Kint[m[K
+      |                                                                 [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:[m[K In member function ‘[01m[Kvirtual int MobileSamNode::PostProcess(const std::shared_ptr<hobot::dnn_node::DnnNodeOutput>&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:320:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<hobot::dnn_node::output_parser::Detection>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  320 |               [01;35m[K"out box size: %d"[m[K,
+      |               [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+  321 |               [32m[Kdet_result->perception.det.size()[m[K);
+      |               [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                              [32m[K|[m[K
+      |                                              [32m[Kstd::vector<hobot::dnn_node::output_parser::Detection>::size_type {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:320:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  320 |               "out box size: [01;36m[K%d[m[K",
+      |                              [01;36m[K~^[m[K
+      |                               [01;36m[K|[m[K
+      |                               [01;36m[Kint[m[K
+      |                              [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/install/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/mobilesam_node.h:21[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:376:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  376 |                 [01;35m[K"features size: %d, width: %d, height: %d, num_classes: %d, step: %d"[m[K,
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  377 |                 [32m[Kcapture.features.size()[m[K,
+      |                 [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                      [32m[K|[m[K
+      |                                      [32m[Kstd::vector<float>::size_type {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:376:34:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  376 |                 "features size: [01;36m[K%d[m[K, width: %d, height: %d, num_classes: %d, step: %d",
+      |                                 [01;36m[K~^[m[K
+      |                                  [01;36m[K|[m[K
+      |                                  [01;36m[Kint[m[K
+      |                                 [32m[K%ld[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:[m[K In member function ‘[01m[Kvoid MobileSamNode::RosImgProcess(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:532:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<std::pair<std::shared_ptr<SamOutput>, std::shared_ptr<hobot::easy_dnn::DNNTensor> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  532 |   if ([01;35m[Kcache_img_.size() > cache_len_limit_[m[K) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:[m[K In member function ‘[01m[Kvoid MobileSamNode::SharedMemImgProcess(hbm_img_msgs::msg::HbmMsg1080P_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:617:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<std::pair<std::shared_ptr<SamOutput>, std::shared_ptr<hobot::easy_dnn::DNNTensor> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  617 |   if ([01;35m[Kcache_img_.size() > cache_len_limit_[m[K) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:[m[K In member function ‘[01m[Kvoid MobileSamNode::RunPredict()[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/mobilesam_node.cpp:814:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  814 |     for (int i = 0; [01;35m[Ki < boxes.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[ 83%] [32mBuilding CXX object CMakeFiles/mono_mobilesam.dir/src/ai_msg_manage.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:[m[K In member function ‘[01m[Kint AiMsgFeedCache::Feed(const ConstSharedPtr&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:69:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   69 |                   [01;35m[K"Ai msg cache len: %d exceeds limit: %d, erase ai ts: %s"[m[K,
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   70 |                   [32m[Krecved_aimsg_cache_.size()[m[K,
+      |                   [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                           [32m[K|[m[K
+      |                                           [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:26[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:69:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   69 |                   "Ai msg cache len: [01;36m[K%d[m[K exceeds limit: %d, erase ai ts: %s",
+      |                                      [01;36m[K~^[m[K
+      |                                       [01;36m[K|[m[K
+      |                                       [01;36m[Kint[m[K
+      |                                      [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:69:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   69 |                   [01;35m[K"Ai msg cache len: %d exceeds limit: %d, erase ai ts: %s"[m[K,
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   70 |                   recved_aimsg_cache_.size(),
+   71 |                   [32m[Kcache_limt_len_[m[K,
+      |                   [32m[K~~~~~~~~~~~~~~~[m[K
+      |                   [32m[K|[m[K
+      |                   [32m[Ksize_t {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:26[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:69:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   69 |                   "Ai msg cache len: %d exceeds limit: [01;36m[K%d[m[K, erase ai ts: %s",
+      |                                                        [01;36m[K~^[m[K
+      |                                                         [01;36m[K|[m[K
+      |                                                         [01;36m[Kint[m[K
+      |                                                        [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:81:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   81 |                   [01;35m[K"Ts cache len: %d exceeds limit: %d, erase ts: %s"[m[K,
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   82 |                   [32m[Krecved_aimsg_ts_.size()[m[K,
+      |                   [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                        [32m[K|[m[K
+      |                                        [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:26[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:81:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   81 |                   "Ts cache len: [01;36m[K%d[m[K exceeds limit: %d, erase ts: %s",
+      |                                  [01;36m[K~^[m[K
+      |                                   [01;36m[K|[m[K
+      |                                   [01;36m[Kint[m[K
+      |                                  [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:81:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   81 |                   [01;35m[K"Ts cache len: %d exceeds limit: %d, erase ts: %s"[m[K,
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   82 |                   recved_aimsg_ts_.size(),
+   83 |                   [32m[Kcache_limt_len_[m[K,
+      |                   [32m[K~~~~~~~~~~~~~~~[m[K
+      |                   [32m[K|[m[K
+      |                   [32m[Ksize_t {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:26[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:81:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   81 |                   "Ts cache len: %d exceeds limit: [01;36m[K%d[m[K, erase ts: %s",
+      |                                                    [01;36m[K~^[m[K
+      |                                                     [01;36m[K|[m[K
+      |                                                     [01;36m[Kint[m[K
+      |                                                    [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+   92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   93 |                  [32m[Krecved_aimsg_ts_.top().sec[m[K,
+      |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                         [32m[K|[m[K
+      |                                         [32m[Kint[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:26[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:30:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   92 |                  "top ts: [01;36m[K%llu[m[K %llu, cache size: %d, ts size: %d",
+      |                           [01;36m[K~~~^[m[K
+      |                              [01;36m[K|[m[K
+      |                              [01;36m[Klong long unsigned int[m[K
+      |                           [32m[K%u[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+   92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   93 |                  recved_aimsg_ts_.top().sec,
+   94 |                  [32m[Krecved_aimsg_ts_.top().nanosec[m[K,
+      |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                         [32m[K|[m[K
+      |                                         [32m[Kunsigned int[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:26[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   92 |                  "top ts: %llu [01;36m[K%llu[m[K, cache size: %d, ts size: %d",
+      |                                [01;36m[K~~~^[m[K
+      |                                   [01;36m[K|[m[K
+      |                                   [01;36m[Klong long unsigned int[m[K
+      |                                [32m[K%u[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+   95 |                  [32m[Krecved_aimsg_cache_.size()[m[K,
+      |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                          [32m[K|[m[K
+      |                                          [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:26[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   92 |                  "top ts: %llu %llu, cache size: [01;36m[K%d[m[K, ts size: %d",
+      |                                                  [01;36m[K~^[m[K
+      |                                                   [01;36m[K|[m[K
+      |                                                   [01;36m[Kint[m[K
+      |                                                  [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   92 |                  [01;35m[K"top ts: %llu %llu, cache size: %d, ts size: %d"[m[K,
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+   96 |                  [32m[Krecved_aimsg_ts_.size()[m[K);
+      |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                       [32m[K|[m[K
+      |                                       [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:26[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:92:64:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   92 |                  "top ts: %llu %llu, cache size: %d, ts size: [01;36m[K%d[m[K",
+      |                                                               [01;36m[K~^[m[K
+      |                                                                [01;36m[K|[m[K
+      |                                                                [01;36m[Kint[m[K
+      |                                                               [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:[m[K In member function ‘[01m[Kai_msgs::msg::PerceptionTargets_<std::allocator<void> >::UniquePtr AiMsgFeedCache::Get(const _stamp_type&, int)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+  119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  121 |                    ts.c_str(),
+  122 |                    [32m[Krecved_aimsg_ts_.top().sec[m[K,
+      |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                           [32m[K|[m[K
+      |                                           [32m[Kint[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:26[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  119 |                    "find ts %s success, recved_aimsg_ts_ top ts: [01;36m[K%llu[m[K %llu, "
+      |                                                                  [01;36m[K~~~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Klong long unsigned int[m[K
+      |                                                                  [32m[K%u[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 7 has type ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+  119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+  123 |                    [32m[Krecved_aimsg_ts_.top().nanosec[m[K,
+      |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                           [32m[K|[m[K
+      |                                           [32m[Kunsigned int[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:26[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:74:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  119 |                    "find ts %s success, recved_aimsg_ts_ top ts: %llu [01;36m[K%llu[m[K, "
+      |                                                                       [01;36m[K~~~^[m[K
+      |                                                                          [01;36m[K|[m[K
+      |                                                                          [01;36m[Klong long unsigned int[m[K
+      |                                                                       [32m[K%u[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+  124 |                    [32m[Krecved_aimsg_cache_.size()[m[K,
+      |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                            [32m[K|[m[K
+      |                                            [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:26[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:120:34:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  120 |                    "cache size: [01;36m[K%d[m[K, ts size: %d",
+      |                                 [01;36m[K~^[m[K
+      |                                  [01;36m[K|[m[K
+      |                                  [01;36m[Kint[m[K
+      |                                 [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:119:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  119 |                    [01;35m[K"find ts %s success, recved_aimsg_ts_ top ts: %llu %llu, "[m[K
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  120 | [01;35m[K                   "cache size: %d, ts size: %d"[m[K,
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+  125 |                    [32m[Krecved_aimsg_ts_.size()[m[K);
+      |                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                         [32m[K|[m[K
+      |                                         [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:26[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:120:47:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  120 |                    "cache size: %d, ts size: [01;36m[K%d[m[K",
+      |                                              [01;36m[K~^[m[K
+      |                                               [01;36m[K|[m[K
+      |                                               [01;36m[Kint[m[K
+      |                                              [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:141:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  141 |                        [01;35m[K"Erase top ts: %s, cache len: %d ts len: %d"[m[K,
+      |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  142 |                        top_ts.data(),
+  143 |                        [32m[Krecved_aimsg_cache_.size()[m[K,
+      |                        [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                [32m[K|[m[K
+      |                                                [32m[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unique_ptr<ai_msgs::msg::PerceptionTargets_<std::allocator<void> >, std::default_delete<ai_msgs::msg::PerceptionTargets_<std::allocator<void> > > > >::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:26[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:141:55:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  141 |                        "Erase top ts: %s, cache len: [01;36m[K%d[m[K ts len: %d",
+      |                                                      [01;36m[K~^[m[K
+      |                                                       [01;36m[K|[m[K
+      |                                                       [01;36m[Kint[m[K
+      |                                                      [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:141:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  141 |                        [01;35m[K"Erase top ts: %s, cache len: %d ts len: %d"[m[K,
+      |                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+  144 |                        [32m[Krecved_aimsg_ts_.size()[m[K);
+      |                        [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                             [32m[K|[m[K
+      |                                             [32m[Kstd::priority_queue<builtin_interfaces::msg::Time_<std::allocator<void> >, std::vector<builtin_interfaces::msg::Time_<std::allocator<void> > >, compare_msg>::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:26[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/include/ai_msg_manage.h:141:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  141 |                        "Erase top ts: %s, cache len: %d ts len: [01;36m[K%d[m[K",
+      |                                                                 [01;36m[K~^[m[K
+      |                                                                  [01;36m[K|[m[K
+      |                                                                  [01;36m[Kint[m[K
+      |                                                                 [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:[m[K In member function ‘[01m[Kint AiMsgManage::GetTargetRois(const _stamp_type&, std::shared_ptr<std::vector<hbDNNRoi> >&, std::vector<std::__cxx11::basic_string<char> >&, std::vector<float>&, std::map<long unsigned int, long unsigned int>&, ai_msgs::msg::PerceptionTargets_<std::allocator<void> >::UniquePtr&, int)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:72:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<ai_msgs::msg::Target_<std::allocator<void> >, std::allocator<ai_msgs::msg::Target_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   72 |                [01;35m[K"Frame ai ts: %s targets size: %d"[m[K,
+      |                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   73 |                ts.c_str(),
+   74 |                [32m[Kai_msg->targets.size()[m[K);
+      |                [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                    [32m[K|[m[K
+      |                                    [32m[Kstd::vector<ai_msgs::msg::Target_<std::allocator<void> >, std::allocator<ai_msgs::msg::Target_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:72:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   72 |                "Frame ai ts: %s targets size: [01;36m[K%d[m[K",
+      |                                               [01;36m[K~^[m[K
+      |                                                [01;36m[K|[m[K
+      |                                                [01;36m[Kint[m[K
+      |                                               [32m[K%ld[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:76:19:[m[K [01;35m[Kwarning: [m[Kloop variable ‘[01m[Ktarget[m[K’ creates a copy from type ‘[01m[Kconst ai_msgs::msg::Target_<std::allocator<void> >[m[K’ [[01;35m[K-Wrange-loop-construct[m[K]
+   76 |   for (const auto [01;35m[Ktarget[m[K : ai_msg->targets) {
+      |                   [01;35m[K^~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:76:19:[m[K [01;36m[Knote: [m[Kuse reference type to prevent copying
+   76 |   for (const auto [01;36m[Ktarget[m[K : ai_msg->targets) {
+      |                   [01;36m[K^~~~~~[m[K
+      |                   [32m[K&[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:78:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<ai_msgs::msg::Roi_<std::allocator<void> >, std::allocator<ai_msgs::msg::Roi_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+   78 |                  [01;35m[K"target.rois.size: %d"[m[K,
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+   79 |                  [32m[Ktarget.rois.size()[m[K);
+      |                  [32m[K~~~~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[K|[m[K
+      |                                  [32m[Kstd::vector<ai_msgs::msg::Roi_<std::allocator<void> >, std::allocator<ai_msgs::msg::Roi_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:78:38:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   78 |                  "target.rois.size: [01;36m[K%d[m[K",
+      |                                     [01;36m[K~^[m[K
+      |                                      [01;36m[K|[m[K
+      |                                      [01;36m[Kint[m[K
+      |                                     [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:123:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<hbDNNRoi>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  123 |                     [01;35m[K"rois size: %d"[m[K,
+      |                     [01;35m[K^~~~~~~~~~~~~~~[m[K
+  124 |                     [32m[Krois->size()[m[K);
+      |                     [32m[K~~~~~~~~~~~~[m[K
+      |                               [32m[K|[m[K
+      |                               [32m[Kstd::vector<hbDNNRoi>::size_type {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:123:34:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  123 |                     "rois size: [01;36m[K%d[m[K",
+      |                                 [01;36m[K~^[m[K
+      |                                  [01;36m[K|[m[K
+      |                                  [01;36m[Kint[m[K
+      |                                 [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:129:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  129 |                     [01;35m[K"Valid roi map: %d %d"[m[K,
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+  130 |                     [32m[Kroi_idx[m[K,
+      |                     [32m[K~~~~~~~[m[K
+      |                     [32m[K|[m[K
+      |                     [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:129:38:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  129 |                     "Valid roi map: [01;36m[K%d[m[K %d",
+      |                                     [01;36m[K~^[m[K
+      |                                      [01;36m[K|[m[K
+      |                                      [01;36m[Kint[m[K
+      |                                     [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:24[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:129:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::map<long unsigned int, long unsigned int>::mapped_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  129 |                     [01;35m[K"Valid roi map: %d %d"[m[K,
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono_mobilesam/src/ai_msg_manage.cpp:129:41:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  129 |                     "Valid roi map: %d [01;36m[K%d[m[K",
+      |                                        [01;36m[K~^[m[K
+      |                                         [01;36m[K|[m[K
+      |                                         [01;36m[Kint[m[K
+      |                                        [32m[K%ld[m[K
+[100%] [32m[1mLinking CXX executable mono_mobilesam[0m
+[100%] Built target mono_mobilesam
+-- Install configuration: ""
+-- Installing: /cc_ws/tros_ws/install/lib/mono_mobilesam/mono_mobilesam
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/mono_mobilesam/mono_mobilesam" to ""
+-- Installing: /cc_ws/tros_ws/install/lib/mono_mobilesam/config/
+-- Installing: /cc_ws/tros_ws/install/lib/mono_mobilesam/config//mobilesam_encoder_384.bin
+-- Installing: /cc_ws/tros_ws/install/lib/mono_mobilesam/config//mobilesam_decoder_384.bin
+-- Installing: /cc_ws/tros_ws/install/lib/mono_mobilesam/config/00131.jpg
+-- Installing: /cc_ws/tros_ws/install/share/mono_mobilesam/launch
+-- Installing: /cc_ws/tros_ws/install/share/mono_mobilesam/launch/sam.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/mono_mobilesam/launch/sam_with_yolo_world.launch.py
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/mono_mobilesam
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/mono_mobilesam
+-- Installing: /cc_ws/tros_ws/install/share/mono_mobilesam/environment/ament_prefix_path.sh
+-- Installing: /cc_ws/tros_ws/install/share/mono_mobilesam/environment/ament_prefix_path.dsv
+-- Installing: /cc_ws/tros_ws/install/share/mono_mobilesam/environment/path.sh
+-- Installing: /cc_ws/tros_ws/install/share/mono_mobilesam/environment/path.dsv
+-- Installing: /cc_ws/tros_ws/install/share/mono_mobilesam/local_setup.bash
+-- Installing: /cc_ws/tros_ws/install/share/mono_mobilesam/local_setup.sh
+-- Installing: /cc_ws/tros_ws/install/share/mono_mobilesam/local_setup.zsh
+-- Installing: /cc_ws/tros_ws/install/share/mono_mobilesam/local_setup.dsv
+-- Installing: /cc_ws/tros_ws/install/share/mono_mobilesam/package.dsv
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/mono_mobilesam
+-- Installing: /cc_ws/tros_ws/install/share/mono_mobilesam/cmake/mono_mobilesamConfig.cmake
+-- Installing: /cc_ws/tros_ws/install/share/mono_mobilesam/cmake/mono_mobilesamConfig-version.cmake
+-- Installing: /cc_ws/tros_ws/install/share/mono_mobilesam/package.xml

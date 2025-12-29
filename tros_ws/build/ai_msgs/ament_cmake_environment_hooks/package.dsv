@@ -1,0 +1,4 @@
+source;share/ai_msgs/local_setup.bash
+source;share/ai_msgs/local_setup.dsv
+source;share/ai_msgs/local_setup.sh
+source;share/ai_msgs/local_setup.zsh

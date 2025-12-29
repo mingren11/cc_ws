@@ -1,0 +1,363 @@
+[0.041s] Invoking command in '/cc_ws/tros_ws/build/ai_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_msgs/ai_msgs -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.125s] Not searching for unused variables given on the command line.
+[0.125s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.283s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.285s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[0.285s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.285s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.285s]   set the policy and suppress this warning.
+[0.285s] 
+[0.286s]   For compatibility with older versions of CMake, option is clearing the
+[0.286s]   normal variable 'BUILD_TESTING'.
+[0.286s] Call Stack (most recent call first):
+[0.286s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.286s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.286s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.286s]   CMakeLists.txt:33 (find_package)
+[0.286s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.287s] [0m
+[0.318s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.318s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.337s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.346s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.473s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.551s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.711s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.482s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.675s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.014s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.044s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.087s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.088s] -- Using PYTHON_INCLUDE_DIRS: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include/python3.10
+[3.088s] -- Using PYTHON_LIBRARIES: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.443s] -- Using numpy include directory: /usr/local/lib/python3.10/dist-packages/numpy/core/include
+[3.488s] -- Configuring done
+[3.607s] -- Generating done
+[3.611s] -- Build files have been written to: /cc_ws/tros_ws/build/ai_msgs
+[3.659s] Invoked command in '/cc_ws/tros_ws/build/ai_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_msgs/ai_msgs -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[3.703s] Invoking command in '/cc_ws/tros_ws/build/ai_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/ai_msgs -- -j12 -l12
+[3.738s] [35m[1mConsolidate compiler generated dependencies of target ai_msgs__rosidl_generator_c[0m
+[3.761s] [  0%] Built target ai_msgs__cpp
+[3.768s] [ 12%] Built target ai_msgs__rosidl_generator_c
+[3.768s] [35m[1mConsolidate compiler generated dependencies of target ai_msgs__rosidl_typesupport_cpp[0m
+[3.773s] [35m[1mConsolidate compiler generated dependencies of target ai_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.797s] [35m[1mConsolidate compiler generated dependencies of target ai_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[3.801s] [ 24%] Built target ai_msgs__rosidl_typesupport_cpp
+[3.811s] [ 36%] Built target ai_msgs__rosidl_typesupport_introspection_cpp
+[3.815s] [ 36%] Built target ament_cmake_python_copy_ai_msgs
+[3.823s] [35m[1mConsolidate compiler generated dependencies of target ai_msgs__rosidl_typesupport_fastrtps_c[0m
+[3.831s] [35m[1mConsolidate compiler generated dependencies of target ai_msgs__rosidl_typesupport_introspection_c[0m
+[3.840s] [ 47%] Built target ai_msgs__rosidl_typesupport_fastrtps_cpp
+[3.861s] [35m[1mConsolidate compiler generated dependencies of target ai_msgs__rosidl_typesupport_c[0m
+[3.861s] [ 59%] Built target ai_msgs__rosidl_typesupport_introspection_c
+[3.869s] [ 71%] Built target ai_msgs__rosidl_typesupport_fastrtps_c
+[3.900s] [ 82%] Built target ai_msgs__rosidl_typesupport_c
+[3.951s] [ 82%] Built target ai_msgs
+[4.020s] [ 83%] Built target ai_msgs__py
+[4.075s] [35m[1mConsolidate compiler generated dependencies of target ai_msgs__rosidl_generator_py[0m
+[4.110s] [ 94%] Built target ai_msgs__rosidl_generator_py
+[4.141s] [35m[1mConsolidate compiler generated dependencies of target ai_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[4.150s] [35m[1mConsolidate compiler generated dependencies of target ai_msgs__rosidl_typesupport_c__pyext[0m
+[4.154s] [35m[1mConsolidate compiler generated dependencies of target ai_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.170s] [ 96%] Built target ai_msgs__rosidl_typesupport_introspection_c__pyext
+[4.190s] [ 98%] Built target ai_msgs__rosidl_typesupport_c__pyext
+[4.192s] running egg_info
+[4.193s] writing ai_msgs.egg-info/PKG-INFO
+[4.194s] writing dependency_links to ai_msgs.egg-info/dependency_links.txt
+[4.194s] writing top-level names to ai_msgs.egg-info/top_level.txt
+[4.198s] reading manifest file 'ai_msgs.egg-info/SOURCES.txt'
+[4.199s] writing manifest file 'ai_msgs.egg-info/SOURCES.txt'
+[4.199s] [100%] Built target ai_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.235s] [100%] Built target ament_cmake_python_build_ai_msgs_egg
+[4.498s] Invoked command in '/cc_ws/tros_ws/build/ai_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/ai_msgs -- -j12 -l12
+[5.094s] Invoking command in '/cc_ws/tros_ws/build/ai_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/ai_msgs
+[5.171s] -- Install configuration: ""
+[5.171s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/rosidl_interfaces/ai_msgs
+[5.172s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs
+[5.175s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg
+[5.175s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/capture.h
+[5.175s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.176s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/point.h
+[5.176s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/target.h
+[5.176s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/db_result.h
+[5.176s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/roi.h
+[5.176s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/perception_targets.h
+[5.176s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/attribute.h
+[5.176s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/perf.h
+[5.176s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail
+[5.176s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/attribute__type_support.h
+[5.177s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_info__type_support.h
+[5.177s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/target__functions.h
+[5.177s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/target__functions.c
+[5.177s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture_targets__functions.c
+[5.177s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_targets__functions.c
+[5.177s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture__type_support.h
+[5.177s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/db_result__functions.h
+[5.178s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/roi__functions.h
+[5.178s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/db_result__struct.h
+[5.178s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture_targets__functions.h
+[5.178s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/db_result__type_support.h
+[5.178s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/point__functions.c
+[5.178s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture_targets__type_support.h
+[5.178s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/attribute__functions.c
+[5.178s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perf__functions.h
+[5.178s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/roi__functions.c
+[5.178s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perf__type_support.h
+[5.179s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/db_result__functions.c
+[5.179s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_targets__functions.h
+[5.179s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_info__functions.h
+[5.179s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/point__functions.h
+[5.179s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture__functions.h
+[5.179s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture_targets__struct.h
+[5.179s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture__struct.h
+[5.179s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_targets__struct.h
+[5.179s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perf__struct.h
+[5.180s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/roi__struct.h
+[5.180s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/attribute__struct.h
+[5.180s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/target__type_support.h
+[5.180s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture__functions.c
+[5.180s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_info__functions.c
+[5.180s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/target__struct.h
+[5.180s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_targets__type_support.h
+[5.181s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/attribute__functions.h
+[5.181s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_info__struct.h
+[5.181s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/roi__type_support.h
+[5.181s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perf__functions.c
+[5.181s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/point__type_support.h
+[5.181s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/point__struct.h
+[5.181s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/capture_targets.h
+[5.181s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/perception_info.h
+[5.181s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/environment/library_path.sh
+[5.182s] -- Installing: /cc_ws/tros_ws/install/share/ai_msgs/environment/library_path.dsv
+[5.182s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libai_msgs__rosidl_generator_c.so
+[5.182s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs
+[5.182s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg
+[5.182s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.182s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail
+[5.182s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_targets__rosidl_typesupport_fastrtps_c.h
+[5.183s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture_targets__rosidl_typesupport_fastrtps_c.h
+[5.183s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_info__rosidl_typesupport_fastrtps_c.h
+[5.183s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[5.183s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/roi__rosidl_typesupport_fastrtps_c.h
+[5.183s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perf__rosidl_typesupport_fastrtps_c.h
+[5.183s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[5.183s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/attribute__rosidl_typesupport_fastrtps_c.h
+[5.183s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/db_result__rosidl_typesupport_fastrtps_c.h
+[5.183s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture__rosidl_typesupport_fastrtps_c.h
+[5.184s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libai_msgs__rosidl_typesupport_fastrtps_c.so
+[5.184s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs
+[5.184s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg
+[5.184s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/attribute.hpp
+[5.184s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/point.hpp
+[5.184s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/perf.hpp
+[5.184s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/perception_targets.hpp
+[5.185s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/db_result.hpp
+[5.185s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/capture.hpp
+[5.186s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail
+[5.186s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/roi__builder.hpp
+[5.186s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/roi__traits.hpp
+[5.187s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/db_result__struct.hpp
+[5.187s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture__traits.hpp
+[5.188s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture_targets__traits.hpp
+[5.188s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_info__builder.hpp
+[5.188s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/point__traits.hpp
+[5.188s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/attribute__builder.hpp
+[5.188s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/db_result__builder.hpp
+[5.188s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/point__struct.hpp
+[5.188s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/target__traits.hpp
+[5.188s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_info__struct.hpp
+[5.188s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/roi__struct.hpp
+[5.188s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture__builder.hpp
+[5.188s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/point__builder.hpp
+[5.189s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/target__builder.hpp
+[5.189s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture_targets__struct.hpp
+[5.189s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/db_result__traits.hpp
+[5.189s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_targets__traits.hpp
+[5.189s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/attribute__traits.hpp
+[5.189s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perf__struct.hpp
+[5.189s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/target__struct.hpp
+[5.189s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/attribute__struct.hpp
+[5.189s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perf__traits.hpp
+[5.189s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perf__builder.hpp
+[5.190s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture_targets__builder.hpp
+[5.190s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_targets__builder.hpp
+[5.190s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture__struct.hpp
+[5.190s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_targets__struct.hpp
+[5.190s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_info__traits.hpp
+[5.190s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/target.hpp
+[5.190s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/perception_info.hpp
+[5.190s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/capture_targets.hpp
+[5.190s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/roi.hpp
+[5.190s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs
+[5.190s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg
+[5.191s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail
+[5.191s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/attribute__rosidl_typesupport_fastrtps_cpp.hpp
+[5.191s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[5.191s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture__rosidl_typesupport_fastrtps_cpp.hpp
+[5.191s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/roi__rosidl_typesupport_fastrtps_cpp.hpp
+[5.191s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_info__rosidl_typesupport_fastrtps_cpp.hpp
+[5.191s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/db_result__rosidl_typesupport_fastrtps_cpp.hpp
+[5.191s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perf__rosidl_typesupport_fastrtps_cpp.hpp
+[5.191s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture_targets__rosidl_typesupport_fastrtps_cpp.hpp
+[5.191s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[5.191s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_targets__rosidl_typesupport_fastrtps_cpp.hpp
+[5.192s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/dds_fastrtps
+[5.192s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.192s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libai_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.192s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs
+[5.192s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg
+[5.192s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.192s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail
+[5.192s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture__type_support.c
+[5.192s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perf__rosidl_typesupport_introspection_c.h
+[5.192s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture__rosidl_typesupport_introspection_c.h
+[5.193s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture_targets__rosidl_typesupport_introspection_c.h
+[5.193s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perf__type_support.c
+[5.193s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/target__rosidl_typesupport_introspection_c.h
+[5.193s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[5.193s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/db_result__type_support.c
+[5.193s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_targets__type_support.c
+[5.193s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/target__type_support.c
+[5.193s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_info__rosidl_typesupport_introspection_c.h
+[5.193s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/roi__rosidl_typesupport_introspection_c.h
+[5.193s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_targets__rosidl_typesupport_introspection_c.h
+[5.193s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/point__type_support.c
+[5.194s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_info__type_support.c
+[5.194s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/attribute__type_support.c
+[5.194s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/roi__type_support.c
+[5.194s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/db_result__rosidl_typesupport_introspection_c.h
+[5.194s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture_targets__type_support.c
+[5.194s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/attribute__rosidl_typesupport_introspection_c.h
+[5.194s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libai_msgs__rosidl_typesupport_introspection_c.so
+[5.194s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libai_msgs__rosidl_typesupport_c.so
+[5.194s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs
+[5.194s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg
+[5.195s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail
+[5.195s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/db_result__rosidl_typesupport_introspection_cpp.hpp
+[5.195s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/roi__type_support.cpp
+[5.195s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_targets__type_support.cpp
+[5.195s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/db_result__type_support.cpp
+[5.195s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/attribute__type_support.cpp
+[5.195s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture_targets__type_support.cpp
+[5.195s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture__type_support.cpp
+[5.195s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[5.196s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/point__type_support.cpp
+[5.196s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_info__type_support.cpp
+[5.196s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[5.196s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/roi__rosidl_typesupport_introspection_cpp.hpp
+[5.196s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_info__rosidl_typesupport_introspection_cpp.hpp
+[5.196s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perf__type_support.cpp
+[5.196s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture_targets__rosidl_typesupport_introspection_cpp.hpp
+[5.196s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perception_targets__rosidl_typesupport_introspection_cpp.hpp
+[5.196s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/capture__rosidl_typesupport_introspection_cpp.hpp
+[5.196s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/attribute__rosidl_typesupport_introspection_cpp.hpp
+[5.196s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/perf__rosidl_typesupport_introspection_cpp.hpp
+[5.197s] -- Up-to-date: /cc_ws/tros_ws/install/include/ai_msgs/ai_msgs/msg/detail/target__type_support.cpp
+[5.197s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libai_msgs__rosidl_typesupport_introspection_cpp.so
+[5.197s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libai_msgs__rosidl_typesupport_cpp.so
+[5.197s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/environment/pythonpath.sh
+[5.197s] -- Installing: /cc_ws/tros_ws/install/share/ai_msgs/environment/pythonpath.dsv
+[5.197s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs-2.0.1-py3.10.egg-info
+[5.197s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs-2.0.1-py3.10.egg-info/SOURCES.txt
+[5.197s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs-2.0.1-py3.10.egg-info/PKG-INFO
+[5.197s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs-2.0.1-py3.10.egg-info/dependency_links.txt
+[5.197s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs-2.0.1-py3.10.egg-info/top_level.txt
+[5.197s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs
+[5.198s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/_ai_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.198s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/_ai_msgs_s.ep.rosidl_typesupport_c.c
+[5.198s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg
+[5.198s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_perception_info.py
+[5.198s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_perception_targets_s.c
+[5.198s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_target.py
+[5.198s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_perf.py
+[5.198s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_db_result_s.c
+[5.198s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_capture_s.c
+[5.198s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_capture_targets.py
+[5.198s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_perception_info_s.c
+[5.199s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_point.py
+[5.199s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_attribute_s.c
+[5.199s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_db_result.py
+[5.199s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/__init__.py
+[5.199s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_point_s.c
+[5.199s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_perception_targets.py
+[5.199s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_roi_s.c
+[5.199s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_capture_targets_s.c
+[5.199s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_capture.py
+[5.199s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_attribute.py
+[5.200s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_target_s.c
+[5.200s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_roi.py
+[5.200s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg/_perf_s.c
+[5.200s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/_ai_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.200s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/ai_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.200s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/__init__.py
+[5.200s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/ai_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.200s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/libai_msgs__rosidl_generator_py.so
+[5.205s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/ai_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.233s] Listing '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs'...
+[5.233s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/__init__.py'...
+[5.233s] Listing '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/msg'...
+[5.233s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/ai_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.234s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/ai_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.234s] -- Up-to-date: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/ai_msgs/ai_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.234s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libai_msgs__rosidl_generator_py.so
+[5.234s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/Attribute.idl
+[5.234s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/DBResult.idl
+[5.234s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/Capture.idl
+[5.235s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/Point.idl
+[5.235s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/Roi.idl
+[5.235s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/Target.idl
+[5.235s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/Perf.idl
+[5.235s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/CaptureTargets.idl
+[5.235s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/PerceptionTargets.idl
+[5.236s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/PerceptionInfo.idl
+[5.236s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/Attribute.msg
+[5.236s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/DBResult.msg
+[5.236s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/Capture.msg
+[5.236s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/Point.msg
+[5.236s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/Roi.msg
+[5.236s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/Target.msg
+[5.237s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/Perf.msg
+[5.248s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/CaptureTargets.msg
+[5.248s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/PerceptionTargets.msg
+[5.249s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/msg/PerceptionInfo.msg
+[5.249s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/ai_msgs
+[5.249s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/ai_msgs
+[5.249s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/environment/ament_prefix_path.sh
+[5.249s] -- Installing: /cc_ws/tros_ws/install/share/ai_msgs/environment/ament_prefix_path.dsv
+[5.249s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/environment/path.sh
+[5.249s] -- Installing: /cc_ws/tros_ws/install/share/ai_msgs/environment/path.dsv
+[5.249s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/local_setup.bash
+[5.249s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/local_setup.sh
+[5.249s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/local_setup.zsh
+[5.250s] -- Installing: /cc_ws/tros_ws/install/share/ai_msgs/local_setup.dsv
+[5.250s] -- Installing: /cc_ws/tros_ws/install/share/ai_msgs/package.dsv
+[5.250s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/ai_msgs
+[5.250s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/export_ai_msgs__rosidl_generator_cExport.cmake
+[5.250s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/export_ai_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.250s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/export_ai_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.250s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/export_ai_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.250s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/export_ai_msgs__rosidl_generator_cppExport.cmake
+[5.250s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/export_ai_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.251s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/export_ai_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.251s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/ai_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.251s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/ai_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.251s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/ai_msgs__rosidl_typesupport_cExport.cmake
+[5.251s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/ai_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.251s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/ai_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.251s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/ai_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.251s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/ai_msgs__rosidl_typesupport_cppExport.cmake
+[5.251s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/ai_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.252s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/export_ai_msgs__rosidl_generator_pyExport.cmake
+[5.252s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/export_ai_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.252s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/rosidl_cmake-extras.cmake
+[5.252s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.252s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.252s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.252s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.252s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.252s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.253s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/ai_msgsConfig.cmake
+[5.253s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/cmake/ai_msgsConfig-version.cmake
+[5.253s] -- Up-to-date: /cc_ws/tros_ws/install/share/ai_msgs/package.xml
+[5.313s] Invoked command in '/cc_ws/tros_ws/build/ai_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/ai_msgs

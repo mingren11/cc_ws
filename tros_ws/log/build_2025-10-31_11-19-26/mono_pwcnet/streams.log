@@ -1,0 +1,66 @@
+[0.110s] Invoking command in '/cc_ws/tros_ws/build/mono_pwcnet': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/mono_pwcnet -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.550s] Not searching for unused variables given on the command line.
+[0.551s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.551s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.551s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[0.551s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.551s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.552s]   set the policy and suppress this warning.
+[0.552s] 
+[0.552s]   For compatibility with older versions of CMake, option is clearing the
+[0.552s]   normal variable 'BUILD_TESTING'.
+[0.552s] Call Stack (most recent call first):
+[0.553s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.553s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.553s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.554s]   CMakeLists.txt:33 (find_package)
+[0.555s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.556s] [0m
+[0.660s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.668s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.692s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.733s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.791s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.022s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.026s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.386s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.929s] -- Found ai_msgs: 2.0.1 (/cc_ws/tros_ws/robot_dev_config/../install/share/ai_msgs/cmake)
+[2.868s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.918s] -- Found hobot_cv: 2.3.2 (/cc_ws/tros_ws/robot_dev_config/../install/share/hobot_cv/cmake)
+[2.924s] -- Found dnn_node: 2.5.4 (/cc_ws/tros_ws/robot_dev_config/../install/share/dnn_node/cmake)
+[2.931s] -- Found hbm_img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/hbm_img_msgs/cmake)
+[3.053s] [0mbuild platform X5[0m
+[3.053s] [0mCMAKE_SYSROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[3.341s] -- Configuring done
+[3.407s] -- Generating done
+[3.416s] -- Build files have been written to: /cc_ws/tros_ws/build/mono_pwcnet
+[3.453s] Invoked command in '/cc_ws/tros_ws/build/mono_pwcnet' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/mono_pwcnet -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[3.453s] Invoking command in '/cc_ws/tros_ws/build/mono_pwcnet': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/mono_pwcnet -- -j12 -l12
+[5.228s] [35m[1mConsolidate compiler generated dependencies of target mono_pwcnet[0m
+[5.228s] [100%] Built target mono_pwcnet
+[5.244s] Invoked command in '/cc_ws/tros_ws/build/mono_pwcnet' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/mono_pwcnet -- -j12 -l12
+[5.378s] Invoking command in '/cc_ws/tros_ws/build/mono_pwcnet': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/mono_pwcnet
+[5.505s] -- Install configuration: ""
+[5.505s] -- Up-to-date: /cc_ws/tros_ws/install/lib/mono_pwcnet/mono_pwcnet
+[5.505s] -- Up-to-date: /cc_ws/tros_ws/install/lib/mono_pwcnet/config/
+[5.505s] -- Up-to-date: /cc_ws/tros_ws/install/lib/mono_pwcnet/config//model.hbm
+[5.506s] -- Up-to-date: /cc_ws/tros_ws/install/lib/mono_pwcnet/config/img001.jpg
+[5.506s] -- Up-to-date: /cc_ws/tros_ws/install/lib/mono_pwcnet/config/img002.jpg
+[5.506s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_pwcnet/launch
+[5.506s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_pwcnet/launch/pwcnet.launch.py
+[5.507s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/mono_pwcnet
+[5.507s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/mono_pwcnet
+[5.507s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_pwcnet/environment/ament_prefix_path.sh
+[5.507s] -- Installing: /cc_ws/tros_ws/install/share/mono_pwcnet/environment/ament_prefix_path.dsv
+[5.508s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_pwcnet/environment/path.sh
+[5.508s] -- Installing: /cc_ws/tros_ws/install/share/mono_pwcnet/environment/path.dsv
+[5.508s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_pwcnet/local_setup.bash
+[5.508s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_pwcnet/local_setup.sh
+[5.508s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_pwcnet/local_setup.zsh
+[5.509s] -- Installing: /cc_ws/tros_ws/install/share/mono_pwcnet/local_setup.dsv
+[5.509s] -- Installing: /cc_ws/tros_ws/install/share/mono_pwcnet/package.dsv
+[5.509s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/mono_pwcnet
+[5.509s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_pwcnet/cmake/mono_pwcnetConfig.cmake
+[5.514s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_pwcnet/cmake/mono_pwcnetConfig-version.cmake
+[5.514s] -- Up-to-date: /cc_ws/tros_ws/install/share/mono_pwcnet/package.xml
+[5.537s] Invoked command in '/cc_ws/tros_ws/build/mono_pwcnet' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/mono_pwcnet

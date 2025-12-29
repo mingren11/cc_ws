@@ -1,0 +1,330 @@
+[0.000000] (-) TimerEvent: {}
+[0.000128] (-) JobUnselected: {'identifier': 'DBoW3'}
+[0.000193] (-) JobUnselected: {'identifier': 'ai_msgs'}
+[0.000288] (-) JobUnselected: {'identifier': 'audio_msg'}
+[0.000321] (-) JobUnselected: {'identifier': 'base'}
+[0.000351] (-) JobUnselected: {'identifier': 'ceres-solver'}
+[0.000376] (-) JobUnselected: {'identifier': 'clip_encode_image'}
+[0.000398] (-) JobUnselected: {'identifier': 'clip_encode_text'}
+[0.000419] (-) JobUnselected: {'identifier': 'clip_manage'}
+[0.000440] (-) JobUnselected: {'identifier': 'clip_msgs'}
+[0.000460] (-) JobUnselected: {'identifier': 'dnn_benchmark_example'}
+[0.000481] (-) JobUnselected: {'identifier': 'dnn_node'}
+[0.000512] (-) JobUnselected: {'identifier': 'dnn_node_example'}
+[0.000536] (-) JobUnselected: {'identifier': 'dnn_node_sample'}
+[0.000558] (-) JobUnselected: {'identifier': 'dstereo_occnet'}
+[0.000641] (-) JobUnselected: {'identifier': 'elevation_net'}
+[0.000707] (-) JobUnselected: {'identifier': 'example'}
+[0.000737] (-) JobUnselected: {'identifier': 'face_age_detection'}
+[0.000759] (-) JobUnselected: {'identifier': 'face_landmarks_detection'}
+[0.000782] (-) JobUnselected: {'identifier': 'ground_robot_planner'}
+[0.000806] (-) JobUnselected: {'identifier': 'hand_gesture_detection'}
+[0.000828] (-) JobUnselected: {'identifier': 'hand_lmk_detection'}
+[0.000864] (-) JobUnselected: {'identifier': 'hbm_img_msgs'}
+[0.000913] (-) JobUnselected: {'identifier': 'hobot_chatbot'}
+[0.000983] (-) JobUnselected: {'identifier': 'hobot_codec'}
+[0.001024] (-) JobUnselected: {'identifier': 'hobot_cv'}
+[0.001049] (-) JobUnselected: {'identifier': 'hobot_dosod'}
+[0.001083] (-) JobUnselected: {'identifier': 'hobot_falldown_detection'}
+[0.001106] (-) JobUnselected: {'identifier': 'hobot_image_publisher'}
+[0.001173] (-) JobUnselected: {'identifier': 'hobot_mot'}
+[0.001210] (-) JobUnselected: {'identifier': 'hobot_rtsp_client'}
+[0.001250] (-) JobUnselected: {'identifier': 'hobot_shm'}
+[0.001284] (-) JobUnselected: {'identifier': 'hobot_stereonet'}
+[0.001310] (-) JobUnselected: {'identifier': 'hobot_stereonet_utils'}
+[0.001331] (-) JobUnselected: {'identifier': 'hobot_usb_cam'}
+[0.001352] (-) JobUnselected: {'identifier': 'hobot_visualization'}
+[0.001373] (-) JobUnselected: {'identifier': 'hobot_yolo_world'}
+[0.001395] (-) JobUnselected: {'identifier': 'hobot_zed_cam'}
+[0.001416] (-) JobUnselected: {'identifier': 'img_msgs'}
+[0.001439] (-) JobUnselected: {'identifier': 'imu_sensor'}
+[0.001479] (-) JobUnselected: {'identifier': 'mono2d_body_detection'}
+[0.001545] (-) JobUnselected: {'identifier': 'mono2d_trash_detection'}
+[0.001585] (-) JobUnselected: {'identifier': 'mono3d_indoor_detection'}
+[0.001610] (-) JobUnselected: {'identifier': 'mono_edgesam'}
+[0.001638] (-) JobUnselected: {'identifier': 'mono_mobilesam'}
+[0.001669] (-) JobUnselected: {'identifier': 'mono_pwcnet'}
+[0.001691] (-) JobUnselected: {'identifier': 'nlohmann_json'}
+[0.001853] (-) JobUnselected: {'identifier': 'orb_slam3'}
+[0.001902] (-) JobUnselected: {'identifier': 'orb_slam3_example_ros2'}
+[0.001945] (-) JobUnselected: {'identifier': 'performance_test'}
+[0.001999] (-) JobUnselected: {'identifier': 'recorder_node'}
+[0.002039] (-) JobUnselected: {'identifier': 'reid'}
+[0.002083] (-) JobUnselected: {'identifier': 'sophus'}
+[0.002133] (-) JobUnselected: {'identifier': 'trigger_node'}
+[0.002213] (-) JobUnselected: {'identifier': 'trigger_node_example'}
+[0.002239] (-) JobUnselected: {'identifier': 'tros'}
+[0.002267] (-) JobUnselected: {'identifier': 'tros_lowpass_filter'}
+[0.002299] (-) JobUnselected: {'identifier': 'tros_perception_fusion'}
+[0.002322] (-) JobUnselected: {'identifier': 'tros_perception_fusion_msgs'}
+[0.002386] (-) JobUnselected: {'identifier': 'vio'}
+[0.002423] (-) JobUnselected: {'identifier': 'websocket'}
+[0.002472] (mipi_cam) JobQueued: {'identifier': 'mipi_cam', 'dependencies': OrderedDict([('hbm_img_msgs', '/cc_ws/tros_ws/install')])}
+[0.002505] (mipi_cam) JobStarted: {'identifier': 'mipi_cam'}
+[0.012259] (mipi_cam) JobProgress: {'identifier': 'mipi_cam', 'progress': 'cmake'}
+[0.012711] (mipi_cam) Command: {'cmd': ['/usr/bin/cmake', '/cc_ws/tros_ws/src/box/hobot_sensor/hobot_mipi_cam', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '--no-warn-unused-cli', '-DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake', '-DPLATFORM_X5=ON', '-DTHIRDPARTY=ON', '-DBUILD_TESTING=OFF', '-DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/', '-DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install'], 'cwd': '/cc_ws/tros_ws/build/mipi_cam', 'env': OrderedDict([('HISTTIMEFORMAT', '%F %T'), ('USER', 'mingren'), ('PLATFORM_X86', 'OFF'), ('HOSTNAME', 'in_docker'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mingren'), ('OLDPWD', '/cc_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('CROSS_COMPILE', '/usr/bin/aarch64-linux-gnu-'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/cc_ws/tros_ws/../sysroot_docker/usr/lib/aarch64-linux-gnu/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TARGET_TRIPLE', 'aarch64-linux-gnu'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PLATFORM_X3', 'OFF'), ('PLATFORM_Rdkultra', 'OFF'), ('DISPLAY', ':1'), ('PLATFORM_X5', 'OFF'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/cc_ws/tros_ws/install:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PLATFORM_S100', 'OFF'), ('PWD', '/cc_ws/tros_ws/build/mipi_cam'), ('PYTHONPATH', '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:/cc_ws/tros_ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TARGET_ARCH', 'aarch64'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('HISTFILE', '/cc_ws/.cc_ws_bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/cc_ws/tros_ws/install:/opt/ros/humble')]), 'shell': False}
+[0.020212] (mipi_cam) StdoutLine: {'line': b'Not searching for unused variables given on the command line.\n'}
+[0.032114] (mipi_cam) StdoutLine: {'line': b'-- Found OpenCV: /cc_ws/sysroot_docker/usr_x5 (found version "4.5.4") \n'}
+[0.032592] (mipi_cam) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.099337] (-) TimerEvent: {}
+[0.199558] (-) TimerEvent: {}
+[0.243940] (mipi_cam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.246218] (mipi_cam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.252114] (mipi_cam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.262980] (mipi_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.278212] (mipi_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299663] (-) TimerEvent: {}
+[0.336951] (mipi_cam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.338127] (mipi_cam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399791] (-) TimerEvent: {}
+[0.437458] (mipi_cam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499913] (-) TimerEvent: {}
+[0.600171] (-) TimerEvent: {}
+[0.700436] (-) TimerEvent: {}
+[0.800700] (-) TimerEvent: {}
+[0.856177] (mipi_cam) StdoutLine: {'line': b'-- Found OpenCV: /cc_ws/sysroot_docker/usr_x5 (found suitable version "4.5.4", minimum required is "4") \n'}
+[0.856356] (mipi_cam) StderrLine: {'line': b'\x1b[0mbuild platform X5\x1b[0m\n'}
+[0.856442] (mipi_cam) StderrLine: {'line': b'\x1b[0mPREFIX_PATH: x5\x1b[0m\n'}
+[0.867207] (mipi_cam) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.900804] (-) TimerEvent: {}
+[0.906089] (mipi_cam) StdoutLine: {'line': b'-- Generating done\n'}
+[0.908565] (mipi_cam) StdoutLine: {'line': b'-- Build files have been written to: /cc_ws/tros_ws/build/mipi_cam\n'}
+[0.915453] (mipi_cam) CommandEnded: {'returncode': 0}
+[0.917322] (mipi_cam) JobProgress: {'identifier': 'mipi_cam', 'progress': 'build'}
+[0.917353] (mipi_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/cc_ws/tros_ws/build/mipi_cam', '--', '-j12', '-l12'], 'cwd': '/cc_ws/tros_ws/build/mipi_cam', 'env': OrderedDict([('HISTTIMEFORMAT', '%F %T'), ('USER', 'mingren'), ('PLATFORM_X86', 'OFF'), ('HOSTNAME', 'in_docker'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mingren'), ('OLDPWD', '/cc_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('CROSS_COMPILE', '/usr/bin/aarch64-linux-gnu-'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/cc_ws/tros_ws/../sysroot_docker/usr/lib/aarch64-linux-gnu/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TARGET_TRIPLE', 'aarch64-linux-gnu'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PLATFORM_X3', 'OFF'), ('PLATFORM_Rdkultra', 'OFF'), ('DISPLAY', ':1'), ('PLATFORM_X5', 'OFF'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/cc_ws/tros_ws/install:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PLATFORM_S100', 'OFF'), ('PWD', '/cc_ws/tros_ws/build/mipi_cam'), ('PYTHONPATH', '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:/cc_ws/tros_ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TARGET_ARCH', 'aarch64'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('HISTFILE', '/cc_ws/.cc_ws_bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/cc_ws/tros_ws/install:/opt/ros/humble')]), 'shell': False}
+[0.953031] (mipi_cam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mipi_cam_plugin\x1b[0m\n'}
+[0.981700] (mipi_cam) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/mipi_cam_plugin.dir/src/hobot_mipi_node.cpp.o\x1b[0m\n'}
+[0.981957] (mipi_cam) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/mipi_cam_plugin.dir/src/camera.cpp.o\x1b[0m\n'}
+[0.982760] (mipi_cam) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/mipi_cam_plugin.dir/src/hobot_mipi_cam.cpp.o\x1b[0m\n'}
+[0.985031] (mipi_cam) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/mipi_cam_plugin.dir/src/x5/hobot_mipi_cap_iml.cpp.o\x1b[0m\n'}
+[0.985283] (mipi_cam) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/mipi_cam_plugin.dir/src/x5/sensor/imx477_linear_1920x1080_raw12_50fps_2lane.c.o\x1b[0m\n'}
+[0.985417] (mipi_cam) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/mipi_cam_plugin.dir/src/x5/sensor/sc230ai_linear_1920x1080_raw10_30fps_1lane.c.o\x1b[0m\n'}
+[0.985565] (mipi_cam) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/mipi_cam_plugin.dir/src/x5/sensor/ov5647_linear_1920x1080_raw10_30fps_2lane.c.o\x1b[0m\n'}
+[0.985704] (mipi_cam) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/mipi_cam_plugin.dir/src/x5/sensor/imx415_linear_3840x2160_raw10_30fps_2lane.c.o\x1b[0m\n'}
+[0.985801] (mipi_cam) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/mipi_cam_plugin.dir/src/x5/sensor/sc132gs_linear_1088x1280_raw10_30fps_1lane.c.o\x1b[0m\n'}
+[0.985916] (mipi_cam) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/mipi_cam_plugin.dir/src/x5/hobot_mipi_factory.cpp.o\x1b[0m\n'}
+[0.986107] (mipi_cam) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/mipi_cam_plugin.dir/src/x5/sensor/imx219_linear_1920x1080_raw10_30fps_2lane.c.o\x1b[0m\n'}
+[0.987371] (mipi_cam) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/mipi_cam_plugin.dir/src/x5/sensor/vp_sensors.c.o\x1b[0m\n'}
+[1.000897] (-) TimerEvent: {}
+[1.101161] (-) TimerEvent: {}
+[1.201480] (-) TimerEvent: {}
+[1.301738] (-) TimerEvent: {}
+[1.402048] (-) TimerEvent: {}
+[1.502378] (-) TimerEvent: {}
+[1.602693] (-) TimerEvent: {}
+[1.703011] (-) TimerEvent: {}
+[1.803334] (-) TimerEvent: {}
+[1.903662] (-) TimerEvent: {}
+[2.003979] (-) TimerEvent: {}
+[2.104292] (-) TimerEvent: {}
+[2.204603] (-) TimerEvent: {}
+[2.304937] (-) TimerEvent: {}
+[2.405271] (-) TimerEvent: {}
+[2.505591] (-) TimerEvent: {}
+[2.605921] (-) TimerEvent: {}
+[2.706254] (-) TimerEvent: {}
+[2.806588] (-) TimerEvent: {}
+[2.906934] (-) TimerEvent: {}
+[3.007273] (-) TimerEvent: {}
+[3.107598] (-) TimerEvent: {}
+[3.207964] (-) TimerEvent: {}
+[3.308395] (-) TimerEvent: {}
+[3.408716] (-) TimerEvent: {}
+[3.509064] (-) TimerEvent: {}
+[3.609425] (-) TimerEvent: {}
+[3.709727] (-) TimerEvent: {}
+[3.810050] (-) TimerEvent: {}
+[3.910411] (-) TimerEvent: {}
+[4.010778] (-) TimerEvent: {}
+[4.111106] (-) TimerEvent: {}
+[4.211433] (-) TimerEvent: {}
+[4.311754] (-) TimerEvent: {}
+[4.412072] (-) TimerEvent: {}
+[4.512347] (-) TimerEvent: {}
+[4.612611] (-) TimerEvent: {}
+[4.712969] (-) TimerEvent: {}
+[4.813230] (-) TimerEvent: {}
+[4.913493] (-) TimerEvent: {}
+[5.013811] (-) TimerEvent: {}
+[5.114158] (-) TimerEvent: {}
+[5.214402] (-) TimerEvent: {}
+[5.314653] (-) TimerEvent: {}
+[5.414919] (-) TimerEvent: {}
+[5.515172] (-) TimerEvent: {}
+[5.615492] (-) TimerEvent: {}
+[5.715822] (-) TimerEvent: {}
+[5.816141] (-) TimerEvent: {}
+[5.916441] (-) TimerEvent: {}
+[6.016753] (-) TimerEvent: {}
+[6.117051] (-) TimerEvent: {}
+[6.217318] (-) TimerEvent: {}
+[6.317628] (-) TimerEvent: {}
+[6.417951] (-) TimerEvent: {}
+[6.518234] (-) TimerEvent: {}
+[6.618531] (-) TimerEvent: {}
+[6.718848] (-) TimerEvent: {}
+[6.819161] (-) TimerEvent: {}
+[6.919440] (-) TimerEvent: {}
+[7.019741] (-) TimerEvent: {}
+[7.120019] (-) TimerEvent: {}
+[7.220292] (-) TimerEvent: {}
+[7.320560] (-) TimerEvent: {}
+[7.420812] (-) TimerEvent: {}
+[7.521125] (-) TimerEvent: {}
+[7.621358] (-) TimerEvent: {}
+[7.721633] (-) TimerEvent: {}
+[7.821877] (-) TimerEvent: {}
+[7.922130] (-) TimerEvent: {}
+[8.022410] (-) TimerEvent: {}
+[8.122651] (-) TimerEvent: {}
+[8.222884] (-) TimerEvent: {}
+[8.323149] (-) TimerEvent: {}
+[8.423398] (-) TimerEvent: {}
+[8.523687] (-) TimerEvent: {}
+[8.623965] (-) TimerEvent: {}
+[8.724220] (-) TimerEvent: {}
+[8.824528] (-) TimerEvent: {}
+[8.924853] (-) TimerEvent: {}
+[9.025201] (-) TimerEvent: {}
+[9.125485] (-) TimerEvent: {}
+[9.225728] (-) TimerEvent: {}
+[9.326005] (-) TimerEvent: {}
+[9.426277] (-) TimerEvent: {}
+[9.526625] (-) TimerEvent: {}
+[9.626871] (-) TimerEvent: {}
+[9.727131] (-) TimerEvent: {}
+[9.827430] (-) TimerEvent: {}
+[9.927703] (-) TimerEvent: {}
+[10.027937] (-) TimerEvent: {}
+[10.128212] (-) TimerEvent: {}
+[10.228454] (-) TimerEvent: {}
+[10.328693] (-) TimerEvent: {}
+[10.428937] (-) TimerEvent: {}
+[10.529210] (-) TimerEvent: {}
+[10.629449] (-) TimerEvent: {}
+[10.729684] (-) TimerEvent: {}
+[10.829929] (-) TimerEvent: {}
+[10.930166] (-) TimerEvent: {}
+[11.030411] (-) TimerEvent: {}
+[11.130639] (-) TimerEvent: {}
+[11.230856] (-) TimerEvent: {}
+[11.331127] (-) TimerEvent: {}
+[11.431365] (-) TimerEvent: {}
+[11.531637] (-) TimerEvent: {}
+[11.631882] (-) TimerEvent: {}
+[11.732114] (-) TimerEvent: {}
+[11.832394] (-) TimerEvent: {}
+[11.932736] (-) TimerEvent: {}
+[12.033004] (-) TimerEvent: {}
+[12.133318] (-) TimerEvent: {}
+[12.233614] (-) TimerEvent: {}
+[12.333879] (-) TimerEvent: {}
+[12.434139] (-) TimerEvent: {}
+[12.534478] (-) TimerEvent: {}
+[12.634717] (-) TimerEvent: {}
+[12.734995] (-) TimerEvent: {}
+[12.835250] (-) TimerEvent: {}
+[12.935575] (-) TimerEvent: {}
+[13.035841] (-) TimerEvent: {}
+[13.136076] (-) TimerEvent: {}
+[13.236381] (-) TimerEvent: {}
+[13.336625] (-) TimerEvent: {}
+[13.436903] (-) TimerEvent: {}
+[13.537170] (-) TimerEvent: {}
+[13.637443] (-) TimerEvent: {}
+[13.737671] (-) TimerEvent: {}
+[13.837936] (-) TimerEvent: {}
+[13.938166] (-) TimerEvent: {}
+[14.038399] (-) TimerEvent: {}
+[14.138645] (-) TimerEvent: {}
+[14.238933] (-) TimerEvent: {}
+[14.339231] (-) TimerEvent: {}
+[14.439547] (-) TimerEvent: {}
+[14.539812] (-) TimerEvent: {}
+[14.640076] (-) TimerEvent: {}
+[14.740337] (-) TimerEvent: {}
+[14.840599] (-) TimerEvent: {}
+[14.940863] (-) TimerEvent: {}
+[15.041134] (-) TimerEvent: {}
+[15.141404] (-) TimerEvent: {}
+[15.241662] (-) TimerEvent: {}
+[15.341926] (-) TimerEvent: {}
+[15.442164] (-) TimerEvent: {}
+[15.542429] (-) TimerEvent: {}
+[15.642658] (-) TimerEvent: {}
+[15.742891] (-) TimerEvent: {}
+[15.843179] (-) TimerEvent: {}
+[15.943475] (-) TimerEvent: {}
+[16.043790] (-) TimerEvent: {}
+[16.144088] (-) TimerEvent: {}
+[16.244353] (-) TimerEvent: {}
+[16.344585] (-) TimerEvent: {}
+[16.444839] (-) TimerEvent: {}
+[16.545163] (-) TimerEvent: {}
+[16.645428] (-) TimerEvent: {}
+[16.745686] (-) TimerEvent: {}
+[16.845993] (-) TimerEvent: {}
+[16.946275] (-) TimerEvent: {}
+[17.046588] (-) TimerEvent: {}
+[17.146825] (-) TimerEvent: {}
+[17.247086] (-) TimerEvent: {}
+[17.347358] (-) TimerEvent: {}
+[17.447648] (-) TimerEvent: {}
+[17.547924] (-) TimerEvent: {}
+[17.557198] (mipi_cam) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared library libmipi_cam_plugin.so\x1b[0m\n'}
+[17.648014] (-) TimerEvent: {}
+[17.748280] (-) TimerEvent: {}
+[17.842090] (mipi_cam) StdoutLine: {'line': b'[ 86%] Built target mipi_cam_plugin\n'}
+[17.848371] (-) TimerEvent: {}
+[17.851536] (mipi_cam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mipi_cam\x1b[0m\n'}
+[17.867534] (mipi_cam) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable mipi_cam\x1b[0m\n'}
+[17.948468] (-) TimerEvent: {}
+[17.998685] (mipi_cam) StdoutLine: {'line': b'[100%] Built target mipi_cam\n'}
+[18.007250] (mipi_cam) CommandEnded: {'returncode': 0}
+[18.041132] (mipi_cam) JobProgress: {'identifier': 'mipi_cam', 'progress': 'install'}
+[18.048017] (mipi_cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/cc_ws/tros_ws/build/mipi_cam'], 'cwd': '/cc_ws/tros_ws/build/mipi_cam', 'env': OrderedDict([('HISTTIMEFORMAT', '%F %T'), ('USER', 'mingren'), ('PLATFORM_X86', 'OFF'), ('HOSTNAME', 'in_docker'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mingren'), ('OLDPWD', '/cc_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('CROSS_COMPILE', '/usr/bin/aarch64-linux-gnu-'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/cc_ws/tros_ws/../sysroot_docker/usr/lib/aarch64-linux-gnu/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TARGET_TRIPLE', 'aarch64-linux-gnu'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PLATFORM_X3', 'OFF'), ('PLATFORM_Rdkultra', 'OFF'), ('DISPLAY', ':1'), ('PLATFORM_X5', 'OFF'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/cc_ws/tros_ws/install:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PLATFORM_S100', 'OFF'), ('PWD', '/cc_ws/tros_ws/build/mipi_cam'), ('PYTHONPATH', '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:/cc_ws/tros_ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TARGET_ARCH', 'aarch64'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('HISTFILE', '/cc_ws/.cc_ws_bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/cc_ws/tros_ws/install:/opt/ros/humble')]), 'shell': False}
+[18.048658] (-) TimerEvent: {}
+[18.054775] (mipi_cam) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[18.055424] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/lib/mipi_cam/mipi_cam\n'}
+[18.055892] (mipi_cam) StdoutLine: {'line': b'-- Set runtime path of "/cc_ws/tros_ws/install/lib/mipi_cam/mipi_cam" to ""\n'}
+[18.056032] (mipi_cam) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/lib/mipi_cam/mipi_cam\n'}
+[18.056690] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/lib/libmipi_cam_plugin.so\n'}
+[18.058644] (mipi_cam) StdoutLine: {'line': b'-- Set runtime path of "/cc_ws/tros_ws/install/lib/libmipi_cam_plugin.so" to ""\n'}
+[18.058784] (mipi_cam) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/lib/mipi_cam/config/\n'}
+[18.059041] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/lib/mipi_cam/config//SC230ai_dual_calibration.yaml\n'}
+[18.059163] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/lib/mipi_cam/config//sc132gs_calibration.yaml\n'}
+[18.059234] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/lib/mipi_cam/config//GC4663_calibration.yaml\n'}
+[18.059326] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/lib/mipi_cam/config//sc132gs_calibration_90.yaml\n'}
+[18.059395] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/lib/mipi_cam/config//SC132gs_dual_calibration.yaml\n'}
+[18.059462] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/lib/mipi_cam/config//F37_calibration.yaml\n'}
+[18.059544] (mipi_cam) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/mipi_cam//launch\n'}
+[18.059609] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam.launch.py\n'}
+[18.059688] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_topic_remap.launch.py\n'}
+[18.059752] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_websocket.launch.py\n'}
+[18.059884] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_dual_channel.launch.py\n'}
+[18.059980] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_1920x1080_bgr8.launch.py\n'}
+[18.060171] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_dual_channel_websocket.launch.py\n'}
+[18.060391] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_640x480_bgr8_hbmem.launch.py\n'}
+[18.060612] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_640x480_bgr8.launch.py\n'}
+[18.060754] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_640x480_nv12_hbmem.launch.py\n'}
+[18.060949] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_1920x1080_nv12_hbmem.launch.py\n'}
+[18.061145] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/mipi_cam//launch/mipi_cam_1920x1080_bgr8_hbmem.launch.py\n'}
+[18.061328] (mipi_cam) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/mipi_cam\n'}
+[18.061421] (mipi_cam) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/mipi_cam\n'}
+[18.061521] (mipi_cam) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/mipi_cam/environment/ament_prefix_path.sh\n'}
+[18.061585] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/environment/ament_prefix_path.dsv\n'}
+[18.061673] (mipi_cam) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/mipi_cam/environment/path.sh\n'}
+[18.061741] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/environment/path.dsv\n'}
+[18.061834] (mipi_cam) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/mipi_cam/local_setup.bash\n'}
+[18.061916] (mipi_cam) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/mipi_cam/local_setup.sh\n'}
+[18.062003] (mipi_cam) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/mipi_cam/local_setup.zsh\n'}
+[18.062077] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/local_setup.dsv\n'}
+[18.062162] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/package.dsv\n'}
+[18.062265] (mipi_cam) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/mipi_cam\n'}
+[18.062333] (mipi_cam) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/rclcpp_components/mipi_cam\n'}
+[18.062417] (mipi_cam) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/mipi_cam/cmake/mipi_camConfig.cmake\n'}
+[18.062481] (mipi_cam) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/mipi_cam/cmake/mipi_camConfig-version.cmake\n'}
+[18.062544] (mipi_cam) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/mipi_cam/package.xml\n'}
+[18.063865] (mipi_cam) CommandEnded: {'returncode': 0}
+[18.119939] (mipi_cam) JobEnded: {'identifier': 'mipi_cam', 'rc': 0}
+[18.120532] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+source;share/clip_encode_image/environment/ament_prefix_path.sh
+source;share/clip_encode_image/environment/path.sh

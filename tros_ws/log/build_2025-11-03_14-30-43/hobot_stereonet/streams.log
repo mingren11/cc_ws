@@ -1,0 +1,151 @@
+[0.083s] Invoking command in '/cc_ws/tros_ws/build/hobot_stereonet': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.128s] Not searching for unused variables given on the command line.
+[0.157s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.482s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[0.482s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.483s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.483s]   set the policy and suppress this warning.
+[0.483s] 
+[0.483s]   For compatibility with older versions of CMake, option is clearing the
+[0.483s]   normal variable 'BUILD_TESTING'.
+[0.483s] Call Stack (most recent call first):
+[0.483s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.483s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.484s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.484s]   /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.484s]   /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[0.484s]   /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.484s]   /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[0.484s]   /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.484s]   /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[0.484s]   /opt/ros/humble/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.484s]   /opt/ros/humble/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[0.485s]   /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.485s]   /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.485s]   CMakeLists.txt:16 (find_package)
+[0.485s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.485s] [0m
+[0.503s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.508s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.520s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.569s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.586s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.676s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.676s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.861s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.200s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.335s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.597s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.611s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[1.622s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.112s] [0mPREFIX_PATH is [0m
+[2.112s] [0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[2.113s] [0mhobot_stereonet build platform X5[0m
+[2.389s] -- Configuring done
+[3.508s] -- Generating done
+[3.509s] -- Build files have been written to: /cc_ws/tros_ws/build/hobot_stereonet
+[3.592s] Invoked command in '/cc_ws/tros_ws/build/hobot_stereonet' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[3.592s] Invoking command in '/cc_ws/tros_ws/build/hobot_stereonet': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_stereonet -- -j12 -l12
+[3.710s] [35m[1mConsolidate compiler generated dependencies of target stereonet_model[0m
+[3.711s] [35m[1mConsolidate compiler generated dependencies of target stereonet_model_component_node[0m
+[3.711s] [35m[1mConsolidate compiler generated dependencies of target stereonet_model_node[0m
+[3.713s] [35m[1mConsolidate compiler generated dependencies of target stereonet_model_sub_node[0m
+[3.738s] [35m[1mConsolidate compiler generated dependencies of target stereonet_model_intra_sub[0m
+[3.765s] [35m[1mConsolidate compiler generated dependencies of target stereonet_model_intra_sub_node[0m
+[3.800s] [ 10%] Built target stereonet_model_component_node
+[3.801s] [35m[1mConsolidate compiler generated dependencies of target data_collection[0m
+[3.824s] [ 20%] Built target stereonet_model_intra_sub
+[3.842s] [ 35%] Built target stereonet_model_sub_node
+[3.858s] [ 45%] Built target stereonet_model_intra_sub_node
+[3.893s] [ 70%] Built target stereonet_model_node
+[3.917s] [ 80%] Built target data_collection
+[3.918s] [100%] Built target stereonet_model
+[3.960s] Invoked command in '/cc_ws/tros_ws/build/hobot_stereonet' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_stereonet -- -j12 -l12
+[4.519s] Invoking command in '/cc_ws/tros_ws/build/hobot_stereonet': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_stereonet
+[4.722s] -- Install configuration: "Release"
+[4.722s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_component_node
+[4.722s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_intra_sub_node
+[4.722s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_node
+[4.723s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_intra_sub_node
+[4.723s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/data_collection
+[4.723s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libstereonet_model.so
+[4.723s] -- Up-to-date: /cc_ws/tros_ws/install/lib/libstereonet_model_intra_sub.so
+[4.724s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config
+[4.724s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo.yaml
+[4.724s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.bin
+[4.724s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.4.hbm
+[4.724s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_2.yaml
+[4.724s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_cv.yaml
+[4.724s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_26.yaml
+[4.724s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.1.hbm
+[4.725s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.1.bin
+[4.725s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.2.bin
+[4.725s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4.0_int8.bin
+[4.725s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4.0_int16.bin
+[4.725s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_15.yaml
+[4.725s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.1.bin
+[4.725s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.0.bin
+[4.725s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model.launch.py
+[4.725s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_component.launch.py
+[4.726s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual.launch.py
+[4.726s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component.launch.py
+[4.726s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_offline_infer.launch.py
+[4.726s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_230ai.launch.py
+[4.726s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_2i.launch.py
+[4.726s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_mini.launch.py
+[4.726s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_mini_v2.launch.py
+[4.726s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.0.launch.py
+[4.726s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.1.launch.py
+[4.727s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.2.launch.py
+[4.727s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.3.launch.py
+[4.727s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.0.launch.py
+[4.727s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.1.launch.py
+[4.727s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.2.launch.py
+[4.727s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.3.launch.py
+[4.727s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.4_int16.launch.py
+[4.727s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.4_int8.launch.py
+[4.727s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_zed_v2.0.launch.py
+[4.728s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_zed_v2.2.launch.py
+[4.728s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config
+[4.728s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo.yaml
+[4.728s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.bin
+[4.728s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.4.hbm
+[4.728s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_2.yaml
+[4.728s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_cv.yaml
+[4.728s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_26.yaml
+[4.729s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.1.hbm
+[4.729s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.1.bin
+[4.729s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.2.bin
+[4.729s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4.0_int8.bin
+[4.730s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4.0_int16.bin
+[4.730s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_15.yaml
+[4.730s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.1.bin
+[4.730s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.0.bin
+[4.730s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data
+[4.731s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000002.png
+[4.731s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000000.png
+[4.731s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000004.png
+[4.731s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000001.png
+[4.731s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000002.png
+[4.731s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000000.png
+[4.731s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000004.png
+[4.732s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000003.png
+[4.732s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000003.png
+[4.732s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000001.png
+[4.732s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_stereonet
+[4.732s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_stereonet
+[4.732s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/ament_prefix_path.sh
+[4.732s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/ament_prefix_path.dsv
+[4.732s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/path.sh
+[4.732s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/path.dsv
+[4.733s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.bash
+[4.733s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.sh
+[4.733s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.zsh
+[4.733s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.dsv
+[4.738s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/package.dsv
+[4.738s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_stereonet
+[4.738s] -- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/rclcpp_components/hobot_stereonet
+[4.739s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/cmake/hobot_stereonetConfig.cmake
+[4.739s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/cmake/hobot_stereonetConfig-version.cmake
+[4.739s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/package.xml
+[4.787s] Invoked command in '/cc_ws/tros_ws/build/hobot_stereonet' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_stereonet

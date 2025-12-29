@@ -1,0 +1,17 @@
+setup.py
+ai_msgs/__init__.py
+ai_msgs.egg-info/PKG-INFO
+ai_msgs.egg-info/SOURCES.txt
+ai_msgs.egg-info/dependency_links.txt
+ai_msgs.egg-info/top_level.txt
+ai_msgs/msg/__init__.py
+ai_msgs/msg/_attribute.py
+ai_msgs/msg/_capture.py
+ai_msgs/msg/_capture_targets.py
+ai_msgs/msg/_db_result.py
+ai_msgs/msg/_perception_info.py
+ai_msgs/msg/_perception_targets.py
+ai_msgs/msg/_perf.py
+ai_msgs/msg/_point.py
+ai_msgs/msg/_roi.py
+ai_msgs/msg/_target.py

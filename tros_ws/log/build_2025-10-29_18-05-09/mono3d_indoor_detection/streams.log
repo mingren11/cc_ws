@@ -1,0 +1,282 @@
+[0.538s] Invoking command in '/cc_ws/tros_ws/build/mono3d_indoor_detection': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[1.163s] Not searching for unused variables given on the command line.
+[1.163s] -- The C compiler identification is GNU 11.4.0
+[1.369s] -- The CXX compiler identification is GNU 11.4.0
+[1.400s] -- Detecting C compiler ABI info
+[1.795s] -- Detecting C compiler ABI info - done
+[1.849s] -- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc - skipped
+[1.854s] -- Detecting C compile features
+[1.856s] -- Detecting C compile features - done
+[1.868s] -- Detecting CXX compiler ABI info
+[2.308s] -- Detecting CXX compiler ABI info - done
+[2.364s] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+[2.366s] -- Detecting CXX compile features
+[2.376s] -- Detecting CXX compile features - done
+[2.383s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.879s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.201s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[3.201s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[3.201s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[3.202s]   set the policy and suppress this warning.
+[3.202s] 
+[3.202s]   For compatibility with older versions of CMake, option is clearing the
+[3.202s]   normal variable 'BUILD_TESTING'.
+[3.202s] Call Stack (most recent call first):
+[3.202s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[3.203s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.203s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[3.203s]   CMakeLists.txt:35 (find_package)
+[3.203s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.203s] [0m
+[3.212s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[3.432s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.466s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.526s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.609s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.723s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.009s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.021s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.296s] -- Found OpenSSL: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.386s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.497s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.521s] -- Looking for pthread.h
+[4.690s] -- Looking for pthread.h - found
+[4.691s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.895s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.898s] -- Found Threads: TRUE  
+[5.418s] -- Found ai_msgs: 2.0.1 (/cc_ws/tros_ws/robot_dev_config/../install/share/ai_msgs/cmake)
+[6.367s] -- Found dnn_node: 2.5.4 (/cc_ws/tros_ws/robot_dev_config/../install/share/dnn_node/cmake)
+[6.409s] -- Found OpenCV: /cc_ws/sysroot_docker/usr_x5 (found suitable version "4.5.4", minimum required is "4") 
+[6.409s] -- Found hbm_img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/hbm_img_msgs/cmake)
+[6.552s] [0mbuild platform X5[0m
+[6.553s] [0mCMAKE_SYSROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[6.810s] -- Configuring done
+[6.918s] -- Generating done
+[6.922s] -- Build files have been written to: /cc_ws/tros_ws/build/mono3d_indoor_detection
+[7.050s] Invoked command in '/cc_ws/tros_ws/build/mono3d_indoor_detection' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[7.050s] Invoking command in '/cc_ws/tros_ws/build/mono3d_indoor_detection': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/mono3d_indoor_detection -- -j12 -l12
+[7.201s] [ 16%] [32mBuilding CXX object CMakeFiles/mono3d_indoor_detection.dir/src/main.cpp.o[0m
+[20.349s] [ 33%] [32mBuilding CXX object CMakeFiles/mono3d_indoor_detection.dir/src/centernet_3d_output_parser.cpp.o[0m
+[30.946s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_output_parser.cpp:[m[K In function ‘[01m[Kint ConvertOutputToFloat(void*, void*, const std::shared_ptr<hobot::easy_dnn::DNNTensor>&, int)[m[K’:
+[30.947s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_output_parser.cpp:73:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout_index[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[30.947s]    73 |                                 [01;35m[Kint out_index[m[K) {
+[30.947s]       |                                 [01;35m[K~~~~^~~~~~~~~[m[K
+[30.981s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_output_parser.cpp:[m[K In member function ‘[01m[Kvoid CenterNet3DOutputParser::ParameterInit(std::vector<std::shared_ptr<hobot::easy_dnn::DNNTensor> >&)[m[K’:
+[30.982s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_output_parser.cpp:234:28:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kchannel_shift[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[30.982s]   234 |         for (unsigned char [01;35m[Kchannel_shift[m[K : output_shifts_[layer]) {
+[30.982s]       |                            [01;35m[K^~~~~~~~~~~~~[m[K
+[30.999s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_output_parser.cpp:[m[K In member function ‘[01m[Kint CenterNet3DOutputParser::PostProcess(std::vector<std::shared_ptr<hobot::easy_dnn::DNNTensor> >&, std::vector<BBox3D>&)[m[K’:
+[31.000s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_output_parser.cpp:290:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[31.000s]   290 |         for (size_t channel = 0; channel < channel_size_[layer]; ++channel) {
+[35.753s] [ 50%] [32mBuilding CXX object CMakeFiles/mono3d_indoor_detection.dir/src/centernet_3d_detection_node.cpp.o[0m
+[47.222s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[47.223s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[47.223s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[47.223s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[47.223s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[47.223s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[47.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[47.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[47.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[47.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[47.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.225s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/include/centernet_3d_detection_node.h:24[m[K,
+[47.225s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:15[m[K:
+[47.225s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:[m[K In member function ‘[01m[Kvirtual int CenterNet3DDetectionNode::PostProcess(const std::shared_ptr<hobot::dnn_node::DnnNodeOutput>&)[m[K’:
+[47.225s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:243:63:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<BBox3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[47.226s]   243 |   RCLCPP_DEBUG(rclcpp::get_logger("mono3d_indoor_detection"), [01;35m[K"parser results size: %d"[m[K, [32m[Kdet_result->boxes.size()[m[K);
+[47.226s]       |                                                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[47.226s]       |                                                                                                                [32m[K|[m[K
+[47.226s]       |                                                                                                                [32m[Kstd::vector<BBox3D>::size_type {aka long unsigned int}[m[K
+[47.226s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:243:86:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[47.227s]   243 |   RCLCPP_DEBUG(rclcpp::get_logger("mono3d_indoor_detection"), "parser results size: [01;36m[K%d[m[K", det_result->boxes.size());
+[47.227s]       |                                                                                     [01;36m[K~^[m[K
+[47.227s]       |                                                                                      [01;36m[K|[m[K
+[47.227s]       |                                                                                      [01;36m[Kint[m[K
+[47.227s]       |                                                                                     [32m[K%ld[m[K
+[47.252s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[47.252s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[47.252s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[47.252s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[47.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[47.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[47.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[47.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[47.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[47.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[47.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.254s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/include/centernet_3d_detection_node.h:24[m[K,
+[47.254s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:15[m[K:
+[47.255s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:273:65:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<BBox3D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[47.255s]   273 |     RCLCPP_DEBUG(rclcpp::get_logger("mono3d_indoor_detection"), [01;35m[K"out box size: %d"[m[K,
+[47.255s]       |                                                                 [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[47.255s]   274 |                 [32m[Kdet_result->boxes.size()[m[K);
+[47.255s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K                         
+[47.256s]       |                                       [32m[K|[m[K
+[47.259s]       |                                       [32m[Kstd::vector<BBox3D>::size_type {aka long unsigned int}[m[K
+[47.259s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:273:81:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[47.260s]   273 |     RCLCPP_DEBUG(rclcpp::get_logger("mono3d_indoor_detection"), "out box size: [01;36m[K%d[m[K",
+[47.260s]       |                                                                                [01;36m[K~^[m[K
+[47.260s]       |                                                                                 [01;36m[K|[m[K
+[47.260s]       |                                                                                 [01;36m[Kint[m[K
+[47.261s]       |                                                                                [32m[K%ld[m[K
+[47.310s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:242:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[47.310s]   242 |   int [01;35m[Kret[m[K = out_parser_->PostProcess(centernet_3d_output->output_tensors, det_result->boxes);
+[47.310s]       |       [01;35m[K^~~[m[K
+[47.353s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[47.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[47.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[47.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[47.354s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[47.354s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[47.376s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[47.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[47.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[47.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[47.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.388s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/include/centernet_3d_detection_node.h:24[m[K,
+[47.388s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:15[m[K:
+[47.388s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CenterNet3DDetectionNode::RosImgProcess(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[47.388s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:496:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[47.389s]   496 |                  [01;35m[K"after GetNV12Pyramid cost ms: %d"[m[K, [32m[Kinterval[m[K);
+[47.389s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~[m[K
+[47.389s]       |                                                      [32m[K|[m[K
+[47.389s]       |                                                      [32m[Klong int[m[K
+[47.390s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:496:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[47.390s]   496 |                  "after GetNV12Pyramid cost ms: [01;36m[K%d[m[K", interval);
+[47.390s]       |                                                 [01;36m[K~^[m[K
+[47.390s]       |                                                  [01;36m[K|[m[K
+[47.391s]       |                                                  [01;36m[Kint[m[K
+[47.391s]       |                                                 [32m[K%ld[m[K
+[47.391s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[47.391s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[47.391s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[47.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[47.397s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[47.397s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[47.397s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[47.397s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[47.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[47.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[47.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.398s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/include/centernet_3d_detection_node.h:24[m[K,
+[47.398s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:15[m[K:
+[47.399s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:528:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[47.399s]   528 |                  [01;35m[K"after Predict cost ms: %d"[m[K, [32m[Kinterval[m[K);
+[47.423s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~[m[K
+[47.423s]       |                                               [32m[K|[m[K
+[47.424s]       |                                               [32m[Klong int[m[K
+[47.424s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:528:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[47.424s]   528 |                  "after Predict cost ms: [01;36m[K%d[m[K", interval);
+[47.424s]       |                                          [01;36m[K~^[m[K
+[47.424s]       |                                           [01;36m[K|[m[K
+[47.425s]       |                                           [01;36m[Kint[m[K
+[47.425s]       |                                          [32m[K%ld[m[K
+[47.425s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[47.425s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[47.425s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[47.426s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[47.426s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[47.426s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[47.426s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[47.426s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[47.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[47.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[47.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.427s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/include/centernet_3d_detection_node.h:24[m[K,
+[47.428s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:15[m[K:
+[47.433s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CenterNet3DDetectionNode::SharedMemImgProcess(hbm_img_msgs::msg::HbmMsg1080P_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[47.433s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:610:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst _encoding_type[m[K’ {aka ‘[01m[Kconst std::array<unsigned char, 12>[m[K’} [[01;35m[K-Wformat=[m[K]
+[47.433s]   610 |                 [01;35m[K"share mem unsupported img encoding: %s"[m[K, [32m[Kimg_msg->encoding[m[K);
+[47.433s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~[m[K
+[47.434s]       |                                                                    [32m[K|[m[K
+[47.434s]       |                                                                    [32m[Kconst _encoding_type {aka const std::array<unsigned char, 12>}[m[K
+[47.434s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:610:55:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[47.434s]   610 |                 "share mem unsupported img encoding: [01;36m[K%s[m[K", img_msg->encoding);
+[47.434s]       |                                                      [01;36m[K~^[m[K
+[47.435s]       |                                                       [01;36m[K|[m[K
+[47.435s]       |                                                       [01;36m[Kchar*[m[K
+[47.435s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[47.435s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[47.436s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[47.436s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[47.436s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[47.436s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[47.436s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[47.437s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[47.437s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[47.437s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[47.437s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.437s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/include/centernet_3d_detection_node.h:24[m[K,
+[47.438s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:15[m[K:
+[47.438s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:625:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[47.438s]   625 |                  [01;35m[K"after GetNV12Pyramid cost ms: %d"[m[K, [32m[Kinterval[m[K);
+[47.438s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~[m[K
+[47.439s]       |                                                      [32m[K|[m[K
+[47.439s]       |                                                      [32m[Klong int[m[K
+[47.439s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:625:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[47.439s]   625 |                  "after GetNV12Pyramid cost ms: [01;36m[K%d[m[K", interval);
+[47.439s]       |                                                 [01;36m[K~^[m[K
+[47.440s]       |                                                  [01;36m[K|[m[K
+[47.440s]       |                                                  [01;36m[Kint[m[K
+[47.440s]       |                                                 [32m[K%ld[m[K
+[47.440s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[47.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[47.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[47.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[47.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[47.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[47.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[47.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[47.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[47.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[47.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.443s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/include/centernet_3d_detection_node.h:24[m[K,
+[47.443s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:15[m[K:
+[47.443s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:655:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[47.443s]   655 |                  [01;35m[K"after Predict cost ms: %d"[m[K, [32m[Kinterval[m[K);
+[47.444s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~[m[K
+[47.456s]       |                                               [32m[K|[m[K
+[47.456s]       |                                               [32m[Klong int[m[K
+[47.457s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/mono3d_indoor_detection/src/centernet_3d_detection_node.cpp:655:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[47.457s]   655 |                  "after Predict cost ms: [01;36m[K%d[m[K", interval);
+[47.457s]       |                                          [01;36m[K~^[m[K
+[47.457s]       |                                           [01;36m[K|[m[K
+[47.457s]       |                                           [01;36m[Kint[m[K
+[47.458s]       |                                          [32m[K%ld[m[K
+[78.676s] [ 66%] [32m[1mLinking CXX executable mono3d_indoor_detection[0m
+[81.811s] [ 66%] Built target mono3d_indoor_detection
+[81.860s] [ 83%] [32mBuilding CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o[0m
+[95.395s] [100%] [32m[1mLinking CXX executable image_publisher[0m
+[96.653s] [100%] Built target image_publisher
+[96.675s] Invoked command in '/cc_ws/tros_ws/build/mono3d_indoor_detection' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/mono3d_indoor_detection -- -j12 -l12
+[96.725s] Invoking command in '/cc_ws/tros_ws/build/mono3d_indoor_detection': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/mono3d_indoor_detection
+[96.738s] -- Install configuration: ""
+[96.738s] -- Installing: /cc_ws/tros_ws/install/lib/mono3d_indoor_detection/mono3d_indoor_detection
+[96.749s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/mono3d_indoor_detection/mono3d_indoor_detection" to ""
+[96.749s] -- Installing: /cc_ws/tros_ws/install/lib/mono3d_indoor_detection/image_publisher
+[96.751s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/mono3d_indoor_detection/image_publisher" to ""
+[96.751s] -- Installing: /cc_ws/tros_ws/install/lib/mono3d_indoor_detection/config/
+[96.752s] -- Installing: /cc_ws/tros_ws/install/lib/mono3d_indoor_detection/config//centernet.hbm
+[96.757s] -- Installing: /cc_ws/tros_ws/install/lib/mono3d_indoor_detection/config//images
+[96.757s] -- Installing: /cc_ws/tros_ws/install/lib/mono3d_indoor_detection/config//images/3d_detection.png
+[96.764s] -- Installing: /cc_ws/tros_ws/install/lib/mono3d_indoor_detection/config/centernet.yaml
+[96.764s] -- Installing: /cc_ws/tros_ws/install/share/mono3d_indoor_detection/launch
+[96.765s] -- Installing: /cc_ws/tros_ws/install/share/mono3d_indoor_detection/launch/mono3d_indoor_detection_pipeline.launch.py
+[96.765s] -- Installing: /cc_ws/tros_ws/install/share/mono3d_indoor_detection/launch/mono3d_indoor_detection.launch.py
+[96.765s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/mono3d_indoor_detection
+[96.766s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/mono3d_indoor_detection
+[96.766s] -- Installing: /cc_ws/tros_ws/install/share/mono3d_indoor_detection/environment/ament_prefix_path.sh
+[96.766s] -- Installing: /cc_ws/tros_ws/install/share/mono3d_indoor_detection/environment/ament_prefix_path.dsv
+[96.767s] -- Installing: /cc_ws/tros_ws/install/share/mono3d_indoor_detection/environment/path.sh
+[96.767s] -- Installing: /cc_ws/tros_ws/install/share/mono3d_indoor_detection/environment/path.dsv
+[96.767s] -- Installing: /cc_ws/tros_ws/install/share/mono3d_indoor_detection/local_setup.bash
+[96.768s] -- Installing: /cc_ws/tros_ws/install/share/mono3d_indoor_detection/local_setup.sh
+[96.768s] -- Installing: /cc_ws/tros_ws/install/share/mono3d_indoor_detection/local_setup.zsh
+[96.768s] -- Installing: /cc_ws/tros_ws/install/share/mono3d_indoor_detection/local_setup.dsv
+[96.768s] -- Installing: /cc_ws/tros_ws/install/share/mono3d_indoor_detection/package.dsv
+[96.769s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/mono3d_indoor_detection
+[96.769s] -- Installing: /cc_ws/tros_ws/install/share/mono3d_indoor_detection/cmake/mono3d_indoor_detectionConfig.cmake
+[96.769s] -- Installing: /cc_ws/tros_ws/install/share/mono3d_indoor_detection/cmake/mono3d_indoor_detectionConfig-version.cmake
+[96.770s] -- Installing: /cc_ws/tros_ws/install/share/mono3d_indoor_detection/package.xml
+[96.775s] Invoked command in '/cc_ws/tros_ws/build/mono3d_indoor_detection' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/lib/python3.10/site-packages:/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/mono3d_indoor_detection

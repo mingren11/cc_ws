@@ -1,0 +1,748 @@
+Not searching for unused variables given on the command line.
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found dnn_node: 2.5.4 (/cc_ws/tros_ws/robot_dev_config/../install/share/dnn_node/cmake)
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Using flag -std=c++17.
+-- BUILD TYPE:Release
+-- Compiling on Unix
+-- Found Eigen3: TRUE (found suitable version "3.4.0", minimum required is "3.1.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cc_ws/tros_ws/build/orb_slam3
+[35m[1mConsolidate compiler generated dependencies of target DBoW2[0m
+[  6%] Built target DBoW2
+[35m[1mConsolidate compiler generated dependencies of target g2o[0m
+[ 36%] Built target g2o
+[35m[1mConsolidate compiler generated dependencies of target orb_slam3[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/Tracking.cc.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/CameraModels/KannalaBrandt8.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/G2oTypes.cc.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/ImuTypes.cc.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/Viewer.cc.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/Sim3Solver.cc.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/KeyFrameDatabase.cc.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/Frame.cc.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/Optimizer.cc.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/MapDrawer.cc.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/Map.cc.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/LoopClosing.cc.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/TwoViewReconstruction.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/threadpool.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/Config.cc.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/Settings.cc.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/MLPnPsolver.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/GeometricTools.cc.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/orb_slam3.dir/src/OptimizableTypes.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/lib/liborb_slam3.so[0m
+[ 65%] Built target orb_slam3
+[ 66%] [32mBuilding CXX object CMakeFiles/mono_tum.dir/Examples/Monocular/mono_tum.cc.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/stereo_tum_vi.dir/Examples/Stereo/stereo_tum_vi.cc.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/rgbd_tum.dir/Examples/RGB-D/rgbd_tum.cc.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/mono_euroc.dir/Examples/Monocular/mono_euroc.cc.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/stereo_euroc.dir/Examples/Stereo/stereo_euroc.cc.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/mono_inertial_euroc.dir/Examples/Monocular-Inertial/mono_inertial_euroc.cc.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/mono_tum_vi.dir/Examples/Monocular/mono_tum_vi.cc.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/mono_inertial_tum_vi.dir/Examples/Monocular-Inertial/mono_inertial_tum_vi.cc.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/mono_kitti.dir/Examples/Monocular/mono_kitti.cc.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/mono_realsense_D435i_image.dir/Examples/Monocular/mono_realsense_D435i_image.cc.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/stereo_realsense_D435i_image.dir/Examples/Stereo/stereo_realsense_D435i_image.cc.o[0m
+[ 78%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/Stereo/stereo_realsense_D435i_image[0m
+[ 79%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/Monocular/mono_tum[0m
+[ 80%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/Stereo/stereo_kitti[0m
+[ 81%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/Monocular/mono_realsense_D435i_image[0m
+[ 81%] Built target mono_tum
+[ 82%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/Monocular/mono_tum_vi[0m
+[ 82%] Built target stereo_realsense_D435i_image
+[ 83%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/Monocular/mono_kitti[0m
+[ 84%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/Stereo/stereo_euroc[0m
+[ 84%] Built target stereo_kitti
+[ 84%] Built target mono_realsense_D435i_image
+[ 84%] Built target mono_kitti
+[ 84%] Built target mono_tum_vi
+[ 84%] Built target stereo_euroc
+[ 85%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/Stereo/stereo_tum_vi[0m
+[ 86%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/RGB-D/rgbd_tum[0m
+[ 87%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/Monocular-Inertial/mono_inertial_tum_vi[0m
+[ 87%] Built target stereo_tum_vi
+[ 87%] Built target rgbd_tum
+[ 87%] Built target mono_inertial_tum_vi
+[ 88%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/Monocular/mono_euroc[0m
+[ 88%] Built target mono_euroc
+[ 89%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/Monocular-Inertial/mono_inertial_euroc[0m
+[ 89%] Built target mono_inertial_euroc
+[ 89%] [32mBuilding CXX object CMakeFiles/mono_euroc_old.dir/Examples_old/Monocular/mono_euroc.cc.o[0m
+[ 90%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples_old/Monocular/mono_euroc_old[0m
+[ 90%] Built target mono_euroc_old
+[ 92%] [32mBuilding CXX object CMakeFiles/create_vocabulary.dir/Examples/Calibration/create_vocabulary.cc.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/stereo_inertial_realsense_D435i_image.dir/Examples/Stereo-Inertial/stereo_inertial_realsense_D435i_image.cc.o[0m
+[ 93%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/Calibration/create_vocabulary[0m
+[ 93%] Built target create_vocabulary
+[ 95%] [32mBuilding CXX object CMakeFiles/stereo_inertial_euroc.dir/Examples/Stereo-Inertial/stereo_inertial_euroc.cc.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/stereo_inertial_tum_vi.dir/Examples/Stereo-Inertial/stereo_inertial_tum_vi.cc.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/mono_inertial_realsense_D435i_image.dir/Examples/Monocular-Inertial/mono_inertial_realsense_D435i_image.cc.o[0m
+[ 97%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/Stereo-Inertial/stereo_inertial_realsense_D435i_image[0m
+[ 97%] Built target stereo_inertial_realsense_D435i_image
+[ 98%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/Monocular-Inertial/mono_inertial_realsense_D435i_image[0m
+[ 99%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/Stereo-Inertial/stereo_inertial_tum_vi[0m
+[ 99%] Built target mono_inertial_realsense_D435i_image
+[ 99%] Built target stereo_inertial_tum_vi
+[100%] [32m[1mLinking CXX executable /cc_ws/tros_ws/src/box/orb_slam3/ORB_SLAM3/Examples/Stereo-Inertial/stereo_inertial_euroc[0m
+[100%] Built target stereo_inertial_euroc
+-- Install configuration: "Release"
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//LocalMapping.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//Frame.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//System.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//FrameDrawer.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//Map.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//ImuTypes.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//Atlas.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//ORBextractor.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//TwoViewReconstruction.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//MLPnPsolver.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//Config.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//ORBVocabulary.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//Optimizer.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//KeyFrameDatabase.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//MapPoint.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//Viewer.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//SerializationUtils.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//ORBmatcher.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//CameraModels
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//CameraModels/KannalaBrandt8.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//CameraModels/Pinhole.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//CameraModels/GeometricCamera.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//Sim3Solver.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//G2oTypes.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//GeometricTools.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//Settings.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//MapDrawer.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//KeyFrame.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//Tracking.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//SuperPointExtractor.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//OptimizableTypes.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//threadpool.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//LoopClosing.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3//Converter.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty/
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/.gitignore
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/doxyrest-config.lua
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/examples
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/examples/CMakeLists.txt
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/examples/HelloSO3.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/CMakeLists.txt
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_sim2.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_so3.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_common.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_se2.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_se3.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_velocities.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/CMakeLists.txt
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_rxso2.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_sim3.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_rxso3.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_geometry.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/test_so2.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/core/tests.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/ceres
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/ceres/CMakeLists.txt
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/ceres/local_parameterization_se3.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/test/ceres/test_ceres_se3.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/.clang-format
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/run_tests.sh
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/dual_quaternion.py
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/so3_codegen.py
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/so2.py
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/matrix.py
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/__init__.py
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/quaternion.py
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/so3.py
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/se3.py
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/cse_codegen.py
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/complex.py
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/sophus/se2.py
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode/Se3_Dx_exp_x.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode/So2_Dx_exp_x.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode/Se2_Dx_exp_x.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode/Se2_Dx_this_mul_exp_x_at_0.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode/So2_Dx_this_mul_exp_x_at_0.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode/So3_Dx_this_mul_exp_x_at_0.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode/So3_Dx_exp_x.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/py/cpp_gencode/Se3_Dx_this_mul_exp_x_at_0.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/CMakeLists.txt
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/run_format.sh
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/README.rst
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/package.xml
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/scripts
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/scripts/install_linux_deps.sh
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/scripts/run_cpp_tests.sh
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/scripts/install_docs_deps.sh
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/scripts/install_osx_deps.sh
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/rst-dir
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/rst-dir/pysophus.rst
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/rst-dir/page_index.rst
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/rst-dir/conf.py
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/appveyor.yml
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/SophusConfig.cmake.in
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/make_docs.sh
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/LICENSE.txt
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/so3.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/types.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/example_ensure_handler.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/rotation_matrix.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/so2.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/common.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/se2.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/test_macros.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/num_diff.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/sim_details.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/se3.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/rxso2.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/sim3.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/rxso3.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/sim2.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/interpolate.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/interpolate_details.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/average.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/formatstring.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/geometry.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/sophus/velocities.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//Sophus/.travis.yml
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/config.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/CMakeLists.txt
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/license-bsd.txt
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/README.txt
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/lib
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/lib/libg2o.so
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/solvers
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/solvers/linear_solver_dense.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/solvers/linear_solver_eigen.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/sim3.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/types_six_dof_expmap.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/se3mat.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/se3_ops.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/types_seven_dof_expmap.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/types_six_dof_expmap.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/se3_ops.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/se3mat.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/types_seven_dof_expmap.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/types_sba.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/se3quat.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/types/types_sba.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/color_macros.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/string_tools.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/misc.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/macros.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/os_specific.c
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/os_specific.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/timeutil.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/string_tools.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/property.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/property.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/stuff/timeutil.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/sparse_optimizer.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/parameter.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/robust_kernel.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/sparse_optimizer.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/robust_kernel.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_gauss_newton.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_factory.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_binary_edge.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_property.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/factory.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_with_hessian.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/hyper_graph_action.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/sparse_block_matrix.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_binary_edge.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_unary_edge.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/sparse_block_matrix_ccs.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/block_solver.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/sparse_block_matrix.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/parameter_container.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/robust_kernel_impl.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_dogleg.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_vertex.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimizable_graph.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/matrix_structure.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_with_hessian.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/marginal_covariance_cholesky.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/eigen_types.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_levenberg.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/matrix_structure.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/sparse_block_matrix_test.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_factory.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/jacobian_workspace.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/robust_kernel_factory.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/estimate_propagator.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/hyper_graph.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/sparse_block_matrix_diagonal.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/solver.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/hyper_graph_action.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/estimate_propagator.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/jacobian_workspace.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/batch_stats.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/cache.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/robust_kernel_factory.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_dogleg.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/matrix_operations.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/robust_kernel_impl.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/solver.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/marginal_covariance_cholesky.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/parameter_container.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/linear_solver.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/batch_stats.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/factory.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimizable_graph.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/openmp_mutex.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_unary_edge.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_vertex.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/creators.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_multi_edge.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/parameter.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_levenberg.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/hyper_graph.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/block_solver.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/hyper_dijkstra.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/optimization_algorithm_gauss_newton.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/hyper_dijkstra.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_multi_edge.hpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/cache.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/g2o/core/base_edge.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//g2o/config.h.in
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/CMakeLists.txt
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/README.txt
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DUtils
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DUtils/Timestamp.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DUtils/Random.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DUtils/Timestamp.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DUtils/Random.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/FORB.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/FeatureVector.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/TemplatedVocabulary.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/BowVector.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/ScoringObject.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/BowVector.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/FORB.cpp
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/ScoringObject.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/FeatureVector.h
+-- Installing: /cc_ws/tros_ws/install/include/orb_slam3/Thirdparty//DBoW2/DBoW2/FClass.h
+-- Installing: /cc_ws/tros_ws/install/lib/liborb_slam3.so
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/liborb_slam3.so" to ""
+-- Installing: /cc_ws/tros_ws/install/lib/libDBoW2.so
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/libDBoW2.so" to ""
+-- Installing: /cc_ws/tros_ws/install/lib/libg2o.so
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/libg2o.so" to ""
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D-Inertial
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D-Inertial/RealSense_D435i.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D-Inertial/rgbd_inertial_realsense_D435i.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/V202.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/MH03.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/V101.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/MH05.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/V201.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/MH01.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/V102.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/MH04.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/V103.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/MH02.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_TimeStamps/V203.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-outdoors4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-magistrale2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-corridor1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-room1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-corridor2_1024.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-magistrale4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-corridor2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-slides3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-magistrale3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-slides2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-corridor3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-outdoors3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-slides1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-corridor5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-magistrale1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-magistrale6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-outdoors7_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-outdoors1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-corridor4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-outdoors2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-outdoors8_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-room6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-room5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-outdoors5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-magistrale5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-room4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-room3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-room2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_TimeStamps/dataset-outdoors6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM-VI_far.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/RealSense_D435i.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/mono_inertial_tum_vi
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/mono_inertial_tum_vi.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM-VI.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/mono_inertial_realsense_D435i_image.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-magistrale2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-corridor1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-room1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-corridor2_1024.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-magistrale4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-corridor2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-slides3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-magistrale3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-slides2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-corridor3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-slides1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-corridor5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-magistrale1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-magistrale6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors7_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-corridor4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors8_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-room6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-room5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-magistrale5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-room4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-room3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-room2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/mono_inertial_euroc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/V202.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/MH03.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/V101.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/MH05.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/V201.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/MH01.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/V102.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/MH04.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/V103.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/MH02.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC_IMU/V203.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/mono_inertial_realsense_D435i.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/mono_inertial_realsense_D435i_image
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/mono_inertial_realsense_t265.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/RealSense_T265.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/EuRoC.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular-Inertial/mono_inertial_euroc.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/REAMDME.md
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_euroc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/KITTI04-12.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_realsense_D435i_image
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/V202.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/MH03.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/V101.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/MH05.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/V201.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/MH01.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/V102.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/MH04.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/V103.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/MH02.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC_TimeStamps/V203.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM3.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-outdoors4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-magistrale2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-corridor1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-room1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-corridor2_1024.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-magistrale4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-corridor2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-slides3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-magistrale3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-slides2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-corridor3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-outdoors3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-slides1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-corridor5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-magistrale1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-magistrale6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-outdoors7_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-outdoors1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-corridor4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-outdoors2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-outdoors8_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-room6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-room5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-outdoors5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-magistrale5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-room4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-room3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-room2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM_TimeStamps/dataset-outdoors6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_tum_vi
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_realsense_D435i.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/RealSense_D435i.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_realsense_D435i_image.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM-VI.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_euroc.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_kitti.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_tum.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_kitti
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_tum
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/KITTI03.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/RealSense_T265.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/KITTI00-02.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/EuRoC.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_tum_vi.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/mono_realsense_t265.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM1.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Monocular/TUM2.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration/recorder_realsense_D435i.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration/python_scripts
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration/python_scripts/process_imu.py
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration/create_vocabulary.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration/recorder_realsense_T265.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration/create_vocabulary
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration/recorder_empty
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Calibration/recorder_empty/april_6x6_80x80cm_larues.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/stereo_inertial_euroc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/V202.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/MH03.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/V101.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/MH05.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/V201.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/MH01.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/V102.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/MH04.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/V203_2.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/V103.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/MH02.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_TimeStamps/V203.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-outdoors4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-magistrale2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-corridor1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-room1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-corridor2_1024.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-magistrale4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-corridor2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-slides3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-magistrale3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-slides2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-corridor3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-outdoors3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-slides1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-corridor5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-magistrale1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-magistrale6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-outdoors7_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-outdoors1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-corridor4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-outdoors2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-outdoors8_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-room6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-room5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-outdoors5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-magistrale5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-room4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-room3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-room2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_TimeStamps/dataset-outdoors6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/stereo_inertial_realsense_D435i_image
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM-VI_far.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/stereo_inertial_euroc.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/RealSense_D435i.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/stereo_inertial_realsense_D435i_image.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM-VI.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-magistrale2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-corridor1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-room1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-corridor2_1024.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-magistrale4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-corridor2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-slides3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-magistrale3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-slides2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-corridor3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-slides1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-corridor5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-magistrale1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-magistrale6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors7_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-corridor4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors8_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-room6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-room5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-magistrale5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-room4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-room3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-room2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/stereo_inertial_tum_vi.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/stereo_inertial_realsense_t265.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/stereo_inertial_tum_vi
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/stereo_inertial_realsense_D435i.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/V202.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/MH03.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/V101.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/MH05.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/V201.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/MH01.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/V102.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/MH04.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/V103.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/MH02.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC_IMU/V203.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/RealSense_T265.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo-Inertial/EuRoC.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/rgbd_tum
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/TUM3.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/rgbd_realsense_D435i.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/RealSense_D435i.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr2_desk.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr3_nstr_tex_near.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr1_desk.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr1_desk2.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr3_str_tex_near.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr3_office.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr3_office_val.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr1_room.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr2_xyz.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr3_str_tex_far.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/associations/fr1_xyz.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/rgbd_tum.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/TUM1.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/RGB-D/TUM2.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/KITTI04-12.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/V202.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/MH03.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/V101.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/MH05.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/V201.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/MH01.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/V102.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/MH04.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/V103.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/MH02.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC_TimeStamps/V203.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_kitti.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-outdoors4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-magistrale2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-corridor1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-room1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-corridor2_1024.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-magistrale4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-corridor2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-slides3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-magistrale3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-slides2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-corridor3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-outdoors3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-slides1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-corridor5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-magistrale1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-magistrale6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-outdoors7_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-outdoors1_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-corridor4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-outdoors2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-outdoors8_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-room6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-room5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-outdoors5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-magistrale5_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-room4_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-room3_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-room2_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM_TimeStamps/dataset-outdoors6_512.txt
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_tum_vi.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_tum_vi
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/RealSense_D435i.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_euroc.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_realsense_t265.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_realsense_D435i.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/TUM-VI.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_kitti
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/KITTI03.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/RealSense_T265.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/KITTI00-02.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_realsense_D435i_image
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/EuRoC.yaml
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_realsense_D435i_image.cc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Examples/Stereo/stereo_euroc
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/config
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/config/Stub
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Vocabulary
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/Vocabulary/ORBvoc.txt.tar.gz
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/environment/library_path.sh
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/environment/library_path.dsv
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/orb_slam3
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/orb_slam3
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/environment/ament_prefix_path.sh
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/environment/ament_prefix_path.dsv
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/environment/path.sh
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/environment/path.dsv
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/local_setup.bash
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/local_setup.sh
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/local_setup.zsh
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/local_setup.dsv
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/package.dsv
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/orb_slam3
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/cmake/orb_slam3Config.cmake
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/cmake/orb_slam3Config-version.cmake
+-- Installing: /cc_ws/tros_ws/install/share/orb_slam3/package.xml

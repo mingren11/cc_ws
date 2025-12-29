@@ -1,0 +1,22 @@
+[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_TESTING'.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:19 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/cc_ws/tros_ws/src/box/hobot_trigger/recorder_node/src/recorder_node.cpp:[m[K In member function ‘[01m[Kint RecorderNode::Read()[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_trigger/recorder_node/src/recorder_node.cpp:121:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  121 |   for(int i = 0; [01;35m[Ki < rosbag_paths_.size() - 1[m[K; i++){
+      |                  [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_trigger/recorder_node/src/recorder_node.cpp:[m[K In member function ‘[01m[Kint RecorderNode::Clean()[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_trigger/recorder_node/src/recorder_node.cpp:154:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  154 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

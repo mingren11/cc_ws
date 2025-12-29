@@ -1,0 +1,529 @@
+[0.080s] Invoking command in '/cc_ws/tros_ws/build/hobot_stereonet': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[13.370s] Not searching for unused variables given on the command line.
+[13.370s] -- The C compiler identification is GNU 11.4.0
+[13.370s] -- The CXX compiler identification is GNU 11.4.0
+[13.371s] -- Detecting C compiler ABI info
+[13.371s] -- Detecting C compiler ABI info - done
+[13.371s] -- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc - skipped
+[13.371s] -- Detecting C compile features
+[13.371s] -- Detecting C compile features - done
+[13.372s] -- Detecting CXX compiler ABI info
+[13.372s] -- Detecting CXX compiler ABI info - done
+[13.372s] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+[13.372s] -- Detecting CXX compile features
+[13.372s] -- Detecting CXX compile features - done
+[13.373s] -- Found OpenCV: /cc_ws/sysroot_docker/usr_x5 (found version "4.5.4") 
+[13.373s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[13.373s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[13.374s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[13.374s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[13.374s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[13.374s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.375s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[13.375s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.375s] -- Found OpenSSL: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[13.375s] -- Found FastRTPS: /opt/ros/humble/include  
+[13.375s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.376s] -- Looking for pthread.h
+[13.376s] -- Looking for pthread.h - found
+[13.376s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.376s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.376s] -- Found Threads: TRUE  
+[13.377s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[13.377s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[13.377s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[13.377s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[13.377s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[13.378s] -- Configuring done
+[13.378s] -- Generating done
+[13.378s] -- Build files have been written to: /cc_ws/tros_ws/build/hobot_stereonet
+[13.378s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[13.379s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[13.379s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[13.379s]   set the policy and suppress this warning.
+[13.379s] 
+[13.379s]   For compatibility with older versions of CMake, option is clearing the
+[13.379s]   normal variable 'BUILD_TESTING'.
+[13.380s] Call Stack (most recent call first):
+[13.380s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[13.380s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[13.380s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[13.381s]   /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[13.381s]   /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[13.381s]   /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[13.381s]   /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[13.381s]   /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[13.382s]   /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[13.382s]   /opt/ros/humble/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[13.382s]   /opt/ros/humble/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[13.382s]   /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[13.383s]   /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[13.383s]   CMakeLists.txt:16 (find_package)
+[13.383s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[13.383s] [0m
+[13.383s] [0mPREFIX_PATH is [0m
+[13.384s] [0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[13.384s] [0mhobot_stereonet build platform X5[0m
+[13.386s] Invoked command in '/cc_ws/tros_ws/build/hobot_stereonet' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[13.387s] Invoking command in '/cc_ws/tros_ws/build/hobot_stereonet': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_stereonet -- -j12 -l12
+[13.559s] [  5%] [32mBuilding CXX object CMakeFiles/stereonet_model_node.dir/src/stereonet_component.cpp.o[0m
+[48.773s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29[m[K,
+[48.774s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29[m[K,
+[48.774s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26[m[K,
+[48.774s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18[m[K,
+[48.774s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21[m[K,
+[48.775s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19[m[K,
+[48.775s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16[m[K:
+[48.775s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:[m[K In static member function ‘[01m[Kstatic void pcl_filter::applyfilter(sensor_msgs::msg::PointCloud2&, float, int, float)[m[K’:
+[48.775s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:37:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[48.776s]    37 |     RCLCPP_DEBUG(rclcpp::get_logger(""), [01;35m[K"origin pcd size: %d"[m[K, [32m[Kcloud->size()[m[K);
+[48.776s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~[m[K
+[48.776s]       |                                                                            [32m[K|[m[K
+[48.776s]       |                                                                            [32m[Kstd::size_t {aka long unsigned int}[m[K
+[48.777s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18[m[K:
+[48.778s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:37:61:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[48.778s]    37 |     RCLCPP_DEBUG(rclcpp::get_logger(""), "origin pcd size: [01;36m[K%d[m[K", cloud->size());
+[48.778s]       |                                                            [01;36m[K~^[m[K
+[48.778s]       |                                                             [01;36m[K|[m[K
+[48.778s]       |                                                             [01;36m[Kint[m[K
+[48.779s]       |                                                            [32m[K%ld[m[K
+[48.784s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29[m[K,
+[48.784s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29[m[K,
+[48.785s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26[m[K,
+[48.785s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18[m[K,
+[48.785s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21[m[K,
+[48.785s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19[m[K,
+[48.786s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16[m[K:
+[48.786s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:43:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[48.786s]    43 |     RCLCPP_DEBUG(rclcpp::get_logger(""), [01;35m[K"after voxel, pcd size: %d"[m[K, [32m[Kcloud_filtered->size()[m[K);
+[48.786s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[48.787s]       |                                                                                           [32m[K|[m[K
+[48.787s]       |                                                                                           [32m[Kstd::size_t {aka long unsigned int}[m[K
+[48.787s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18[m[K:
+[48.787s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:43:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[48.787s]    43 |     RCLCPP_DEBUG(rclcpp::get_logger(""), "after voxel, pcd size: [01;36m[K%d[m[K", cloud_filtered->size());
+[48.788s]       |                                                                  [01;36m[K~^[m[K
+[48.788s]       |                                                                   [01;36m[K|[m[K
+[48.788s]       |                                                                   [01;36m[Kint[m[K
+[48.788s]       |                                                                  [32m[K%ld[m[K
+[48.789s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29[m[K,
+[48.789s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29[m[K,
+[48.790s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26[m[K,
+[48.790s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18[m[K,
+[48.790s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21[m[K,
+[48.790s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19[m[K,
+[48.791s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16[m[K:
+[48.791s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:50:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[48.791s]    50 |     RCLCPP_DEBUG(rclcpp::get_logger(""), [01;35m[K"after StatisticalOutlierRemoval, pcd size: %d"[m[K, [32m[Kcloud_filtered->size()[m[K);
+[48.791s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[48.792s]       |                                                                                                               [32m[K|[m[K
+[48.792s]       |                                                                                                               [32m[Kstd::size_t {aka long unsigned int}[m[K
+[48.792s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18[m[K:
+[48.792s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:50:87:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[48.792s]    50 |     RCLCPP_DEBUG(rclcpp::get_logger(""), "after StatisticalOutlierRemoval, pcd size: [01;36m[K%d[m[K", cloud_filtered->size());
+[48.793s]       |                                                                                      [01;36m[K~^[m[K
+[48.802s]       |                                                                                       [01;36m[K|[m[K
+[48.802s]       |                                                                                       [01;36m[Kint[m[K
+[48.802s]       |                                                                                      [32m[K%ld[m[K
+[48.802s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29[m[K,
+[48.803s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29[m[K,
+[48.803s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26[m[K,
+[48.803s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18[m[K,
+[48.803s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21[m[K,
+[48.804s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19[m[K,
+[48.804s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16[m[K:
+[48.804s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:82:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[48.804s]    82 |                  [01;35m[K"ROS to PCL: %dms, "[m[K
+[48.804s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[48.805s]    83 | [01;35m[K                 "PCL filter: %dms,, "[m[K
+[48.805s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[48.805s]    84 | [01;35m[K                 "PCL to ROS: %dms"[m[K, [32m[Kd1[m[K, d2, d3);
+[48.805s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~[m[K
+[48.806s]       |                                      [32m[K|[m[K
+[48.806s]       |                                      [32m[Klong int[m[K
+[48.806s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18[m[K:
+[48.806s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:82:32:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[48.806s]    82 |                  "ROS to PCL: [01;36m[K%d[m[Kms, "
+[48.807s]       |                               [01;36m[K~^[m[K
+[48.807s]       |                                [01;36m[K|[m[K
+[48.807s]       |                                [01;36m[Kint[m[K
+[48.807s]       |                               [32m[K%ld[m[K
+[48.808s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29[m[K,
+[48.808s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29[m[K,
+[48.808s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26[m[K,
+[48.808s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18[m[K,
+[48.808s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21[m[K,
+[48.809s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19[m[K,
+[48.809s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16[m[K:
+[48.809s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:82:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[48.809s]    82 |                  [01;35m[K"ROS to PCL: %dms, "[m[K
+[48.810s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[48.810s]    83 | [01;35m[K                 "PCL filter: %dms,, "[m[K
+[48.810s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[48.810s]    84 | [01;35m[K                 "PCL to ROS: %dms"[m[K, d1, [32m[Kd2[m[K, d3);
+[48.811s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~[m[K      [32m[K~~[m[K
+[48.811s]       |                                          [32m[K|[m[K
+[48.811s]       |                                          [32m[Klong int[m[K
+[48.811s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18[m[K:
+[48.811s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:83:32:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[48.812s]    83 |                  "PCL filter: [01;36m[K%d[m[Kms,, "
+[48.812s]       |                               [01;36m[K~^[m[K
+[48.812s]       |                                [01;36m[K|[m[K
+[48.812s]       |                                [01;36m[Kint[m[K
+[48.812s]       |                               [32m[K%ld[m[K
+[48.813s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29[m[K,
+[48.813s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29[m[K,
+[48.813s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26[m[K,
+[48.813s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18[m[K,
+[48.814s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21[m[K,
+[48.814s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19[m[K,
+[48.814s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16[m[K:
+[48.814s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:82:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[48.815s]    82 |                  [01;35m[K"ROS to PCL: %dms, "[m[K
+[48.815s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[48.815s]    83 | [01;35m[K                 "PCL filter: %dms,, "[m[K
+[48.815s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[48.815s]    84 | [01;35m[K                 "PCL to ROS: %dms"[m[K, d1, d2, [32m[Kd3[m[K);
+[48.816s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~[m[K          [32m[K~~[m[K
+[48.816s]       |                                              [32m[K|[m[K
+[48.816s]       |                                              [32m[Klong int[m[K
+[48.816s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18[m[K:
+[48.816s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:84:32:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[48.817s]    84 |                  "PCL to ROS: [01;36m[K%d[m[Kms", d1, d2, d3);
+[48.817s]       |                               [01;36m[K~^[m[K
+[48.817s]       |                                [01;36m[K|[m[K
+[48.817s]       |                                [01;36m[Kint[m[K
+[48.818s]       |                               [32m[K%ld[m[K
+[49.136s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29[m[K,
+[49.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29[m[K,
+[49.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26[m[K,
+[49.137s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18[m[K,
+[49.138s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21[m[K,
+[49.138s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19[m[K,
+[49.138s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16[m[K:
+[49.139s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:[m[K In member function ‘[01m[Kvoid stereonet::StereoNetNode::pub_func(stereonet::StereoNetNode::pub_data_t&)[m[K’:
+[49.139s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:1099:9:[m[K [01;35m[Kwarning: [m[Kunknown conversion type character ‘[01m[K,[m[K’ in format [[01;35m[K-Wformat=[m[K]
+[49.139s]  1099 |         [01;35m[K"fps: %d, latency: %dms, cpu_usage: %d%, bpu_usage: %d%"[m[K,
+[49.139s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[49.140s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:1099:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[49.140s]  1099 |         "fps: %d, latency: %dms, cpu_usage: %d%[01;36m[K,[m[K bpu_usage: %d%",
+[49.140s]       |                                                [01;36m[K^[m[K
+[49.140s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29[m[K,
+[49.140s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29[m[K,
+[49.141s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26[m[K,
+[49.141s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18[m[K,
+[49.141s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21[m[K,
+[49.141s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19[m[K,
+[49.142s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16[m[K:
+[49.142s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:1099:9:[m[K [01;35m[Kwarning: [m[Kspurious trailing ‘[01m[K%[m[K’ in format [[01;35m[K-Wformat=[m[K]
+[49.142s]  1099 |         [01;35m[K"fps: %d, latency: %dms, cpu_usage: %d%, bpu_usage: %d%"[m[K,
+[49.142s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[49.142s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:1099:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[49.143s]  1099 |         "fps: %d, latency: %dms, cpu_usage: %d%, bpu_usage: %d[01;36m[K%[m[K",
+[49.143s]       |                                                               [01;36m[K^[m[K
+[75.918s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:[m[K In function ‘[01m[Kvoid stereonet::save_images(cv::Mat&, cv::Mat&, uint64_t, const string&)[m[K’:
+[75.919s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:805:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K-Wunused-result[m[K]
+[75.919s]   805 |     [01;35m[Ksystem("mkdir -p"[m[K
+[75.919s]       |     [01;35m[K~~~~~~^~~~~~~~~~~[m[K
+[75.920s]   806 | [01;35m[K           " ./images/cam0/data/"[m[K
+[75.920s]       |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[75.920s]   807 | [01;35m[K           " ./images/cam1/data/"[m[K
+[75.920s]       |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[75.920s]   808 | [01;35m[K           " ./images/cam_combine/data/")[m[K;
+[75.921s]       |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[173.987s] [ 10%] [32mBuilding CXX object CMakeFiles/stereonet_model_node.dir/src/node.cpp.o[0m
+[236.552s] [ 15%] [32mBuilding CXX object CMakeFiles/stereonet_model_node.dir/src/image_conversion.cpp.o[0m
+[243.687s] [ 20%] [32mBuilding CXX object CMakeFiles/stereonet_model_node.dir/src/stereonet_process.cpp.o[0m
+[266.372s] [ 25%] [32m[1mLinking CXX executable stereonet_model_node[0m
+[274.369s] [ 25%] Built target stereonet_model_node
+[274.473s] [ 30%] [32mBuilding CXX object CMakeFiles/data_collection.dir/src/data_collection.cpp.o[0m
+[301.013s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/data_collection.cpp:[m[K In constructor ‘[01m[KRos2SubNode::Ros2SubNode()[m[K’:
+[301.013s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/data_collection.cpp:43:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K-Wunused-result[m[K]
+[301.013s]    43 |     [01;35m[Ksystem("mkdir -p storage/cam0/data/")[m[K;
+[301.013s]       |     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[301.014s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/data_collection.cpp:44:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K-Wunused-result[m[K]
+[301.014s]    44 |     [01;35m[Ksystem("mkdir -p storage/cam1/data/")[m[K;
+[301.014s]       |     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[301.014s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/data_collection.cpp:45:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K-Wunused-result[m[K]
+[301.015s]    45 |     [01;35m[Ksystem("mkdir -p storage/imu0/")[m[K;
+[301.015s]       |     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[337.609s] [ 35%] [32m[1mLinking CXX executable data_collection[0m
+[342.448s] [ 35%] Built target data_collection
+[342.535s] [ 40%] [32mBuilding CXX object CMakeFiles/stereonet_model_intra_sub_node.dir/rclcpp_components/node_main_stereonet_model_intra_sub_node.cpp.o[0m
+[357.844s] [ 45%] [32m[1mLinking CXX executable stereonet_model_intra_sub_node[0m
+[358.200s] [ 45%] Built target stereonet_model_intra_sub_node
+[358.325s] [ 50%] [32mBuilding CXX object CMakeFiles/stereonet_model_intra_sub.dir/src/stereonet_intra_sub.cpp.o[0m
+[401.149s] [ 55%] [32m[1mLinking CXX shared library libstereonet_model_intra_sub.so[0m
+[403.325s] [ 55%] Built target stereonet_model_intra_sub
+[403.428s] [ 60%] [32mBuilding CXX object CMakeFiles/stereonet_model_sub_node.dir/src/stereonet_intra_sub.cpp.o[0m
+[456.910s] [ 65%] [32mBuilding CXX object CMakeFiles/stereonet_model_sub_node.dir/src/stereonet_sub_node.cpp.o[0m
+[471.825s] [ 70%] [32m[1mLinking CXX executable stereonet_model_sub_node[0m
+[475.581s] [ 70%] Built target stereonet_model_sub_node
+[475.738s] [ 75%] [32mBuilding CXX object CMakeFiles/stereonet_model_component_node.dir/rclcpp_components/node_main_stereonet_model_component_node.cpp.o[0m
+[492.090s] [ 80%] [32m[1mLinking CXX executable stereonet_model_component_node[0m
+[492.381s] [ 80%] Built target stereonet_model_component_node
+[492.479s] [ 85%] [32mBuilding CXX object CMakeFiles/stereonet_model.dir/src/stereonet_component.cpp.o[0m
+[517.479s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29[m[K,
+[517.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29[m[K,
+[517.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26[m[K,
+[517.479s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18[m[K,
+[517.480s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21[m[K,
+[517.480s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19[m[K,
+[517.480s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16[m[K:
+[517.480s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:[m[K In static member function ‘[01m[Kstatic void pcl_filter::applyfilter(sensor_msgs::msg::PointCloud2&, float, int, float)[m[K’:
+[517.480s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:37:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[517.481s]    37 |     RCLCPP_DEBUG(rclcpp::get_logger(""), [01;35m[K"origin pcd size: %d"[m[K, [32m[Kcloud->size()[m[K);
+[517.481s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~[m[K
+[517.481s]       |                                                                            [32m[K|[m[K
+[517.481s]       |                                                                            [32m[Kstd::size_t {aka long unsigned int}[m[K
+[517.481s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18[m[K:
+[517.482s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:37:61:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[517.482s]    37 |     RCLCPP_DEBUG(rclcpp::get_logger(""), "origin pcd size: [01;36m[K%d[m[K", cloud->size());
+[517.482s]       |                                                            [01;36m[K~^[m[K
+[517.482s]       |                                                             [01;36m[K|[m[K
+[517.482s]       |                                                             [01;36m[Kint[m[K
+[517.483s]       |                                                            [32m[K%ld[m[K
+[517.483s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29[m[K,
+[517.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29[m[K,
+[517.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26[m[K,
+[517.484s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18[m[K,
+[517.484s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21[m[K,
+[517.484s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19[m[K,
+[517.485s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16[m[K:
+[517.485s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:43:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[517.485s]    43 |     RCLCPP_DEBUG(rclcpp::get_logger(""), [01;35m[K"after voxel, pcd size: %d"[m[K, [32m[Kcloud_filtered->size()[m[K);
+[517.485s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[517.486s]       |                                                                                           [32m[K|[m[K
+[517.486s]       |                                                                                           [32m[Kstd::size_t {aka long unsigned int}[m[K
+[517.486s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18[m[K:
+[517.487s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:43:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[517.487s]    43 |     RCLCPP_DEBUG(rclcpp::get_logger(""), "after voxel, pcd size: [01;36m[K%d[m[K", cloud_filtered->size());
+[517.488s]       |                                                                  [01;36m[K~^[m[K
+[517.488s]       |                                                                   [01;36m[K|[m[K
+[517.488s]       |                                                                   [01;36m[Kint[m[K
+[517.488s]       |                                                                  [32m[K%ld[m[K
+[517.488s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29[m[K,
+[517.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29[m[K,
+[517.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26[m[K,
+[517.490s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18[m[K,
+[517.498s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21[m[K,
+[517.498s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19[m[K,
+[517.499s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16[m[K:
+[517.499s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:50:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[517.499s]    50 |     RCLCPP_DEBUG(rclcpp::get_logger(""), [01;35m[K"after StatisticalOutlierRemoval, pcd size: %d"[m[K, [32m[Kcloud_filtered->size()[m[K);
+[517.499s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[517.500s]       |                                                                                                               [32m[K|[m[K
+[517.500s]       |                                                                                                               [32m[Kstd::size_t {aka long unsigned int}[m[K
+[517.500s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18[m[K:
+[517.500s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:50:87:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[517.500s]    50 |     RCLCPP_DEBUG(rclcpp::get_logger(""), "after StatisticalOutlierRemoval, pcd size: [01;36m[K%d[m[K", cloud_filtered->size());
+[517.501s]       |                                                                                      [01;36m[K~^[m[K
+[517.501s]       |                                                                                       [01;36m[K|[m[K
+[517.501s]       |                                                                                       [01;36m[Kint[m[K
+[517.501s]       |                                                                                      [32m[K%ld[m[K
+[517.509s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29[m[K,
+[517.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29[m[K,
+[517.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26[m[K,
+[517.510s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18[m[K,
+[517.510s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21[m[K,
+[517.511s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19[m[K,
+[517.511s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16[m[K:
+[517.511s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:82:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[517.511s]    82 |                  [01;35m[K"ROS to PCL: %dms, "[m[K
+[517.511s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[517.512s]    83 | [01;35m[K                 "PCL filter: %dms,, "[m[K
+[517.512s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[517.512s]    84 | [01;35m[K                 "PCL to ROS: %dms"[m[K, [32m[Kd1[m[K, d2, d3);
+[517.512s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~[m[K
+[517.513s]       |                                      [32m[K|[m[K
+[517.513s]       |                                      [32m[Klong int[m[K
+[517.513s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18[m[K:
+[517.513s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:82:32:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[517.513s]    82 |                  "ROS to PCL: [01;36m[K%d[m[Kms, "
+[517.525s]       |                               [01;36m[K~^[m[K
+[517.534s]       |                                [01;36m[K|[m[K
+[517.534s]       |                                [01;36m[Kint[m[K
+[517.535s]       |                               [32m[K%ld[m[K
+[517.535s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29[m[K,
+[517.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29[m[K,
+[517.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26[m[K,
+[517.535s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18[m[K,
+[517.536s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21[m[K,
+[517.536s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19[m[K,
+[517.536s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16[m[K:
+[517.536s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:82:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[517.536s]    82 |                  [01;35m[K"ROS to PCL: %dms, "[m[K
+[517.537s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[517.537s]    83 | [01;35m[K                 "PCL filter: %dms,, "[m[K
+[517.537s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[517.537s]    84 | [01;35m[K                 "PCL to ROS: %dms"[m[K, d1, [32m[Kd2[m[K, d3);
+[517.538s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~[m[K      [32m[K~~[m[K
+[517.538s]       |                                          [32m[K|[m[K
+[517.538s]       |                                          [32m[Klong int[m[K
+[517.538s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18[m[K:
+[517.538s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:83:32:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[517.539s]    83 |                  "PCL filter: [01;36m[K%d[m[Kms,, "
+[517.539s]       |                               [01;36m[K~^[m[K
+[517.539s]       |                                [01;36m[K|[m[K
+[517.539s]       |                                [01;36m[Kint[m[K
+[517.540s]       |                               [32m[K%ld[m[K
+[517.540s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29[m[K,
+[517.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29[m[K,
+[517.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26[m[K,
+[517.546s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18[m[K,
+[517.546s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21[m[K,
+[517.546s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19[m[K,
+[517.547s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16[m[K:
+[517.547s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:82:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+[517.547s]    82 |                  [01;35m[K"ROS to PCL: %dms, "[m[K
+[517.547s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[517.547s]    83 | [01;35m[K                 "PCL filter: %dms,, "[m[K
+[517.548s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[517.548s]    84 | [01;35m[K                 "PCL to ROS: %dms"[m[K, d1, d2, [32m[Kd3[m[K);
+[517.548s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~[m[K          [32m[K~~[m[K
+[517.548s]       |                                              [32m[K|[m[K
+[517.548s]       |                                              [32m[Klong int[m[K
+[517.549s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:18[m[K:
+[517.549s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/include/pcl_filter.h:84:32:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[517.549s]    84 |                  "PCL to ROS: [01;36m[K%d[m[Kms", d1, d2, d3);
+[517.549s]       |                               [01;36m[K~^[m[K
+[517.549s]       |                                [01;36m[K|[m[K
+[517.549s]       |                                [01;36m[Kint[m[K
+[517.550s]       |                               [32m[K%ld[m[K
+[517.793s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29[m[K,
+[517.793s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29[m[K,
+[517.794s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26[m[K,
+[517.794s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18[m[K,
+[517.794s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21[m[K,
+[517.794s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19[m[K,
+[517.794s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16[m[K:
+[517.795s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:[m[K In member function ‘[01m[Kvoid stereonet::StereoNetNode::pub_func(stereonet::StereoNetNode::pub_data_t&)[m[K’:
+[517.795s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:1099:9:[m[K [01;35m[Kwarning: [m[Kunknown conversion type character ‘[01m[K,[m[K’ in format [[01;35m[K-Wformat=[m[K]
+[517.795s]  1099 |         [01;35m[K"fps: %d, latency: %dms, cpu_usage: %d%, bpu_usage: %d%"[m[K,
+[517.795s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[517.796s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:1099:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[517.796s]  1099 |         "fps: %d, latency: %dms, cpu_usage: %d%[01;36m[K,[m[K bpu_usage: %d%",
+[517.796s]       |                                                [01;36m[K^[m[K
+[517.796s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:29[m[K,
+[517.796s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:29[m[K,
+[517.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:26[m[K,
+[517.797s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:18[m[K,
+[517.798s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:21[m[K,
+[517.798s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:19[m[K,
+[517.799s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:16[m[K:
+[517.799s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:1099:9:[m[K [01;35m[Kwarning: [m[Kspurious trailing ‘[01m[K%[m[K’ in format [[01;35m[K-Wformat=[m[K]
+[517.799s]  1099 |         [01;35m[K"fps: %d, latency: %dms, cpu_usage: %d%, bpu_usage: %d%"[m[K,
+[517.806s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[517.806s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:1099:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[517.813s]  1099 |         "fps: %d, latency: %dms, cpu_usage: %d%, bpu_usage: %d[01;36m[K%[m[K",
+[517.813s]       |                                                               [01;36m[K^[m[K
+[540.907s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:[m[K In function ‘[01m[Kvoid stereonet::save_images(cv::Mat&, cv::Mat&, uint64_t, const string&)[m[K’:
+[540.908s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet/src/stereonet_component.cpp:805:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K-Wunused-result[m[K]
+[540.908s]   805 |     [01;35m[Ksystem("mkdir -p"[m[K
+[540.908s]       |     [01;35m[K~~~~~~^~~~~~~~~~~[m[K
+[540.908s]   806 | [01;35m[K           " ./images/cam0/data/"[m[K
+[540.909s]       |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[540.914s]   807 | [01;35m[K           " ./images/cam1/data/"[m[K
+[540.914s]       |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[540.914s]   808 | [01;35m[K           " ./images/cam_combine/data/")[m[K;
+[540.914s]       |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[610.005s] [ 95%] [32mBuilding CXX object CMakeFiles/stereonet_model.dir/src/image_conversion.cpp.o[0m
+[610.005s] [ 95%] [32mBuilding CXX object CMakeFiles/stereonet_model.dir/src/stereonet_process.cpp.o[0m
+[620.497s] [100%] [32m[1mLinking CXX shared library libstereonet_model.so[0m
+[622.421s] [100%] Built target stereonet_model
+[622.433s] Invoked command in '/cc_ws/tros_ws/build/hobot_stereonet' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_stereonet -- -j12 -l12
+[622.471s] Invoking command in '/cc_ws/tros_ws/build/hobot_stereonet': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_stereonet
+[622.477s] -- Install configuration: "Release"
+[622.477s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_component_node
+[622.478s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_component_node" to ""
+[622.478s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_intra_sub_node
+[622.478s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_intra_sub_node" to ""
+[622.478s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_node
+[622.483s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_node" to ""
+[622.483s] -- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_intra_sub_node
+[622.483s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_stereonet/data_collection
+[622.485s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_stereonet/data_collection" to ""
+[622.485s] -- Installing: /cc_ws/tros_ws/install/lib/libstereonet_model.so
+[622.488s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libstereonet_model.so" to ""
+[622.488s] -- Installing: /cc_ws/tros_ws/install/lib/libstereonet_model_intra_sub.so
+[622.490s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libstereonet_model_intra_sub.so" to ""
+[622.490s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/config
+[622.490s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo.yaml
+[622.490s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.bin
+[622.499s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.4.hbm
+[622.523s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_2.yaml
+[622.523s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_cv.yaml
+[622.523s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_26.yaml
+[622.523s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.1.hbm
+[622.546s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.1.bin
+[622.554s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.2.bin
+[622.564s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4.0_int8.bin
+[622.574s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4.0_int16.bin
+[622.583s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_15.yaml
+[622.584s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.1.bin
+[622.594s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.0.bin
+[622.604s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model.launch.py
+[622.604s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_component.launch.py
+[622.604s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual.launch.py
+[622.605s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component.launch.py
+[622.605s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_offline_infer.launch.py
+[622.605s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_230ai.launch.py
+[622.605s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_2i.launch.py
+[622.605s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_mini.launch.py
+[622.605s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_mini_v2.launch.py
+[622.606s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.0.launch.py
+[622.606s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.1.launch.py
+[622.606s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.2.launch.py
+[622.606s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.3.launch.py
+[622.606s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.0.launch.py
+[622.606s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.1.launch.py
+[622.606s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.2.launch.py
+[622.607s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.3.launch.py
+[622.607s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.4_int16.launch.py
+[622.607s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.4_int8.launch.py
+[622.607s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_zed_v2.0.launch.py
+[622.607s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_zed_v2.2.launch.py
+[622.608s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config
+[622.608s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo.yaml
+[622.608s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.bin
+[622.608s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.4.hbm
+[622.608s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_2.yaml
+[622.608s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_cv.yaml
+[622.608s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_26.yaml
+[622.608s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.1.hbm
+[622.608s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.1.bin
+[622.608s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.2.bin
+[622.608s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4.0_int8.bin
+[622.608s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4.0_int16.bin
+[622.608s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_15.yaml
+[622.608s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.1.bin
+[622.608s] -- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.0.bin
+[622.608s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/data
+[622.609s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000002.png
+[622.609s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000000.png
+[622.611s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000004.png
+[622.613s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000001.png
+[622.614s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000002.png
+[622.615s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000000.png
+[622.617s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000004.png
+[622.618s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000003.png
+[622.620s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000003.png
+[622.622s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000001.png
+[622.623s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_stereonet
+[622.623s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_stereonet
+[622.624s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/ament_prefix_path.sh
+[622.624s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/ament_prefix_path.dsv
+[622.624s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/path.sh
+[622.624s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/path.dsv
+[622.624s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.bash
+[622.624s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.sh
+[622.624s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.zsh
+[622.625s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.dsv
+[622.625s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/package.dsv
+[622.625s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_stereonet
+[622.625s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/rclcpp_components/hobot_stereonet
+[622.625s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/cmake/hobot_stereonetConfig.cmake
+[622.626s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/cmake/hobot_stereonetConfig-version.cmake
+[622.626s] -- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/package.xml
+[622.628s] Invoked command in '/cc_ws/tros_ws/build/hobot_stereonet' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_stereonet

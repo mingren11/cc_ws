@@ -1,0 +1,129 @@
+Not searching for unused variables given on the command line.
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Preferred ROS distribution: humble
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cc_ws/tros_ws/build/hobot_stereonet
+[35m[1mConsolidate compiler generated dependencies of target stereonet_model_intra_sub_node[0m
+[35m[1mConsolidate compiler generated dependencies of target stereonet_model_component_node[0m
+[35m[1mConsolidate compiler generated dependencies of target stereonet_model_intra_sub[0m
+[35m[1mConsolidate compiler generated dependencies of target stereonet_model_sub_node[0m
+[35m[1mConsolidate compiler generated dependencies of target data_collection[0m
+[35m[1mConsolidate compiler generated dependencies of target stereonet_model[0m
+[35m[1mConsolidate compiler generated dependencies of target stereonet_model_node[0m
+[ 10%] Built target stereonet_model_intra_sub_node
+[ 20%] Built target stereonet_model_component_node
+[ 30%] Built target stereonet_model_intra_sub
+[ 40%] Built target data_collection
+[ 55%] Built target stereonet_model_sub_node
+[ 60%] [32mBuilding CXX object CMakeFiles/stereonet_model.dir/src/stereonet_component.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/stereonet_model_node.dir/src/stereonet_component.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/stereonet_model_node.dir/src/node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libstereonet_model.so[0m
+[ 80%] [32m[1mLinking CXX executable stereonet_model_node[0m
+[ 90%] Built target stereonet_model
+[100%] Built target stereonet_model_node
+-- Install configuration: "Release"
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_component_node
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_intra_sub_node
+-- Installing: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_node
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_node" to ""
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_intra_sub_node
+-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/data_collection
+-- Installing: /cc_ws/tros_ws/install/lib/libstereonet_model.so
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/libstereonet_model.so" to ""
+-- Up-to-date: /cc_ws/tros_ws/install/lib/libstereonet_model_intra_sub.so
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo.yaml
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.bin
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int16.bin
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.4.hbm
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_2.yaml
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_cv.yaml
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_26.yaml
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.1.hbm
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.1.bin
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int8.bin
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.2.bin
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_15.yaml
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.1.bin
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.0.bin
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int16_320_256.bin
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_component.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_offline_infer.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_230ai.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_2i.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_mini.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_mini_v2.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.0.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.1.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.2.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.3.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.0.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.1.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.2.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.3.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.4_int16.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.4_int16_320_256.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.4_int8.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_zed_v2.0.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_zed_v2.2.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo.yaml
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.bin
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int16.bin
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.4.hbm
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_2.yaml
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_cv.yaml
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_26.yaml
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.1.hbm
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.1.bin
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int8.bin
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.2.bin
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_15.yaml
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.1.bin
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.0.bin
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int16_320_256.bin
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000002.png
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000000.png
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000004.png
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000001.png
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000002.png
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000000.png
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000004.png
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000003.png
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000003.png
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000001.png
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_stereonet
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_stereonet
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/ament_prefix_path.sh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/ament_prefix_path.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/path.sh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/path.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.bash
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.sh
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.zsh
+-- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.dsv
+-- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/package.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_stereonet
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/rclcpp_components/hobot_stereonet
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/cmake/hobot_stereonetConfig.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/cmake/hobot_stereonetConfig-version.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/package.xml

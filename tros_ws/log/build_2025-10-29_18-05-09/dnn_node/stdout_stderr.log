@@ -1,0 +1,449 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_TESTING'.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:33 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found OpenCV: /cc_ws/sysroot_docker/usr_x5 (found suitable version "4.5.4", minimum required is "4") 
+[0mbuild platform X5[0m
+[0mPREFIX_PATH is libdnn[0m
+[0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cc_ws/tros_ws/build/dnn_node
+[  4%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/dnn_node.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/libdnn/dnn_node_impl.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/libdnn/image_proc.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/libdnn/utils.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/libdnn/easy_dnn/model_infer_task.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/libdnn/easy_dnn/model_roi_infer_task.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/libdnn/easy_dnn/input_process.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/libdnn/easy_dnn/model.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/libdnn/easy_dnn/task.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/threads/threadpool.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/output_parser/detection/nms.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/output_parser/detection/ptq_yolo2_output_parser.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/output_parser/detection/ptq_yolov5x_output_parser.cpp.o[0m
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/libdnn/easy_dnn/model_roi_infer_task.cpp:[m[K In lambda function:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/libdnn/easy_dnn/model_roi_infer_task.cpp:120:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktensor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  120 |               []([01;35m[KDNNTensor *const tensor[m[K) {});
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:111:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Khobot::dnn_node::parser_yolov3::PTQYolo3DarknetConfig::output_order[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  111 |      "hair drier",    "toothbrush"}[01;35m[K}[m[K;
+      |                                    [01;35m[K^[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/libdnn/easy_dnn/model_infer_task.cpp:[m[K In lambda function:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/libdnn/easy_dnn/model_infer_task.cpp:144:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktensor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  144 |             []([01;35m[KDNNTensor const *const tensor[m[K) {});
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/include/libdnn/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/include/dnn_node/util/output_parser/detection/ptq_yolo3_darknet_output_parser.h:26[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:15[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:[m[K In function ‘[01m[Kint hobot::dnn_node::parser_yolov3::InitAnchorsTables(const std::vector<std::vector<std::vector<double, std::allocator<double> > > >&, const int&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:200:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  200 |                   [01;35m[K"anchors_tables[%d] size is not equal to 3"[m[K, [32m[Ki[m[K);
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~[m[K
+      |                                                                [32m[K|[m[K
+      |                                                                [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:200:36:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  200 |                   "anchors_tables[[01;36m[K%d[m[K] size is not equal to 3", i);
+      |                                   [01;36m[K~^[m[K
+      |                                    [01;36m[K|[m[K
+      |                                    [01;36m[Kint[m[K
+      |                                   [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/include/libdnn/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/include/dnn_node/util/output_parser/detection/ptq_yolo3_darknet_output_parser.h:26[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:15[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:207:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  207 |                     [01;35m[K"anchors_tables[%d][%d] size is not equal to 2"[m[K, [32m[Ki[m[K, j);
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~[m[K
+      |                                                                      [32m[K|[m[K
+      |                                                                      [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:207:38:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  207 |                     "anchors_tables[[01;36m[K%d[m[K][%d] size is not equal to 2", i, j);
+      |                                     [01;36m[K~^[m[K
+      |                                      [01;36m[K|[m[K
+      |                                      [01;36m[Kint[m[K
+      |                                     [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/include/libdnn/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/include/dnn_node/util/output_parser/detection/ptq_yolo3_darknet_output_parser.h:26[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:15[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:207:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  207 |                     [01;35m[K"anchors_tables[%d][%d] size is not equal to 2"[m[K, i, [32m[Kj[m[K);
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K     [32m[K~[m[K
+      |                                                                         [32m[K|[m[K
+      |                                                                         [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:207:42:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  207 |                     "anchors_tables[%d][[01;36m[K%d[m[K] size is not equal to 2", i, j);
+      |                                         [01;36m[K~^[m[K
+      |                                          [01;36m[K|[m[K
+      |                                          [01;36m[Kint[m[K
+      |                                         [32m[K%ld[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:[m[K In function ‘[01m[Kvoid hobot::dnn_node::parser_yolov3::PostProcessNCHW(std::shared_ptr<hobot::easy_dnn::DNNTensor>, int, std::vector<hobot::dnn_node::output_parser::Detection>&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:443:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kchannel_aligned[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  443 |   int [01;35m[Kchannel_aligned[m[K = tensor->properties.stride[0] / tensor->properties.stride[1];
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:[m[K In function ‘[01m[Kvoid hobot::dnn_node::parser_yolov3::PostProcessQuantiScaleNHWC(std::shared_ptr<hobot::easy_dnn::DNNTensor>, int, std::vector<hobot::dnn_node::output_parser::Detection>&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:522:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  522 |   for (uint32_t h = 0; [01;35m[Kh < height[m[K; h++) {
+      |                        [01;35m[K~~^~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:523:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  523 |     for (uint32_t w = 0; [01;35m[Kw < width[m[K; w++) {
+      |                          [01;35m[K~~^~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:524:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::pair<double, double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  524 |       for (int k = 0; [01;35m[Kk < anchors.size()[m[K; k++) {
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:519:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kchannel_valid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  519 |   int [01;35m[Kchannel_valid[m[K = tensor->properties.validShape.dimensionSize[3];
+      |       [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:[m[K In function ‘[01m[Kvoid hobot::dnn_node::parser_yolov3::SortByOrder(std::vector<std::shared_ptr<hobot::easy_dnn::DNNTensor> >&, std::vector<int>)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo3_darknet_output_parser.cpp:581:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<hobot::easy_dnn::DNNTensor> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  581 |   for(int i = 0; [01;35m[Ki < outputs.size()[m[K; i++){
+      |                  [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo2_output_parser.cpp:[m[K In function ‘[01m[Kint hobot::dnn_node::parser_yolov2::PostProcessQuantiSCALE(std::vector<std::shared_ptr<hobot::easy_dnn::DNNTensor> >&, hobot::dnn_node::output_parser::Perception&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo2_output_parser.cpp:349:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  349 |   for (uint32_t h = 0; [01;35m[Kh < height[m[K; h++) {
+      |                        [01;35m[K~~^~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo2_output_parser.cpp:350:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  350 |     for (uint32_t w = 0; [01;35m[Kw < width[m[K; w++) {
+      |                          [01;35m[K~~^~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo2_output_parser.cpp:351:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::pair<double, double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  351 |       for (int k = 0; [01;35m[Kk < anchors_table.size()[m[K; k++) {
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo2_output_parser.cpp:346:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kchannel_valid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  346 |   int [01;35m[Kchannel_valid[m[K = tensors[0]->properties.validShape.dimensionSize[3];
+      |       [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/libdnn/image_proc.cpp:[m[K In static member function ‘[01m[Kstatic std::shared_ptr<hobot::easy_dnn::NV12PyramidInput> hobot::dnn_node::ImageProc::GetNV12PyramidFromNV12Img(const char*, const int&, const int&, const int&, const int&, int&, int&, int&, int&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/libdnn/image_proc.cpp:129:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  129 |   if ([01;35m[Kw_stride > in_img_width[m[K) {
+      |       [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/libdnn/image_proc.cpp:162:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  162 |   for (uint32_t h = 0; [01;35m[Kh < in_img_height[m[K; ++h) {
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/libdnn/image_proc.cpp:169:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  169 |   for (uint32_t h = 0; [01;35m[Kh < in_img_height / 2[m[K; ++h) {
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/libdnn/image_proc.cpp:[m[K In static member function ‘[01m[Kstatic std::shared_ptr<hobot::easy_dnn::DNNTensor> hobot::dnn_node::ImageProc::GetNV12TensorFromNV12(const string&, int, int)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/libdnn/image_proc.cpp:411:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koriginal_img_height[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  411 |   int [01;35m[Koriginal_img_height[m[K = bgr_mat.rows;
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/libdnn/image_proc.cpp:412:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koriginal_img_width[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  412 |   int [01;35m[Koriginal_img_width[m[K = bgr_mat.cols;
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/libdnn/image_proc.cpp:[m[K In static member function ‘[01m[Kstatic std::shared_ptr<hobot::easy_dnn::DNNTensor> hobot::dnn_node::ImageProc::GetBGRTensorFromBGRImg(const cv::Mat&, int, int, hbDNNTensorProperties&, float&, hobot::dnn_node::ImageType, bool, bool, bool)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/libdnn/image_proc.cpp:586:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kis_pad[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  586 |                                                     [01;35m[Kbool is_pad[m[K,
+      |                                                     [01;35m[K~~~~~^~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/libdnn/image_proc.cpp:587:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kis_center_crop[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  587 |                                                     [01;35m[Kbool is_center_crop[m[K,
+      |                                                     [01;35m[K~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:109:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Khobot::dnn_node::parser_yolov5x::PTQYolo5Config::dequantize_scale[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  109 |      "hair drier",    "toothbrush"}[01;35m[K}[m[K;
+      |                                    [01;35m[K^[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:109:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Khobot::dnn_node::parser_yolov5x::PTQYolo5Config::output_order[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/include/libdnn/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/include/dnn_node/util/output_parser/detection/ptq_yolov5x_output_parser.h:26[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:14[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:[m[K In function ‘[01m[Kint hobot::dnn_node::parser_yolov5x::InitAnchorsTables(const std::vector<std::vector<std::vector<double, std::allocator<double> > > >&, const int&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:180:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  180 |                   [01;35m[K"anchors_tables[%d] size is not equal to 3"[m[K, [32m[Ki[m[K);
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~[m[K
+      |                                                                [32m[K|[m[K
+      |                                                                [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:180:36:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  180 |                   "anchors_tables[[01;36m[K%d[m[K] size is not equal to 3", i);
+      |                                   [01;36m[K~^[m[K
+      |                                    [01;36m[K|[m[K
+      |                                    [01;36m[Kint[m[K
+      |                                   [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/include/libdnn/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/include/dnn_node/util/output_parser/detection/ptq_yolov5x_output_parser.h:26[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:14[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:187:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  187 |                     [01;35m[K"anchors_tables[%d][%d] size is not equal to 2"[m[K, [32m[Ki[m[K, j);
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~[m[K
+      |                                                                      [32m[K|[m[K
+      |                                                                      [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:187:38:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  187 |                     "anchors_tables[[01;36m[K%d[m[K][%d] size is not equal to 2", i, j);
+      |                                     [01;36m[K~^[m[K
+      |                                      [01;36m[K|[m[K
+      |                                      [01;36m[Kint[m[K
+      |                                     [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/include/libdnn/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/include/dnn_node/util/output_parser/detection/ptq_yolov5x_output_parser.h:26[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:14[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:187:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  187 |                     [01;35m[K"anchors_tables[%d][%d] size is not equal to 2"[m[K, i, [32m[Kj[m[K);
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K     [32m[K~[m[K
+      |                                                                         [32m[K|[m[K
+      |                                                                         [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:187:42:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  187 |                     "anchors_tables[%d][[01;36m[K%d[m[K] size is not equal to 2", i, j);
+      |                                         [01;36m[K~^[m[K
+      |                                          [01;36m[K|[m[K
+      |                                          [01;36m[Kint[m[K
+      |                                         [32m[K%ld[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:[m[K In function ‘[01m[Kvoid hobot::dnn_node::parser_yolov5x::ParseTensor(std::shared_ptr<hobot::easy_dnn::DNNTensor>, int, std::vector<hobot::dnn_node::output_parser::Detection>&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:365:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  365 |     for (uint32_t h = 0; [01;35m[Kh < height[m[K; h++) {
+      |                          [01;35m[K~~^~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:366:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  366 |       for (uint32_t w = 0; [01;35m[Kw < width[m[K; w++) {
+      |                            [01;35m[K~~^~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:378:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  378 |           float32x4_t [01;35m[Kmax[m[K;
+      |                       [01;35m[K^~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:[m[K In function ‘[01m[Kvoid hobot::dnn_node::parser_yolov5x::SortByOrder(std::vector<std::shared_ptr<hobot::easy_dnn::DNNTensor> >&, std::vector<int>)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolov5x_output_parser.cpp:486:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<hobot::easy_dnn::DNNTensor> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  486 |   for(int i = 0; [01;35m[Ki < outputs.size()[m[K; i++){
+      |                  [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[ 62%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/output_parser/segmentation/ptq_stdc_output_parser.cpp.o[0m
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/segmentation/ptq_stdc_output_parser.cpp:[m[K In function ‘[01m[Kint hobot::dnn_node::parser_stdc::LoadConfig(const Document&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/segmentation/ptq_stdc_output_parser.cpp:172:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdocument[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  172 | int LoadConfig([01;35m[Kconst rapidjson::Document &document[m[K) {
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[ 66%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/output_parser/segmentation/ptq_yolo8_seg_output_parser.cpp.o[0m
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/segmentation/ptq_yolo8_seg_output_parser.cpp:116:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Khobot::dnn_node::parser_yolov8_seg::PTQYolo8SegConfig::dequantize_scale[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  116 |      "hair drier",    "toothbrush"}[01;35m[K}[m[K;
+      |                                    [01;35m[K^[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/segmentation/ptq_yolo8_seg_output_parser.cpp:[m[K In function ‘[01m[Kint32_t hobot::dnn_node::parser_yolov8_seg::Parse(const std::shared_ptr<hobot::dnn_node::DnnNodeOutput>&, int, int, int, int, std::shared_ptr<hobot::dnn_node::output_parser::DnnParserResult>&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/segmentation/ptq_yolo8_seg_output_parser.cpp:402:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kprocess_time_ms[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  402 |   int [01;35m[Kprocess_time_ms[m[K =
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[ 70%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/output_parser/segmentation/ptq_unet_output_parser.cpp.o[0m
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/segmentation/ptq_unet_output_parser.cpp:[m[K In function ‘[01m[Kint hobot::dnn_node::parser_unet::PostProcess(std::vector<std::shared_ptr<hobot::easy_dnn::DNNTensor> >&, int, int, int, int, hobot::dnn_node::output_parser::Perception&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/segmentation/ptq_unet_output_parser.cpp:196:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kscore[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  196 |           float [01;35m[Kscore[m[K = static_cast<float>(c_data[c] * tensors[0]->properties.scale.scaleData[c]);
+      |                 [01;35m[K^~~~~[m[K
+[ 75%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/output_parser/classification/ptq_classification_output_parser.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/output_parser/detection/fcos_output_parser.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/include/libdnn/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/include/dnn_node/util/output_parser/detection/fcos_output_parser.h:25[m[K,
+                 from [01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/fcos_output_parser.cpp:15[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/fcos_output_parser.cpp:[m[K In function ‘[01m[Kint hobot::dnn_node::parser_fcos::PostProcess(std::vector<std::shared_ptr<hobot::easy_dnn::DNNTensor> >&, hobot::dnn_node::output_parser::Perception&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/fcos_output_parser.cpp:483:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  483 |                   [01;35m[K"FlushMem tensors[%d] failed."[m[K, [32m[Ki[m[K);
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~[m[K
+      |                                                   [32m[K|[m[K
+      |                                                   [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/fcos_output_parser.cpp:483:38:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  483 |                   "FlushMem tensors[[01;36m[K%d[m[K] failed.", i);
+      |                                     [01;36m[K~^[m[K
+      |                                      [01;36m[K|[m[K
+      |                                      [01;36m[Kint[m[K
+      |                                     [32m[K%ld[m[K
+[ 83%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/output_parser/detection/ptq_ssd_output_parser.cpp.o[0m
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_ssd_output_parser.cpp:[m[K In function ‘[01m[Kint hobot::dnn_node::parser_ssd::GetBboxAndScores(std::shared_ptr<hobot::easy_dnn::DNNTensor>, std::shared_ptr<hobot::easy_dnn::DNNTensor>, std::vector<hobot::dnn_node::output_parser::Detection>&, std::vector<hobot::dnn_node::output_parser::Anchor>&, int, float)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_ssd_output_parser.cpp:218:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcut_off_threshold[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  218 |                      [01;35m[Kfloat cut_off_threshold[m[K) {
+      |                      [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_ssd_output_parser.cpp:[m[K In function ‘[01m[Kint hobot::dnn_node::parser_ssd::GetBboxAndScoresScale(std::shared_ptr<hobot::easy_dnn::DNNTensor>, std::shared_ptr<hobot::easy_dnn::DNNTensor>, std::vector<hobot::dnn_node::output_parser::Detection>&, std::vector<hobot::dnn_node::output_parser::Anchor>&, int, float)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_ssd_output_parser.cpp:427:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcur_box_scale[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  427 |         auto [01;35m[Kcur_box_scale[m[K = box_scale_data + i * 4;
+      |              [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_ssd_output_parser.cpp:377:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbox_num[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  377 |   auto [01;35m[Kbox_num[m[K = b_batch_size * b_hnum * b_wnum * anchor_num_per_pixel;
+      |        [01;35m[K^~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_ssd_output_parser.cpp:342:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcut_off_threshold[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  342 |                      [01;35m[Kfloat cut_off_threshold[m[K) {
+      |                      [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[ 87%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/output_parser/detection/fasterrcnn_output_parser.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/output_parser/detection/ptq_yolo10_output_parser.cpp.o[0m
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo10_output_parser.cpp:118:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Khobot::dnn_node::parser_yolov10::PTQYolo10Config::dequantize_scale[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  118 |      "hair drier",    "toothbrush"}[01;35m[K}[m[K;
+      |                                    [01;35m[K^[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo10_output_parser.cpp:118:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Khobot::dnn_node::parser_yolov10::PTQYolo10Config::output_order[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo10_output_parser.cpp:[m[K In function ‘[01m[Kint hobot::dnn_node::parser_yolov10::PostProcess(std::vector<std::shared_ptr<hobot::easy_dnn::DNNTensor> >&, hobot::dnn_node::output_parser::Perception&)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo10_output_parser.cpp:424:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  424 |   for (size_t i = 0; [01;35m[Ki < static_cast<int>(top_k_)[m[K && i < dets.size(); ++i) {
+      |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo10_output_parser.cpp:[m[K In function ‘[01m[Kvoid hobot::dnn_node::parser_yolov10::SortByOrder(std::vector<std::shared_ptr<hobot::easy_dnn::DNNTensor> >&, std::vector<int>)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo10_output_parser.cpp:452:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<hobot::easy_dnn::DNNTensor> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  452 |   for(int i = 0; [01;35m[Ki < outputs.size()[m[K; i++){
+      |                  [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[ 95%] [32mBuilding CXX object CMakeFiles/dnn_node.dir/src/output_parser/detection/ptq_yolo8_output_parser.cpp.o[0m
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo8_output_parser.cpp:116:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Khobot::dnn_node::parser_yolov8::PTQYolo8Config::dequantize_scale[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  116 |      "hair drier",    "toothbrush"}[01;35m[K}[m[K;
+      |                                    [01;35m[K^[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo8_output_parser.cpp:116:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Khobot::dnn_node::parser_yolov8::PTQYolo8Config::output_order[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo8_output_parser.cpp:[m[K In function ‘[01m[Kvoid hobot::dnn_node::parser_yolov8::SortByOrder(std::vector<std::shared_ptr<hobot::easy_dnn::DNNTensor> >&, std::vector<int>)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_dnn/dnn_node/src/output_parser/detection/ptq_yolo8_output_parser.cpp:446:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<hobot::easy_dnn::DNNTensor> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  446 |   for(int i = 0; [01;35m[Ki < outputs.size()[m[K; i++){
+      |                  [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libdnn_node.so[0m
+[100%] Built target dnn_node
+-- Install configuration: ""
+-- Installing: /cc_ws/tros_ws/install/lib/libdnn_node.so
+-- Set runtime path of "/cc_ws/tros_ws/install/lib/libdnn_node.so" to ""
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/dnn_node.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/dnn_node_data.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/image_proc.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser/
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//perception_common.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//segmentation
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//segmentation/ptq_yolo8_seg_output_parser.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//segmentation/ptq_unet_output_parser.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//segmentation/ptq_stdc_output_parser.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//utils.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//classification
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//classification/ptq_classification_output_parser.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/ptq_yolo3_darknet_output_parser.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/ptq_yolo2_output_parser.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/ptq_yolo10_output_parser.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/fcos_output_parser.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/ptq_ssd_output_parser.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/ptq_yolov5x_output_parser.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/ptq_yolo5_output_parser.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/ptq_yolo8_output_parser.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/fasterrcnn_output_parser.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/nms.h
+-- Installing: /cc_ws/tros_ws/install/include/dnn_node/util/output_parser//detection/ptq_efficientdet_output_parser.h
+-- Installing: /cc_ws/tros_ws/install/include/easy_dnn/
+-- Installing: /cc_ws/tros_ws/install/include/easy_dnn//model_roi_infer_task.h
+-- Installing: /cc_ws/tros_ws/install/include/easy_dnn//task.h
+-- Installing: /cc_ws/tros_ws/install/include/easy_dnn//model.h
+-- Installing: /cc_ws/tros_ws/install/include/easy_dnn//model_infer_task.h
+-- Installing: /cc_ws/tros_ws/install/include/easy_dnn//common.h
+-- Installing: /cc_ws/tros_ws/install/include/easy_dnn//input_process.h
+-- Installing: /cc_ws/tros_ws/install/include/easy_dnn//data_structure.h
+-- Up-to-date: /cc_ws/tros_ws/install/lib/libdnn_node.so
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/environment/library_path.sh
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/environment/library_path.dsv
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/dnn_node
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/dnn_node
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/environment/ament_prefix_path.sh
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/environment/ament_prefix_path.dsv
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/environment/path.sh
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/environment/path.dsv
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/local_setup.bash
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/local_setup.sh
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/local_setup.zsh
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/local_setup.dsv
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/package.dsv
+-- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/dnn_node
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/cmake/dnn_nodeExport.cmake
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/cmake/dnn_nodeExport-noconfig.cmake
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/cmake/dnn_nodeConfig.cmake
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/cmake/dnn_nodeConfig-version.cmake
+-- Installing: /cc_ws/tros_ws/install/share/dnn_node/package.xml

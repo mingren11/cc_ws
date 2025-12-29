@@ -1,0 +1,10 @@
+/cc_ws/tros_ws/build/hand_lmk_detection/CMakeFiles/uninstall.dir
+/cc_ws/tros_ws/build/hand_lmk_detection/CMakeFiles/hand_lmk_detection_uninstall.dir
+/cc_ws/tros_ws/build/hand_lmk_detection/CMakeFiles/hand_lmk_detection.dir
+/cc_ws/tros_ws/build/hand_lmk_detection/CMakeFiles/test.dir
+/cc_ws/tros_ws/build/hand_lmk_detection/CMakeFiles/edit_cache.dir
+/cc_ws/tros_ws/build/hand_lmk_detection/CMakeFiles/rebuild_cache.dir
+/cc_ws/tros_ws/build/hand_lmk_detection/CMakeFiles/list_install_components.dir
+/cc_ws/tros_ws/build/hand_lmk_detection/CMakeFiles/install.dir
+/cc_ws/tros_ws/build/hand_lmk_detection/CMakeFiles/install/local.dir
+/cc_ws/tros_ws/build/hand_lmk_detection/CMakeFiles/install/strip.dir

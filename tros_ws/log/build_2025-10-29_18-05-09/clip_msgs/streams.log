@@ -1,0 +1,287 @@
+[0.039s] Invoking command in '/cc_ws/tros_ws/build/clip_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_clip/clip_msgs -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[0.088s] Not searching for unused variables given on the command line.
+[0.159s] -- The C compiler identification is GNU 11.4.0
+[0.266s] -- The CXX compiler identification is GNU 11.4.0
+[0.277s] -- Detecting C compiler ABI info
+[0.375s] -- Detecting C compiler ABI info - done
+[0.387s] -- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc - skipped
+[0.387s] -- Detecting C compile features
+[0.387s] -- Detecting C compile features - done
+[0.391s] -- Detecting CXX compiler ABI info
+[0.529s] -- Detecting CXX compiler ABI info - done
+[0.554s] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+[0.555s] -- Detecting CXX compile features
+[0.555s] -- Detecting CXX compile features - done
+[0.570s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.764s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.942s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[0.942s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.942s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.942s]   set the policy and suppress this warning.
+[0.942s] 
+[0.942s]   For compatibility with older versions of CMake, option is clearing the
+[0.942s]   normal variable 'BUILD_TESTING'.
+[0.942s] Call Stack (most recent call first):
+[0.943s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[0.943s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.943s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.943s]   CMakeLists.txt:33 (find_package)
+[0.943s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.943s] [0m
+[0.948s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.994s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.004s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.031s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.057s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.094s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.217s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.342s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.823s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.040s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.103s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.106s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.203s] -- Found PythonLibs: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.204s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.204s] -- Using PYTHON_INCLUDE_DIRS: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include/python3.10
+[3.204s] -- Using PYTHON_LIBRARIES: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.208s] -- Found PythonExtra: .so  
+[4.264s] -- Using numpy include directory: /usr/local/lib/python3.10/dist-packages/numpy/core/include
+[4.395s] -- Configuring done
+[4.725s] -- Generating done
+[4.746s] -- Build files have been written to: /cc_ws/tros_ws/build/clip_msgs
+[4.820s] Invoked command in '/cc_ws/tros_ws/build/clip_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_clip/clip_msgs -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[4.821s] Invoking command in '/cc_ws/tros_ws/build/clip_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/clip_msgs -- -j12 -l12
+[31.671s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[31.688s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[31.689s] [  5%] Built target ament_cmake_python_copy_clip_msgs
+[31.689s] running egg_info
+[31.689s] creating clip_msgs.egg-info
+[31.689s] writing clip_msgs.egg-info/PKG-INFO
+[31.690s] writing dependency_links to clip_msgs.egg-info/dependency_links.txt
+[31.690s] writing top-level names to clip_msgs.egg-info/top_level.txt
+[31.690s] writing manifest file 'clip_msgs.egg-info/SOURCES.txt'
+[31.690s] reading manifest file 'clip_msgs.egg-info/SOURCES.txt'
+[31.691s] writing manifest file 'clip_msgs.egg-info/SOURCES.txt'
+[31.691s] [  5%] Built target ament_cmake_python_build_clip_msgs_egg
+[31.691s] [  5%] Built target clip_msgs__cpp
+[31.691s] [  7%] [32mBuilding C object CMakeFiles/clip_msgs__rosidl_generator_c.dir/rosidl_generator_c/clip_msgs/msg/detail/clip_item__functions.c.o[0m
+[31.691s] [ 10%] [32mBuilding C object CMakeFiles/clip_msgs__rosidl_generator_c.dir/rosidl_generator_c/clip_msgs/action/detail/get_features__functions.c.o[0m
+[31.692s] [ 12%] [32m[1mLinking C shared library libclip_msgs__rosidl_generator_c.so[0m
+[31.692s] [ 12%] Built target clip_msgs__rosidl_generator_c
+[31.692s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[31.692s] [ 17%] [32mBuilding CXX object CMakeFiles/clip_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clip_msgs/msg/detail/dds_fastrtps/clip_item__type_support.cpp.o[0m
+[32.793s] [ 20%] [32mBuilding CXX object CMakeFiles/clip_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clip_msgs/action/detail/dds_fastrtps/get_features__type_support.cpp.o[0m
+[38.678s] [ 23%] [32m[1mLinking CXX shared library libclip_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[39.068s] [ 23%] Built target clip_msgs__rosidl_typesupport_fastrtps_cpp
+[39.126s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[41.241s] [ 28%] [32mBuilding CXX object CMakeFiles/clip_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clip_msgs/msg/clip_item__type_support.cpp.o[0m
+[41.346s] [ 30%] [32mBuilding CXX object CMakeFiles/clip_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clip_msgs/action/get_features__type_support.cpp.o[0m
+[41.592s] [ 33%] [32m[1mLinking CXX shared library libclip_msgs__rosidl_typesupport_c.so[0m
+[41.888s] [ 33%] Built target clip_msgs__rosidl_typesupport_c
+[41.994s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[44.677s] [ 38%] [32mBuilding C object CMakeFiles/clip_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clip_msgs/msg/detail/clip_item__type_support.c.o[0m
+[44.863s] [ 41%] [32mBuilding C object CMakeFiles/clip_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clip_msgs/action/detail/get_features__type_support.c.o[0m
+[45.027s] [ 43%] [32m[1mLinking C shared library libclip_msgs__rosidl_typesupport_introspection_c.so[0m
+[45.112s] [ 43%] Built target clip_msgs__rosidl_typesupport_introspection_c
+[45.143s] [ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[47.356s] [ 48%] [32mBuilding CXX object CMakeFiles/clip_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clip_msgs/msg/detail/clip_item__type_support_c.cpp.o[0m
+[48.603s] [ 51%] [32mBuilding CXX object CMakeFiles/clip_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clip_msgs/action/detail/get_features__type_support_c.cpp.o[0m
+[50.072s] [ 53%] [32m[1mLinking CXX shared library libclip_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[50.273s] [ 53%] Built target clip_msgs__rosidl_typesupport_fastrtps_c
+[50.296s] [ 56%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[51.850s] [ 58%] [32mBuilding CXX object CMakeFiles/clip_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clip_msgs/msg/clip_item__type_support.cpp.o[0m
+[52.757s] [ 61%] [32mBuilding CXX object CMakeFiles/clip_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clip_msgs/action/get_features__type_support.cpp.o[0m
+[54.510s] [ 64%] [32m[1mLinking CXX shared library libclip_msgs__rosidl_typesupport_cpp.so[0m
+[54.645s] [ 64%] Built target clip_msgs__rosidl_typesupport_cpp
+[54.672s] [ 66%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[56.494s] [ 69%] [32mBuilding CXX object CMakeFiles/clip_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clip_msgs/msg/detail/clip_item__type_support.cpp.o[0m
+[57.888s] [ 71%] [32mBuilding CXX object CMakeFiles/clip_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clip_msgs/action/detail/get_features__type_support.cpp.o[0m
+[59.901s] [ 74%] [32m[1mLinking CXX shared library libclip_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[60.080s] [ 74%] Built target clip_msgs__rosidl_typesupport_introspection_cpp
+[60.116s] [ 74%] Built target clip_msgs
+[60.151s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[63.172s] [ 76%] Built target clip_msgs__py
+[63.241s] [ 79%] [32mBuilding C object CMakeFiles/clip_msgs__rosidl_generator_py.dir/rosidl_generator_py/clip_msgs/msg/_clip_item_s.c.o[0m
+[63.699s] [ 82%] [32mBuilding C object CMakeFiles/clip_msgs__rosidl_generator_py.dir/rosidl_generator_py/clip_msgs/action/_get_features_s.c.o[0m
+[64.239s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/clip_msgs/libclip_msgs__rosidl_generator_py.so[0m
+[64.368s] [ 84%] Built target clip_msgs__rosidl_generator_py
+[64.479s] [ 87%] [32mBuilding C object CMakeFiles/clip_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/clip_msgs/_clip_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[65.067s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/clip_msgs/clip_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[65.204s] [ 89%] Built target clip_msgs__rosidl_typesupport_fastrtps_c__pyext
+[65.280s] [ 92%] [32mBuilding C object CMakeFiles/clip_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/clip_msgs/_clip_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[65.781s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/clip_msgs/clip_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[65.990s] [ 94%] Built target clip_msgs__rosidl_typesupport_c__pyext
+[66.053s] [ 97%] [32mBuilding C object CMakeFiles/clip_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clip_msgs/_clip_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[66.710s] [100%] [32m[1mLinking C shared library rosidl_generator_py/clip_msgs/clip_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[66.993s] [100%] Built target clip_msgs__rosidl_typesupport_introspection_c__pyext
+[67.054s] Invoked command in '/cc_ws/tros_ws/build/clip_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/clip_msgs -- -j12 -l12
+[67.602s] Invoking command in '/cc_ws/tros_ws/build/clip_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/clip_msgs
+[71.489s] -- Install configuration: ""
+[71.489s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/rosidl_interfaces/clip_msgs
+[71.490s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs
+[71.490s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action
+[71.490s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail
+[71.490s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail/get_features__type_support.h
+[71.490s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail/get_features__struct.h
+[71.491s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail/get_features__functions.c
+[71.491s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail/get_features__functions.h
+[71.491s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/get_features.h
+[71.491s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg
+[71.491s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/rosidl_generator_c__visibility_control.h
+[71.491s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/clip_item.h
+[71.492s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail
+[71.492s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail/clip_item__struct.h
+[71.492s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail/clip_item__functions.c
+[71.492s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail/clip_item__type_support.h
+[71.492s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail/clip_item__functions.h
+[71.493s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/environment/library_path.sh
+[71.493s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/environment/library_path.dsv
+[71.493s] -- Installing: /cc_ws/tros_ws/install/lib/libclip_msgs__rosidl_generator_c.so
+[71.493s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libclip_msgs__rosidl_generator_c.so" to ""
+[71.493s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs
+[71.494s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action
+[71.494s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail
+[71.494s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail/get_features__rosidl_typesupport_fastrtps_c.h
+[71.494s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg
+[71.494s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[71.495s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail
+[71.495s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail/clip_item__rosidl_typesupport_fastrtps_c.h
+[71.495s] -- Installing: /cc_ws/tros_ws/install/lib/libclip_msgs__rosidl_typesupport_fastrtps_c.so
+[71.495s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libclip_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[71.495s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs
+[71.496s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action
+[71.496s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/get_features.hpp
+[71.496s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail
+[71.496s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail/get_features__traits.hpp
+[71.496s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail/get_features__struct.hpp
+[71.496s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail/get_features__builder.hpp
+[71.497s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg
+[71.497s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail
+[71.497s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail/clip_item__traits.hpp
+[71.498s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail/clip_item__builder.hpp
+[71.498s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail/clip_item__struct.hpp
+[71.498s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/clip_item.hpp
+[71.498s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs
+[71.498s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action
+[71.499s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail
+[71.499s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail/get_features__rosidl_typesupport_fastrtps_cpp.hpp
+[71.499s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail/dds_fastrtps
+[71.499s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg
+[71.499s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail
+[71.500s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail/clip_item__rosidl_typesupport_fastrtps_cpp.hpp
+[71.500s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail/dds_fastrtps
+[71.500s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[71.500s] -- Installing: /cc_ws/tros_ws/install/lib/libclip_msgs__rosidl_typesupport_fastrtps_cpp.so
+[71.500s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libclip_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[71.506s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs
+[71.506s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action
+[71.506s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail
+[71.506s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail/get_features__rosidl_typesupport_introspection_c.h
+[71.507s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail/get_features__type_support.c
+[71.507s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg
+[71.507s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[71.507s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail
+[71.507s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail/clip_item__type_support.c
+[71.508s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail/clip_item__rosidl_typesupport_introspection_c.h
+[71.508s] -- Installing: /cc_ws/tros_ws/install/lib/libclip_msgs__rosidl_typesupport_introspection_c.so
+[71.508s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libclip_msgs__rosidl_typesupport_introspection_c.so" to ""
+[71.508s] -- Installing: /cc_ws/tros_ws/install/lib/libclip_msgs__rosidl_typesupport_c.so
+[71.508s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libclip_msgs__rosidl_typesupport_c.so" to ""
+[71.508s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs
+[71.509s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action
+[71.509s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail
+[71.509s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail/get_features__rosidl_typesupport_introspection_cpp.hpp
+[71.510s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/action/detail/get_features__type_support.cpp
+[71.510s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg
+[71.510s] -- Up-to-date: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail
+[71.510s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail/clip_item__rosidl_typesupport_introspection_cpp.hpp
+[71.510s] -- Installing: /cc_ws/tros_ws/install/include/clip_msgs/clip_msgs/msg/detail/clip_item__type_support.cpp
+[71.511s] -- Installing: /cc_ws/tros_ws/install/lib/libclip_msgs__rosidl_typesupport_introspection_cpp.so
+[71.511s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libclip_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[71.511s] -- Installing: /cc_ws/tros_ws/install/lib/libclip_msgs__rosidl_typesupport_cpp.so
+[71.511s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libclip_msgs__rosidl_typesupport_cpp.so" to ""
+[71.511s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/environment/pythonpath.sh
+[71.512s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/environment/pythonpath.dsv
+[71.512s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs-0.3.0-py3.10.egg-info
+[71.512s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs-0.3.0-py3.10.egg-info/SOURCES.txt
+[71.512s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs-0.3.0-py3.10.egg-info/PKG-INFO
+[71.512s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs-0.3.0-py3.10.egg-info/dependency_links.txt
+[71.513s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs-0.3.0-py3.10.egg-info/top_level.txt
+[71.513s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs
+[71.513s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/_clip_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[71.513s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/clip_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[71.513s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/action
+[71.514s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/action/_get_features.py
+[71.514s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/action/_get_features_s.c
+[71.514s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/action/__init__.py
+[71.514s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/_clip_msgs_s.ep.rosidl_typesupport_c.c
+[71.514s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/msg
+[71.514s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/msg/_clip_item_s.c
+[71.515s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/msg/_clip_item.py
+[71.515s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/msg/__init__.py
+[71.515s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/libclip_msgs__rosidl_generator_py.so
+[71.515s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/clip_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[71.515s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/__init__.py
+[71.516s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/clip_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[71.516s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/_clip_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[71.516s] Listing '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs'...
+[71.516s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/__init__.py'...
+[71.516s] Listing '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/action'...
+[71.517s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/action/__init__.py'...
+[71.517s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/action/_get_features.py'...
+[71.517s] Listing '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/msg'...
+[71.517s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/msg/__init__.py'...
+[71.517s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/msg/_clip_item.py'...
+[71.518s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/clip_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[71.518s] -- Set runtime path of "/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/clip_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[71.518s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/clip_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[71.518s] -- Set runtime path of "/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/clip_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[71.518s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/clip_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[71.519s] -- Set runtime path of "/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/clip_msgs/clip_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[71.539s] -- Installing: /cc_ws/tros_ws/install/lib/libclip_msgs__rosidl_generator_py.so
+[71.540s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libclip_msgs__rosidl_generator_py.so" to ""
+[71.540s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/msg/ClipItem.idl
+[71.540s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/action/GetFeatures.idl
+[71.540s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/msg/ClipItem.msg
+[71.541s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/action/GetFeatures.action
+[71.541s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/clip_msgs
+[71.541s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/clip_msgs
+[71.541s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/environment/ament_prefix_path.sh
+[71.541s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/environment/ament_prefix_path.dsv
+[71.541s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/environment/path.sh
+[71.542s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/environment/path.dsv
+[71.542s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/local_setup.bash
+[71.542s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/local_setup.sh
+[71.542s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/local_setup.zsh
+[71.542s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/local_setup.dsv
+[71.543s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/package.dsv
+[71.543s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/clip_msgs
+[71.543s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/export_clip_msgs__rosidl_generator_cExport.cmake
+[71.543s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/export_clip_msgs__rosidl_generator_cExport-noconfig.cmake
+[71.543s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/export_clip_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[71.544s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/export_clip_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[71.544s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/export_clip_msgs__rosidl_generator_cppExport.cmake
+[71.544s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/export_clip_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[71.544s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/export_clip_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[71.544s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/clip_msgs__rosidl_typesupport_introspection_cExport.cmake
+[71.545s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/clip_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[71.545s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/clip_msgs__rosidl_typesupport_cExport.cmake
+[71.545s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/clip_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[71.545s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/clip_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[71.545s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/clip_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[71.546s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/clip_msgs__rosidl_typesupport_cppExport.cmake
+[71.546s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/clip_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[71.546s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/export_clip_msgs__rosidl_generator_pyExport.cmake
+[71.546s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/export_clip_msgs__rosidl_generator_pyExport-noconfig.cmake
+[71.546s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/rosidl_cmake-extras.cmake
+[71.547s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[71.547s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[71.547s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[71.547s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[71.547s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[71.548s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[71.548s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/clip_msgsConfig.cmake
+[71.548s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/cmake/clip_msgsConfig-version.cmake
+[71.548s] -- Installing: /cc_ws/tros_ws/install/share/clip_msgs/package.xml
+[71.550s] Invoked command in '/cc_ws/tros_ws/build/clip_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/clip_msgs

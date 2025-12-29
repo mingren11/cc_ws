@@ -1,0 +1,108 @@
+[0.221s] Invoking command in '/cc_ws/tros_ws/build/face_landmarks_detection': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/face_landmarks_detection -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[11.775s] [0m=> build for platform X5[0m
+[11.775s] [0m=> SYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[11.776s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[11.776s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[11.776s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[11.776s]   set the policy and suppress this warning.
+[11.776s] 
+[11.777s]   For compatibility with older versions of CMake, option is clearing the
+[11.780s]   normal variable 'BUILD_TESTING'.
+[11.780s] Call Stack (most recent call first):
+[11.780s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[11.781s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[11.781s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[11.781s]   CMakeLists.txt:48 (find_package)
+[11.781s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[11.782s] [0m
+[11.782s] Not searching for unused variables given on the command line.
+[11.782s] -- The C compiler identification is GNU 11.4.0
+[11.782s] -- The CXX compiler identification is GNU 11.4.0
+[11.783s] -- Detecting C compiler ABI info
+[11.783s] -- Detecting C compiler ABI info - done
+[11.783s] -- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc - skipped
+[11.783s] -- Detecting C compile features
+[11.784s] -- Detecting C compile features - done
+[11.784s] -- Detecting CXX compiler ABI info
+[11.784s] -- Detecting CXX compiler ABI info - done
+[11.784s] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+[11.784s] -- Detecting CXX compile features
+[11.785s] -- Detecting CXX compile features - done
+[11.785s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[11.802s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[11.803s] -- Found OpenCV: /cc_ws/sysroot_docker/usr_x5 (found version "4.5.4") 
+[11.803s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[11.803s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.804s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.804s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.804s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.804s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.804s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.805s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.805s] -- Found OpenSSL: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.805s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.805s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.805s] -- Looking for pthread.h
+[11.806s] -- Looking for pthread.h - found
+[11.806s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.811s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.812s] -- Found Threads: TRUE  
+[11.812s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[11.812s] -- Found dnn_node: 2.5.4 (/cc_ws/tros_ws/robot_dev_config/../install/share/dnn_node/cmake)
+[11.812s] -- Found ai_msgs: 2.0.1 (/cc_ws/tros_ws/robot_dev_config/../install/share/ai_msgs/cmake)
+[11.813s] -- Found hbm_img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/hbm_img_msgs/cmake)
+[11.813s] -- Configuring done
+[11.813s] -- Generating done
+[11.813s] -- Build files have been written to: /cc_ws/tros_ws/build/face_landmarks_detection
+[11.843s] Invoked command in '/cc_ws/tros_ws/build/face_landmarks_detection' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/face_landmarks_detection -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[11.844s] Invoking command in '/cc_ws/tros_ws/build/face_landmarks_detection': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/face_landmarks_detection -- -j12 -l12
+[11.977s] [ 16%] [32mBuilding CXX object CMakeFiles/face_landmarks_detection.dir/src/main.cpp.o[0m
+[30.573s] [ 33%] [32mBuilding CXX object CMakeFiles/face_landmarks_detection.dir/src/img_convert_utils.cpp.o[0m
+[35.962s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/face_landmarks_detection/src/img_convert_utils.cpp:[m[K In function ‘[01m[Kvoid utils::nv12_to_bgr24_neon(uint8_t*, uint8_t*, int, int)[m[K’:
+[35.962s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/face_landmarks_detection/src/img_convert_utils.cpp:25:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[K_vu64[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[35.963s]    25 |     uint8x8_t [01;35m[K_vu64[m[K = vdup_n_u8(64);
+[35.963s]       |               [01;35m[K^~~~~[m[K
+[35.964s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/face_landmarks_detection/src/img_convert_utils.cpp:[m[K In function ‘[01m[Kvoid utils::bgr24_to_nv12_neon(uint8_t*, uint8_t*, int, int)[m[K’:
+[35.964s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/face_landmarks_detection/src/img_convert_utils.cpp:91:44:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kint8_t[m[K’ {aka ‘[01m[Ksigned char[m[K’} changes value from ‘[01m[K128[m[K’ to ‘[01m[K-128[m[K’ [[01;35m[K-Woverflow[m[K]
+[35.964s]    91 |     const int8x8_t s8_rounding = vdup_n_s8([01;35m[K128[m[K);
+[35.965s]       |                                            [01;35m[K^~~[m[K
+[37.727s] [ 50%] [32mBuilding CXX object CMakeFiles/face_landmarks_detection.dir/src/ai_msg_manage.cpp.o[0m
+[51.405s] [ 66%] [32mBuilding CXX object CMakeFiles/face_landmarks_detection.dir/src/face_landmarks_det_output_parser.cpp.o[0m
+[63.957s] [ 83%] [32mBuilding CXX object CMakeFiles/face_landmarks_detection.dir/src/face_landmarks_det_node.cpp.o[0m
+[82.707s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/face_landmarks_detection/src/face_landmarks_det_node.cpp:[m[K In member function ‘[01m[Kint FaceLandmarksDetNode::NormalizeRoi(const hbDNNRoi*, hbDNNRoi*, float, uint32_t, uint32_t)[m[K’:
+[82.708s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/face_landmarks_detection/src/face_landmarks_det_node.cpp:800:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[82.708s]   800 |   dst->right = [01;35m[Kdst->right > total_w[m[K ? total_w : dst->right;
+[82.708s]       |                [01;35m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[82.709s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/face_landmarks_detection/src/face_landmarks_det_node.cpp:801:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[82.709s]   801 |   dst->bottom = [01;35m[Kdst->bottom > total_h[m[K ? total_h : dst->bottom;
+[82.710s]       |                 [01;35m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[131.179s] [100%] [32m[1mLinking CXX executable face_landmarks_detection[0m
+[134.875s] [100%] Built target face_landmarks_detection
+[134.940s] Invoked command in '/cc_ws/tros_ws/build/face_landmarks_detection' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /cc_ws/tros_ws/build/face_landmarks_detection -- -j12 -l12
+[135.097s] Invoking command in '/cc_ws/tros_ws/build/face_landmarks_detection': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/face_landmarks_detection
+[135.167s] -- Install configuration: ""
+[135.167s] -- Installing: /cc_ws/tros_ws/install/lib/face_landmarks_detection/face_landmarks_detection
+[135.167s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/face_landmarks_detection/face_landmarks_detection" to ""
+[135.168s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/launch
+[135.168s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/launch/body_det_face_landmarks_det_fb.launch.py
+[135.169s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/launch/body_det_face_landmarks_det.launch.py
+[135.169s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/launch/face_landmarks_det_node.launch.py
+[135.169s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/config/
+[135.170s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/config//faceLandmark106pts.hbm
+[135.178s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/config/image.png
+[135.179s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/face_landmarks_detection
+[135.180s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/face_landmarks_detection
+[135.180s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/environment/ament_prefix_path.sh
+[135.180s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/environment/ament_prefix_path.dsv
+[135.180s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/environment/path.sh
+[135.181s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/environment/path.dsv
+[135.181s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/local_setup.bash
+[135.181s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/local_setup.sh
+[135.181s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/local_setup.zsh
+[135.181s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/local_setup.dsv
+[135.182s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/package.dsv
+[135.182s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/face_landmarks_detection
+[135.182s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/cmake/face_landmarks_detectionConfig.cmake
+[135.182s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/cmake/face_landmarks_detectionConfig-version.cmake
+[135.182s] -- Installing: /cc_ws/tros_ws/install/share/face_landmarks_detection/package.xml
+[135.370s] Invoked command in '/cc_ws/tros_ws/build/face_landmarks_detection' returned '0': AMENT_PREFIX_PATH=/cc_ws/tros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/cc_ws/tros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/cc_ws/tros_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/cc_ws/userdata/hobot/opt/hobot/deps PYTHONPATH=/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /cc_ws/tros_ws/build/face_landmarks_detection

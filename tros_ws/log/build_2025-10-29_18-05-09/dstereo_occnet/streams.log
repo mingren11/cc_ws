@@ -1,0 +1,117 @@
+[0.043s] Invoking command in '/cc_ws/tros_ws/build/dstereo_occnet': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/dstereo_occnet -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[26.561s] Not searching for unused variables given on the command line.
+[26.571s] -- The C compiler identification is GNU 11.4.0
+[26.571s] -- The CXX compiler identification is GNU 11.4.0
+[26.572s] -- Detecting C compiler ABI info
+[26.572s] -- Detecting C compiler ABI info - done
+[26.572s] -- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc - skipped
+[26.572s] -- Detecting C compile features
+[26.573s] -- Detecting C compile features - done
+[26.573s] -- Detecting CXX compiler ABI info
+[26.573s] -- Detecting CXX compiler ABI info - done
+[26.573s] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+[26.574s] -- Detecting CXX compile features
+[26.574s] -- Detecting CXX compile features - done
+[26.574s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[26.574s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[26.575s] -- Found OpenCV: /cc_ws/sysroot_docker/usr_x5 (found version "4.5.4") 
+[26.575s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[26.575s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[26.575s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[26.576s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[26.576s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[26.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[26.576s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[26.577s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[26.577s] -- Found OpenSSL: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[26.577s] -- Found FastRTPS: /opt/ros/humble/include  
+[26.577s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[26.577s] -- Looking for pthread.h
+[26.578s] -- Looking for pthread.h - found
+[26.578s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[26.578s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[26.578s] -- Found Threads: TRUE  
+[26.579s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[26.579s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[26.579s] -- Configuring done
+[26.579s] -- Generating done
+[26.579s] -- Build files have been written to: /cc_ws/tros_ws/build/dstereo_occnet
+[26.580s] [0m=> build platform X5[0m
+[26.580s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[26.580s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[26.580s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[26.581s]   set the policy and suppress this warning.
+[26.581s] 
+[26.581s]   For compatibility with older versions of CMake, option is clearing the
+[26.581s]   normal variable 'BUILD_TESTING'.
+[26.582s] Call Stack (most recent call first):
+[26.582s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[26.582s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[26.582s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[26.583s]   CMakeLists.txt:50 (find_package)
+[26.583s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[26.583s] [0m
+[26.583s] [0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker[0m
+[26.622s] Invoked command in '/cc_ws/tros_ws/build/dstereo_occnet' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_perception/dstereo_occnet -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[26.623s] Invoking command in '/cc_ws/tros_ws/build/dstereo_occnet': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/dstereo_occnet -- -j12 -l12
+[39.361s] [  9%] [32mBuilding CXX object CMakeFiles/dstereo_occnet_component.dir/src/dstereo_occnet_node.cpp.o[0m
+[62.240s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/dstereo_occnet/include/dstereo_occnet/dstereo_occnet_infer.h:14[m[K,
+[62.240s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/dstereo_occnet/include/dstereo_occnet/dstereo_occnet_node.h:9[m[K,
+[62.240s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_perception/dstereo_occnet/src/dstereo_occnet_node.cpp:1[m[K:
+[62.242s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/dstereo_occnet/include/dstereo_occnet/dnn_platform.h:96:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid hbGetInputTensorHW(const hbDNNTensorProperties&, int32_t&, int32_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[62.242s]    96 | static void [01;35m[KhbGetInputTensorHW[m[K(const hbDNNTensorProperties &properties, int32_t &height, int32_t &width) {
+[62.242s]       |             [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[75.998s] [ 18%] [32mBuilding CXX object CMakeFiles/dstereo_occnet_component.dir/src/file_utils.cpp.o[0m
+[79.120s] [ 27%] [32mBuilding CXX object CMakeFiles/dstereo_occnet_component.dir/src/thread_pool.cpp.o[0m
+[81.900s] [ 36%] [32mBuilding CXX object CMakeFiles/dstereo_occnet_component.dir/src/timer_utils.cpp.o[0m
+[96.292s] [ 45%] [32mBuilding CXX object CMakeFiles/dstereo_occnet_component.dir/src/pc_utils.cpp.o[0m
+[101.604s] [ 54%] [32mBuilding CXX object CMakeFiles/dstereo_occnet_component.dir/src/img_convert_utils.cpp.o[0m
+[108.162s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/dstereo_occnet/src/img_convert_utils.cpp:[m[K In static member function ‘[01m[Kstatic void ImgConvertUtils::nv12_to_bgr24_neon(uint8_t*, uint8_t*, int, int)[m[K’:
+[108.163s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/dstereo_occnet/src/img_convert_utils.cpp:10:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[K_vu64[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[108.163s]    10 |   uint8x8_t [01;35m[K_vu64[m[K = vdup_n_u8(64);
+[108.163s]       |             [01;35m[K^~~~~[m[K
+[108.164s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/dstereo_occnet/src/img_convert_utils.cpp:[m[K In static member function ‘[01m[Kstatic void ImgConvertUtils::bgr24_to_nv12_neon(uint8_t*, uint8_t*, int, int)[m[K’:
+[108.164s] [01m[K/cc_ws/tros_ws/src/box/hobot_perception/dstereo_occnet/src/img_convert_utils.cpp:73:42:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kint8_t[m[K’ {aka ‘[01m[Ksigned char[m[K’} changes value from ‘[01m[K128[m[K’ to ‘[01m[K-128[m[K’ [[01;35m[K-Woverflow[m[K]
+[108.165s]    73 |   const int8x8_t s8_rounding = vdup_n_s8([01;35m[K128[m[K);
+[108.165s]       |                                          [01;35m[K^~~[m[K
+[110.485s] [ 63%] [32mBuilding CXX object CMakeFiles/dstereo_occnet_component.dir/src/bpu_utils.cpp.o[0m
+[111.475s] [ 72%] [32mBuilding CXX object CMakeFiles/dstereo_occnet_component.dir/src/dstereo_occnet_infer.cpp.o[0m
+[133.085s] [ 81%] [32m[1mLinking CXX shared library libdstereo_occnet_component.so[0m
+[144.164s] [ 81%] Built target dstereo_occnet_component
+[144.218s] [ 90%] [32mBuilding CXX object CMakeFiles/dstereo_occnet_node.dir/rclcpp_components/node_main_dstereo_occnet_node.cpp.o[0m
+[155.737s] [100%] [32m[1mLinking CXX executable dstereo_occnet_node[0m
+[158.516s] [100%] Built target dstereo_occnet_node
+[158.551s] Invoked command in '/cc_ws/tros_ws/build/dstereo_occnet' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/dstereo_occnet -- -j12 -l12
+[159.034s] Invoking command in '/cc_ws/tros_ws/build/dstereo_occnet': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/dstereo_occnet
+[195.206s] -- Install configuration: "Release"
+[195.218s] -- Installing: /cc_ws/tros_ws/install/lib/dstereo_occnet/dstereo_occnet_node
+[195.219s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/dstereo_occnet/dstereo_occnet_node" to ""
+[195.219s] -- Installing: /cc_ws/tros_ws/install/lib/libdstereo_occnet_component.so
+[195.219s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libdstereo_occnet_component.so" to ""
+[195.219s] -- Up-to-date: /cc_ws/tros_ws/install/lib/dstereo_occnet/dstereo_occnet_node
+[195.220s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/launch/dstereo_occnet_node.launch.py
+[195.220s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/launch/offline_infer_web_visual.launch.py
+[195.220s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/launch/zed2i_occ_node.launch.py
+[195.220s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/config
+[195.220s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/config/946694496_313445510_right.png
+[195.220s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/config/S100-OCC-32x64x96.hbm
+[195.221s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/config/946694496_313445510_occgrid.txt
+[195.221s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/config/X5-OCC-32x64x96x2_constinput_modified.bin
+[195.221s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/config/946694496_313445510_left.png
+[195.221s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/dstereo_occnet
+[195.221s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/dstereo_occnet
+[195.222s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/environment/ament_prefix_path.sh
+[195.222s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/environment/ament_prefix_path.dsv
+[195.223s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/environment/path.sh
+[195.223s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/environment/path.dsv
+[195.223s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/local_setup.bash
+[195.223s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/local_setup.sh
+[195.223s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/local_setup.zsh
+[195.224s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/local_setup.dsv
+[195.224s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/package.dsv
+[195.224s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/dstereo_occnet
+[195.224s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/rclcpp_components/dstereo_occnet
+[195.224s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/cmake/dstereo_occnetConfig.cmake
+[195.225s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/cmake/dstereo_occnetConfig-version.cmake
+[195.225s] -- Installing: /cc_ws/tros_ws/install/share/dstereo_occnet/package.xml
+[195.255s] Invoked command in '/cc_ws/tros_ws/build/dstereo_occnet' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/dstereo_occnet

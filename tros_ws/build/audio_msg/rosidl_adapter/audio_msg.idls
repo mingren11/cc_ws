@@ -1,0 +1,5 @@
+/cc_ws/tros_ws/build/audio_msg/rosidl_adapter/audio_msg:msg/AudioFrameType.idl
+/cc_ws/tros_ws/build/audio_msg/rosidl_adapter/audio_msg:msg/SmartAudioData.idl
+/cc_ws/tros_ws/build/audio_msg/rosidl_adapter/audio_msg:msg/AudioEventType.idl
+/cc_ws/tros_ws/build/audio_msg/rosidl_adapter/audio_msg:msg/SmartAudioFrameType.idl
+/cc_ws/tros_ws/build/audio_msg/rosidl_adapter/audio_msg:msg/AudioFrame.idl

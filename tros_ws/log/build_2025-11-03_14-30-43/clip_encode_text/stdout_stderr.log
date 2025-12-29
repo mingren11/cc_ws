@@ -1,0 +1,19 @@
+running egg_info
+writing ../../../../build/clip_encode_text/clip_encode_text.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/clip_encode_text/clip_encode_text.egg-info/dependency_links.txt
+writing entry points to ../../../../build/clip_encode_text/clip_encode_text.egg-info/entry_points.txt
+writing requirements to ../../../../build/clip_encode_text/clip_encode_text.egg-info/requires.txt
+writing top-level names to ../../../../build/clip_encode_text/clip_encode_text.egg-info/top_level.txt
+reading manifest file '../../../../build/clip_encode_text/clip_encode_text.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/clip_encode_text/clip_encode_text.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/cc_ws/tros_ws/install/lib/python3.10/site-packages/clip_encode_text-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../../build/clip_encode_text/clip_encode_text.egg-info to /cc_ws/tros_ws/install/lib/python3.10/site-packages/clip_encode_text-0.0.0-py3.10.egg-info
+running install_scripts
+Installing clip_encode_text_node script to /cc_ws/tros_ws/install/lib/clip_encode_text
+writing list of installed files to '/cc_ws/tros_ws/build/clip_encode_text/install.log'

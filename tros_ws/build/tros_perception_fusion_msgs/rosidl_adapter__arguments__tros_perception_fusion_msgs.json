@@ -1,0 +1,6 @@
+{
+  "package_name": "tros_perception_fusion_msgs",
+  "non_idl_tuples": [
+    "/cc_ws/tros_ws/src/box/hobot_perception/tros_perception_fusion/tros_perception_fusion_msgs:srv/TopicManage.srv"
+  ]
+}

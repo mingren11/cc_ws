@@ -1,0 +1,43 @@
+[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_TESTING'.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+  /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+  /cc_ws/tros_ws/install/share/hbm_img_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /cc_ws/tros_ws/install/share/hbm_img_msgs/cmake/hbm_img_msgsConfig.cmake:41 (include)
+  CMakeLists.txt:34 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0mbuild platform X5[0m
+[0mPREFIX_PATH: x5[0m
+In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_codec/src/hobot_codec_node.cpp:23[m[K:
+[01m[K/cc_ws/tros_ws/src/box/hobot_codec/include/hobot_codec_node.h:[m[K In constructor ‘[01m[KHobotCodecNode::HobotCodecNode(const rclcpp::NodeOptions&, std::string)[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_codec/include/hobot_codec_node.h:106:48:[m[K [01;35m[Kwarning: [m[K‘[01m[KHobotCodecNode::compressed_img_pub_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  106 |   sensor_msgs::msg::CompressedImage::UniquePtr [01;35m[Kcompressed_img_pub_[m[K = nullptr;
+      |                                                [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_codec/include/hobot_codec_node.h:88:39:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kimg_msgs::msg::H26XFrame_<std::allocator<void> >::UniquePtr HobotCodecNode::frameh26x_sub_[m[K’ [[01;35m[K-Wreorder[m[K]
+   88 |   img_msgs::msg::H26XFrame::UniquePtr [01;35m[Kframeh26x_sub_[m[K = nullptr;
+      |                                       [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_codec/src/hobot_codec_node.cpp:280:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+  280 | [01;35m[KHobotCodecNode[m[K::HobotCodecNode(const rclcpp::NodeOptions& node_options,
+      | [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_codec/src/hobot_codec_node.cpp:[m[K In member function ‘[01m[Kvoid HobotCodecNode::timer_ros_pub()[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_codec/src/hobot_codec_node.cpp:946:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong int[m[K’ and ‘[01m[Kstd::queue<std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  946 |         if ([01;35m[Kinterval < frame_interval_t_ * pub_time_q_.size()[m[K) {
+      |             [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/cc_ws/tros_ws/src/box/hobot_codec/src/hobot_codec_node.cpp:[m[K In member function ‘[01m[Kvoid HobotCodecNode::timer_hbmem_pub()[m[K’:
+[01m[K/cc_ws/tros_ws/src/box/hobot_codec/src/hobot_codec_node.cpp:1173:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong int[m[K’ and ‘[01m[Kstd::queue<std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1173 |         if ([01;35m[Kinterval < frame_interval_t_ * pub_time_q_.size()[m[K) {
+      |             [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

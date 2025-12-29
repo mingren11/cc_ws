@@ -1,0 +1,9 @@
+{
+  "package_name": "hbm_img_msgs",
+  "non_idl_tuples": [
+    "/cc_ws/tros_ws/src/box/hobot_msgs/hbm_img_msgs:msg/HbmMsg1080P.msg",
+    "/cc_ws/tros_ws/src/box/hobot_msgs/hbm_img_msgs:msg/HbmH26XFrame.msg",
+    "/cc_ws/tros_ws/src/box/hobot_msgs/hbm_img_msgs:msg/HbmMsg540P.msg",
+    "/cc_ws/tros_ws/src/box/hobot_msgs/hbm_img_msgs:msg/HbmMsg480P.msg"
+  ]
+}

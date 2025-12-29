@@ -1,0 +1,14 @@
+source;share/tros/hook/cmake_prefix_path.ps1
+source;share/tros/hook/cmake_prefix_path.dsv
+source;share/tros/hook/cmake_prefix_path.sh
+source;share/tros/hook/ld_library_path_lib.ps1
+source;share/tros/hook/ld_library_path_lib.dsv
+source;share/tros/hook/ld_library_path_lib.sh
+source;share/tros/hook/pythonpath.ps1
+source;share/tros/hook/pythonpath.dsv
+source;share/tros/hook/pythonpath.sh
+source;share/tros/local_setup.bash
+source;share/tros/local_setup.dsv
+source;share/tros/local_setup.ps1
+source;share/tros/local_setup.sh
+source;share/tros/local_setup.zsh

@@ -1,0 +1,354 @@
+[0.048s] Invoking command in '/cc_ws/tros_ws/build/audio_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_msgs/audio_msg -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[2.552s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[2.552s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[2.552s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[2.552s]   set the policy and suppress this warning.
+[2.552s] 
+[2.552s]   For compatibility with older versions of CMake, option is clearing the
+[2.552s]   normal variable 'BUILD_TESTING'.
+[2.552s] Call Stack (most recent call first):
+[2.552s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[2.552s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.553s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.553s]   CMakeLists.txt:33 (find_package)
+[2.553s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.553s] [0m
+[2.553s] Not searching for unused variables given on the command line.
+[2.553s] -- The C compiler identification is GNU 11.4.0
+[2.553s] -- The CXX compiler identification is GNU 11.4.0
+[2.553s] -- Detecting C compiler ABI info
+[2.553s] -- Detecting C compiler ABI info - done
+[2.553s] -- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc - skipped
+[2.554s] -- Detecting C compile features
+[2.554s] -- Detecting C compile features - done
+[2.554s] -- Detecting CXX compiler ABI info
+[2.554s] -- Detecting CXX compiler ABI info - done
+[2.554s] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+[2.554s] -- Detecting CXX compile features
+[2.554s] -- Detecting CXX compile features - done
+[2.554s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.554s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.554s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[2.555s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.555s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.555s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.555s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.555s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.555s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.555s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.777s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.350s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.464s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.466s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.575s] -- Found PythonLibs: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.575s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.576s] -- Using PYTHON_INCLUDE_DIRS: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include/python3.10
+[3.576s] -- Using PYTHON_LIBRARIES: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.588s] -- Found PythonExtra: .so  
+[4.416s] -- Using numpy include directory: /usr/local/lib/python3.10/dist-packages/numpy/core/include
+[4.463s] -- Configuring done
+[4.612s] -- Generating done
+[4.631s] -- Build files have been written to: /cc_ws/tros_ws/build/audio_msg
+[4.664s] Invoked command in '/cc_ws/tros_ws/build/audio_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_msgs/audio_msg -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[4.664s] Invoking command in '/cc_ws/tros_ws/build/audio_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/audio_msg -- -j12 -l12
+[30.881s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[30.881s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[30.881s] [  3%] Built target ament_cmake_python_copy_audio_msg
+[30.881s] running egg_info
+[30.882s] creating audio_msg.egg-info
+[30.882s] writing audio_msg.egg-info/PKG-INFO
+[30.882s] writing dependency_links to audio_msg.egg-info/dependency_links.txt
+[30.882s] writing top-level names to audio_msg.egg-info/top_level.txt
+[30.884s] writing manifest file 'audio_msg.egg-info/SOURCES.txt'
+[30.884s] reading manifest file 'audio_msg.egg-info/SOURCES.txt'
+[30.884s] writing manifest file 'audio_msg.egg-info/SOURCES.txt'
+[30.884s] [  3%] Built target ament_cmake_python_build_audio_msg_egg
+[30.885s] [  3%] Built target audio_msg__cpp
+[30.885s] [  4%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_generator_c.dir/rosidl_generator_c/audio_msg/msg/detail/audio_frame_type__functions.c.o[0m
+[30.885s] [  6%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_generator_c.dir/rosidl_generator_c/audio_msg/msg/detail/audio_frame__functions.c.o[0m
+[30.885s] [  7%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_generator_c.dir/rosidl_generator_c/audio_msg/msg/detail/smart_audio_frame_type__functions.c.o[0m
+[30.886s] [  9%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_generator_c.dir/rosidl_generator_c/audio_msg/msg/detail/audio_event_type__functions.c.o[0m
+[30.886s] [ 11%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_generator_c.dir/rosidl_generator_c/audio_msg/msg/detail/smart_audio_data__functions.c.o[0m
+[30.886s] [ 12%] [32m[1mLinking C shared library libaudio_msg__rosidl_generator_c.so[0m
+[30.886s] [ 12%] Built target audio_msg__rosidl_generator_c
+[30.887s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[30.887s] [ 15%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_msg/msg/detail/audio_frame_type__type_support.cpp.o[0m
+[34.136s] [ 17%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_msg/msg/detail/audio_frame__type_support.cpp.o[0m
+[37.998s] [ 19%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_msg/msg/detail/smart_audio_frame_type__type_support.cpp.o[0m
+[41.256s] [ 20%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_msg/msg/detail/audio_event_type__type_support.cpp.o[0m
+[43.833s] [ 22%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_msg/msg/detail/smart_audio_data__type_support.cpp.o[0m
+[45.836s] [ 23%] [32m[1mLinking CXX shared library libaudio_msg__rosidl_typesupport_introspection_cpp.so[0m
+[46.115s] [ 23%] Built target audio_msg__rosidl_typesupport_introspection_cpp
+[46.142s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[48.197s] [ 26%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_msg/msg/audio_frame_type__type_support.cpp.o[0m
+[48.296s] [ 28%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_msg/msg/audio_frame__type_support.cpp.o[0m
+[48.400s] [ 30%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_msg/msg/smart_audio_frame_type__type_support.cpp.o[0m
+[48.508s] [ 31%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_msg/msg/audio_event_type__type_support.cpp.o[0m
+[48.599s] [ 33%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_msg/msg/smart_audio_data__type_support.cpp.o[0m
+[48.697s] [ 34%] [32m[1mLinking CXX shared library libaudio_msg__rosidl_typesupport_c.so[0m
+[48.925s] [ 34%] Built target audio_msg__rosidl_typesupport_c
+[48.926s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[51.381s] [ 38%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_msg/msg/detail/audio_frame_type__type_support.c.o[0m
+[51.497s] [ 39%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_msg/msg/detail/audio_frame__type_support.c.o[0m
+[51.610s] [ 41%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_msg/msg/detail/smart_audio_frame_type__type_support.c.o[0m
+[51.729s] [ 42%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_msg/msg/detail/audio_event_type__type_support.c.o[0m
+[51.829s] [ 44%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_msg/msg/detail/smart_audio_data__type_support.c.o[0m
+[52.005s] [ 46%] [32m[1mLinking C shared library libaudio_msg__rosidl_typesupport_introspection_c.so[0m
+[52.097s] [ 46%] Built target audio_msg__rosidl_typesupport_introspection_c
+[52.123s] [ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[54.233s] [ 49%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_msg/msg/detail/audio_frame_type__type_support_c.cpp.o[0m
+[55.436s] [ 50%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_msg/msg/detail/audio_frame__type_support_c.cpp.o[0m
+[56.612s] [ 52%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_msg/msg/detail/smart_audio_frame_type__type_support_c.cpp.o[0m
+[57.724s] [ 53%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_msg/msg/detail/audio_event_type__type_support_c.cpp.o[0m
+[58.932s] [ 55%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_msg/msg/detail/smart_audio_data__type_support_c.cpp.o[0m
+[60.124s] [ 57%] [32m[1mLinking CXX shared library libaudio_msg__rosidl_typesupport_fastrtps_c.so[0m
+[60.279s] [ 57%] Built target audio_msg__rosidl_typesupport_fastrtps_c
+[60.298s] [ 58%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[62.623s] [ 60%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_msg/msg/detail/dds_fastrtps/audio_frame_type__type_support.cpp.o[0m
+[64.061s] [ 61%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_msg/msg/detail/dds_fastrtps/audio_frame__type_support.cpp.o[0m
+[65.793s] [ 63%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_msg/msg/detail/dds_fastrtps/smart_audio_frame_type__type_support.cpp.o[0m
+[67.624s] [ 65%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_msg/msg/detail/dds_fastrtps/audio_event_type__type_support.cpp.o[0m
+[69.045s] [ 66%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_msg/msg/detail/dds_fastrtps/smart_audio_data__type_support.cpp.o[0m
+[70.531s] [ 68%] [32m[1mLinking CXX shared library libaudio_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[70.724s] [ 68%] Built target audio_msg__rosidl_typesupport_fastrtps_cpp
+[70.743s] [ 69%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[72.925s] [ 71%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_msg/msg/audio_frame_type__type_support.cpp.o[0m
+[74.145s] [ 73%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_msg/msg/audio_frame__type_support.cpp.o[0m
+[75.551s] [ 74%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_msg/msg/smart_audio_frame_type__type_support.cpp.o[0m
+[76.795s] [ 76%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_msg/msg/audio_event_type__type_support.cpp.o[0m
+[77.930s] [ 77%] [32mBuilding CXX object CMakeFiles/audio_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_msg/msg/smart_audio_data__type_support.cpp.o[0m
+[79.030s] [ 79%] [32m[1mLinking CXX shared library libaudio_msg__rosidl_typesupport_cpp.so[0m
+[79.249s] [ 79%] Built target audio_msg__rosidl_typesupport_cpp
+[79.369s] [ 79%] Built target audio_msg
+[79.504s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[84.955s] [ 80%] Built target audio_msg__py
+[85.116s] [ 82%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_generator_py.dir/rosidl_generator_py/audio_msg/msg/_audio_frame_type_s.c.o[0m
+[85.716s] [ 84%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_generator_py.dir/rosidl_generator_py/audio_msg/msg/_audio_frame_s.c.o[0m
+[86.258s] [ 85%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_generator_py.dir/rosidl_generator_py/audio_msg/msg/_smart_audio_frame_type_s.c.o[0m
+[86.766s] [ 87%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_generator_py.dir/rosidl_generator_py/audio_msg/msg/_audio_event_type_s.c.o[0m
+[87.249s] [ 88%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_generator_py.dir/rosidl_generator_py/audio_msg/msg/_smart_audio_data_s.c.o[0m
+[87.919s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/audio_msg/libaudio_msg__rosidl_generator_py.so[0m
+[88.172s] [ 90%] Built target audio_msg__rosidl_generator_py
+[88.370s] [ 92%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/audio_msg/_audio_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[89.213s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/audio_msg/audio_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[89.492s] [ 93%] Built target audio_msg__rosidl_typesupport_fastrtps_c__pyext
+[89.623s] [ 95%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/audio_msg/_audio_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[90.548s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/audio_msg/audio_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[90.816s] [ 96%] Built target audio_msg__rosidl_typesupport_c__pyext
+[90.973s] [ 98%] [32mBuilding C object CMakeFiles/audio_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/audio_msg/_audio_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[91.783s] [100%] [32m[1mLinking C shared library rosidl_generator_py/audio_msg/audio_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[92.012s] [100%] Built target audio_msg__rosidl_typesupport_introspection_c__pyext
+[92.105s] Invoked command in '/cc_ws/tros_ws/build/audio_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/audio_msg -- -j12 -l12
+[94.238s] Invoking command in '/cc_ws/tros_ws/build/audio_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/audio_msg
+[154.504s] -- Install configuration: ""
+[154.505s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/rosidl_interfaces/audio_msg
+[154.505s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg
+[154.505s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg
+[154.505s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/audio_frame.h
+[154.511s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/audio_frame_type.h
+[154.511s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/smart_audio_frame_type.h
+[154.511s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/rosidl_generator_c__visibility_control.h
+[154.512s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/smart_audio_data.h
+[154.512s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail
+[154.512s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame__struct.h
+[154.512s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_event_type__struct.h
+[154.512s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame__functions.h
+[154.512s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_event_type__type_support.h
+[154.513s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_event_type__functions.c
+[154.515s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_data__functions.h
+[154.515s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame__type_support.h
+[154.515s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_frame_type__struct.h
+[154.516s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_data__type_support.h
+[154.520s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_event_type__functions.h
+[154.543s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_frame_type__functions.c
+[154.543s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame_type__functions.c
+[154.543s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame_type__functions.h
+[154.543s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_data__functions.c
+[154.544s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_frame_type__type_support.h
+[154.544s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame_type__type_support.h
+[154.544s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_data__struct.h
+[154.544s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_frame_type__functions.h
+[154.544s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame_type__struct.h
+[154.545s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame__functions.c
+[154.545s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/audio_event_type.h
+[154.545s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/environment/library_path.sh
+[154.545s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/environment/library_path.dsv
+[154.545s] -- Installing: /cc_ws/tros_ws/install/lib/libaudio_msg__rosidl_generator_c.so
+[154.546s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libaudio_msg__rosidl_generator_c.so" to ""
+[154.546s] -- Up-to-date: /cc_ws/tros_ws/install/include/audio_msg/audio_msg
+[154.546s] -- Up-to-date: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg
+[154.546s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[154.546s] -- Up-to-date: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail
+[154.546s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame_type__rosidl_typesupport_fastrtps_c.h
+[154.547s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_frame_type__rosidl_typesupport_fastrtps_c.h
+[154.547s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_event_type__rosidl_typesupport_fastrtps_c.h
+[154.550s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame__rosidl_typesupport_fastrtps_c.h
+[154.551s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_data__rosidl_typesupport_fastrtps_c.h
+[154.551s] -- Installing: /cc_ws/tros_ws/install/lib/libaudio_msg__rosidl_typesupport_fastrtps_c.so
+[154.551s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libaudio_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[154.551s] -- Up-to-date: /cc_ws/tros_ws/install/include/audio_msg/audio_msg
+[154.552s] -- Up-to-date: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg
+[154.552s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/audio_event_type.hpp
+[154.552s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/audio_frame.hpp
+[154.552s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/audio_frame_type.hpp
+[154.552s] -- Up-to-date: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail
+[154.553s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_event_type__traits.hpp
+[154.553s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_frame_type__traits.hpp
+[154.553s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_frame_type__struct.hpp
+[154.553s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame_type__struct.hpp
+[154.553s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame_type__traits.hpp
+[154.554s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame__struct.hpp
+[154.554s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_event_type__builder.hpp
+[154.554s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_frame_type__builder.hpp
+[154.554s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_event_type__struct.hpp
+[154.554s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_data__struct.hpp
+[154.555s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame_type__builder.hpp
+[154.555s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_data__builder.hpp
+[154.555s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame__traits.hpp
+[154.555s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_data__traits.hpp
+[154.556s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame__builder.hpp
+[154.556s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/smart_audio_frame_type.hpp
+[154.556s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/smart_audio_data.hpp
+[154.556s] -- Up-to-date: /cc_ws/tros_ws/install/include/audio_msg/audio_msg
+[154.556s] -- Up-to-date: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg
+[154.557s] -- Up-to-date: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail
+[154.557s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame__rosidl_typesupport_fastrtps_cpp.hpp
+[154.557s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame_type__rosidl_typesupport_fastrtps_cpp.hpp
+[154.557s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_frame_type__rosidl_typesupport_fastrtps_cpp.hpp
+[154.557s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_event_type__rosidl_typesupport_fastrtps_cpp.hpp
+[154.557s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_data__rosidl_typesupport_fastrtps_cpp.hpp
+[154.558s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/dds_fastrtps
+[154.558s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[154.558s] -- Installing: /cc_ws/tros_ws/install/lib/libaudio_msg__rosidl_typesupport_fastrtps_cpp.so
+[154.558s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libaudio_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[154.559s] -- Up-to-date: /cc_ws/tros_ws/install/include/audio_msg/audio_msg
+[154.559s] -- Up-to-date: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg
+[154.559s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[154.559s] -- Up-to-date: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail
+[154.560s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_data__type_support.c
+[154.560s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_event_type__rosidl_typesupport_introspection_c.h
+[154.560s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_frame_type__type_support.c
+[154.560s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame__rosidl_typesupport_introspection_c.h
+[154.560s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame_type__rosidl_typesupport_introspection_c.h
+[154.560s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame__type_support.c
+[154.561s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_frame_type__rosidl_typesupport_introspection_c.h
+[154.561s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_data__rosidl_typesupport_introspection_c.h
+[154.561s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame_type__type_support.c
+[154.562s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_event_type__type_support.c
+[154.562s] -- Installing: /cc_ws/tros_ws/install/lib/libaudio_msg__rosidl_typesupport_introspection_c.so
+[154.562s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libaudio_msg__rosidl_typesupport_introspection_c.so" to ""
+[154.562s] -- Installing: /cc_ws/tros_ws/install/lib/libaudio_msg__rosidl_typesupport_c.so
+[154.562s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libaudio_msg__rosidl_typesupport_c.so" to ""
+[154.563s] -- Up-to-date: /cc_ws/tros_ws/install/include/audio_msg/audio_msg
+[154.563s] -- Up-to-date: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg
+[154.563s] -- Up-to-date: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail
+[154.563s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame__rosidl_typesupport_introspection_cpp.hpp
+[154.563s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_frame_type__rosidl_typesupport_introspection_cpp.hpp
+[154.563s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_event_type__rosidl_typesupport_introspection_cpp.hpp
+[154.564s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame__type_support.cpp
+[154.564s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_event_type__type_support.cpp
+[154.564s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_data__rosidl_typesupport_introspection_cpp.hpp
+[154.564s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame_type__rosidl_typesupport_introspection_cpp.hpp
+[154.564s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/audio_frame_type__type_support.cpp
+[154.565s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_frame_type__type_support.cpp
+[154.565s] -- Installing: /cc_ws/tros_ws/install/include/audio_msg/audio_msg/msg/detail/smart_audio_data__type_support.cpp
+[154.565s] -- Installing: /cc_ws/tros_ws/install/lib/libaudio_msg__rosidl_typesupport_introspection_cpp.so
+[154.565s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libaudio_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[154.565s] -- Installing: /cc_ws/tros_ws/install/lib/libaudio_msg__rosidl_typesupport_cpp.so
+[154.565s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libaudio_msg__rosidl_typesupport_cpp.so" to ""
+[154.566s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/environment/pythonpath.sh
+[154.566s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/environment/pythonpath.dsv
+[154.566s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg-2.0.1-py3.10.egg-info
+[154.566s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg-2.0.1-py3.10.egg-info/SOURCES.txt
+[154.566s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg-2.0.1-py3.10.egg-info/PKG-INFO
+[154.566s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg-2.0.1-py3.10.egg-info/dependency_links.txt
+[154.567s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg-2.0.1-py3.10.egg-info/top_level.txt
+[154.567s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg
+[154.567s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/audio_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[154.567s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/audio_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[154.567s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg
+[154.567s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/_smart_audio_data_s.c
+[154.568s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/_smart_audio_frame_type_s.c
+[154.568s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/_audio_frame_s.c
+[154.568s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/_audio_event_type.py
+[154.568s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/__init__.py
+[154.568s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/_audio_frame_type.py
+[154.569s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/_smart_audio_data.py
+[154.569s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/_audio_frame_type_s.c
+[154.569s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/_audio_event_type_s.c
+[154.569s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/_smart_audio_frame_type.py
+[154.569s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/_audio_frame.py
+[154.569s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/_audio_msg_s.ep.rosidl_typesupport_introspection_c.c
+[154.570s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/__init__.py
+[154.570s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/_audio_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[154.570s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/audio_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[154.580s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/_audio_msg_s.ep.rosidl_typesupport_c.c
+[154.589s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/libaudio_msg__rosidl_generator_py.so
+[154.590s] Listing '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg'...
+[154.590s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/__init__.py'...
+[154.590s] Listing '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg'...
+[154.590s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/__init__.py'...
+[154.590s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/_audio_event_type.py'...
+[154.591s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/_audio_frame.py'...
+[154.591s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/_audio_frame_type.py'...
+[154.591s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/_smart_audio_data.py'...
+[154.591s] Compiling '/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/msg/_smart_audio_frame_type.py'...
+[154.591s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/audio_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[154.592s] -- Set runtime path of "/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/audio_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[154.592s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/audio_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[154.592s] -- Set runtime path of "/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/audio_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[154.592s] -- Installing: /cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/audio_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[154.592s] -- Set runtime path of "/cc_ws/tros_ws/install/local/lib/python3.10/dist-packages/audio_msg/audio_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[154.593s] -- Installing: /cc_ws/tros_ws/install/lib/libaudio_msg__rosidl_generator_py.so
+[154.593s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/libaudio_msg__rosidl_generator_py.so" to ""
+[154.593s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/msg/AudioFrameType.idl
+[154.593s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/msg/SmartAudioData.idl
+[154.594s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/msg/AudioEventType.idl
+[154.594s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/msg/SmartAudioFrameType.idl
+[154.594s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/msg/AudioFrame.idl
+[154.594s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/msg/AudioFrameType.msg
+[154.595s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/msg/SmartAudioData.msg
+[154.595s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/msg/AudioEventType.msg
+[154.595s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/msg/SmartAudioFrameType.msg
+[154.595s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/msg/AudioFrame.msg
+[154.595s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/audio_msg
+[154.596s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/audio_msg
+[154.597s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/environment/ament_prefix_path.sh
+[154.598s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/environment/ament_prefix_path.dsv
+[154.598s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/environment/path.sh
+[154.599s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/environment/path.dsv
+[154.599s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/local_setup.bash
+[154.601s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/local_setup.sh
+[154.601s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/local_setup.zsh
+[154.601s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/local_setup.dsv
+[154.602s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/package.dsv
+[154.602s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/audio_msg
+[154.602s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/export_audio_msg__rosidl_generator_cExport.cmake
+[154.603s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/export_audio_msg__rosidl_generator_cExport-noconfig.cmake
+[154.603s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/export_audio_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[154.603s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/export_audio_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[154.603s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/export_audio_msg__rosidl_generator_cppExport.cmake
+[154.604s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/export_audio_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[154.604s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/export_audio_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[154.604s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/audio_msg__rosidl_typesupport_introspection_cExport.cmake
+[154.604s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/audio_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[154.604s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/audio_msg__rosidl_typesupport_cExport.cmake
+[154.605s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/audio_msg__rosidl_typesupport_cExport-noconfig.cmake
+[154.605s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/audio_msg__rosidl_typesupport_introspection_cppExport.cmake
+[154.605s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/audio_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[154.605s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/audio_msg__rosidl_typesupport_cppExport.cmake
+[154.606s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/audio_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[154.606s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/export_audio_msg__rosidl_generator_pyExport.cmake
+[154.606s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/export_audio_msg__rosidl_generator_pyExport-noconfig.cmake
+[154.607s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/rosidl_cmake-extras.cmake
+[154.607s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[154.607s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[154.607s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[154.609s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/ament_cmake_export_targets-extras.cmake
+[154.610s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[154.610s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[154.610s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/audio_msgConfig.cmake
+[154.610s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/cmake/audio_msgConfig-version.cmake
+[154.611s] -- Installing: /cc_ws/tros_ws/install/share/audio_msg/package.xml
+[154.648s] Invoked command in '/cc_ws/tros_ws/build/audio_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/audio_msg

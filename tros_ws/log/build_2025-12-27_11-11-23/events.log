@@ -1,0 +1,244 @@
+[0.000000] (-) TimerEvent: {}
+[0.000116] (-) JobUnselected: {'identifier': 'DBoW3'}
+[0.000271] (-) JobUnselected: {'identifier': 'ai_msgs'}
+[0.000297] (-) JobUnselected: {'identifier': 'audio_msg'}
+[0.000314] (-) JobUnselected: {'identifier': 'base'}
+[0.000361] (-) JobUnselected: {'identifier': 'ceres-solver'}
+[0.000380] (-) JobUnselected: {'identifier': 'clip_encode_image'}
+[0.000397] (-) JobUnselected: {'identifier': 'clip_encode_text'}
+[0.000412] (-) JobUnselected: {'identifier': 'clip_manage'}
+[0.000428] (-) JobUnselected: {'identifier': 'clip_msgs'}
+[0.000468] (-) JobUnselected: {'identifier': 'dnn_benchmark_example'}
+[0.000503] (-) JobUnselected: {'identifier': 'dnn_node'}
+[0.000536] (-) JobUnselected: {'identifier': 'dnn_node_example'}
+[0.000567] (-) JobUnselected: {'identifier': 'dnn_node_sample'}
+[0.000594] (-) JobUnselected: {'identifier': 'dstereo_occnet'}
+[0.000625] (-) JobUnselected: {'identifier': 'elevation_net'}
+[0.000654] (-) JobUnselected: {'identifier': 'example'}
+[0.000681] (-) JobUnselected: {'identifier': 'face_age_detection'}
+[0.000754] (-) JobUnselected: {'identifier': 'face_landmarks_detection'}
+[0.000789] (-) JobUnselected: {'identifier': 'ground_robot_planner'}
+[0.000808] (-) JobUnselected: {'identifier': 'hand_gesture_detection'}
+[0.000824] (-) JobUnselected: {'identifier': 'hand_lmk_detection'}
+[0.000839] (-) JobUnselected: {'identifier': 'hbm_img_msgs'}
+[0.000855] (-) JobUnselected: {'identifier': 'hobot_chatbot'}
+[0.000871] (-) JobUnselected: {'identifier': 'hobot_codec'}
+[0.000887] (-) JobUnselected: {'identifier': 'hobot_cv'}
+[0.000902] (-) JobUnselected: {'identifier': 'hobot_dosod'}
+[0.000918] (-) JobUnselected: {'identifier': 'hobot_falldown_detection'}
+[0.000933] (-) JobUnselected: {'identifier': 'hobot_image_publisher'}
+[0.000948] (-) JobUnselected: {'identifier': 'hobot_mot'}
+[0.000965] (-) JobUnselected: {'identifier': 'hobot_rtsp_client'}
+[0.000983] (-) JobUnselected: {'identifier': 'hobot_shm'}
+[0.001007] (-) JobUnselected: {'identifier': 'hobot_stereonet_utils'}
+[0.001032] (-) JobUnselected: {'identifier': 'hobot_usb_cam'}
+[0.001050] (-) JobUnselected: {'identifier': 'hobot_visualization'}
+[0.001065] (-) JobUnselected: {'identifier': 'hobot_yolo_world'}
+[0.001081] (-) JobUnselected: {'identifier': 'hobot_zed_cam'}
+[0.001096] (-) JobUnselected: {'identifier': 'img_msgs'}
+[0.001111] (-) JobUnselected: {'identifier': 'imu_sensor'}
+[0.001126] (-) JobUnselected: {'identifier': 'imu_sensor'}
+[0.001141] (-) JobUnselected: {'identifier': 'mipi_cam'}
+[0.001166] (-) JobUnselected: {'identifier': 'mipi_cam'}
+[0.001226] (-) JobUnselected: {'identifier': 'mono2d_body_detection'}
+[0.001273] (-) JobUnselected: {'identifier': 'mono2d_trash_detection'}
+[0.001292] (-) JobUnselected: {'identifier': 'mono3d_indoor_detection'}
+[0.001319] (-) JobUnselected: {'identifier': 'mono_edgesam'}
+[0.001348] (-) JobUnselected: {'identifier': 'mono_mobilesam'}
+[0.001365] (-) JobUnselected: {'identifier': 'mono_pwcnet'}
+[0.001393] (-) JobUnselected: {'identifier': 'nlohmann_json'}
+[0.001418] (-) JobUnselected: {'identifier': 'orb_slam3'}
+[0.001444] (-) JobUnselected: {'identifier': 'orb_slam3_example_ros2'}
+[0.001501] (-) JobUnselected: {'identifier': 'performance_test'}
+[0.001533] (-) JobUnselected: {'identifier': 'recorder_node'}
+[0.001551] (-) JobUnselected: {'identifier': 'reid'}
+[0.001567] (-) JobUnselected: {'identifier': 'sophus'}
+[0.001582] (-) JobUnselected: {'identifier': 'trigger_node'}
+[0.001597] (-) JobUnselected: {'identifier': 'trigger_node_example'}
+[0.001612] (-) JobUnselected: {'identifier': 'tros'}
+[0.001628] (-) JobUnselected: {'identifier': 'tros_lowpass_filter'}
+[0.001642] (-) JobUnselected: {'identifier': 'tros_perception_fusion'}
+[0.001659] (-) JobUnselected: {'identifier': 'tros_perception_fusion_msgs'}
+[0.001681] (-) JobUnselected: {'identifier': 'vio'}
+[0.001705] (-) JobUnselected: {'identifier': 'websocket'}
+[0.001725] (hobot_stereonet) JobQueued: {'identifier': 'hobot_stereonet', 'dependencies': OrderedDict()}
+[0.001745] (hobot_stereonet) JobStarted: {'identifier': 'hobot_stereonet'}
+[0.012174] (hobot_stereonet) JobProgress: {'identifier': 'hobot_stereonet', 'progress': 'cmake'}
+[0.013197] (hobot_stereonet) Command: {'cmd': ['/usr/bin/cmake', '/cc_ws/tros_ws/src/box/hobot_perception/hobot_stereonet', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '--no-warn-unused-cli', '-DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake', '-DPLATFORM_X5=ON', '-DTHIRDPARTY=ON', '-DBUILD_TESTING=OFF', '-DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/', '-DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install'], 'cwd': '/cc_ws/tros_ws/build/hobot_stereonet', 'env': OrderedDict([('HISTTIMEFORMAT', '%F %T'), ('USER', 'mingren'), ('PLATFORM_X86', 'OFF'), ('HOSTNAME', 'in_docker'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mingren'), ('OLDPWD', '/cc_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('CROSS_COMPILE', '/usr/bin/aarch64-linux-gnu-'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/cc_ws/tros_ws/../sysroot_docker/usr/lib/aarch64-linux-gnu/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TARGET_TRIPLE', 'aarch64-linux-gnu'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PLATFORM_X3', 'OFF'), ('PLATFORM_Rdkultra', 'OFF'), ('DISPLAY', ':1'), ('PLATFORM_X5', 'OFF'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PLATFORM_S100', 'OFF'), ('PWD', '/cc_ws/tros_ws/build/hobot_stereonet'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TARGET_ARCH', 'aarch64'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('HISTFILE', '/cc_ws/.cc_ws_bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.033487] (hobot_stereonet) StdoutLine: {'line': b'Not searching for unused variables given on the command line.\n'}
+[0.053366] (hobot_stereonet) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.099375] (-) TimerEvent: {}
+[0.196625] (hobot_stereonet) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):\n'}
+[0.196780] (hobot_stereonet) StderrLine: {'line': b'  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake\n'}
+[0.196855] (hobot_stereonet) StderrLine: {'line': b'  --help-policy CMP0077" for policy details.  Use the cmake_policy command to\n'}
+[0.196918] (hobot_stereonet) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.196979] (hobot_stereonet) StderrLine: {'line': b'\n'}
+[0.197039] (hobot_stereonet) StderrLine: {'line': b'  For compatibility with older versions of CMake, option is clearing the\n'}
+[0.197098] (hobot_stereonet) StderrLine: {'line': b"  normal variable 'BUILD_TESTING'.\n"}
+[0.197156] (hobot_stereonet) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.197213] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)\n'}
+[0.197272] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.197331] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.197388] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.197444] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[0.197500] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.197556] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[0.197613] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.197670] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[0.197727] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.197784] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)\n'}
+[0.197841] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.197897] (hobot_stereonet) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.197953] (hobot_stereonet) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[0.198009] (hobot_stereonet) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.198065] (hobot_stereonet) StderrLine: {'line': b'\x1b[0m\n'}
+[0.199425] (-) TimerEvent: {}
+[0.210887] (hobot_stereonet) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.214605] (hobot_stereonet) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.223208] (hobot_stereonet) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.238883] (hobot_stereonet) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.259192] (hobot_stereonet) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299510] (-) TimerEvent: {}
+[0.331113] (hobot_stereonet) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.333488] (hobot_stereonet) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399597] (-) TimerEvent: {}
+[0.443213] (hobot_stereonet) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499721] (-) TimerEvent: {}
+[0.599984] (-) TimerEvent: {}
+[0.618650] (hobot_stereonet) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.685376] (hobot_stereonet) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.700059] (-) TimerEvent: {}
+[0.800307] (-) TimerEvent: {}
+[0.819291] (hobot_stereonet) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.828131] (hobot_stereonet) StdoutLine: {'line': b'-- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.834495] (hobot_stereonet) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.900420] (-) TimerEvent: {}
+[1.000645] (-) TimerEvent: {}
+[1.100873] (-) TimerEvent: {}
+[1.110224] (hobot_stereonet) StderrLine: {'line': b'\x1b[0mPREFIX_PATH is \x1b[0m\n'}
+[1.110515] (hobot_stereonet) StderrLine: {'line': b'\x1b[0mSYS_ROOT is /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker\x1b[0m\n'}
+[1.110646] (hobot_stereonet) StdoutLine: {'line': b'-- Preferred ROS distribution: humble\n'}
+[1.110765] (hobot_stereonet) StderrLine: {'line': b'\x1b[0mhobot_stereonet build platform X5\x1b[0m\n'}
+[1.200989] (-) TimerEvent: {}
+[1.273037] (hobot_stereonet) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.301097] (-) TimerEvent: {}
+[1.401396] (-) TimerEvent: {}
+[1.501651] (-) TimerEvent: {}
+[1.601880] (-) TimerEvent: {}
+[1.702142] (-) TimerEvent: {}
+[1.766198] (hobot_stereonet) StdoutLine: {'line': b'-- Generating done\n'}
+[1.768453] (hobot_stereonet) StdoutLine: {'line': b'-- Build files have been written to: /cc_ws/tros_ws/build/hobot_stereonet\n'}
+[1.779175] (hobot_stereonet) CommandEnded: {'returncode': 0}
+[1.779945] (hobot_stereonet) JobProgress: {'identifier': 'hobot_stereonet', 'progress': 'build'}
+[1.781271] (hobot_stereonet) Command: {'cmd': ['/usr/bin/cmake', '--build', '/cc_ws/tros_ws/build/hobot_stereonet', '--', '-j12', '-l12'], 'cwd': '/cc_ws/tros_ws/build/hobot_stereonet', 'env': OrderedDict([('HISTTIMEFORMAT', '%F %T'), ('USER', 'mingren'), ('PLATFORM_X86', 'OFF'), ('HOSTNAME', 'in_docker'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mingren'), ('OLDPWD', '/cc_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('CROSS_COMPILE', '/usr/bin/aarch64-linux-gnu-'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/cc_ws/tros_ws/../sysroot_docker/usr/lib/aarch64-linux-gnu/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TARGET_TRIPLE', 'aarch64-linux-gnu'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PLATFORM_X3', 'OFF'), ('PLATFORM_Rdkultra', 'OFF'), ('DISPLAY', ':1'), ('PLATFORM_X5', 'OFF'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PLATFORM_S100', 'OFF'), ('PWD', '/cc_ws/tros_ws/build/hobot_stereonet'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TARGET_ARCH', 'aarch64'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('HISTFILE', '/cc_ws/.cc_ws_bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.802241] (-) TimerEvent: {}
+[1.813957] (hobot_stereonet) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereonet_model_component_node\x1b[0m\n'}
+[1.814205] (hobot_stereonet) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereonet_model_intra_sub_node\x1b[0m\n'}
+[1.818813] (hobot_stereonet) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereonet_model_sub_node\x1b[0m\n'}
+[1.819443] (hobot_stereonet) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target data_collection\x1b[0m\n'}
+[1.819711] (hobot_stereonet) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereonet_model\x1b[0m\n'}
+[1.821095] (hobot_stereonet) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereonet_model_intra_sub\x1b[0m\n'}
+[1.822354] (hobot_stereonet) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereonet_model_node\x1b[0m\n'}
+[1.841350] (hobot_stereonet) StdoutLine: {'line': b'[ 10%] Built target stereonet_model_component_node\n'}
+[1.841584] (hobot_stereonet) StdoutLine: {'line': b'[ 20%] Built target stereonet_model_intra_sub_node\n'}
+[1.843400] (hobot_stereonet) StdoutLine: {'line': b'[ 35%] Built target stereonet_model_sub_node\n'}
+[1.845036] (hobot_stereonet) StdoutLine: {'line': b'[ 45%] Built target stereonet_model_intra_sub\n'}
+[1.848220] (hobot_stereonet) StdoutLine: {'line': b'[ 55%] Built target data_collection\n'}
+[1.858421] (hobot_stereonet) StdoutLine: {'line': b'[ 75%] Built target stereonet_model\n'}
+[1.864857] (hobot_stereonet) StdoutLine: {'line': b'[100%] Built target stereonet_model_node\n'}
+[1.872641] (hobot_stereonet) CommandEnded: {'returncode': 0}
+[1.902378] (hobot_stereonet) JobProgress: {'identifier': 'hobot_stereonet', 'progress': 'install'}
+[1.902572] (-) TimerEvent: {}
+[1.909068] (hobot_stereonet) Command: {'cmd': ['/usr/bin/cmake', '--install', '/cc_ws/tros_ws/build/hobot_stereonet'], 'cwd': '/cc_ws/tros_ws/build/hobot_stereonet', 'env': OrderedDict([('HISTTIMEFORMAT', '%F %T'), ('USER', 'mingren'), ('PLATFORM_X86', 'OFF'), ('HOSTNAME', 'in_docker'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mingren'), ('OLDPWD', '/cc_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('CROSS_COMPILE', '/usr/bin/aarch64-linux-gnu-'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/cc_ws/tros_ws/../sysroot_docker/usr/lib/aarch64-linux-gnu/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TARGET_TRIPLE', 'aarch64-linux-gnu'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PLATFORM_X3', 'OFF'), ('PLATFORM_Rdkultra', 'OFF'), ('DISPLAY', ':1'), ('PLATFORM_X5', 'OFF'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PLATFORM_S100', 'OFF'), ('PWD', '/cc_ws/tros_ws/build/hobot_stereonet'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TARGET_ARCH', 'aarch64'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('HISTFILE', '/cc_ws/.cc_ws_bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.915825] (hobot_stereonet) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[1.916671] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_component_node\n'}
+[1.917295] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_intra_sub_node\n'}
+[1.918132] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_node\n'}
+[1.918312] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/stereonet_model_intra_sub_node\n'}
+[1.918939] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/lib/hobot_stereonet/data_collection\n'}
+[1.919697] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/lib/libstereonet_model.so\n'}
+[1.920337] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/lib/libstereonet_model_intra_sub.so\n'}
+[1.920473] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config\n'}
+[1.920568] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo.yaml\n'}
+[1.920710] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.bin\n'}
+[1.920850] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int16.bin\n'}
+[1.920914] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.4.hbm\n'}
+[1.921032] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_2.yaml\n'}
+[1.921161] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_cv.yaml\n'}
+[1.921280] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_26.yaml\n'}
+[1.921381] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.1.hbm\n'}
+[1.921523] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.1.bin\n'}
+[1.921624] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int8.bin\n'}
+[1.921729] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.2.bin\n'}
+[1.921820] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_15.yaml\n'}
+[1.921903] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.1.bin\n'}
+[1.921987] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.0.bin\n'}
+[1.922058] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int16_320_256.bin\n'}
+[1.922130] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model.launch.py\n'}
+[1.922206] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_component.launch.py\n'}
+[1.922266] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual.launch.py\n'}
+[1.922362] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component.launch.py\n'}
+[1.922438] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_offline_infer.launch.py\n'}
+[1.922513] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_230ai.launch.py\n'}
+[1.922573] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_2i.launch.py\n'}
+[1.922658] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_mini.launch.py\n'}
+[1.922737] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_cmp_rs_mini_v2.launch.py\n'}
+[1.922813] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.0.launch.py\n'}
+[1.922872] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.1.launch.py\n'}
+[1.922931] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.2.launch.py\n'}
+[1.922989] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_component_v2.3.launch.py\n'}
+[1.923049] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.0.launch.py\n'}
+[1.923108] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.1.launch.py\n'}
+[1.923170] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.2.launch.py\n'}
+[1.923229] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.3.launch.py\n'}
+[1.923289] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.4_int16.launch.py\n'}
+[1.923356] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.4_int16_320_256.launch.py\n'}
+[1.923437] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_v2.4_int8.launch.py\n'}
+[1.923497] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_zed_v2.0.launch.py\n'}
+[1.923555] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/launch/stereonet_model_web_visual_zed_v2.2.launch.py\n'}
+[1.923613] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config\n'}
+[1.923673] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo.yaml\n'}
+[1.923732] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.bin\n'}
+[1.923791] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int16.bin\n'}
+[1.923850] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.4.hbm\n'}
+[1.923908] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_2.yaml\n'}
+[1.923970] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_cv.yaml\n'}
+[1.924033] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_26.yaml\n'}
+[1.924095] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/dstereo_s100_320_640_352_v2.1.hbm\n'}
+[1.924274] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.3.1.bin\n'}
+[1.924350] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int8.bin\n'}
+[1.924414] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.2.bin\n'}
+[1.924475] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/stereo_15.yaml\n'}
+[1.924610] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.1.bin\n'}
+[1.925009] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.0.bin\n'}
+[1.925221] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/config/DStereoV2.4_int16_320_256.bin\n'}
+[1.925306] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data\n'}
+[1.925457] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000002.png\n'}
+[1.925525] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000000.png\n'}
+[1.925585] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000004.png\n'}
+[1.925663] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000001.png\n'}
+[1.925725] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000002.png\n'}
+[1.925784] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000000.png\n'}
+[1.925945] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000004.png\n'}
+[1.926092] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000003.png\n'}
+[1.926176] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/right000003.png\n'}
+[1.926237] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/data/left000001.png\n'}
+[1.926455] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_stereonet\n'}
+[1.926572] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_stereonet\n'}
+[1.926637] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/ament_prefix_path.sh\n'}
+[1.926701] (hobot_stereonet) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/ament_prefix_path.dsv\n'}
+[1.926782] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/path.sh\n'}
+[1.926866] (hobot_stereonet) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/environment/path.dsv\n'}
+[1.926927] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.bash\n'}
+[1.926991] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.sh\n'}
+[1.927054] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.zsh\n'}
+[1.927117] (hobot_stereonet) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/local_setup.dsv\n'}
+[1.927311] (hobot_stereonet) StdoutLine: {'line': b'-- Installing: /cc_ws/tros_ws/install/share/hobot_stereonet/package.dsv\n'}
+[1.927446] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_stereonet\n'}
+[1.927540] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/rclcpp_components/hobot_stereonet\n'}
+[1.927605] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/cmake/hobot_stereonetConfig.cmake\n'}
+[1.927668] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/cmake/hobot_stereonetConfig-version.cmake\n'}
+[1.927729] (hobot_stereonet) StdoutLine: {'line': b'-- Up-to-date: /cc_ws/tros_ws/install/share/hobot_stereonet/package.xml\n'}
+[1.927810] (hobot_stereonet) CommandEnded: {'returncode': 0}
+[1.993101] (hobot_stereonet) JobEnded: {'identifier': 'hobot_stereonet', 'rc': 0}
+[1.994024] (-) EventReactorShutdown: {}

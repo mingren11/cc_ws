@@ -1,0 +1,48 @@
+Not searching for unused variables given on the command line.
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ai_msgs: 2.0.1 (/cc_ws/tros_ws/robot_dev_config/../install/share/ai_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found dnn_node: 2.5.4 (/cc_ws/tros_ws/robot_dev_config/../install/share/dnn_node/cmake)
+-- Found hobot_cv: 2.3.2 (/cc_ws/tros_ws/robot_dev_config/../install/share/hobot_cv/cmake)
+-- Found hbm_img_msgs: 2.0.0 (/cc_ws/tros_ws/robot_dev_config/../install/share/hbm_img_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cc_ws/tros_ws/build/mono_edgesam
+[35m[1mConsolidate compiler generated dependencies of target mono_edgesam[0m
+[100%] Built target mono_edgesam
+-- Install configuration: ""
+-- Up-to-date: /cc_ws/tros_ws/install/lib/mono_edgesam/mono_edgesam
+-- Up-to-date: /cc_ws/tros_ws/install/lib/mono_edgesam/config/
+-- Up-to-date: /cc_ws/tros_ws/install/lib/mono_edgesam/config//edgesam_encoder_512.bin
+-- Up-to-date: /cc_ws/tros_ws/install/lib/mono_edgesam/config//edgesam_decoder_1024.bin
+-- Up-to-date: /cc_ws/tros_ws/install/lib/mono_edgesam/config//edgesam_encoder_1024.bin
+-- Up-to-date: /cc_ws/tros_ws/install/lib/mono_edgesam/config//edgesam_decoder_512.bin
+-- Up-to-date: /cc_ws/tros_ws/install/lib/mono_edgesam/config/4.jpg
+-- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/launch
+-- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/launch/sam_with_dosod.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/launch/sam_with_dosod_no_setrocam.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/launch/sam.launch.py
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/mono_edgesam
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/mono_edgesam
+-- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/environment/ament_prefix_path.sh
+-- Installing: /cc_ws/tros_ws/install/share/mono_edgesam/environment/ament_prefix_path.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/environment/path.sh
+-- Installing: /cc_ws/tros_ws/install/share/mono_edgesam/environment/path.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/local_setup.bash
+-- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/local_setup.sh
+-- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/local_setup.zsh
+-- Installing: /cc_ws/tros_ws/install/share/mono_edgesam/local_setup.dsv
+-- Installing: /cc_ws/tros_ws/install/share/mono_edgesam/package.dsv
+-- Up-to-date: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/mono_edgesam
+-- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/cmake/mono_edgesamConfig.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/cmake/mono_edgesamConfig-version.cmake
+-- Up-to-date: /cc_ws/tros_ws/install/share/mono_edgesam/package.xml

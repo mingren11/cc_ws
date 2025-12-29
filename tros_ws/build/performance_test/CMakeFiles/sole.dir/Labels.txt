@@ -1,0 +1,13 @@
+# Target labels
+ sole
+# Source files and their labels
+/cc_ws/tros_ws/build/performance_test/CMakeFiles/sole
+/cc_ws/tros_ws/build/performance_test/CMakeFiles/sole.rule
+/cc_ws/tros_ws/build/performance_test/CMakeFiles/sole-complete.rule
+/cc_ws/tros_ws/build/performance_test/external/src/sole-stamp/sole-build.rule
+/cc_ws/tros_ws/build/performance_test/external/src/sole-stamp/sole-configure.rule
+/cc_ws/tros_ws/build/performance_test/external/src/sole-stamp/sole-download.rule
+/cc_ws/tros_ws/build/performance_test/external/src/sole-stamp/sole-install.rule
+/cc_ws/tros_ws/build/performance_test/external/src/sole-stamp/sole-mkdir.rule
+/cc_ws/tros_ws/build/performance_test/external/src/sole-stamp/sole-patch.rule
+/cc_ws/tros_ws/build/performance_test/external/src/sole-stamp/sole-update.rule

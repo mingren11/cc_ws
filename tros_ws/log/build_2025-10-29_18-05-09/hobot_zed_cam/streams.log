@@ -1,0 +1,260 @@
+[0.011s] Invoking command in '/cc_ws/tros_ws/build/hobot_zed_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[9.050s] Not searching for unused variables given on the command line.
+[9.051s] -- The C compiler identification is GNU 11.4.0
+[9.051s] -- The CXX compiler identification is GNU 11.4.0
+[9.051s] -- Detecting C compiler ABI info
+[9.051s] -- Detecting C compiler ABI info - done
+[9.051s] -- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc - skipped
+[9.052s] -- Detecting C compile features
+[9.052s] -- Detecting C compile features - done
+[9.052s] -- Detecting CXX compiler ABI info
+[9.052s] -- Detecting CXX compiler ABI info - done
+[9.052s] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+[9.053s] -- Detecting CXX compile features
+[9.053s] -- Detecting CXX compile features - done
+[9.053s] -- Found HIDAPI: TRUE   
+[9.069s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[9.071s] -- Checking for module 'libusb-1.0'
+[9.106s] --   Found libusb-1.0, version 1.0.25
+[9.106s] -- Looking for libusb_get_device_list in /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libusb-1.0.so
+[9.107s] -- Looking for libusb_get_device_list in /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libusb-1.0.so - found
+[9.107s] -- Looking for libusb_get_port_numbers in /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libusb-1.0.so
+[9.107s] -- Looking for libusb_get_port_numbers in /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libusb-1.0.so - found
+[9.107s] -- LibUSB Compilation test: FALSE
+[9.107s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.108s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[9.108s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[9.108s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.108s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.108s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.108s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.109s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.109s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.109s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.113s] -- Found OpenSSL: /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.114s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.114s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.114s] -- Found Threads: TRUE  
+[9.114s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.114s] -- Found OpenCV: /cc_ws/sysroot_docker/usr_x5 (found version "4.5.4") 
+[9.115s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[9.115s] -- Configuring done
+[9.115s] -- Generating done
+[9.115s] -- Build files have been written to: /cc_ws/tros_ws/build/hobot_zed_cam
+[9.115s] [0m=> Sensors module available[0m
+[9.116s] [0m=> libhidapi: include dir at /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/include/hidapi[0m
+[9.116s] [0m=> libhidapi: libraries at /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libhidapi-libusb.so[0m
+[9.116s] [0m=> Video module available[0m
+[9.121s] [0m=> libusb: include dir at /usr/include/libusb-1.0[0m
+[9.122s] [0m=> libusb: libraries at /cc_ws/tros_ws/robot_dev_config/../../sysroot_docker/usr/lib/aarch64-linux-gnu/libusb-1.0.so[0m
+[9.122s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:19 (option):
+[9.122s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[9.122s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[9.122s]   set the policy and suppress this warning.
+[9.123s] 
+[9.123s]   For compatibility with older versions of CMake, option is clearing the
+[9.123s]   normal variable 'BUILD_TESTING'.
+[9.123s] Call Stack (most recent call first):
+[9.123s]   /opt/ros/humble/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[9.123s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[9.124s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[9.124s]   CMakeLists.txt:94 (find_package)
+[9.124s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[9.124s] [0m
+[9.274s] Invoked command in '/cc_ws/tros_ws/build/hobot_zed_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE=/cc_ws/tros_ws/robot_dev_config/aarch64_toolchainfile.cmake -DPLATFORM_X5=ON -DTHIRDPARTY=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_RPATH=/cc_ws/tros_ws/build/poco_vendor/poco_external_project_install/lib/;/cc_ws/tros_ws/build/libyaml_vendor/libyaml_install/lib/ -DCMAKE_INSTALL_PREFIX=/cc_ws/tros_ws/install
+[9.275s] Invoking command in '/cc_ws/tros_ws/build/hobot_zed_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_zed_cam -- -j12 -l12
+[9.410s] [ 25%] [32mBuilding CXX object CMakeFiles/pub_stereo_imgs.dir/src/pub_stereo_imgs.cpp.o[0m
+[25.095s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/pub_stereo_imgs.cpp:[m[K In member function ‘[01m[Kvoid PubStereoImgsNv12Node::bgr24_to_nv12_neon(uint8_t*, uint8_t*, int, int)[m[K’:
+[25.095s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/pub_stereo_imgs.cpp:392:48:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kint8_t[m[K’ {aka ‘[01m[Ksigned char[m[K’} changes value from ‘[01m[K128[m[K’ to ‘[01m[K-128[m[K’ [[01;35m[K-Woverflow[m[K]
+[25.096s]   392 |         const int8x8_t s8_rounding = vdup_n_s8([01;35m[K128[m[K);
+[25.096s]       |                                                [01;35m[K^~~[m[K
+[30.438s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/pub_stereo_imgs.cpp:21[m[K:
+[30.438s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:[m[K In function ‘[01m[Ksl_oc::tools::ConversionResult sl_oc::tools::ConvertUTF16toUTF8(const UTF16**, const UTF16*, sl_oc::tools::UTF8**, sl_oc::tools::UTF8*, sl_oc::tools::ConversionFlags)[m[K’:
+[30.439s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3082:24:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.439s]  3082 |                     [01;35m[Kch >>= 6[m[K;
+[30.439s]       |                     [01;35m[K~~~^~~~~[m[K
+[30.439s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3083:17:[m[K [01;36m[Knote: [m[Khere
+[30.440s]  3083 |                 [01;36m[Kcase[m[K 3: *--target = (UTF8) ((ch | byteMark) & byteMask);
+[30.440s]       |                 [01;36m[K^~~~[m[K
+[30.449s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3084:24:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.449s]  3084 |                     [01;35m[Kch >>= 6[m[K;
+[30.449s]       |                     [01;35m[K~~~^~~~~[m[K
+[30.449s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3085:17:[m[K [01;36m[Knote: [m[Khere
+[30.450s]  3085 |                 [01;36m[Kcase[m[K 2: *--target = (UTF8) ((ch | byteMark) & byteMask);
+[30.450s]       |                 [01;36m[K^~~~[m[K
+[30.450s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3086:24:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.457s]  3086 |                     [01;35m[Kch >>= 6[m[K;
+[30.457s]       |                     [01;35m[K~~~^~~~~[m[K
+[30.457s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3087:17:[m[K [01;36m[Knote: [m[Khere
+[30.458s]  3087 |                 [01;36m[Kcase[m[K 1: *--target = (UTF8) (ch | firstByteMark[bytesToWrite]);
+[30.458s]       |                 [01;36m[K^~~~[m[K
+[30.458s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:[m[K In function ‘[01m[Kbool sl_oc::tools::isLegalUTF8(const UTF8*, int)[m[K’:
+[30.458s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3115:21:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.458s]  3115 |             case 4: [01;35m[Kif[m[K ((a = (*--srcptr)) < 0x80 || a > 0xBF) return false;
+[30.459s]       |                     [01;35m[K^~[m[K
+[30.459s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3116:13:[m[K [01;36m[Knote: [m[Khere
+[30.459s]  3116 |             [01;36m[Kcase[m[K 3: if ((a = (*--srcptr)) < 0x80 || a > 0xBF) return false;
+[30.459s]       |             [01;36m[K^~~~[m[K
+[30.460s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3116:21:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.461s]  3116 |             case 3: [01;35m[Kif[m[K ((a = (*--srcptr)) < 0x80 || a > 0xBF) return false;
+[30.461s]       |                     [01;35m[K^~[m[K
+[30.461s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3117:13:[m[K [01;36m[Knote: [m[Khere
+[30.461s]  3117 |             [01;36m[Kcase[m[K 2: if ((a = (*--srcptr)) > 0xBF) return false;
+[30.470s]       |             [01;36m[K^~~~[m[K
+[30.470s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3119:17:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.471s]  3119 |                 [01;35m[Kswitch[m[K (*source) {
+[30.471s]       |                 [01;35m[K^~~~~~[m[K
+[30.471s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3132:13:[m[K [01;36m[Knote: [m[Khere
+[30.471s]  3132 |             [01;36m[Kcase[m[K 1: if (*source >= 0x80 && *source < 0xC2) return false;
+[30.472s]       |             [01;36m[K^~~~[m[K
+[30.472s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:[m[K In function ‘[01m[Ksl_oc::tools::ConversionResult sl_oc::tools::ConvertUTF8toUTF16(const UTF8**, const UTF8*, sl_oc::tools::UTF16**, sl_oc::tools::UTF16*, sl_oc::tools::ConversionFlags)[m[K’:
+[30.472s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3177:24:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.472s]  3177 |                     [01;35m[Kch <<= 6[m[K; /* remember, illegal UTF-8 */
+[30.472s]       |                     [01;35m[K~~~^~~~~[m[K
+[30.473s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3178:17:[m[K [01;36m[Knote: [m[Khere
+[30.473s]  3178 |                 [01;36m[Kcase[m[K 4: ch += *source++;
+[30.473s]       |                 [01;36m[K^~~~[m[K
+[30.473s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3179:24:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.474s]  3179 |                     [01;35m[Kch <<= 6[m[K; /* remember, illegal UTF-8 */
+[30.474s]       |                     [01;35m[K~~~^~~~~[m[K
+[30.474s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3180:17:[m[K [01;36m[Knote: [m[Khere
+[30.474s]  3180 |                 [01;36m[Kcase[m[K 3: ch += *source++;
+[30.483s]       |                 [01;36m[K^~~~[m[K
+[30.483s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3181:24:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.484s]  3181 |                     [01;35m[Kch <<= 6[m[K;
+[30.484s]       |                     [01;35m[K~~~^~~~~[m[K
+[30.484s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3182:17:[m[K [01;36m[Knote: [m[Khere
+[30.484s]  3182 |                 [01;36m[Kcase[m[K 2: ch += *source++;
+[30.485s]       |                 [01;36m[K^~~~[m[K
+[30.485s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3183:24:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.485s]  3183 |                     [01;35m[Kch <<= 6[m[K;
+[30.485s]       |                     [01;35m[K~~~^~~~~[m[K
+[30.486s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3184:17:[m[K [01;36m[Knote: [m[Khere
+[30.486s]  3184 |                 [01;36m[Kcase[m[K 1: ch += *source++;
+[30.486s]       |                 [01;36m[K^~~~[m[K
+[30.486s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3185:24:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.486s]  3185 |                     [01;35m[Kch <<= 6[m[K;
+[30.487s]       |                     [01;35m[K~~~^~~~~[m[K
+[30.487s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3186:17:[m[K [01;36m[Knote: [m[Khere
+[30.487s]  3186 |                 [01;36m[Kcase[m[K 0: ch += *source++;
+[30.488s]       |                 [01;36m[K^~~~[m[K
+[30.488s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:[m[K In function ‘[01m[Ksl_oc::tools::ConversionResult sl_oc::tools::ConvertUTF32toUTF8(const UTF32**, const UTF32*, sl_oc::tools::UTF8**, sl_oc::tools::UTF8*, sl_oc::tools::ConversionFlags)[m[K’:
+[30.490s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3282:24:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.491s]  3282 |                     [01;35m[Kch >>= 6[m[K;
+[30.491s]       |                     [01;35m[K~~~^~~~~[m[K
+[30.491s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3283:17:[m[K [01;36m[Knote: [m[Khere
+[30.491s]  3283 |                 [01;36m[Kcase[m[K 3: *--target = (UTF8) ((ch | byteMark) & byteMask);
+[30.492s]       |                 [01;36m[K^~~~[m[K
+[30.492s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3284:24:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.492s]  3284 |                     [01;35m[Kch >>= 6[m[K;
+[30.492s]       |                     [01;35m[K~~~^~~~~[m[K
+[30.492s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3285:17:[m[K [01;36m[Knote: [m[Khere
+[30.493s]  3285 |                 [01;36m[Kcase[m[K 2: *--target = (UTF8) ((ch | byteMark) & byteMask);
+[30.493s]       |                 [01;36m[K^~~~[m[K
+[30.506s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3286:24:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.506s]  3286 |                     [01;35m[Kch >>= 6[m[K;
+[30.506s]       |                     [01;35m[K~~~^~~~~[m[K
+[30.506s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3287:17:[m[K [01;36m[Knote: [m[Khere
+[30.507s]  3287 |                 [01;36m[Kcase[m[K 1: *--target = (UTF8) (ch | firstByteMark[bytesToWrite]);
+[30.507s]       |                 [01;36m[K^~~~[m[K
+[30.507s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:[m[K In function ‘[01m[Ksl_oc::tools::ConversionResult sl_oc::tools::ConvertUTF8toUTF32(const UTF8**, const UTF8*, sl_oc::tools::UTF32**, sl_oc::tools::UTF32*, sl_oc::tools::ConversionFlags)[m[K’:
+[30.507s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3321:24:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.508s]  3321 |                     [01;35m[Kch <<= 6[m[K;
+[30.508s]       |                     [01;35m[K~~~^~~~~[m[K
+[30.508s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3322:17:[m[K [01;36m[Knote: [m[Khere
+[30.508s]  3322 |                 [01;36m[Kcase[m[K 4: ch += *source++;
+[30.508s]       |                 [01;36m[K^~~~[m[K
+[30.509s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3323:24:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.516s]  3323 |                     [01;35m[Kch <<= 6[m[K;
+[30.516s]       |                     [01;35m[K~~~^~~~~[m[K
+[30.516s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3324:17:[m[K [01;36m[Knote: [m[Khere
+[30.516s]  3324 |                 [01;36m[Kcase[m[K 3: ch += *source++;
+[30.517s]       |                 [01;36m[K^~~~[m[K
+[30.517s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3325:24:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.517s]  3325 |                     [01;35m[Kch <<= 6[m[K;
+[30.517s]       |                     [01;35m[K~~~^~~~~[m[K
+[30.518s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3326:17:[m[K [01;36m[Knote: [m[Khere
+[30.518s]  3326 |                 [01;36m[Kcase[m[K 2: ch += *source++;
+[30.518s]       |                 [01;36m[K^~~~[m[K
+[30.518s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3327:24:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.518s]  3327 |                     [01;35m[Kch <<= 6[m[K;
+[30.519s]       |                     [01;35m[K~~~^~~~~[m[K
+[30.519s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3328:17:[m[K [01;36m[Knote: [m[Khere
+[30.519s]  3328 |                 [01;36m[Kcase[m[K 1: ch += *source++;
+[30.519s]       |                 [01;36m[K^~~~[m[K
+[30.520s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3329:24:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[30.520s]  3329 |                     [01;35m[Kch <<= 6[m[K;
+[30.520s]       |                     [01;35m[K~~~^~~~~[m[K
+[30.520s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/calibration.hpp:3330:17:[m[K [01;36m[Knote: [m[Khere
+[30.521s]  3330 |                 [01;36m[Kcase[m[K 0: ch += *source++;
+[30.521s]       |                 [01;36m[K^~~~[m[K
+[38.080s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_stereo_imgs.dir/src/videocapture.cpp.o[0m
+[40.236s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:[m[K In member function ‘[01m[Kbool sl_oc::video::VideoCapture::startCapture()[m[K’:
+[40.236s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:604:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kv4l2_buffer::type[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[40.236s]   604 |         struct v4l2_buffer buf = {0[01;35m[K}[m[K;
+[40.236s]       |                                    [01;35m[K^[m[K
+[40.237s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:604:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kv4l2_buffer::bytesused[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[40.237s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:604:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kv4l2_buffer::flags[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[40.238s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:604:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kv4l2_buffer::field[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[40.238s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:604:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kv4l2_buffer::timestamp[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[40.238s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:604:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kv4l2_buffer::timecode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[40.238s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:604:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kv4l2_buffer::sequence[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[40.239s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:604:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kv4l2_buffer::memory[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[40.239s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:604:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kv4l2_buffer::m[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[40.239s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:604:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kv4l2_buffer::length[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[40.239s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:604:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kv4l2_buffer::reserved2[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[40.239s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:604:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kv4l2_buffer::<anonymous>[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[40.257s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:[m[K In member function ‘[01m[Kint sl_oc::video::VideoCapture::input_set_framerate(int)[m[K’:
+[40.257s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:657:43:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kv4l2_streamparm::parm[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[40.257s]   657 |     struct v4l2_streamparm streamparm = {0[01;35m[K}[m[K; // v4l2 stream parameters struct
+[40.258s]       |                                           [01;35m[K^[m[K
+[40.286s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:[m[K In member function ‘[01m[Kvoid sl_oc::video::VideoCapture::grabThreadFunc()[m[K’:
+[40.286s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:763:27:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktimeval::tv_usec[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[40.286s]   763 |     struct timeval tv = {0[01;35m[K}[m[K;
+[40.286s]       |                           [01;35m[K^[m[K
+[40.721s] In file included from [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/videocapture.hpp:24[m[K,
+[40.721s]                  from [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:21[m[K:
+[40.722s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:[m[K In member function ‘[01m[Kvoid sl_oc::video::VideoCapture::checkResFps()[m[K’:
+[40.722s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/include/defines.hpp:53:183:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[40.722s]    53 | { int status_dem_0; if (lvl>=2) std::cerr << "[" << abi::__cxa_demangle(typeid(*this).name(), 0, 0, &status_dem_0) << "] WARNING: " << msg << std::endl; [01;35m[K}[m[K
+[40.723s]       |                                                                                                                                                          [01;35m[K^[m[K
+[40.723s] 
+[40.723s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:210:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KWARNING_OUT[m[K’
+[40.724s]   210 |         [01;36m[KWARNING_OUT[m[K(mParams.verbose,"RESOLUTION not supported. Using the best value");
+[40.724s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[40.724s] [01m[K/cc_ws/tros_ws/src/box/hobot_sensor/hobot_zed_cam/src/videocapture.cpp:212:5:[m[K [01;36m[Knote: [m[Khere
+[40.725s]   212 |     [01;36m[Kcase[m[K RESOLUTION::HD2K:
+[40.725s]       |     [01;36m[K^~~~[m[K
+[41.586s] [ 75%] [32mBuilding CXX object CMakeFiles/pub_stereo_imgs.dir/src/sensorcapture.cpp.o[0m
+[44.721s] [100%] [32m[1mLinking CXX executable anypub_stereo_imgs[0m
+[45.655s] [100%] Built target pub_stereo_imgs
+[45.674s] Invoked command in '/cc_ws/tros_ws/build/hobot_zed_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /cc_ws/tros_ws/build/hobot_zed_cam -- -j12 -l12
+[45.771s] Invoking command in '/cc_ws/tros_ws/build/hobot_zed_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_zed_cam
+[57.515s] -- Install configuration: ""
+[57.516s] -- Installing: /cc_ws/tros_ws/install/lib/hobot_zed_cam/anypub_stereo_imgs
+[57.518s] -- Set runtime path of "/cc_ws/tros_ws/install/lib/hobot_zed_cam/anypub_stereo_imgs" to ""
+[57.519s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/launch
+[57.520s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/launch/pub_stereo_imgs_noweb.launch.py
+[57.520s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/launch/zed_cam_node.launch.py
+[57.520s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/launch/test_stereo_custom_rectify.launch.py
+[57.521s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/launch/pub_stereo_imgs.launch.py
+[57.521s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/launch/test_stereo_zed_rectify.launch.py
+[57.521s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/config
+[57.521s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/config/stereo_8_zed_mini.yaml
+[57.521s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/config/stereo_8_zed_2i.yaml
+[57.521s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/package_run_dependencies/hobot_zed_cam
+[57.522s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/parent_prefix_path/hobot_zed_cam
+[57.522s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/environment/ament_prefix_path.sh
+[57.522s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/environment/ament_prefix_path.dsv
+[57.522s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/environment/path.sh
+[57.522s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/environment/path.dsv
+[57.522s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/local_setup.bash
+[57.523s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/local_setup.sh
+[57.523s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/local_setup.zsh
+[57.523s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/local_setup.dsv
+[57.523s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/package.dsv
+[57.523s] -- Installing: /cc_ws/tros_ws/install/share/ament_index/resource_index/packages/hobot_zed_cam
+[57.523s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/cmake/hobot_zed_camConfig.cmake
+[57.523s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/cmake/hobot_zed_camConfig-version.cmake
+[57.524s] -- Installing: /cc_ws/tros_ws/install/share/hobot_zed_cam/package.xml
+[57.580s] Invoked command in '/cc_ws/tros_ws/build/hobot_zed_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /cc_ws/tros_ws/build/hobot_zed_cam
